@@ -5,13 +5,12 @@
 \usepackage{siunitx}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{pdfpages}
 \usepackage[nottoc]{tocbibind} %Adds "References" to the table of contents
 \usepackage{hyperref}
 \usepackage[toc]{glossaries}
 \usepackage{textcomp}
 \usepackage{csvsimple}
-\usepackage{pgfplotstable,filecontents}
+\usepackage{pgfplotstable}
 \pgfplotsset{compat=1.9}% supress warning
 \usepackage{longtable}
 \usepackage{xcolor,colortbl}
@@ -29,8 +28,8 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 \definecolor{Gray}{gray}{0.85}
 \definecolor{LightCyan}{rgb}{0.88,1,1}
 
-\newcolumntype{a}{>{\columncolor{Gray}}c}
-\newcolumntype{b}{>{\columncolor{white}}c}
+\newcolumntype{A}{>{\columncolor{Gray}}c}
+\newcolumntype{B}{>{\columncolor{white}}c}
 
 % MODIFY NUMBERING OF TABLES AND PICTURES
 \usepackage{chngcntr}
@@ -44,7 +43,6 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 \usepackage{geometry}
  \geometry{
  a4paper,
- total={170mm,257mm},
  left=25mm,
  right=25mm,
  top=25mm,
@@ -102,11 +100,6 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {1em}
     {}
 
-\setcounter{section}{0}
-
-\author{Igor Jankiewicz}
-\title{Master thesis notes}
-
 \begin{document}
 
 \begin{titlepage}
@@ -121,28 +114,28 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     }
     \vskip1cm
     {\bfseries\huge
-    Engineering thesis\
+    Master's thesis\\
     }
     \vskip1cm
     {\bfseries\large
-    Design and construction of the photovoltaic module tester \\
+    To be determined \\
     }
     \vskip2cm
     {\large
     \begin{tabular}{p{4cm} p{10cm}}
     Student: & {\bfseries\Large Igor Aleksander JANKIEWICZ}\\
-    Transcript no.: & 234600\\
+    Transcript no.: & 285947\\
         &   \\
-    Type of studies: & Intramural studies (BSc programme)\\
-    Field of study: & Energetics\\
-    Programme: & Prosumer Energetics\\
+    Type of studies: & Extramural studies (MSc programme)\\
+    Field of study: & Electrical Engineering\\
+    Programme: & To be determined\\
         &   \\
     Supervisor: & PhD. EEng. Andrzej Latko\\
     \end{tabular}
     }
     \vskip2.5cm
     {\large
-    Gliwice 2017}
+    Gliwice 2020}
 \end{titlepage}
 \newpage\null\thispagestyle{empty}\newpage
 \tableofcontents
@@ -151,24 +144,33 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 \section{What is Energy Harvesting?}
 Energy Harvesting is a process of using ambient energy by converting it into a usable form, i.e. electricity or heat. It is important to point out that energy harvesting has been around for quite a long time, since solar panels, wind turbines and water turbines are in constant use for a few decades, providing people with environmentally clean energy \cite{EnHv1}.
 \vskip 5mm
-There are some important issues related to any energy source that could be potentially used for harvesting. First of all, it is crucial to evaluate intensity and availability of that source. Subsequently, one should find out a cost-effectiveness of the solution as well as the influence of the harvesting process on the primary energy source \cite{EnHv1}.\\
-
+There are some important issues related to any energy source that could be potentially used for harvesting. First of all, it is crucial to evaluate intensity and availability of that source. Subsequently, one should find out a cost-effectiveness of the solution as well as the influence of the harvesting process on the primary energy source \cite{EnHv1}.\par
+\vskip 5mm
+Vibration-based Energy Harvesting incorporates a number of different fields of study, i.e. material science, mechanics or electrical engineering, just to name a few. Last sentence implies that the analysis of a piezoelectric generator itself is not a straightforward process. The electromechanical response of this device relies thoroughly on the source of ambient energy \cite{EnHv2}.\par
+\begin{figure}[h!]
+\includegraphics[scale=0.3]{beam1.jpg}
+\end{figure}
+\begin{table}[ht]
+\small
 \begin{center} 
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
-Type & Conditions & Power Density & Area or Volume & Energy/Day \\ 
+\textbf{Type} & \textbf{Conditions} & \textbf{Power Density} & \textbf{Area or Volume} & \textbf{Energy/Day} \\ 
 \hline 
 \hline
-Vibration & $1m/s^2$ & $100\mu W/cm^3$ & $1cm^2$ & 8.64J (assuming continuous vibration) \\ 
+Vibration & $1m/s^2$ & $100\mu W/cm^3$ & $1cm^2$ & $8.64J$ (continuous vibration) \\ 
 \hline 
-Solar & Outdoors & $7500\mu W/cm^2$ & $1cm^2$ & • \\ 
+Solar & Outdoors & $7500\mu W/cm^2$ & $1cm^2$ & $324J$ (sunny half a day) \\ 
 \hline 
-Solar & Indoors & $100\mu W/cm^2$ & $1cm^2$ & • \\ 
+Solar & Indoors & $100\mu W/cm^2$ & $1cm^2$ & $4.32J$ (sunny half a day) \\ 
 \hline 
-Thermal & $\Delta T = 5 ^{\circ} C$ & $60\mu W/cm^2$ & $1cm^2$ & • \\ 
+Thermal & $\Delta T = 5 ^{\circ} C$ & $60\mu W/cm^2$ & $1cm^2$ & $2.59J$ (heat available for half a day) \\ 
 \hline 
 \end{tabular} 
 \end{center}
+\caption{Common data for some of Energy Harvesting Sources \cite{EnHv1}}
+\label{tab:typdat}
+\end{table}
 
 \section{Operational amplifier selection}
 
