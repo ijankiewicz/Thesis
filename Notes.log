@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  30 DEC 2019 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  3 FEB 2020 23:47
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -1716,7 +1716,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.jpg, id=17, 356.0803pt x 356.0803pt>
+<logo.jpg, id=18, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 107.
@@ -1745,7 +1745,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
 \openout7 = `Notes.toc'.
 
  [2] [3]
-<beam1.jpg, id=43, 1027.84pt x 296.10625pt>
+<beam1.jpg, id=44, 1027.84pt x 296.10625pt>
 File: beam1.jpg Graphic file (type jpg)
 <use beam1.jpg>
 Package pdftex.def Info: beam1.jpg  used on input line 151.
@@ -1753,37 +1753,46 @@ Package pdftex.def Info: beam1.jpg  used on input line 151.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 158.
 
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
 [4 <./beam1.jpg>] (Notes.bbl) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 89EB2F9207B793DB04A3743553E7AEC1;172.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
+(rerunfilecheck)             Checksum: 49DD5C626EFCA384FB1FD71320F2C26D;175.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
  ) 
 Here is how much of TeX's memory you used:
- 50604 strings out of 492484
- 1135352 string characters out of 3122053
- 1472870 words of memory out of 3000000
- 54183 multiletter control sequences out of 15000+200000
+ 50607 strings out of 492484
+ 1135384 string characters out of 3122053
+ 1473870 words of memory out of 3000000
+ 54185 multiletter control sequences out of 15000+200000
  559337 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,11n,102p,1009b,776s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Igor/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Igor/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Igor/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (6 pages, 220678 bytes).
+/amsfonts/cm/cmmi12.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Igor/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Igor/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Ig
+or/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmb8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmri8a.pfb>
+Output written on Notes.pdf (6 pages, 252386 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
  47 words of extra memory for PDF output out of 10000 (max. 10000000)
 
