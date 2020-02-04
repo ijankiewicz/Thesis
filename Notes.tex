@@ -17,6 +17,9 @@
 \usepackage{listings}
 \usepackage[toc,page]{appendix}
 \usepackage{fancyvrb}
+\usepackage{tikz}
+
+
 \lstset{ %
 language=C++,           % choose the language of the code
 numbers=left,           % where to put the line-numbers
@@ -148,7 +151,7 @@ There are some important issues related to any energy source that could be poten
 \vskip 5mm
 Vibration-based Energy Harvesting incorporates a number of different fields of study, i.e. material science, mechanics or electrical engineering, just to name a few. Last sentence implies that the analysis of a piezoelectric generator itself is not a straightforward process. The electromechanical response of this device relies thoroughly on the source of ambient energy \cite{EnHv2}.\par
 \begin{figure}[h!]
-\includegraphics[scale=0.3]{beam1.jpg}
+\includegraphics[scale=1]{beam1.pdf}
 \end{figure}
 \begin{table}[ht]
 \small
@@ -172,13 +175,23 @@ Thermal & $\Delta T = 5 ^{\circ} C$ & $60\mu W/cm^2$ & $1cm^2$ & $2.59J$ (heat a
 \label{tab:typdat}
 \end{table}
 
-\section{Operational amplifier selection}
+\section{Measurement setup design}
 
-Random citation \cite{EnHv1} embeddeed in text.\\
-\begin{equation}\label{eq:1}
-    I = I_{PV}-I_D-I_{sh}
-\end{equation}
-The equation \ref{eq:1} is a typical power series.
+A proper measurement process is a crucial part of this project. Having said that, a custom data acquisition board is to be designed.
+\par
+
+First of all, it is vital to highlight most important features required to achieve desired performance. There are four major aspects that have to be taken into account, namely, the ADC resolution as well as the input voltage range, the bandwidth and high input impedance of the analog front-end. Apart from that, one should take care of easy interfacing to personal computer, thus compact size and USB interface would be considered as huge assets.
+\par
+The previous paragraph introduced briefly main functionalities of the target device. It is quite easy to notice that there would be a lot of trade-offs to consider through the design process. Compact size and the complex analog circuitry usually do not mix, especially when planning to get a device of USB mass storage size. These facts are forcing the designer to look for a microcontroller that provides decent ADCs, also in terms of the sampling rate. Since the project is dealing with piezoelectric generators, there is always a risk of relatively high voltages at the input terminals, especially when harvesters are not connected to any load. To face this problem, the data acquisition board would be equipped with two different means of protection. The first one takes care of the input stage of the device. The second one is a classic galvanic isolation between the microcontroller (as well as the analog front end) and the personal computer. This way, there is no risk of damaging host devices utilizing the data acquisition system. The summary of the above-mentioned description is presented in the Figure~\ref{fig:meas_overview}.\par
+
+\begin{figure}[h!]
+\includegraphics[scale=0.8]{measurement_setup_overview.pdf}
+\caption{Measurement setup overview}
+\label{fig:meas_overview}
+\end{figure}
+
+\subsection{Design requirements}
+
 
 \newpage
 
