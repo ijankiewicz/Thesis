@@ -218,13 +218,22 @@ The first step of the design process is to determine desired input ratings as we
 As mentioned in the previous paragraph, there is no constrained area in terms of vibration frequency and level stated by the manufacturer. Based on the data presented in the Table \ref{tab:ppapower}, the designer is relatively free to determine the operating frequency range as well as the expected input signal captured at the harvester output. When considering bandwidth and sampling rate, it is important to take into account the Nyquist criterion. It states that the sampling rate has to be twice the highest frequency in the signal \cite{ElEx}. Assuming maximum vibration frequency of 500Hz, more than 1000 samples per second need to be captured.
 \par
 
-Of course, this sampling rate only allows to reproduce an incoming signal (sinusoidal wave) as a corrupted triangle, since there is not enough data points to accurately reflect the sine shape. To solve this problem, the sampling rate should be increased by factor of 5 or so, what ultimately yields at least 5000 samples per second. To illustrate the problem, Figure \ref{fig:nyquist} was created.
+Of course, this sampling rate only allows to reproduce an incoming signal (sinusoidal wave) as a corrupted triangle, since there is not enough data points to accurately reflect the sine shape. To solve this problem, the sampling rate should be increased by factor of 5 or so, what ultimately yields at least 5000 samples per second (sps). To illustrate the problem, Figure \ref{fig:nyquist} is introduced. It can be easily seen that sampling rate as high as twice the input signal frequency is definitely not enough. Having said that, the minimum expected sampling rate is to be at least 5000 sps.
+\par
 
 \begin{figure}[h!]
 \includegraphics[scale=0.75]{nyquist.pdf}
 \caption{Captured waveform versus sampling rate}
 \label{fig:nyquist}
 \end{figure}
+
+It is likely that the microcontroller used in the data logger would use some kind of a serial communication protocol. Assuming that more than one signal is recorded at the time and the baud rate is fixed at the same level, the maximum input signal frequency would be divided by the number of active channels. For example, for 2 channel measurement, the maximum input signal frequency is 250Hz and so on.
+\par
+
+One of the previous paragraphs mentioned the piezoelectric harvester as the main input signal source. Knowing that the device produces a sinusoidal output, the analog front-end has to be able to capture AC signals, preferably of a relatively high amplitude. This requirements force the designer to develop symmetrical power supply for the input section as well as the circuitry allowing to add offset to the signal before it reaches the ADC input. A reason is that the ADC of the microcontroller is likely to accept only unipolar signals within tightly specified range. Remaining channels would be able to interface DC signals only, for sensors....
+\par
+
+As to t
 
 \newpage
 
