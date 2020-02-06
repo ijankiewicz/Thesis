@@ -150,13 +150,15 @@ Energy Harvesting is a process of using ambient energy by converting it into a u
 There are some important issues related to any energy source that could be potentially used for harvesting. First of all, it is crucial to evaluate intensity and availability of that source. Subsequently, one should find out a cost-effectiveness of the solution as well as the influence of the harvesting process on the primary energy source \cite{EnHv1}.\par
 \vskip 5mm
 Vibration-based Energy Harvesting incorporates a number of different fields of study, i.e. material science, mechanics or electrical engineering, just to name a few. Last sentence implies that the analysis of a piezoelectric generator itself is not a straightforward process. The electromechanical response of this device relies thoroughly on the source of ambient energy \cite{EnHv2}.\par
+
 \begin{figure}[h!]
 \includegraphics[scale=1]{beam1.pdf}
 \end{figure}
+
 \begin{table}[ht]
 \small
 \begin{center} 
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|l|}
 \hline 
 \textbf{Type} & \textbf{Conditions} & \textbf{Power Density} & \textbf{Area or Volume} & \textbf{Energy/Day} \\ 
 \hline 
@@ -191,7 +193,38 @@ The previous paragraph introduced briefly main functionalities of the target dev
 \end{figure}
 
 \subsection{Design requirements}
+The first step of the design process is to determine desired input ratings as well as data acquisition capabilities. The piezoelectric device used in this project would be the major signal source during all experiments. Its datasheet \cite{PPA} does not state the exact any fixed maximum ratings. Instead, it provides exemplary results obtained by varying acceleration amplitude, frequency, tip mass and load resistance - see Table \ref{tab:ppapower}.\par
 
+\begin{table}[ht!]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Acceler.\\ ampl. $(g)$\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Freq.\\ $(Hz)$\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Tip mass\\ $(gram)$\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}RMS\\ power $(mW)$\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}RMS\\ voltage $(V)$\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}RMS\\ current $(mA)$\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Load\\ $(k\Omega)$\end{tabular}} \\ \hline
+0.25                                                                                                 & 132                                                                                    & 0.0                                                                                     & 0.1                                                                                    & 1.1                                                                                     & 0.1                                                                                      & 17.9                                                                 \\
+0.50                                                                                                 & 131                                                                                    & 0.0                                                                                     & 0.2                                                                                    & 1.9                                                                                     & 0.1                                                                                      & 18.3                                                                 \\
+1.00                                                                                                 & 131                                                                                    & 0.0                                                                                     & 0.7                                                                                    & 3.4                                                                                     & 0.2                                                                                      & 15.7                                                                 \\
+2.00                                                                                                 & 129                                                                                    & 0.0                                                                                     & 2.2                                                                                    & 5.4                                                                                     & 0.4                                                                                      & 13.0                                                                 \\ \hline
+0.25                                                                                                 & 60                                                                                     & 1.9                                                                                     & 0.1                                                                                    & 2.9                                                                                     & 0.0                                                                                      & 61.0                                                                 \\
+0.50                                                                                                 & 60                                                                                     & 1.8                                                                                     & 0.5                                                                                    & 3.3                                                                                     & 0.2                                                                                      & 20.8                                                                 \\
+1.00                                                                                                 & 60                                                                                     & 1.7                                                                                     & 1.8                                                                                    & 7.1                                                                                     & 0.3                                                                                      & 28.6                                                                 \\ \hline
+0.25                                                                                                 & 22                                                                                     & 22.8                                                                                    & 1.4                                                                                    & 9.0                                                                                     & 0.1                                                                                      & 60.4                                                                 \\
+0.50                                                                                                 & 22                                                                                     & 22.8                                                                                    & 4.4                                                                                    & 17.3                                                                                    & 0.3                                                                                      & 67.6                                                                 \\ \hline
+
+\end{tabular}
+\caption{Exemplary piezoelectric harvester response. Data from PPA-1001 datasheet \cite{PPA}}
+\label{tab:ppapower}
+\end{table}
+
+As mentioned in the previous paragraph, there is no constrained area in terms of vibration frequency and level stated by the manufacturer. Based on the data presented in the Table \ref{tab:ppapower}, the designer is relatively free to determine the operating frequency range as well as the expected input signal captured at the harvester output. When considering bandwidth and sampling rate, it is important to take into account the Nyquist criterion. It states that the sampling rate has to be twice the highest frequency in the signal \cite{ElEx}. Assuming maximum vibration frequency of 500Hz, more than 1000 samples per second need to be captured.
+\par
+
+Of course, this sampling rate only allows to reproduce an incoming signal (sinusoidal wave) as a corrupted triangle, since there is not enough data points to accurately reflect the sine shape. To solve this problem, the sampling rate should be increased by factor of 5 or so, what ultimately yields at least 5000 samples per second. To illustrate the problem, Figure \ref{fig:nyquist} was created.
+
+\begin{figure}[h!]
+\includegraphics[scale=0.75]{nyquist.pdf}
+\caption{Captured waveform versus sampling rate}
+\label{fig:nyquist}
+\end{figure}
 
 \newpage
 
