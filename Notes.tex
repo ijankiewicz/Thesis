@@ -230,11 +230,11 @@ Of course, this sampling rate only allows to reproduce an incoming signal (sinus
 It is likely that the microcontroller used in the data logger would use some kind of a serial communication protocol. Assuming that more than one signal is recorded at the time and the baud rate is fixed at the same level, the maximum input signal frequency would be divided by the number of active channels. For example, for 2 channel measurement, the maximum input signal frequency is 250Hz and so on.
 \par
 
-One of the previous paragraphs mentioned the piezoelectric harvester as the main input signal source. Knowing that the device produces a sinusoidal output, the analog front-end has to be able to capture AC signals, preferably of a relatively high amplitude. This requirements force the designer to develop symmetrical power supply for the input section as well as the circuitry allowing to add offset to the signal before it reaches the ADC input. A reason is that the ADC of the microcontroller is likely to accept only unipolar signals within tightly specified range. Remaining channels would be able to interface DC signals only, for sensors....
+One of the previous paragraphs mentioned the piezoelectric harvester as the main input signal source. Knowing that the device produces a sinusoidal output, the analog front-end has to be able to capture AC signals, preferably of a relatively high amplitude. This requirements force the designer to develop symmetrical power supply for the input section as well as the circuitry allowing to add offset to the signal before it reaches the ADC input. A reason is that the ADC of the microcontroller is likely to accept only unipolar signals within tightly specified range. Remaining channels would be able to interface DC signals only, what makes them suitable for external sensors such as the accelerometer.
 \par
 
-As to t
-
+When considering the maximum input signal level, one has to note that it should not exceed supply voltage of operational amplifier used in the input section. In case of the designed device, the power supply would be industrial $+/-$15VDC, as it would help to maintain compatibility with wide range of available operational amplifiers. Based on the last sentence, the maximum input voltage is specified to $+/-$15V for the AC input and $+$15V for DC inputs. In order to assure proper operating conditions for the analog-front end, an additional input protection is to be provided.
++
 \newpage
 
 \bibliography{bibliography} 
