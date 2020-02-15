@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Objective of a Master's thesis}{4}{subsection.1.2}%
-\contentsline {section}{\numberline {2}What is Energy Harvesting?}{4}{section.2}%
+\contentsline {section}{\numberline {2}What is Energy Harvesting?}{5}{section.2}%
 \contentsline {section}{\numberline {3}Measurement setup design}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Design requirements}{6}{subsection.3.1}%
 \contentsline {section}{References}{9}{table.3.2}%
