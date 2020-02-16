@@ -5,4 +5,5 @@
 \contentsline {section}{\numberline {2}What is Energy Harvesting?}{5}{section.2}%
 \contentsline {section}{\numberline {3}Measurement setup design}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Design requirements}{6}{subsection.3.1}%
-\contentsline {section}{References}{9}{table.3.2}%
+\contentsline {subsection}{\numberline {3.2}Accelerometer board}{8}{subsection.3.2}%
+\contentsline {section}{References}{10}{figure.3.5}%

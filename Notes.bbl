@@ -19,4 +19,8 @@ J.~Louis E.~Frenzel, {\em Electronics Explained}.
 \newblock Newnes (Elsevier Inc.), 2010.
 \newblock ISBN: 978-1-85617-700-9.
 
+\bibitem{ADXL}
+Analog Devices Inc., {\em ADXL335 datasheet}, 2009.
+\newblock Revision No. 000.
+
 \end{thebibliography}

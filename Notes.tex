@@ -280,9 +280,37 @@ Input impeadnce                    & TBD            \\ \hline
 \caption{Summary of requirements for the data acquisition board}
 \label{tab:requirements}
 \end{table}
+\par
 
+\subsection{Accelerometer board}
+As it has been previously mentioned, is is necessary to constantly monitor vibration level during all the experiments. These measurements will be a reference for the results obtained using the piezoelectric harvester, as they easily allow to correlate generated power and current vibration level.
+\par
 
- 
+The piezoelectric beam used throughout the research is mounted in a 3D-printed holder provided by the device manufacturer. Apart from a proper fit, it allows to attach some external electronics by means using nice mounting holes. It is worth to take advantage of this feature, therefore the designed electronics would be compatible with the handler.
+\par
+
+As to the electrical and electromechanical properties of the accelerometer, there are a few aspects that should be highlighted. The first one is the measurement range. By checking the maximum acceleration of the beam, it is possible to estimate required range for the sought integrated circuit. Next, the frequency response and output signal type need to be checked. The frequency response determines the measurement resolution that could be understand as the smallest detectable acceleration \cite{ADXL}. By mentioning the type of the output signal, it was intended to distinguish between analog and digital one. Since it is intended to synchronize the accelerometer output with the piezoelectric cantilever, the analog output type is more suitable and easier to use.
+\par
+
+\begin{figure}[ht!]
+\includegraphics[scale=1]{accel.pdf}
+\caption{Accelerometer board diagram}
+\label{fig:accel_diagram}
+\end{figure}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.6]{accelerometer1.png}
+\caption{Accelerometer board top side view}
+\label{fig:accel1}
+\end{figure}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.7]{accelerometer2.png}
+\caption{Accelerometer board bottom side view}
+\label{fig:accel2}
+\end{figure}
+\par 
+
 \newpage
 
 \bibliography{bibliography} 
