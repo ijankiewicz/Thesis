@@ -268,7 +268,7 @@ The last point relates to the impedance of analog inputs. Piezoelectric harveste
 
 As a summary of design considerations included in this subsection, Table \ref{tab:requirements} has been created.
 \begin{table}[ht!]
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|c|}
 \hline
 \textbf{Requirement}              & \textbf{Value} \\ \hline
 Max. input signal frequency (Sine) & 500Hz          \\ \hline
@@ -286,11 +286,43 @@ Input impeadnce                    & TBD            \\ \hline
 As it has been previously mentioned, is is necessary to constantly monitor vibration level during all the experiments. These measurements will be a reference for the results obtained using the piezoelectric harvester, as they easily allow to correlate generated power and current vibration level.
 \par
 
-The piezoelectric beam used throughout the research is mounted in a 3D-printed holder provided by the device manufacturer. Apart from a proper fit, it allows to attach some external electronics by means using nice mounting holes. It is worth to take advantage of this feature, therefore the designed electronics would be compatible with the handler.
+The piezoelectric beam used throughout the research is mounted in a 3D-printed holder provided by the device manufacturer. Apart from a proper fit, it allows to attach some external electronics by means using nice mounting holes. It is worth to take advantage of this feature, therefore designed electronics would be compatible with the handler.
 \par
 
-As to the electrical and electromechanical properties of the accelerometer, there are a few aspects that should be highlighted. The first one is the measurement range. By checking the maximum acceleration of the beam, it is possible to estimate required range for the sought integrated circuit. Next, the frequency response and output signal type need to be checked. The frequency response determines the measurement resolution that could be understand as the smallest detectable acceleration \cite{ADXL}. By mentioning the type of the output signal, it was intended to distinguish between analog and digital one. Since it is intended to synchronize the accelerometer output with the piezoelectric cantilever, the analog output type is more suitable and easier to use.
+\subsubsection{Most important parameters of the accelerometer}
+As to the electrical and electromechanical properties of the accelerometer, there are a few aspects that should be highlighted. The first one is the measurement range. By checking the maximum acceleration of the beam, it is possible to estimate required range for the sought integrated circuit. Next, the frequency response and output signal type need to be determined. Frequency response describes the measurement resolution that could be understand as the smallest detectable acceleration \cite{accel_params}. By mentioning the type of the output signal, it was intended to distinguish between analog and digital output types. It is planned to synchronize the accelerometer output with the piezoelectric cantilever response, so the analog output is more suitable and easier to use.
 \par
+Harvester's datasheet \cite{PPA} does not mention the exact upper limit of allowed vibration level. According to the Table \ref{tab:ppapower}, the maximum acceleration amplitude mentioned by the manufacturer is 2g. Without any additional information, it is reasonable to treat this value as the upper acceleration limit. The same applies to the frequency response, which is also not described precisely. Again, Table \ref{tab:ppapower} states the maximum operation frequency at the level of 132Hz. In this case, the minimum acceptable bandwidth of the accelerometer would be roughly 200Hz. As it was mentioned in the previous paragraph, it is intended to use the analog output accelerometer. A summary of the above-mentioned choices is presented in the Table \ref{tab:accel_requirements}.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Requirement}            & \textbf{Value} \\ \hline
+Max. acceleration value  		& 2g         \\ \hline
+Max. operating frequency        & 300Hz        \\ \hline
+Output type             		& Analog         \\ \hline
+\end{tabular}
+\caption{Summary of requirements for the accelerometer}
+\label{tab:accel_requirements}
+\end{table}
+\par
+
+\subsubsection{Selection of the integrated circuit}
+After a thorough market research, a proper device has been found - see Table \ref{tab:adxl_params}. Apart from parameters listed in the table, the selected accelerometer has the following features: small SMD package, 3.3V supply operation, low power consumption and tunable bandwidth filters for every axis. Moreover, it exhibits non-linearity at a level of 0.3$\%$ \cite{ADXL}.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}		& \textbf{Value} 	\\ \hline
+Model  					& ADXL335         	\\ \hline
+Manufacturer        	& Analog devices	\\ \hline
+Output type           	& Analog  			\\ \hline
+Max. acceleration value &  $\pm{3}g$		\\ \hline
+Bandwidth 				&  up to 1600Hz		\\ \hline
+\end{tabular}
+\caption{Parameters of the selected parameter - taken from the datasheet \cite{ADXL}}
+\label{tab:adxl_params}
+\end{table}
 
 \begin{figure}[ht!]
 \includegraphics[scale=1]{accel.pdf}

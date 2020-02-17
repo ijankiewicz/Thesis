@@ -6,4 +6,6 @@
 \contentsline {section}{\numberline {3}Measurement setup design}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Design requirements}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Accelerometer board}{8}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Most important parameters of the accelerometer}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Selection of the integrated circuit}{9}{subsubsection.3.2.2}%
 \contentsline {section}{References}{10}{figure.3.5}%

@@ -5,4 +5,6 @@
 \BOOKMARK [1][-]{section.3}{Measurement setup design}{}% 5
 \BOOKMARK [2][-]{subsection.3.1}{Design requirements}{section.3}% 6
 \BOOKMARK [2][-]{subsection.3.2}{Accelerometer board}{section.3}% 7
-\BOOKMARK [1][-]{figure.3.5}{References}{}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Most important parameters of the accelerometer}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Selection of the integrated circuit}{subsection.3.2}% 9
+\BOOKMARK [1][-]{figure.3.5}{References}{}% 10

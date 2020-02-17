@@ -19,6 +19,11 @@ J.~Louis E.~Frenzel, {\em Electronics Explained}.
 \newblock Newnes (Elsevier Inc.), 2010.
 \newblock ISBN: 978-1-85617-700-9.
 
+\bibitem{accel_params}
+STMicroelectronics group, {\em AN4508 Application note. Parameters and
+  calibration of a low-g 3-axis accelerometer.}, 2014.
+\newblock Revision No. 001.
+
 \bibitem{ADXL}
 Analog Devices Inc., {\em ADXL335 datasheet}, 2009.
 \newblock Revision No. 000.
