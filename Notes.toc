@@ -2,10 +2,12 @@
 \contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Motivation}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Objective of a Master's thesis}{4}{subsection.1.2}%
-\contentsline {section}{\numberline {2}What is Energy Harvesting?}{5}{section.2}%
-\contentsline {section}{\numberline {3}Measurement setup design}{5}{section.3}%
+\contentsline {section}{\numberline {2}Concept of Energy Harvesting}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Piezoelectric material utilized in harvesters}{5}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Measurement setup design}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Design requirements}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Accelerometer board}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Accelerometer board}{9}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Most important parameters of the accelerometer}{9}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Selection of the integrated circuit}{9}{subsubsection.3.2.2}%
-\contentsline {section}{References}{10}{figure.3.5}%
+\contentsline {subsubsection}{\numberline {3.2.2}Selection of the integrated circuit}{10}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Accelerometer board design}{10}{subsection.3.3}%
+\contentsline {section}{References}{11}{figure.3.5}%

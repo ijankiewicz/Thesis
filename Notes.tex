@@ -168,14 +168,32 @@ Returning to the piezoelectric generator, the first thing to look at is the theo
 
 Once the required theory is introduced, it is possible to focus exactly on the topic.
 
-\section{What is Energy Harvesting?}
+\section{Concept of Energy Harvesting}
 Energy Harvesting is a process of using ambient energy by converting it into a usable form, i.e. electricity or heat. It is important to point out that energy harvesting has been around for quite a long time, since solar panels, wind turbines and water turbines are in constant use for a few decades, providing people with environmentally clean energy \cite{EnHv1}.
-\vskip 5mm
-There are some important issues related to any energy source that could be potentially used for harvesting. First of all, it is crucial to evaluate intensity and availability of that source. Subsequently, one should find out a cost-effectiveness of the solution as well as the influence of the harvesting process on the primary energy source \cite{EnHv1}.\par
-\vskip 5mm
-Vibration-based Energy Harvesting incorporates a number of different fields of study, i.e. material science, mechanics or electrical engineering, just to name a few. Last sentence implies that the analysis of a piezoelectric generator itself is not a straightforward process. The electromechanical response of this device relies thoroughly on the source of ambient energy \cite{EnHv2}.\par
+\par
 
-\begin{figure}[h!]
+There are some important issues related to any energy source that could be potentially used for harvesting. First of all, it is crucial to evaluate intensity and availability of that source. Subsequently, one should find out a cost-effectiveness of the solution as well as the influence of the harvesting process on the primary energy source \cite{EnHv1}.
+\par
+
+Vibration-based Energy Harvesting incorporates a number of different fields of study, i.e. material science, mechanics or electrical engineering, just to name a few. Last sentence implies that the analysis of a piezoelectric generator itself is not a straightforward process. The electromechanical response of this device relies thoroughly on the source of ambient energy \cite{EnHv2}.
+\par
+
+\subsection{Piezoelectric material utilized in harvesters}
+Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different flavours, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed\cite{cmos}.
+\par
+
+As described in the previous paragraph, PZT has a number of different types that vary with electrical and electromechanical properties. The simplest division includes hard and soft types - PZH-5H and PZH-5A, respectively. Soft piezoceramics are more susceptible to changes caused by the stress. This is one of the aspects why PZH-5H is the most common choice for piezoelectric equipment. On the other hand, one of the biggest manufacturers of harvesters \cite{PPA} is mentioning that PZH-5A is more temperature stable. Nevertheless, PZH-5H remains the best choice in terms of performance versus price. 
+\par
+
+Properties of piezoelectic materials strongly depend on the direction of the stres and orientation of the polarization \cite{EnHv1}. It is characterized by the constants listed in the Table 
+
+\begin{figure}[ht!]
+\includegraphics[scale=1]{piezo_operation_modes.pdf}
+\caption{Operation modes of the piezoelectric element}
+\label{fig:piezo_modes}
+\end{figure}
+
+\begin{figure}[ht!]
 \includegraphics[scale=1]{beam1.pdf}
 \end{figure}
 
@@ -298,7 +316,7 @@ Harvester's datasheet \cite{PPA} does not mention the exact upper limit of allow
 \begin{tabular}{|l|c|}
 \hline
 \textbf{Requirement}            & \textbf{Value} \\ \hline
-Max. acceleration value  		& 2g         \\ \hline
+Max. acceleration value  		& $\pm{2}g$         \\ \hline
 Max. operating frequency        & 300Hz        \\ \hline
 Output type             		& Analog         \\ \hline
 \end{tabular}
@@ -309,6 +327,7 @@ Output type             		& Analog         \\ \hline
 
 \subsubsection{Selection of the integrated circuit}
 After a thorough market research, a proper device has been found - see Table \ref{tab:adxl_params}. Apart from parameters listed in the table, the selected accelerometer has the following features: small SMD package, 3.3V supply operation, low power consumption and tunable bandwidth filters for every axis. Moreover, it exhibits non-linearity at a level of 0.3$\%$ \cite{ADXL}.
+\par
 
 \begin{table}[ht!]
 \begin{tabular}{|l|c|}
@@ -323,6 +342,15 @@ Bandwidth 				&  up to 1600Hz		\\ \hline
 \caption{Parameters of the selected parameter - taken from the datasheet \cite{ADXL}}
 \label{tab:adxl_params}
 \end{table}
+
+As it can be seen, the above-mentioned device fulfils the requirements presented in the previous subsection. At this point, it is necessary to think about additional circuitry allowing to take advantage of the selected integrated circuit. In order to do so, a small PCB is to be designed.
+\par
+
+\subsection{Accelerometer board design}
+The accelerometer board should be a battery powered device, as it is going to be used throughout tests in different types of environment, many times without an access to any power supply. Moreover, battery operation allows for a better performance in terms of noise generated on supply rails. Additionally, the board is ought to be equipped with a temperature sensor, in case some tests are to be performed in extreme temperatures.
+\par
+
+
 
 \begin{figure}[ht!]
 \includegraphics[scale=1]{accel.pdf}
