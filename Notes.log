@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  19 FEB 2020 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  19 FEB 2020 22:33
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -1716,7 +1716,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.jpg, id=54, 356.0803pt x 356.0803pt>
+<logo.jpg, id=58, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
 Package pdftex.def Info: logo.jpg  used on input line 110.
@@ -1746,92 +1746,89 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
 
  [2] [3]
 [4]
-<piezo_operation_modes.pdf, id=97, 313.17pt x 216.81pt>
+<piezo_operation_modes.pdf, id=103, 313.17pt x 216.81pt>
 File: piezo_operation_modes.pdf Graphic file (type pdf)
 <use piezo_operation_modes.pdf>
-Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 191.
+Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 193.
 (pdftex.def)             Requested size: 313.16922pt x 216.80946pt.
-<beam1.pdf, id=98, 364.48169pt x 105.2733pt>
+<beam1.pdf, id=104, 364.48169pt x 105.2733pt>
 File: beam1.pdf Graphic file (type pdf)
 <use beam1.pdf>
-Package pdftex.def Info: beam1.pdf  used on input line 197.
+Package pdftex.def Info: beam1.pdf  used on input line 199.
 (pdftex.def)             Requested size: 364.48079pt x 105.27304pt.
- [5 <./piezo_operation_modes.pdf
-
-pdfTeX warning: pdflatex (file ./piezo_operation_modes.pdf): PDF inclusion: inv
-alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 205.
-<measurement_setup_overview.pdf, id=136, 543.95218pt x 204.765pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 212.
+ [5]
+<measurement_setup_overview.pdf, id=117, 543.95218pt x 204.765pt>
 File: measurement_setup_overview.pdf Graphic file (type pdf)
 <use measurement_setup_overview.pdf>
-Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 232
+Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 240
 .
 (pdftex.def)             Requested size: 435.16232pt x 163.8122pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./beam1.pdf
+[6 <./piezo_operation_modes.pdf
+
+pdfTeX warning: pdflatex (file ./piezo_operation_modes.pdf): PDF inclusion: inv
+alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+> <./beam1.pdf
 
 pdfTeX warning: pdflatex (file ./beam1.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
->]
-
-pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
- <1.7>, but at most version <1.5> allowed
-<nyquist.pdf, id=171, 578.16pt x 433.62pt>
-File: nyquist.pdf Graphic file (type pdf)
-<use nyquist.pdf>
-Package pdftex.def Info: nyquist.pdf  used on input line 267.
-(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./measurement_setup_overview.pdf
+>] [7 <./measurement_setup_overview.pdf
 
 pdfTeX warning: pdflatex (file ./measurement_setup_overview.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
 ed.
->] [8 <./nyquist.pdf>] [9]
-<accel.pdf, id=219, 400.37581pt x 250.0542pt>
+>]
+
+pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<nyquist.pdf, id=200, 578.16pt x 433.62pt>
+File: nyquist.pdf Graphic file (type pdf)
+<use nyquist.pdf>
+Package pdftex.def Info: nyquist.pdf  used on input line 275.
+(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
+[8 <./nyquist.pdf>] [9] [10]
+<accel.pdf, id=234, 400.37581pt x 250.0542pt>
 File: accel.pdf Graphic file (type pdf)
 <use accel.pdf>
-Package pdftex.def Info: accel.pdf  used on input line 356.
+Package pdftex.def Info: accel.pdf  used on input line 364.
 (pdftex.def)             Requested size: 400.37482pt x 250.05357pt.
-<accelerometer1.png, id=220, 734.745pt x 312.41719pt>
+<accelerometer1.png, id=235, 734.745pt x 312.41719pt>
 File: accelerometer1.png Graphic file (type png)
 <use accelerometer1.png>
-Package pdftex.def Info: accelerometer1.png  used on input line 362.
+Package pdftex.def Info: accelerometer1.png  used on input line 370.
 (pdftex.def)             Requested size: 440.85039pt x 187.45175pt.
-<accelerometer2.png, id=222, 591.71063pt x 301.125pt>
+<accelerometer2.png, id=237, 591.71063pt x 301.125pt>
 File: accelerometer2.png Graphic file (type png)
 <use accelerometer2.png>
-Package pdftex.def Info: accelerometer2.png  used on input line 368.
+Package pdftex.def Info: accelerometer2.png  used on input line 376.
 (pdftex.def)             Requested size: 414.19461pt x 210.78606pt.
- [10] (Notes.bbl [11 <./accel.pdf
+ [11 <./accel.pdf
 
 pdfTeX warning: pdflatex (file ./accel.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
-> <./accelerometer1.png>]) [12 <./accelerometer2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+> <./accelerometer1.png>] (Notes.bbl) [12 <./accelerometer2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: D95F7778B4901F32C8DF0156ED85D2FD;860.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
+(rerunfilecheck)             Checksum: 6B55D0FECD9D0CD3F89EDAEAFEAFA0C2;938.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
  ) 
 Here is how much of TeX's memory you used:
- 50705 strings out of 492484
- 1137081 string characters out of 3122053
- 1481852 words of memory out of 3000000
- 54246 multiletter control sequences out of 15000+200000
+ 50709 strings out of 492484
+ 1137134 string characters out of 3122053
+ 1478854 words of memory out of 3000000
+ 54248 multiletter control sequences out of 15000+200000
  559337 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,102p,1442b,887s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,17n,102p,1442b,776s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
@@ -1846,9 +1843,9 @@ fb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi
 8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on Notes.pdf (13 pages, 692538 bytes).
+Output written on Notes.pdf (13 pages, 695423 bytes).
 PDF statistics:
- 362 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
