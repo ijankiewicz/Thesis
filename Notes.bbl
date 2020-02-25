@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{EnHv1}
 N.~W. Stephen~Beeby, {\em Energy Harvesting for Autonomous Systems}.
@@ -36,5 +36,18 @@ STMicroelectronics group, {\em AN4508 Application note. Parameters and
 \bibitem{ADXL}
 Analog Devices Inc., {\em ADXL335 datasheet}, 2009.
 \newblock Revision No. 000.
+
+\bibitem{charger_params}
+Foshan Blue Rocket Electronics, {\em BRCL4054CME datasheet}, 2018.
+\newblock Revision B.
+
+\bibitem{ap2112_params}
+Diodes Incorporated, {\em AP2112 datasheet. Documnet number: DS39724}, June
+  2017.
+\newblock Revision no.2-2.
+
+\bibitem{mcp9700_params}
+Microchip Technology Inc., {\em MCP9700 datasheet}, July 2017.
+\newblock Revision F.
 
 \end{thebibliography}

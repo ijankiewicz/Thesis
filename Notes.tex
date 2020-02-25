@@ -354,10 +354,11 @@ Bandwidth 				&  up to 1600Hz		\\ \hline
 As it can be seen, the above-mentioned device fulfils the requirements presented in the previous subsection. At this point, it is necessary to think about additional circuitry allowing to take advantage of the selected integrated circuit. In order to do so, a small PCB is to be designed.
 \par
 
-\subsection{Accelerometer board design}
-The accelerometer board should be a battery powered device, as it is going to be used throughout tests in different types of environment, many times without an access to any power supply. Moreover, battery operation allows for a better performance in terms of noise generated on supply rails. Additionally, the board is ought to be equipped with a temperature sensor, in case some tests are to be performed in extreme temperatures.
+\subsubsection{Accelerometer board design}
+The accelerometer board should be a battery powered device, as it is going to be used throughout tests in different types of environment, many times without an access to any power supply. Moreover, battery operation allows for a better performance in terms of noise generated on supply rails. Additionally, the board is ought to be equipped with a temperature sensor, in case some tests are to be performed in extreme temperatures and the exact temperature value is needed to know.
 \par
-
+Figure \ref{fig:accel_diagram} presents the diagram of designed board. It can be divided into two main parts, namely a power supply with a battery charger and a sensing part including the accelerometer and the temperature sensor.
+\par
 
 
 \begin{figure}[ht!]
@@ -378,6 +379,25 @@ The accelerometer board should be a battery powered device, as it is going to be
 \label{fig:accel2}
 \end{figure}
 \par 
+
+As to the power supply part, for the convenience, the entire board in powered using a micro USB port, which is fused for safety purposes. Right after the input, there is a single cell battery charger (BRCL4054CME by Blue Rocket Electronics \cite{charger_params}). Charging current is set using just one resistor. Moreover, it incorporates such function as C/10 charge termination, a soft-start feature as well as an open-drain output used for signalling purposes.
+\par
+Power storage is maintained by means of a 110mAh lithium-polymer battery (LIPO511422 by MAXPOWER). It is equipped with a complete protection circuitry, so it is unnecessary to include additional protection on the accelerometer board. The battery manufacturer claims the cycle life of 1000 cycles.
+\par
+
+Right after the ON/OFF switch, there is a low dropout linear regulator supplying the rest of circuits (AP2112K-3.3TRG1 by Diodes Incorporated \cite{ap2112_params}). It is a 600mA output, low noise regulator with $\pm{1}\%$ output voltage accuracy.
+\par
+
+One of the sensors placed on this board is the accelerometer mentioned in the previous section. The second one is a low-power linear temperature sensor (MCP9700T-E/TT by Microchip \cite{mcp9700_params}). Since the linear output is one of the requirements for all sensors used in this project, this kind of device was an easy choice. MCP9700 includes circuitry converting temperature to voltage and provides accuracy of $\pm{2}^\circ $C, which is by all means acceptable for this application.
+\par
+
+Figures \ref{fig:accel1} and \ref{fig:accel2} present the final design. As it can be seen, a relatively compact and intuitive device has been developed. A standard connector with 2.54mm pitch is used to allow easy access to the board. There are two reinforced holes for mounting screws. The bottom side of the PCB includes large past allowing to solder cables connected to piezoelectric beam terminals in order to make the construction more robust.
+\par
+
+This board is going to be an inherent part of most experiments performed throughout this thesis.
+\par
+
+\subsection{Data acquisition board design}
 
 \newpage
 
