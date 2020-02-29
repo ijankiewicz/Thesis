@@ -50,4 +50,13 @@ Diodes Incorporated, {\em AP2112 datasheet. Documnet number: DS39724}, June
 Microchip Technology Inc., {\em MCP9700 datasheet}, July 2017.
 \newblock Revision F.
 
+\bibitem{clamping}
+D.~Burton, ``Op amp input overvoltage protection: Clamping vs. integrated,'' 05
+  2016.
+
+\bibitem{companion}
+T.~Willams, {\em Circuit Designer'S Companion}.
+\newblock Newnes (An imprint of Butterworth-Heinemann), 1993.
+\newblock ISBN: 978-0750617567.
+
 \end{thebibliography}

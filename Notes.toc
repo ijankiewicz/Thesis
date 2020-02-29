@@ -11,5 +11,7 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Most important parameters of the accelerometer}{10}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Selection of the integrated circuit}{10}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}Accelerometer board design}{11}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Data acquisition board design}{12}{subsection.3.3}%
-\contentsline {section}{References}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Data acquisition board design}{13}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}AC input section}{13}{subsubsection.3.3.1}%
+\contentsline {paragraph}{Input protection}{13}{subsubsection.3.3.1}%
+\contentsline {section}{References}{15}{equation.3.1}%
