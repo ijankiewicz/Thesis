@@ -59,4 +59,8 @@ T.~Willams, {\em Circuit Designer'S Companion}.
 \newblock Newnes (An imprint of Butterworth-Heinemann), 1993.
 \newblock ISBN: 978-0750617567.
 
+\bibitem{bas40_params}
+Vishay Semiconductors, {\em BAS40-02V-V-G datasheet}, May 2012.
+\newblock Revision 1.1.
+
 \end{thebibliography}
