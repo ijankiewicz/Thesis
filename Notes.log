@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  6 MAR 2020 01:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  9 MAR 2020 23:40
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -1443,6 +1443,64 @@ Package: fancyvrb 2019/11/09
 \FV@StepNumber=\count361
 \FV@OutFile=\write5
 )
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mathtools
+.sty"
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+ ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count362
+\calc@Bcount=\count363
+\calc@Adimen=\dimen301
+\calc@Bdimen=\dimen302
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count364
+\calc@Cskip=\skip75
+)
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\mhsetup.s
+ty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count365
+\l_MT_multwidth_dim=\dimen303
+\origjot=\skip76
+\l_MT_shortvdotswithinadjustabove_dim=\dimen304
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen305
+\l_MT_above_intertext_sep=\dimen306
+\l_MT_below_intertext_sep=\dimen307
+\l_MT_above_shortintertext_sep=\dimen308
+\l_MT_below_shortintertext_sep=\dimen309
+)
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ragged2e\ragged2e.s
+ty"
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+ ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip77
+\RaggedLeftLeftskip=\skip78
+\RaggedRightLeftskip=\skip79
+\CenteringRightskip=\skip80
+\RaggedLeftRightskip=\skip81
+\RaggedRightRightskip=\skip82
+\CenteringParfillskip=\skip83
+\RaggedLeftParfillskip=\skip84
+\RaggedRightParfillskip=\skip85
+\JustifyingParfillskip=\skip86
+\CenteringParindent=\skip87
+\RaggedLeftParindent=\skip88
+\RaggedRightParindent=\skip89
+\JustifyingParindent=\skip90
+)
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
 ty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1469,16 +1527,16 @@ Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 y"
 Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen301
-\captionmargin@=\dimen302
-\captionwidth=\dimen303
-\caption@tempdima=\dimen304
-\caption@indent=\dimen305
-\caption@parindent=\dimen306
-\caption@hangindent=\dimen307
+\captionmargin=\dimen310
+\captionmargin@=\dimen311
+\captionwidth=\dimen312
+\caption@tempdima=\dimen313
+\caption@indent=\dimen314
+\caption@parindent=\dimen315
+\caption@hangindent=\dimen316
 Package caption Info: Standard document class detected.
 )
-\c@float@type=\count362
+\c@float@type=\count366
 \float@exts=\toks52
 \float@box=\box77
 \@floatcapt=\box78
@@ -1487,31 +1545,31 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
 \FR@everyfloat=\toks53
 \flrow@foot=\insert252
-\FB@wd=\dimen308
-\FBo@wd=\dimen309
-\FBc@wd=\dimen310
-\FBo@ht=\skip73
-\FBc@ht=\skip74
-\FBf@ht=\skip75
-\FBo@max=\skip76
-\FBc@max=\skip77
-\FBf@max=\skip78
-\c@FBl@b=\count363
-\floatbox@depth=\count364
-\c@FRobj=\count365
-\c@FRsobj=\count366
-\Xhsize=\skip79
-\sXhsize=\skip80
-\Zhsize=\skip81
-\sZhsize=\skip82
+\FB@wd=\dimen317
+\FBo@wd=\dimen318
+\FBc@wd=\dimen319
+\FBo@ht=\skip91
+\FBc@ht=\skip92
+\FBf@ht=\skip93
+\FBo@max=\skip94
+\FBc@max=\skip95
+\FBf@max=\skip96
+\c@FBl@b=\count367
+\floatbox@depth=\count368
+\c@FRobj=\count369
+\c@FRsobj=\count370
+\Xhsize=\skip97
+\sXhsize=\skip98
+\Zhsize=\skip99
+\sZhsize=\skip100
 \flrow@rowbox=\box79
-\FR@Zunitlength=\dimen311
-\c@FBcnt=\count367
-\FPOScnt=\count368
-\LTleft=\skip83
-\LTright=\skip84
-\LTleft=\skip85
-\LTright=\skip86
+\FR@Zunitlength=\dimen320
+\c@FBcnt=\count371
+\FPOScnt=\count372
+\LTleft=\skip101
+\LTright=\skip102
+\LTleft=\skip103
+\LTright=\skip104
 \flrow@types=\toks54
 )
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry-de\geometr
@@ -1525,17 +1583,17 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 "
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count369
-\Gm@cntv=\count370
-\c@Gm@tempcnt=\count371
-\Gm@bindingoffset=\dimen312
-\Gm@wd@mp=\dimen313
-\Gm@odd@mp=\dimen314
-\Gm@even@mp=\dimen315
-\Gm@layoutwidth=\dimen316
-\Gm@layoutheight=\dimen317
-\Gm@layouthoffset=\dimen318
-\Gm@layoutvoffset=\dimen319
+\Gm@cnth=\count373
+\Gm@cntv=\count374
+\c@Gm@tempcnt=\count375
+\Gm@bindingoffset=\dimen321
+\Gm@wd@mp=\dimen322
+\Gm@odd@mp=\dimen323
+\Gm@even@mp=\dimen324
+\Gm@layoutwidth=\dimen325
+\Gm@layoutheight=\dimen326
+\Gm@layouthoffset=\dimen327
+\Gm@layoutvoffset=\dimen328
 \Gm@dimlist=\toks55
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
@@ -1544,15 +1602,15 @@ fg"))
 ty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip87
-\f@nch@O@elh=\skip88
-\f@nch@O@erh=\skip89
-\f@nch@O@olh=\skip90
-\f@nch@O@orh=\skip91
-\f@nch@O@elf=\skip92
-\f@nch@O@erf=\skip93
-\f@nch@O@olf=\skip94
-\f@nch@O@orf=\skip95
+\f@nch@headwidth=\skip105
+\f@nch@O@elh=\skip106
+\f@nch@O@erh=\skip107
+\f@nch@O@olh=\skip108
+\f@nch@O@orh=\skip109
+\f@nch@O@elf=\skip110
+\f@nch@O@erf=\skip111
+\f@nch@O@olf=\skip112
+\f@nch@O@orf=\skip113
 )
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.s
 ty"
@@ -1565,41 +1623,41 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 ty"
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box80
-\beforetitleunit=\skip96
-\aftertitleunit=\skip97
-\ttl@plus=\dimen320
-\ttl@minus=\dimen321
+\beforetitleunit=\skip114
+\aftertitleunit=\skip115
+\ttl@plus=\dimen329
+\ttl@minus=\dimen330
 \ttl@toksa=\toks56
-\titlewidth=\dimen322
-\titlewidthlast=\dimen323
-\titlewidthfirst=\dimen324
+\titlewidth=\dimen331
+\titlewidthlast=\dimen332
+\titlewidthfirst=\dimen333
 ) (Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-06.
+09.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-06.
+09.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1615,16 +1673,16 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count372
-\scratchdimen=\dimen325
+\scratchcounter=\count376
+\scratchdimen=\dimen334
 \scratchbox=\box81
-\nofMPsegments=\count373
-\nofMParguments=\count374
+\nofMPsegments=\count377
+\nofMParguments=\count378
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count375
-\MPscratchDim=\dimen326
-\MPnumerator=\count376
-\makeMPintoPDFobject=\count377
+\MPscratchCnt=\count379
+\MPscratchDim=\dimen335
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
 \everyMPtoPDFconversion=\toks58
 )
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
@@ -1643,7 +1701,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 109.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -1657,11 +1715,11 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 string.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count378
+\c@section@level=\count382
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
  (Notes.out) (Notes.out)
 \@outlinefile=\write6
 \openout6 = `Notes.out'.
@@ -1670,7 +1728,21 @@ LaTeX Info: Redefining \nameref on input line 106.
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 
-\c@lstlisting=\count379
+\c@lstlisting=\count383
+\symgns@font=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 109.
+Package gensymb Info: Math companion symbols declared on input line 109.
+LaTeX Info: Redefining \degree on input line 109.
+LaTeX Info: Redefining \celsius on input line 109.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 109.
+LaTeX Info: Redefining \ohm on input line 109.
+Package gensymb Info: Using \textohm for \ohm on input line 109.
+LaTeX Info: Redefining \micro on input line 109.
+Package gensymb Info: Using \textmu for \micro on input line 109.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 109.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1680,7 +1752,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box83
 \flrow@LT@prelastfoot=\box84
-\c@FBLTpage=\count380
+\c@FBLTpage=\count384
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1716,19 +1788,25 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+09.
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 <logo.jpg, id=66, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 110.
+Package pdftex.def Info: logo.jpg  used on input line 113.
 (pdftex.def)             Requested size: 199.16928pt x 199.16997pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
+
 [1
 
 {C:/Users/Igor/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.jpg>]
@@ -1736,10 +1814,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 \newpage\null\thispagestyle{empty}\newpage
+l.146 \newpage\null\thispagestyle{empty}\newpage
                                                  [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 144.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 147.
  (Notes.toc)
 \tf@toc=\write7
 \openout7 = `Notes.toc'.
@@ -1749,20 +1827,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
 <piezo_operation_modes.pdf, id=113, 313.17pt x 216.81pt>
 File: piezo_operation_modes.pdf Graphic file (type pdf)
 <use piezo_operation_modes.pdf>
-Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 193.
+Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 196.
 (pdftex.def)             Requested size: 313.16922pt x 216.80946pt.
 <beam1.pdf, id=114, 364.48169pt x 105.2733pt>
 File: beam1.pdf Graphic file (type pdf)
 <use beam1.pdf>
-Package pdftex.def Info: beam1.pdf  used on input line 199.
+Package pdftex.def Info: beam1.pdf  used on input line 202.
 (pdftex.def)             Requested size: 364.48079pt x 105.27304pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 212.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 215.
  [5]
 <measurement_setup_overview.pdf, id=127, 543.95218pt x 204.765pt>
 File: measurement_setup_overview.pdf Graphic file (type pdf)
 <use measurement_setup_overview.pdf>
-Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 240
+Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 243
 .
 (pdftex.def)             Requested size: 435.16232pt x 163.8122pt.
 
@@ -1789,23 +1867,23 @@ pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
 <nyquist.pdf, id=210, 578.16pt x 433.62pt>
 File: nyquist.pdf Graphic file (type pdf)
 <use nyquist.pdf>
-Package pdftex.def Info: nyquist.pdf  used on input line 275.
+Package pdftex.def Info: nyquist.pdf  used on input line 278.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
 [8 <./nyquist.pdf>] [9] [10]
 <accel.pdf, id=245, 400.37581pt x 250.0542pt>
 File: accel.pdf Graphic file (type pdf)
 <use accel.pdf>
-Package pdftex.def Info: accel.pdf  used on input line 365.
+Package pdftex.def Info: accel.pdf  used on input line 368.
 (pdftex.def)             Requested size: 400.37482pt x 250.05357pt.
 <accelerometer1.png, id=246, 734.745pt x 312.41719pt>
 File: accelerometer1.png Graphic file (type png)
 <use accelerometer1.png>
-Package pdftex.def Info: accelerometer1.png  used on input line 371.
+Package pdftex.def Info: accelerometer1.png  used on input line 374.
 (pdftex.def)             Requested size: 440.85039pt x 187.45175pt.
 <accelerometer2.png, id=248, 591.71063pt x 301.125pt>
 File: accelerometer2.png Graphic file (type png)
 <use accelerometer2.png>
-Package pdftex.def Info: accelerometer2.png  used on input line 377.
+Package pdftex.def Info: accelerometer2.png  used on input line 380.
 (pdftex.def)             Requested size: 414.19461pt x 210.78606pt.
  [11 <./accel.pdf
 
@@ -1815,30 +1893,40 @@ rce which is no dict (key 'ProcSets', type <array>); ignored.
 <input1.pdf, id=342, 269.08528pt x 147.67169pt>
 File: input1.pdf Graphic file (type pdf)
 <use input1.pdf>
-Package pdftex.def Info: input1.pdf  used on input line 415.
+Package pdftex.def Info: input1.pdf  used on input line 418.
 (pdftex.def)             Requested size: 322.90073pt x 177.20514pt.
  [13 <./input1.pdf
 
 pdfTeX warning: pdflatex (file ./input1.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] [14] [15] (Notes.bbl) [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
+>] [14] [15]
+<input2.pdf, id=405, 280.1667pt x 163.57109pt>
+File: input2.pdf Graphic file (type pdf)
+<use input2.pdf>
+Package pdftex.def Info: input2.pdf  used on input line 509.
+(pdftex.def)             Requested size: 336.19835pt x 196.2843pt.
+ [16 <./input2.pdf
+
+pdfTeX warning: pdflatex (file ./input2.pdf): PDF inclusion: invalid other reso
+urce which is no dict (key 'ProcSets', type <array>); ignored.
+>] (Notes.bbl) [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 520.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 520.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 483.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 520.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 520.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 9354CEFA545D3BCA9B59BB138EF9031D;1105.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 483.
+(rerunfilecheck)             Checksum: A02BD6CFF378CA6456A24BBB74452E5B;1103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 520.
  ) 
 Here is how much of TeX's memory you used:
- 50747 strings out of 492484
- 1137680 string characters out of 3122053
- 1478853 words of memory out of 3000000
- 54268 multiletter control sequences out of 15000+200000
- 559337 words of font info for 81 fonts, out of 3000000 for 9000
+ 51454 strings out of 492484
+ 1150515 string characters out of 3122053
+ 1494533 words of memory out of 3000000
+ 54946 multiletter control sequences out of 15000+200000
+ 561535 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,102p,1442b,776s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,17n,102p,1442b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
@@ -1854,9 +1942,9 @@ es/utmb8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
 times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (17 pages, 800868 bytes).
+Output written on Notes.pdf (18 pages, 852204 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

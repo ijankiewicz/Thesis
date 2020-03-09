@@ -63,4 +63,8 @@ T.~Willams, {\em Circuit Designer'S Companion}.
 Vishay Semiconductors, {\em BAS40-02V-V-G datasheet}, May 2012.
 \newblock Revision 1.1.
 
+\bibitem{housekeeping}
+W.~Kester, {\em Mixed-Signal Hardware and Housekeeping Techniques}.
+\newblock Analog Devices Inc., 2006.
+
 \end{thebibliography}
