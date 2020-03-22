@@ -511,6 +511,35 @@ At this point, it is time to introduce the signal biasing. This process is absol
 \label{fig:input2}
 \end{figure}
 
+\subsubsection{Microprocessor selection}
+The microcontroller is a brain of the data acquisition board. As it can be imagined, it is responsible for such tasks as analog-to-digital conversion, data processing and communication with a personal computer. In addition, it is going to provide a basic user interface by means of buttons and switches for configuration purposes and signalling LEDs. Apart from that, there should be some space for calibration process, as well as triggering signals, thus additional I/Os would be included on the board for user-friendliness.
+\par
+
+The Table \ref{tab:requirements} listed some of design requirements applicable for the MCU, namely, the ADC resolution as well as minimum sampling rate. In addition to that, the microprocessor has to be equipped with sufficient amount of inputs and outputs as well as communication interfaces in order to provide reliable connectivity with the PC.
+\par
+Basing on mentioned requirements, the device presented in the Table \ref{tab:MSP432_params} has been selected for this design.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}		& \textbf{Value} 	\\ \hline
+Model  			& MSP432P401R         	\\ \hline
+Manufacturer    & Texas Instruments		\\ \hline
+Architecture           	&  32-bit ARM 	\\ \hline
+Clock frequency           	&  48MHz	\\ \hline
+Flash memory           	&  256KB	\\ \hline
+ADC resolution &  up to 16-bit			\\ \hline
+ADC sampling rate &  up to 1Msps 		\\ \hline
+ADC input channels &  up to 24  		\\ \hline
+UART channels &  4 						\\ \hline
+UART max. baud rate &  460800bps 		\\ \hline
+SPI channels &  4 						\\ \hline
+SPI max. baud rate &  16Mbps 			\\ \hline
+\end{tabular}
+\caption{Features of MSP432P401R taken from the manufacturer's datasheet \cite{msp432_params}}
+\label{tab:MSP432_params}
+\end{table}
+
 
 \newpage
 

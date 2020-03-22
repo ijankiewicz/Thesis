@@ -16,4 +16,5 @@
 \contentsline {paragraph}{Input protection}{13}{subsubsection.3.3.1}%
 \contentsline {paragraph}{Buffering}{14}{table.3.5}%
 \contentsline {paragraph}{Signal conditioning}{15}{table.3.6}%
-\contentsline {section}{References}{17}{figure.3.7}%
+\contentsline {subsubsection}{\numberline {3.3.2}Microprocessor selection}{16}{subsubsection.3.3.2}%
+\contentsline {section}{References}{17}{table.3.7}%

@@ -67,4 +67,8 @@ Vishay Semiconductors, {\em BAS40-02V-V-G datasheet}, May 2012.
 W.~Kester, {\em Mixed-Signal Hardware and Housekeeping Techniques}.
 \newblock Analog Devices Inc., 2006.
 
+\bibitem{msp432_params}
+Texas Instruments, {\em MSP432P401R datasheet}, June 2019.
+\newblock SLAS826H.
+
 \end{thebibliography}
