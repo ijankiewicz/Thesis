@@ -1,6 +1,8 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
 \usepackage{xstring}
 \usepackage{siunitx}
 \usepackage{amsmath}
@@ -516,29 +518,69 @@ The microcontroller is a brain of the data acquisition board. As it can be imagi
 \par
 
 The Table \ref{tab:requirements} listed some of design requirements applicable for the MCU, namely, the ADC resolution as well as minimum sampling rate. In addition to that, the microprocessor has to be equipped with sufficient amount of inputs and outputs as well as communication interfaces in order to provide reliable connectivity with the PC.
-\par
-Basing on mentioned requirements, the device presented in the Table \ref{tab:MSP432_params} has been selected for this design.
 
 \begin{table}[ht!]
 \begin{tabular}{|l|c|}
 \hline
-\textbf{Parameter}		& \textbf{Value} 	\\ \hline
-Model  			& MSP432P401R         	\\ \hline
-Manufacturer    & Texas Instruments		\\ \hline
-Architecture           	&  32-bit ARM 	\\ \hline
-Clock frequency           	&  48MHz	\\ \hline
-Flash memory           	&  256KB	\\ \hline
-ADC resolution &  up to 16-bit			\\ \hline
-ADC sampling rate &  up to 1Msps 		\\ \hline
-ADC input channels &  up to 24  		\\ \hline
-UART channels &  4 						\\ \hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& MSP432P401R       \\ \hline
+Manufacturer    	& Texas Instruments	\\ \hline
+Architecture       	&  32-bit ARM 		\\ \hline
+Clock frequency     &  48MHz			\\ \hline
+Flash memory        &  256KB			\\ \hline
+SRAM memory         &  64KB				\\ \hline
+ADC resolution 		&  up to 16-bit		\\ \hline
+ADC sampling rate 	&  up to 1Msps 		\\ \hline
+ADC input channels 	&  up to 24  		\\ \hline
+UART channels 		&  4 				\\ \hline
 UART max. baud rate &  460800bps 		\\ \hline
-SPI channels &  4 						\\ \hline
+SPI channels 		&  4 				\\ \hline
 SPI max. baud rate &  16Mbps 			\\ \hline
 \end{tabular}
 \caption{Features of MSP432P401R taken from the manufacturer's datasheet \cite{msp432_params}}
 \label{tab:MSP432_params}
 \end{table}
+
+\par
+By following mentioned requirements, the device presented in the Table \ref{tab:MSP432_params} has been selected for this design. It is worth to highlight its superior analog features, namely the analog-to-digital converter capable of producing 16-bit results when the appropriate layout and averaging of recorded samples are implemented (the device incorporates a native 14-bit SAR core) \cite{16bit}. Apart from analog-related features, the selected MSP432 provides numerous digital interfaces, what comes in handy when a connection with a personal computer is required. In this design, the primary communication channel would be based on UART, but is also planned to include an SPI-to-USB bridge for experimental purposes.
+\par
+
+\paragraph{Architecture}
+Once the right microcontroller has been selected, one has to think about its peripherals required to allow easy connectivity as well as user-friendly interface. A general architecture of the designed system is presented in the Figure \ref{fig:architecture}. In the following sections, all major sections would be briefly introduced.
+
+\begin{figure}[ht!]
+\includegraphics[scale=1]{architecture.pdf}
+\caption{Architecture of the microcontroller and its peripherals}
+\label{fig:architecture}
+\end{figure}
+
+\par
+
+\paragraph{ADC}
+The analog-to-digital converter is the most important part of the entire system. According to the manufacturer's description \cite{msp432_params}, the selected device is able to achieve 16-bit precision with software over-sampling. The sampling rate is resolution dependent and for 14-bit mode, MSP432 is able to provide 1Msps. It is vital to point out that for better precision, the external voltage reference source is used. 
+\par
+
+\paragraph{External voltage reference}
+As mentioned in the previous paragraph, the MCU is equipped with the external reference voltage source in order to improve stability of the ADC. The selected device (REF5030)  provides such features as the accuracy as low as 0.1\% and temperature drift lower than 8ppm/\degree C \cite{ref5030_params}. The built-in reference has only 1\% accuracy and temperature drift up to 60ppm/\degree C \cite{msp432_params}. MSP432 devices provide dedicated voltage reference input terminals (+VREF and -VREF) to facilitate the described modification.
+\par
+
+\paragraph{User interface} 
+The purpose of the data acquisition board is to allow easy and precise measurement of high impedance signals with a focus on piezoelectric-based circuits. The standard way of communication between the board and user is maintained by means of a personal computer, but there is some space for improvement.
+\par
+It is planned to incorporate some basic functionalities based on switches and buttons. A 4-channel DIP switch is designated for configuration purposes. There are also two momentary buttons allowing to control the measurement process. An RGB LED is used for status indication.
+\par
+In addition, there is a dedicated trigger pin that could be used to synchronize the board with a signal or with an external measurement instrument.
+\par
+
+\paragraph{Connectivity}
+The designed device utilizes a few digital interfaces to communicate with peripherals and the personal computer. UART and SPI are used for data streaming and for parsing commands. I2C interface is used for communication with an EEPROM memory storing calibration constants and some basic info related to the device. At this point it is important to point out that SPI interface is for experimental purposes only, therefore UART is assumed to be the basic interface between the computer and the board.
+\par
+Since the data acquisition module is glvanically isolated from the computer, all signals has to include additional isolating devices. In case of the UART, Rx and Tx signals are separated between primary and secondary side of the board by means of an Analog Devices ADuM1201 digital isolator. According to the manufacturer's datasheet \cite{adum1201_params}, it supports data rates up to 25Mbps and 2500V RMS isolation for 1 minute per UL 1577. SPI interface is isolated using Maxim Integrated MAX14851 six-channel digital isolator. It is supporting data rates as high as 50Mbps and isolation of 600V RMS for 1 minute \cite{max14851_params}.
+
+
+
+
+
 
 
 \newpage

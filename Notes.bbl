@@ -71,4 +71,20 @@ W.~Kester, {\em Mixed-Signal Hardware and Housekeeping Techniques}.
 Texas Instruments, {\em MSP432P401R datasheet}, June 2019.
 \newblock SLAS826H.
 
+\bibitem{16bit}
+Texas Instruments, {\em Precision ADC With 16-Bit Performance}, Jan 2018.
+\newblock SLAA821.
+
+\bibitem{ref5030_params}
+Texas Instruments, {\em RF50xx datasheet}, Jan 2020.
+\newblock SBOS410I.
+
+\bibitem{adum1201_params}
+Analog Devices, {\em ADuM1200/ADuM1201 datasheet}, 2016.
+\newblock Rev. K.
+
+\bibitem{max14851_params}
+Maxim Integrated, {\em MAX14851 datasheet}, July 2019.
+\newblock REV. 1.
+
 \end{thebibliography}

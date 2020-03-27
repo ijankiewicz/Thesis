@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  22 MAR 2020 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  27 MAR 2020 10:41
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -1634,30 +1634,30 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 ) (Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-09.
+11.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-09.
+11.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1701,7 +1701,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 111.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -1717,9 +1717,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count382
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
  (Notes.out) (Notes.out)
 \@outlinefile=\write6
 \openout6 = `Notes.out'.
@@ -1731,18 +1731,18 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 \c@lstlisting=\count383
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 109.
-Package gensymb Info: Math companion symbols declared on input line 109.
-LaTeX Info: Redefining \degree on input line 109.
-LaTeX Info: Redefining \celsius on input line 109.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 111.
+Package gensymb Info: Math companion symbols declared on input line 111.
+LaTeX Info: Redefining \degree on input line 111.
+LaTeX Info: Redefining \celsius on input line 111.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 109.
-LaTeX Info: Redefining \ohm on input line 109.
-Package gensymb Info: Using \textohm for \ohm on input line 109.
-LaTeX Info: Redefining \micro on input line 109.
-Package gensymb Info: Using \textmu for \micro on input line 109.
+erthousand on input line 111.
+LaTeX Info: Redefining \ohm on input line 111.
+Package gensymb Info: Using \textohm for \ohm on input line 111.
+LaTeX Info: Redefining \micro on input line 111.
+Package gensymb Info: Using \textmu for \micro on input line 111.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 109.
+LaTeX Info: Redefining \selectfont on input line 111.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1789,23 +1789,23 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-09.
+11.
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<logo.jpg, id=70, 356.0803pt x 356.0803pt>
+<logo.jpg, id=101, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 113.
+Package pdftex.def Info: logo.jpg  used on input line 115.
 (pdftex.def)             Requested size: 199.16928pt x 199.16997pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 122.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 
 [1
 
@@ -1814,33 +1814,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 \newpage\null\thispagestyle{empty}\newpage
+l.148 \newpage\null\thispagestyle{empty}\newpage
                                                  [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 147.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 149.
  (Notes.toc)
 \tf@toc=\write7
 \openout7 = `Notes.toc'.
 
  [2] [3]
 [4]
-<piezo_operation_modes.pdf, id=118, 313.17pt x 216.81pt>
+<piezo_operation_modes.pdf, id=157, 313.17pt x 216.81pt>
 File: piezo_operation_modes.pdf Graphic file (type pdf)
 <use piezo_operation_modes.pdf>
-Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 196.
+Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 198.
 (pdftex.def)             Requested size: 313.16922pt x 216.80946pt.
-<beam1.pdf, id=119, 364.48169pt x 105.2733pt>
+<beam1.pdf, id=158, 364.48169pt x 105.2733pt>
 File: beam1.pdf Graphic file (type pdf)
 <use beam1.pdf>
-Package pdftex.def Info: beam1.pdf  used on input line 202.
+Package pdftex.def Info: beam1.pdf  used on input line 204.
 (pdftex.def)             Requested size: 364.48079pt x 105.27304pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 215.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
  [5]
-<measurement_setup_overview.pdf, id=132, 543.95218pt x 204.765pt>
+<measurement_setup_overview.pdf, id=171, 543.95218pt x 204.765pt>
 File: measurement_setup_overview.pdf Graphic file (type pdf)
 <use measurement_setup_overview.pdf>
-Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 243
+Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 245
 .
 (pdftex.def)             Requested size: 435.16232pt x 163.8122pt.
 
@@ -1864,69 +1864,79 @@ ed.
 
 pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<nyquist.pdf, id=215, 578.16pt x 433.62pt>
+<nyquist.pdf, id=254, 578.16pt x 433.62pt>
 File: nyquist.pdf Graphic file (type pdf)
 <use nyquist.pdf>
-Package pdftex.def Info: nyquist.pdf  used on input line 278.
+Package pdftex.def Info: nyquist.pdf  used on input line 280.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
 [8 <./nyquist.pdf>] [9] [10]
-<accel.pdf, id=250, 400.37581pt x 250.0542pt>
+<accel.pdf, id=289, 400.37581pt x 250.0542pt>
 File: accel.pdf Graphic file (type pdf)
 <use accel.pdf>
-Package pdftex.def Info: accel.pdf  used on input line 368.
+Package pdftex.def Info: accel.pdf  used on input line 370.
 (pdftex.def)             Requested size: 400.37482pt x 250.05357pt.
-<accelerometer1.png, id=251, 734.745pt x 312.41719pt>
+<accelerometer1.png, id=290, 734.745pt x 312.41719pt>
 File: accelerometer1.png Graphic file (type png)
 <use accelerometer1.png>
-Package pdftex.def Info: accelerometer1.png  used on input line 374.
+Package pdftex.def Info: accelerometer1.png  used on input line 376.
 (pdftex.def)             Requested size: 440.85039pt x 187.45175pt.
-<accelerometer2.png, id=253, 591.71063pt x 301.125pt>
+<accelerometer2.png, id=292, 591.71063pt x 301.125pt>
 File: accelerometer2.png Graphic file (type png)
 <use accelerometer2.png>
-Package pdftex.def Info: accelerometer2.png  used on input line 380.
+Package pdftex.def Info: accelerometer2.png  used on input line 382.
 (pdftex.def)             Requested size: 414.19461pt x 210.78606pt.
  [11 <./accel.pdf
 
 pdfTeX warning: pdflatex (file ./accel.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
 >] [12 <./accelerometer1.png> <./accelerometer2.png>]
-<input1.pdf, id=347, 269.08528pt x 147.67169pt>
+<input1.pdf, id=386, 269.08528pt x 147.67169pt>
 File: input1.pdf Graphic file (type pdf)
 <use input1.pdf>
-Package pdftex.def Info: input1.pdf  used on input line 418.
+Package pdftex.def Info: input1.pdf  used on input line 420.
 (pdftex.def)             Requested size: 322.90073pt x 177.20514pt.
  [13 <./input1.pdf
 
 pdfTeX warning: pdflatex (file ./input1.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >] [14] [15]
-<input2.pdf, id=410, 280.1667pt x 163.57109pt>
+<input2.pdf, id=449, 280.1667pt x 163.57109pt>
 File: input2.pdf Graphic file (type pdf)
 <use input2.pdf>
-Package pdftex.def Info: input2.pdf  used on input line 509.
+Package pdftex.def Info: input2.pdf  used on input line 511.
 (pdftex.def)             Requested size: 336.19835pt x 196.2843pt.
  [16 <./input2.pdf
 
 pdfTeX warning: pdflatex (file ./input2.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] (Notes.bbl [17]) [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 549.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 549.
+>]
+<architecture.pdf, id=482, 210.7875pt x 529.98pt>
+File: architecture.pdf Graphic file (type pdf)
+<use architecture.pdf>
+Package pdftex.def Info: architecture.pdf  used on input line 552.
+(pdftex.def)             Requested size: 210.78699pt x 529.97868pt.
+ [17] [18 <./architecture.pdf
+
+pdfTeX warning: pdflatex (file ./architecture.pdf): PDF inclusion: invalid othe
+r resource which is no dict (key 'ProcSets', type <array>); ignored.
+>] [19] (Notes.bbl) [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 549.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 549.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: A258C4F029F31325478377244F724B79;1186.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 549.
+(rerunfilecheck)             Checksum: 29ADCA6759783853171D6D2916821065;1809.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 591.
  ) 
 Here is how much of TeX's memory you used:
- 51461 strings out of 492484
- 1150622 string characters out of 3122053
+ 51495 strings out of 492484
+ 1151222 string characters out of 3122053
  1494533 words of memory out of 3000000
- 54949 multiletter control sequences out of 15000+200000
+ 54967 multiletter control sequences out of 15000+200000
  561535 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,102p,1442b,899s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,17n,102p,1442b,781s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmmi10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
@@ -1942,9 +1952,9 @@ es/utmb8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
 times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (19 pages, 856186 bytes).
+Output written on Notes.pdf (21 pages, 907004 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 584 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
