@@ -67,6 +67,10 @@ Vishay Semiconductors, {\em BAS40-02V-V-G datasheet}, May 2012.
 W.~Kester, {\em Mixed-Signal Hardware and Housekeeping Techniques}.
 \newblock Analog Devices Inc., 2006.
 
+\bibitem{ref5030_params}
+Texas Instruments, {\em RF50xx datasheet}, Jan 2020.
+\newblock SBOS410I.
+
 \bibitem{msp432_params}
 Texas Instruments, {\em MSP432P401R datasheet}, June 2019.
 \newblock SLAS826H.
@@ -75,10 +79,6 @@ Texas Instruments, {\em MSP432P401R datasheet}, June 2019.
 Texas Instruments, {\em Precision ADC With 16-Bit Performance}, Jan 2018.
 \newblock SLAA821.
 
-\bibitem{ref5030_params}
-Texas Instruments, {\em RF50xx datasheet}, Jan 2020.
-\newblock SBOS410I.
-
 \bibitem{adum1201_params}
 Analog Devices, {\em ADuM1200/ADuM1201 datasheet}, 2016.
 \newblock Rev. K.
@@ -86,5 +86,13 @@ Analog Devices, {\em ADuM1200/ADuM1201 datasheet}, 2016.
 \bibitem{max14851_params}
 Maxim Integrated, {\em MAX14851 datasheet}, July 2019.
 \newblock REV. 1.
+
+\bibitem{cp2102_params}
+Silicon Labs, {\em CP2102/9 datasheet}, Jan 2017.
+\newblock REV. 1.8.
+
+\bibitem{cp2130_params}
+Silicon Labs, {\em CP2130 datasheet}, Jan 2014.
+\newblock REV. 0.7.
 
 \end{thebibliography}

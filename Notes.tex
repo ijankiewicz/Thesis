@@ -513,6 +513,36 @@ At this point, it is time to introduce the signal biasing. This process is absol
 \label{fig:input2}
 \end{figure}
 
+\subsubsection{Voltage reference}
+
+The reference voltage source is an important building block in precision analog electronics. Due to the fact that the designed board utilizes the analog-to-digital converter with resolution of at least 14-bits, it is important to follow particular design rules in order not to spoil its performance.
+\par
+
+There are many different flavours of voltage reference sources, but the basic division includes zener and band-gap reference types \cite{companion}. Zener-based voltage incorporates a low-tempco zener diode and additional circuitry such as a matching silicon diode cancelling the influence of the temperature coefficient. Quite often, such references include internal heaters in order to maintain relatively stable temperature of the diode, therefore reducing the temperature impact. It is worth to highlight that such references may get quite expensive and very often offer only high reference voltage values, thus some additional circuitry may be required for interfacing the a microcontroller \cite{companion}.
+\par
+
+The second type of voltage reference sources is called the band-gap reference voltage. This type is based on matched transistors, and with some additional circuitry, it is able to provide lower (and precisely trimmed) reference voltages with comparable temperature coefficients. Moreover, such references may include internal buffer, thus no additional circuitry is often required \cite{companion}.
+\par
+
+The most important parameters of the voltage reference source are the mentioned temperature coefficient and output voltage tolerances. Due to the fact that band-gap references   are readily available and offer suitable reference voltage levels, this type of solution would be considered in this design.\par
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& REF5030       \\ \hline
+Manufacturer    	& Texas Instruments	\\ \hline
+Temperature drift (max)       	&  8ppm/\degree C 	\\\hline
+Output voltage tolerance (max)     &  0.1\%			\\ \hline
+Output current (max)       & 10mA\\ \hline
+Type         &  Band-gap				\\ \hline
+Reference voltage value		&  3.0V		\\ \hline
+
+\end{tabular}
+\caption{Parameter of REF5030 taken from the manufacturer's datasheet \cite{ref5030_params}}
+\label{tab:fer5030_params}
+\end{table}
+
 \subsubsection{Microprocessor selection}
 The microcontroller is a brain of the data acquisition board. As it can be imagined, it is responsible for such tasks as analog-to-digital conversion, data processing and communication with a personal computer. In addition, it is going to provide a basic user interface by means of buttons and switches for configuration purposes and signalling LEDs. Apart from that, there should be some space for calibration process, as well as triggering signals, thus additional I/Os would be included on the board for user-friendliness.
 \par
@@ -576,11 +606,52 @@ In addition, there is a dedicated trigger pin that could be used to synchronize 
 The designed device utilizes a few digital interfaces to communicate with peripherals and the personal computer. UART and SPI are used for data streaming and for parsing commands. I2C interface is used for communication with an EEPROM memory storing calibration constants and some basic info related to the device. At this point it is important to point out that SPI interface is for experimental purposes only, therefore UART is assumed to be the basic interface between the computer and the board.
 \par
 Since the data acquisition module is glvanically isolated from the computer, all signals has to include additional isolating devices. In case of the UART, Rx and Tx signals are separated between primary and secondary side of the board by means of an Analog Devices ADuM1201 digital isolator. According to the manufacturer's datasheet \cite{adum1201_params}, it supports data rates up to 25Mbps and 2500V RMS isolation for 1 minute per UL 1577. SPI interface is isolated using Maxim Integrated MAX14851 six-channel digital isolator. It is supporting data rates as high as 50Mbps and isolation of 600V RMS for 1 minute \cite{max14851_params}.
+\par
+In order to make the device compatible with USB protocol, it is necessary to provide signal bridges for UART and SPI interfaces. This way, the user would be able to easily connect the data acquisition board directly to the personal computer. The USB-to-UART bridge parameters are stated in the Table \ref{tab:cp2102_params}. It supports baud rates up to 1Mbps, which makes it suitable fot this design. It is important to point out that CP2012 is fully compatible with most popular operating systems.
 
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& CP2102       \\ \hline
+Manufacturer    	& Silicon Labs	\\ \hline
+Max. baud rate       	&  1Mbps 		\\ \hline
+On-chip voltage regulator     &  3.3V			\\ \hline
+USB 2.0 compliant        &  Yes			\\ \hline
+Transmit buffer        &  640 bytes				\\ \hline
+Receive buffer 		&  576 bytes		\\ \hline
+USB powered 	&  Yes 		\\ \hline
+Compatibility 	&  Windows/Linux/Mac  		\\ \hline
+\end{tabular}
+\caption{Features of CP2102 taken from the manufacturer's datasheet \cite{cp2102_params}}
+\label{tab:cp2102_params}
+\end{table}
 
+The USB-to-SPI bridge is also manufactured by \textit{Silicon Labs} - see Table \ref{tab:cp2130_params}. The  most important features of this device are the maximum baud rate of 12MHz and 11 fully configurable GPIOs. Due to the fac2t that SPI is jut an experimental mean of communication is this project, there would be no more focus on SPI-related circuitry.
 
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& CP2130       \\ \hline
+Manufacturer    	& Silicon Labs	\\ \hline
+Max. SPI clock       	&  12MHz 		\\ \hline
+On-chip voltage regulator     &  3.45V			\\ \hline
+USB 2.0 compliant        &  Yes			\\ \hline
+Operation modes        &  3 or 4-wire			\\ \hline
+Configurable GPIOs 		&  11		\\ \hline
+USB powered 	&  Yes 		\\ \hline
+Compatibility 	&  Windows 		\\ \hline
+\end{tabular}
+\caption{Parameters of CP2130 taken from the manufacturer's datasheet \cite{cp2130_params}}
+\label{tab:cp2130_params}
+\end{table}
 
-
+\begin{figure}[ht!]
+\includegraphics[scale=0.9]{logger.png}
+\caption{Data acquisition board 3D model}
+\label{fig:logger3d}
+\end{figure}
 
 
 \newpage
