@@ -209,7 +209,7 @@ Piezoelectric generator is truly a non-linear device. It produces maximum output
 \par
 Power density of the harvesters is expressed as the output power divided by the device volume for the given input \cite{EnHv2}. In case of vibrational energy, the input is the acceleration level and the frequency. An output of the piezoelectric generator provides voltage levels suitable for many electronics systems, therefore it is often unnecessary to add additional power electronics, what has an influence on efficiency.
 \par
-\begin{table}[ht]
+\begin{table}[ht!]
 \small
 \begin{center} 
 \begin{tabular}{|c|c|c|c|l|}
@@ -231,6 +231,46 @@ Thermal & $\Delta T = 5 ^{\circ} C$ & $60\mu W/cm^2$ & $1cm^2$ & $2.59J$ (heat a
 \label{tab:typdat}
 \end{table}
 \par
+
+\subsection{Clamping}
+Effective clamping is really important for piezoelectric beams. In order to achieve best performance, it is crucial to provide proper holder that gives reliable operation regardless of vibration level - see Figure \ref{fig:clamping}.\par
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.85]{clamping.pdf}
+\caption{Clamping problem explanation}
+\label{fig:clamping}
+\end{figure}
+
+For the sake of this project, the holder provided by the manufacturer would be used for evaluation purposes. The clamp bar is going to hold the beam in place with help of bolts and washers.\par
+According to the manufacturer's datasheet \cite{PPA}, the second position of the clamp is a default configuration for all products. The third position of the clamp comes in handy when one need to increase the resonant frequency of the piezo wafer. On the other hand, the first position reduces the resonant frequency. It is noted that this hardware configuration is not recommended for energy harvesting applications due to stiffness issues.\par
+
+\subsection{Tip mass}
+Piezoelectric energy harvesters are frequency-dependent devices. In order to achieve their maximum efficiency, it is necessary to operate close to its resonant frequency. Piezoelectric beams may need some tuning procedures in order to match the frequency of the vibrating source, thus allowing to ensure most energy efficient harvesting.\par
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.85]{tipmass.pdf}
+\caption{Tip mass illustration}
+\label{fig:tipmass}
+\end{figure}
+
+As mentioned in the previous subsection, frequency tuning may be performed by changing the clamp position. Unfortunately, this option does not allow for precise trimming, therefore additional techniques are often required. One of the most popular ones incorporated the tip mass attached at the end of the piezoelectric wafer. Providing that the operating frequency is fixed and known, it is possible to determine the exact tip mass required to tune the beam:
+
+\begin{equation}
+    f_{natural} = \frac{\sqrt{\frac{k}{m + m_{t}}}}{2\cdot\pi}
+    \label{resonant1}
+\end{equation}
+
+\begin{equation}
+    m_{t} = \frac{k}{(2\cdot\pi\cdot f_{natural})^2} - m
+    \label{resonant2}
+\end{equation}
+
+\par
+
+
+
+\par
+
 
 \section{Measurement setup design}
 
