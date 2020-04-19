@@ -7,8 +7,9 @@
 \contentsline {subsection}{\numberline {2.2}Efficiency and power density}{5}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Clamping}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Tip mass}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Piezo beam resonance conditions}{8}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Measurement setup design}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Design requirements}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Design requirements}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Accelerometer board}{11}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Most important parameters of the accelerometer}{11}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Selection of the integrated circuit}{12}{subsubsection.3.2.2}%
@@ -16,13 +17,14 @@
 \contentsline {subsection}{\numberline {3.3}Data acquisition board design}{14}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}AC input section}{14}{subsubsection.3.3.1}%
 \contentsline {paragraph}{\numberline {3.3.1.1}Input protection}{14}{paragraph.3.3.1.1}%
-\contentsline {paragraph}{\numberline {3.3.1.2}Buffering}{15}{paragraph.3.3.1.2}%
-\contentsline {paragraph}{\numberline {3.3.1.3}Signal conditioning}{16}{paragraph.3.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.3.2}Voltage reference}{17}{subsubsection.3.3.2}%
+\contentsline {paragraph}{\numberline {3.3.1.2}Buffering}{16}{paragraph.3.3.1.2}%
+\contentsline {paragraph}{\numberline {3.3.1.3}Signal conditioning}{17}{paragraph.3.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.3.2}Voltage reference}{18}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Microprocessor selection}{18}{subsubsection.3.3.3}%
 \contentsline {paragraph}{\numberline {3.3.3.1}Architecture}{19}{paragraph.3.3.3.1}%
 \contentsline {paragraph}{\numberline {3.3.3.2}ADC}{19}{paragraph.3.3.3.2}%
 \contentsline {paragraph}{\numberline {3.3.3.3}External voltage reference}{19}{paragraph.3.3.3.3}%
 \contentsline {paragraph}{\numberline {3.3.3.4}User interface}{20}{paragraph.3.3.3.4}%
 \contentsline {paragraph}{\numberline {3.3.3.5}Connectivity}{21}{paragraph.3.3.3.5}%
-\contentsline {section}{References}{22}{figure.3.9}%
+\contentsline {section}{\numberline {4}Energy harvester}{22}{section.4}%
+\contentsline {section}{References}{24}{figure.4.1}%

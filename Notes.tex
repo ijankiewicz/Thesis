@@ -253,24 +253,28 @@ Piezoelectric energy harvesters are frequency-dependent devices. In order to ach
 \label{fig:tipmass}
 \end{figure}
 
-As mentioned in the previous subsection, frequency tuning may be performed by changing the clamp position. Unfortunately, this option does not allow for precise trimming, therefore additional techniques are often required. One of the most popular ones incorporated the tip mass attached at the end of the piezoelectric wafer. Providing that the operating frequency is fixed and known, it is possible to determine the exact tip mass required to tune the beam:
+As mentioned in the previous subsection, frequency tuning may be performed by changing the clamp position. Unfortunately, this option does not allow for precise trimming, therefore additional techniques are often required. One of the most popular ones incorporated the tip mass attached at the end of the piezoelectric wafer. Providing that the operating frequency is fixed and known, it is possible to determine the exact tip mass required to tune the beam.
+\par
+
+In this case, $m$ is the effective mass, $m_k$ is the added tip mass, $k$ is the effective stiffness and $f$ is the natural frequency. One should take into account that these equations are valid only when the applied tip mass is centered and places according the the manufacturer's guidelines.
 
 \begin{equation}
-    f_{natural} = \frac{\sqrt{\frac{k}{m + m_{t}}}}{2\cdot\pi}
+    f = \frac{\sqrt{\frac{k}{m + m_{t}}}}{2\cdot\pi}
     \label{resonant1}
 \end{equation}
 
 \begin{equation}
-    m_{t} = \frac{k}{(2\cdot\pi\cdot f_{natural})^2} - m
+    m_{t} = \frac{k}{(2\cdot\pi\cdot f)^2} - m
     \label{resonant2}
 \end{equation}
 
+It is important to note that the natural frequency of the piezoelectric material is affected by such factors as temperature, manufacturing process, clamping conditions as well as vibration amplitude \cite{PPA}. Moreover, the resonance frequency is highly affected by the load powered by the harvester. 
 \par
 
+\subsection{Piezo beam resonance conditions}
 
-
+To determine the natural frequency of the beam, one should apply a mechanical impulse to the beam and monitor its response. In order to do so, it is handy to use an oscilloscope in order to monitor the output of the loaded piezoelectric beam. The frequency of the decaying wave is equal to the natural frequency of the beam \cite{PPA}.
 \par
-
 
 \section{Measurement setup design}
 
@@ -693,8 +697,15 @@ Compatibility 	&  Windows 		\\ \hline
 \label{fig:logger3d}
 \end{figure}
 
+\section{Energy harvester}
 
-\newpage
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{harvester2.png}
+\caption{Harvester board 3D model}
+\label{fig:harvester3d}
+\end{figure}
+
+\clearpage
 
 \bibliography{bibliography} 
 \bibliographystyle{ieeetr}
