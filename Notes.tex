@@ -23,6 +23,18 @@
 \usepackage{mathtools}
 \usepackage{gensymb}
 \usepackage{ragged2e}
+\usepackage{titlesec}
+
+% *** BIBLIOGRAPHY CONGIG *** $
+\usepackage[style=nature, backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\addbibresource{bibliography.bib}
+% *************************** $
+
+% change paragraph title fromatting
+%\titleformat*{\paragraph}{\itshape\mdseries}
+
+
 
 
 \lstset{ %
@@ -698,6 +710,49 @@ Compatibility 	&  Windows 		\\ \hline
 \end{figure}
 
 \section{Energy harvester}
+The second aspect of this Master's project is to investigate the concept of vibrational energy harvesting. In order to do so, a proper power conditioning circuitry is to be provided.
+
+\subsection{Energy harvesting integrated circuits}
+\subsubsection{LTC3588-1}
+The \textit{LTC3588-1} by \textit{Linear Technology} is one of the most popular off-the-shelf solutions used in piezoelectic energy harvesting applications. Owing to the fact that target applications of such energy scavenging systems are focused on IoT devices, the described integrated circuit has one huge advantage in comparison to other devices, namely the solution size.
+\par
+It's datasheet \cite{ltc3588_params} states that to make the device work properly, only four capacitors and one inductor are required. Additional two resistors may be useful in order to set desired output voltage, but they are just an option. The simplified diagram of the described solution is presented in the Figure \ref{fig:ltc3588diagram}. It is worth to note that the solution size is greatly reduced by an integrated low-loss full-wave bridge rectifier that also makes a perfect fit for AC input signals.
+
+\begin{figure}[ht!]
+\includegraphics[scale=1.5]{LTC3588.pdf}
+\caption{The diagram of \textit{LTC3588-1} based energy harvesting system}
+\label{fig:ltc3588diagram}
+\end{figure}
+
+\par
+
+Most important parameters of \textit{LTC3588-1} are mentioned in the Table \ref{tab:ltc3588_params}. Apart from the mentioned integrated rectifier, there are a few more features making this integrated circuit suitable for the job.  The input voltage range easily covers values expected at the output of simple piezoelectric generators. Moreover, it included an overvoltage clamp protecting the device \cite{ltc3588_params}. Very low quiescent current of the device makes it possible to use just a supercapacitor as an energy storage element.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& LTC3588-1       \\ \hline
+Manufacturer    	& Linear Technology	\\ \hline
+Input operating range      &  2.7V to 20V 		\\ \hline
+Quiescent current     &  950nA			\\ \hline
+Output current        &  up to 100mA			\\ \hline
+Selectable output voltages & 1.8V, 2.5V, 3.3V, 3.6V\\ \hline
+Input protection &  Shunt type (up to 25mA Pull-down)\\ \hline
+Undervoltage lockout 	&  Yes 		\\ \hline
+Integrated rectifier 	&  Yes 		\\ \hline
+\end{tabular}
+\caption{Most important features taken from the manufacturer's datasheet \cite{ltc3588_params}}
+\label{tab:ltc3588_params}
+\end{table}
+\par
+
+\paragraph{Circuit design}
+When designing low power circuits, great care has to be taken about proper storage components, as these are the key to maintain an uninterrupted output of the power converter. The input capacitor is the one that makes sure 
+\subsubsection{LTC3331}
+\subsubsection{ADP5091}
+\subsubsection{MAX17710}
+
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{harvester2.png}
@@ -707,7 +762,9 @@ Compatibility 	&  Windows 		\\ \hline
 
 \clearpage
 
-\bibliography{bibliography} 
-\bibliographystyle{ieeetr}
+\printbibliography
+
+%\bibliography{bibliography} 
+%\bibliographystyle{ieeetr}
 
 \end{document}

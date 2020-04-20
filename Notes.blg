@@ -1,6 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Notes.aux
-The style file: ieeetr.bst
-Database file #1: bibliography.bib
-Warning--empty journal in low_freq
-Warning--empty journal in clamping
-(There were 2 warnings)
+The style file: biblatex.bst
+Database file #1: Notes-blx.bib
+Database file #2: bibliography.bib
+Biblatex version: 3.13

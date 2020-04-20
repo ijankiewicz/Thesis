@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  20 APR 2020 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  21 APR 2020 00:53
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -1501,6 +1501,299 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip89
 \JustifyingParindent=\skip90
 )
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.s
+ty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box77
+\beforetitleunit=\skip91
+\aftertitleunit=\skip92
+\ttl@plus=\dimen310
+\ttl@minus=\dimen311
+\ttl@toksa=\toks52
+\titlewidth=\dimen312
+\titlewidthlast=\dimen313
+\titlewidthfirst=\dimen314
+)
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.s
+ty"
+Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count366
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count367
+\c@listtotal=\count368
+\c@listcount=\count369
+\c@liststart=\count370
+\c@liststop=\count371
+\c@citecount=\count372
+\c@citetotal=\count373
+\c@multicitecount=\count374
+\c@multicitetotal=\count375
+\c@instcount=\count376
+\c@maxnames=\count377
+\c@minnames=\count378
+\c@maxitems=\count379
+\c@minitems=\count380
+\c@citecounter=\count381
+\c@maxcitecounter=\count382
+\c@savedcitecounter=\count383
+\c@uniquelist=\count384
+\c@uniquename=\count385
+\c@refsection=\count386
+\c@refsegment=\count387
+\c@maxextratitle=\count388
+\c@maxextratitleyear=\count389
+\c@maxextraname=\count390
+\c@maxextradate=\count391
+\c@maxextraalpha=\count392
+\c@abbrvpenalty=\count393
+\c@highnamepenalty=\count394
+\c@lownamepenalty=\count395
+\c@maxparens=\count396
+\c@parenlevel=\count397
+\blx@tempcnta=\count398
+\blx@tempcntb=\count399
+\blx@tempcntc=\count400
+\blx@maxsection=\count401
+\blx@maxsegment@0=\count402
+\blx@notetype=\count403
+\blx@parenlevel@text=\count404
+\blx@parenlevel@foot=\count405
+\blx@sectionciteorder@0=\count406
+\blx@entrysetcounter=\count407
+\labelnumberwidth=\skip93
+\labelalphawidth=\skip94
+\biblabelsep=\skip95
+\bibitemsep=\skip96
+\bibnamesep=\skip97
+\bibinitsep=\skip98
+\bibparsep=\skip99
+\bibhang=\skip100
+\blx@bcfin=\read5
+\blx@bcfout=\write6
+\blx@langwohyphens=\language78
+\c@mincomprange=\count408
+\c@maxcomprange=\count409
+\c@mincompwidth=\count410
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def
+"
+File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'nature.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count411
+\c@savedafterword=\count412
+\c@annotator=\count413
+\c@savedannotator=\count414
+\c@author=\count415
+\c@savedauthor=\count416
+\c@bookauthor=\count417
+\c@savedbookauthor=\count418
+\c@commentator=\count419
+\c@savedcommentator=\count420
+\c@editor=\count421
+\c@savededitor=\count422
+\c@editora=\count423
+\c@savededitora=\count424
+\c@editorb=\count425
+\c@savededitorb=\count426
+\c@editorc=\count427
+\c@savededitorc=\count428
+\c@foreword=\count429
+\c@savedforeword=\count430
+\c@holder=\count431
+\c@savedholder=\count432
+\c@introduction=\count433
+\c@savedintroduction=\count434
+\c@namea=\count435
+\c@savednamea=\count436
+\c@nameb=\count437
+\c@savednameb=\count438
+\c@namec=\count439
+\c@savednamec=\count440
+\c@translator=\count441
+\c@savedtranslator=\count442
+\c@shortauthor=\count443
+\c@savedshortauthor=\count444
+\c@shorteditor=\count445
+\c@savedshorteditor=\count446
+\c@labelname=\count447
+\c@savedlabelname=\count448
+\c@institution=\count449
+\c@savedinstitution=\count450
+\c@lista=\count451
+\c@savedlista=\count452
+\c@listb=\count453
+\c@savedlistb=\count454
+\c@listc=\count455
+\c@savedlistc=\count456
+\c@listd=\count457
+\c@savedlistd=\count458
+\c@liste=\count459
+\c@savedliste=\count460
+\c@listf=\count461
+\c@savedlistf=\count462
+\c@location=\count463
+\c@savedlocation=\count464
+\c@organization=\count465
+\c@savedorganization=\count466
+\c@origlocation=\count467
+\c@savedoriglocation=\count468
+\c@origpublisher=\count469
+\c@savedorigpublisher=\count470
+\c@publisher=\count471
+\c@savedpublisher=\count472
+\c@language=\count473
+\c@savedlanguage=\count474
+\c@origlanguage=\count475
+\c@savedoriglanguage=\count476
+\c@pageref=\count477
+\c@savedpageref=\count478
+\shorthandwidth=\skip101
+\shortjournalwidth=\skip102
+\shortserieswidth=\skip103
+\shorttitlewidth=\skip104
+\shortauthorwidth=\skip105
+\shorteditorwidth=\skip106
+\locallabelnumberwidth=\skip107
+\locallabelalphawidth=\skip108
+\localshorthandwidth=\skip109
+\localshortjournalwidth=\skip110
+\localshortserieswidth=\skip111
+\localshorttitlewidth=\skip112
+\localshortauthorwidth=\skip113
+\localshorteditorwidth=\skip114
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-compat
+.def"
+File: blx-compat.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\blx-bibtex
+.def"
+File: blx-bibtex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.d
+ef"
+File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+\c@textcitecount=\count479
+\c@textcitetotal=\count480
+\c@textcitemaxnames=\count481
+\c@biburlbigbreakpenalty=\count482
+\c@biburlbreakpenalty=\count483
+\c@biburlnumpenalty=\count484
+\c@biburlucpenalty=\count485
+\c@biburllcpenalty=\count486
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count487
+)
+Package biblatex Info: Trying to load bibliography style 'nature'...
+Package biblatex Info: ... file 'nature.bbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature\nat
+ure.bbx"
+File: nature.bbx 2018/10/18 v1.3c biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numeri
+c-comp.bbx"
+File: numeric-comp.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\numeri
+c.bbx"
+File: numeric.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\standa
+rd.bbx"
+File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count488
+\c@bbx:relatedtotal=\count489
+))))
+Package biblatex Info: Trying to load citation style 'nature'...
+Package biblatex Info: ... file 'nature.cbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex-nature\nat
+ure.cbx"
+File: nature.cbx 2018/10/18 v1.3c biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numeri
+c-comp.cbx"
+File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count490
+\c@cbx@tempcntb=\count491
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.c
+fg"
+File: biblatex.cfg 
+))
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.s
+ty"
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count492
+\csq@gtype=\count493
+\csq@glevel=\count494
+\csq@qlevel=\count495
+\csq@maxlvl=\count496
+\csq@tshold=\count497
+\csq@ltx@everypar=\toks53
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.d
+ef"
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.c
+fg"
+File: csquotes.cfg 
+))
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.s
 ty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1527,50 +1820,50 @@ Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 y"
 Package: caption3 2019/09/09 v1.8e caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen310
-\captionmargin@=\dimen311
-\captionwidth=\dimen312
-\caption@tempdima=\dimen313
-\caption@indent=\dimen314
-\caption@parindent=\dimen315
-\caption@hangindent=\dimen316
+\captionmargin=\dimen315
+\captionmargin@=\dimen316
+\captionwidth=\dimen317
+\caption@tempdima=\dimen318
+\caption@indent=\dimen319
+\caption@parindent=\dimen320
+\caption@hangindent=\dimen321
 Package caption Info: Standard document class detected.
 )
-\c@float@type=\count366
-\float@exts=\toks52
-\float@box=\box77
-\@floatcapt=\box78
+\c@float@type=\count498
+\float@exts=\toks54
+\float@box=\box78
+\@floatcapt=\box79
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
-\FR@everyfloat=\toks53
+\FR@everyfloat=\toks55
 \flrow@foot=\insert252
-\FB@wd=\dimen317
-\FBo@wd=\dimen318
-\FBc@wd=\dimen319
-\FBo@ht=\skip91
-\FBc@ht=\skip92
-\FBf@ht=\skip93
-\FBo@max=\skip94
-\FBc@max=\skip95
-\FBf@max=\skip96
-\c@FBl@b=\count367
-\floatbox@depth=\count368
-\c@FRobj=\count369
-\c@FRsobj=\count370
-\Xhsize=\skip97
-\sXhsize=\skip98
-\Zhsize=\skip99
-\sZhsize=\skip100
-\flrow@rowbox=\box79
-\FR@Zunitlength=\dimen320
-\c@FBcnt=\count371
-\FPOScnt=\count372
-\LTleft=\skip101
-\LTright=\skip102
-\LTleft=\skip103
-\LTright=\skip104
-\flrow@types=\toks54
+\FB@wd=\dimen322
+\FBo@wd=\dimen323
+\FBc@wd=\dimen324
+\FBo@ht=\skip115
+\FBc@ht=\skip116
+\FBf@ht=\skip117
+\FBo@max=\skip118
+\FBc@max=\skip119
+\FBf@max=\skip120
+\c@FBl@b=\count499
+\floatbox@depth=\count500
+\c@FRobj=\count501
+\c@FRsobj=\count502
+\Xhsize=\skip121
+\sXhsize=\skip122
+\Zhsize=\skip123
+\sZhsize=\skip124
+\flrow@rowbox=\box80
+\FR@Zunitlength=\dimen325
+\c@FBcnt=\count503
+\FPOScnt=\count504
+\LTleft=\skip125
+\LTright=\skip126
+\LTleft=\skip127
+\LTright=\skip128
+\flrow@types=\toks56
 )
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry-de\geometr
 y.sty"
@@ -1583,18 +1876,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 "
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count373
-\Gm@cntv=\count374
-\c@Gm@tempcnt=\count375
-\Gm@bindingoffset=\dimen321
-\Gm@wd@mp=\dimen322
-\Gm@odd@mp=\dimen323
-\Gm@even@mp=\dimen324
-\Gm@layoutwidth=\dimen325
-\Gm@layoutheight=\dimen326
-\Gm@layouthoffset=\dimen327
-\Gm@layoutvoffset=\dimen328
-\Gm@dimlist=\toks55
+\Gm@cnth=\count505
+\Gm@cntv=\count506
+\c@Gm@tempcnt=\count507
+\Gm@bindingoffset=\dimen326
+\Gm@wd@mp=\dimen327
+\Gm@odd@mp=\dimen328
+\Gm@even@mp=\dimen329
+\Gm@layoutwidth=\dimen330
+\Gm@layoutheight=\dimen331
+\Gm@layouthoffset=\dimen332
+\Gm@layoutvoffset=\dimen333
+\Gm@dimlist=\toks57
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.c
 fg"))
@@ -1602,15 +1895,15 @@ fg"))
 ty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip105
-\f@nch@O@elh=\skip106
-\f@nch@O@erh=\skip107
-\f@nch@O@olh=\skip108
-\f@nch@O@orh=\skip109
-\f@nch@O@elf=\skip110
-\f@nch@O@erf=\skip111
-\f@nch@O@olf=\skip112
-\f@nch@O@orf=\skip113
+\f@nch@headwidth=\skip129
+\f@nch@O@elh=\skip130
+\f@nch@O@erh=\skip131
+\f@nch@O@olh=\skip132
+\f@nch@O@orh=\skip133
+\f@nch@O@elf=\skip134
+\f@nch@O@erf=\skip135
+\f@nch@O@olf=\skip136
+\f@nch@O@orf=\skip137
 )
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirst.s
 ty"
@@ -1619,45 +1912,44 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.s
-ty"
-Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box80
-\beforetitleunit=\skip114
-\aftertitleunit=\skip115
-\ttl@plus=\dimen329
-\ttl@minus=\dimen330
-\ttl@toksa=\toks56
-\titlewidth=\dimen331
-\titlewidthlast=\dimen332
-\titlewidthfirst=\dimen333
-) (Notes.aux)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\englis
+h.lbx"
+File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+ (Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-11.
+23.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-11.
+23.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1673,17 +1965,17 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pd
 f.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count376
+\scratchcounter=\count508
 \scratchdimen=\dimen334
 \scratchbox=\box81
-\nofMPsegments=\count377
-\nofMParguments=\count378
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count379
+\nofMPsegments=\count509
+\nofMParguments=\count510
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count511
 \MPscratchDim=\dimen335
-\MPnumerator=\count380
-\makeMPintoPDFobject=\count381
-\everyMPtoPDFconversion=\toks58
+\MPnumerator=\count512
+\makeMPintoPDFobject=\count513
+\everyMPtoPDFconversion=\toks59
 )
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstop
 df-base.sty"
@@ -1701,7 +1993,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 111.
+Package hyperref Info: Link coloring OFF on input line 123.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -1715,34 +2007,47 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 string.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count382
+\c@section@level=\count514
 )
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
  (Notes.out) (Notes.out)
-\@outlinefile=\write6
-\openout6 = `Notes.out'.
+\@outlinefile=\write7
+\openout7 = `Notes.out'.
 
  ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 
-\c@lstlisting=\count383
+\c@lstlisting=\count515
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 111.
-Package gensymb Info: Math companion symbols declared on input line 111.
-LaTeX Info: Redefining \degree on input line 111.
-LaTeX Info: Redefining \celsius on input line 111.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 123.
+Package gensymb Info: Math companion symbols declared on input line 123.
+LaTeX Info: Redefining \degree on input line 123.
+LaTeX Info: Redefining \celsius on input line 123.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 111.
-LaTeX Info: Redefining \ohm on input line 111.
-Package gensymb Info: Using \textohm for \ohm on input line 111.
-LaTeX Info: Redefining \micro on input line 111.
-Package gensymb Info: Using \textmu for \micro on input line 111.
+erthousand on input line 123.
+LaTeX Info: Redefining \ohm on input line 123.
+Package gensymb Info: Using \textohm for \ohm on input line 123.
+LaTeX Info: Redefining \micro on input line 123.
+Package gensymb Info: Using \textmu for \micro on input line 123.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 111.
+LaTeX Info: Redefining \selectfont on input line 123.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout6 = `Notes-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Notes.bbl' found.
+ (Notes.bbl)
+Package biblatex Info: Reference section=0 on input line 123.
+Package biblatex Info: Reference segment=0 on input line 123.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1752,7 +2057,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
 \flrow@LT@lasthead=\box83
 \flrow@LT@prelastfoot=\box84
-\c@FBLTpage=\count384
+\c@FBLTpage=\count516
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1789,23 +2094,23 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-11.
+23.
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<logo.jpg, id=122, 356.0803pt x 356.0803pt>
+<logo.jpg, id=142, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 115.
+Package pdftex.def Info: logo.jpg  used on input line 127.
 (pdftex.def)             Requested size: 199.16928pt x 199.16997pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 136.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 140.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
 
 [1
 
@@ -1814,33 +2119,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 \newpage\null\thispagestyle{empty}\newpage
+l.160 \newpage\null\thispagestyle{empty}\newpage
                                                  [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 149.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 161.
  (Notes.toc)
-\tf@toc=\write7
-\openout7 = `Notes.toc'.
+\tf@toc=\write8
+\openout8 = `Notes.toc'.
 
  [2] [3]
 [4]
-<piezo_operation_modes.pdf, id=183, 313.17pt x 216.81pt>
+<piezo_operation_modes.pdf, id=208, 313.17pt x 216.81pt>
 File: piezo_operation_modes.pdf Graphic file (type pdf)
 <use piezo_operation_modes.pdf>
-Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 198.
+Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 210.
 (pdftex.def)             Requested size: 313.16922pt x 216.80946pt.
-<beam1.pdf, id=184, 364.48169pt x 105.2733pt>
+<beam1.pdf, id=209, 364.48169pt x 105.2733pt>
 File: beam1.pdf Graphic file (type pdf)
 <use beam1.pdf>
-Package pdftex.def Info: beam1.pdf  used on input line 204.
+Package pdftex.def Info: beam1.pdf  used on input line 216.
 (pdftex.def)             Requested size: 364.48079pt x 105.27304pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 217.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 229.
  [5]
-<clamping.pdf, id=197, 529.98pt x 196.8153pt>
+<clamping.pdf, id=222, 529.98pt x 196.8153pt>
 File: clamping.pdf Graphic file (type pdf)
 <use clamping.pdf>
-Package pdftex.def Info: clamping.pdf  used on input line 239.
+Package pdftex.def Info: clamping.pdf  used on input line 251.
 (pdftex.def)             Requested size: 450.4851pt x 167.2938pt.
  [6 <./piezo_operation_modes.pdf
 
@@ -1851,10 +2156,10 @@ alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 pdfTeX warning: pdflatex (file ./beam1.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<tipmass.pdf, id=253, 178.7478pt x 198.7425pt>
+<tipmass.pdf, id=278, 178.7478pt x 198.7425pt>
 File: tipmass.pdf Graphic file (type pdf)
 <use tipmass.pdf>
-Package pdftex.def Info: tipmass.pdf  used on input line 251.
+Package pdftex.def Info: tipmass.pdf  used on input line 263.
 (pdftex.def)             Requested size: 151.93633pt x 168.93192pt.
  [7 <./clamping.pdf
 
@@ -1865,10 +2170,10 @@ source which is no dict (key 'ProcSets', type <array>); ignored.
 pdfTeX warning: pdflatex (file ./tipmass.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<measurement_setup_overview.pdf, id=357, 543.95218pt x 204.765pt>
+<measurement_setup_overview.pdf, id=382, 543.95218pt x 204.765pt>
 File: measurement_setup_overview.pdf Graphic file (type pdf)
 <use measurement_setup_overview.pdf>
-Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 289
+Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 301
 .
 (pdftex.def)             Requested size: 435.16232pt x 163.8122pt.
  [8 <./measurement_setup_overview.pdf
@@ -1880,95 +2185,109 @@ ed.
 
 pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<nyquist.pdf, id=384, 578.16pt x 433.62pt>
+<nyquist.pdf, id=409, 578.16pt x 433.62pt>
 File: nyquist.pdf Graphic file (type pdf)
 <use nyquist.pdf>
-Package pdftex.def Info: nyquist.pdf  used on input line 324.
+Package pdftex.def Info: nyquist.pdf  used on input line 336.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9] [10 <./nyquist.pdf>] [11]
-<accel.pdf, id=417, 400.37581pt x 250.0542pt>
+<accel.pdf, id=442, 400.37581pt x 250.0542pt>
 File: accel.pdf Graphic file (type pdf)
 <use accel.pdf>
-Package pdftex.def Info: accel.pdf  used on input line 414.
+Package pdftex.def Info: accel.pdf  used on input line 426.
 (pdftex.def)             Requested size: 400.37482pt x 250.05357pt.
-<accelerometer1.png, id=418, 734.745pt x 312.41719pt>
+<accelerometer1.png, id=443, 734.745pt x 312.41719pt>
 File: accelerometer1.png Graphic file (type png)
 <use accelerometer1.png>
-Package pdftex.def Info: accelerometer1.png  used on input line 420.
+Package pdftex.def Info: accelerometer1.png  used on input line 432.
 (pdftex.def)             Requested size: 440.85039pt x 187.45175pt.
-<accelerometer2.png, id=420, 591.71063pt x 301.125pt>
+<accelerometer2.png, id=445, 591.71063pt x 301.125pt>
 File: accelerometer2.png Graphic file (type png)
 <use accelerometer2.png>
-Package pdftex.def Info: accelerometer2.png  used on input line 426.
+Package pdftex.def Info: accelerometer2.png  used on input line 438.
 (pdftex.def)             Requested size: 414.19461pt x 210.78606pt.
  [12] [13 <./accel.pdf
 
 pdfTeX warning: pdflatex (file ./accel.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
 > <./accelerometer1.png>]
-<input1.pdf, id=515, 269.08528pt x 147.67169pt>
+<input1.pdf, id=540, 269.08528pt x 147.67169pt>
 File: input1.pdf Graphic file (type pdf)
 <use input1.pdf>
-Package pdftex.def Info: input1.pdf  used on input line 464.
+Package pdftex.def Info: input1.pdf  used on input line 476.
 (pdftex.def)             Requested size: 322.90073pt x 177.20514pt.
  [14 <./accelerometer2.png>] [15 <./input1.pdf
 
 pdfTeX warning: pdflatex (file ./input1.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >] [16]
-<input2.pdf, id=578, 280.1667pt x 163.57109pt>
+<input2.pdf, id=603, 280.1667pt x 163.57109pt>
 File: input2.pdf Graphic file (type pdf)
 <use input2.pdf>
-Package pdftex.def Info: input2.pdf  used on input line 555.
+Package pdftex.def Info: input2.pdf  used on input line 567.
 (pdftex.def)             Requested size: 336.19835pt x 196.2843pt.
  [17 <./input2.pdf
 
 pdfTeX warning: pdflatex (file ./input2.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >] [18]
-<architecture.pdf, id=620, 210.7875pt x 529.98pt>
+<architecture.pdf, id=645, 210.7875pt x 529.98pt>
 File: architecture.pdf Graphic file (type pdf)
 <use architecture.pdf>
-Package pdftex.def Info: architecture.pdf  used on input line 626.
+Package pdftex.def Info: architecture.pdf  used on input line 638.
 (pdftex.def)             Requested size: 210.78699pt x 529.97868pt.
  [19] [20 <./architecture.pdf
 
 pdfTeX warning: pdflatex (file ./architecture.pdf): PDF inclusion: invalid othe
 r resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<logger.png, id=656, 505.89pt x 379.4175pt>
+<logger.png, id=681, 505.89pt x 379.4175pt>
 File: logger.png Graphic file (type png)
 <use logger.png>
-Package pdftex.def Info: logger.png  used on input line 695.
+Package pdftex.def Info: logger.png  used on input line 707.
 (pdftex.def)             Requested size: 455.29678pt x 341.47258pt.
-<harvester2.png, id=657, 587.19376pt x 514.17094pt>
+ [21] [22 <./logger.png>]
+<LTC3588.pdf, id=701, 218.7372pt x 96.36pt>
+File: LTC3588.pdf Graphic file (type pdf)
+<use LTC3588.pdf>
+Package pdftex.def Info: LTC3588.pdf  used on input line 722.
+(pdftex.def)             Requested size: 328.10497pt x 144.53961pt.
+ [23 <./LTC3588.pdf
+
+pdfTeX warning: pdflatex (file ./LTC3588.pdf): PDF inclusion: invalid other res
+ource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<harvester2.png, id=735, 587.19376pt x 514.17094pt>
 File: harvester2.png Graphic file (type png)
 <use harvester2.png>
-Package pdftex.def Info: harvester2.png  used on input line 703.
+Package pdftex.def Info: harvester2.png  used on input line 758.
 (pdftex.def)             Requested size: 440.39424pt x 385.62726pt.
- [21] [22 <./logger.png>] [23 <./harvester2.png>] (Notes.bbl) [24
+ [24 <./harvester2.png>] [25
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 713.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 713.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 770.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 713.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 713.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 770.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 770.
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 8461ACF28E23D0AB28CD74F474A37141;2128.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 713.
+(rerunfilecheck)             Checksum: F62BBFB955963DC9040B223632190CE4;2516.
+Package logreq Info: Writing requests to 'Notes.run.xml'.
+\openout1 = `Notes.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 770.
  ) 
 Here is how much of TeX's memory you used:
- 51556 strings out of 492484
- 1152114 string characters out of 3122053
- 1493532 words of memory out of 3000000
- 55004 multiletter control sequences out of 15000+200000
+ 58844 strings out of 492484
+ 1296700 string characters out of 3122053
+ 1851700 words of memory out of 3000000
+ 62219 multiletter control sequences out of 15000+200000
  561535 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,102p,1442b,788s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,17n,102p,1469b,1827s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmex10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
@@ -1986,9 +2305,9 @@ ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX
 eX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (25 pages, 1380485 bytes).
+Output written on Notes.pdf (26 pages, 1432844 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 818 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

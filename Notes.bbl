@@ -1,98 +1,336 @@
-\begin{thebibliography}{10}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{EnHv1}
-N.~W. Stephen~Beeby, {\em Energy Harvesting for Autonomous Systems}.
-\newblock Artech House, 2010.
-\newblock ISBN: 978-1-59693-718-5.
+\datalist[entry]{none/global//global/global}
+  \entry{EnHv1}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SBNW}{%
+         family={Stephen\bibnamedelima Beeby},
+         familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Neil\bibnamedelima White},
+         giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Artech House}%
+    }
+    \strng{namehash}{SBNW1}
+    \strng{fullhash}{SBNW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{ISBN: 978-1-59693-718-5}
+    \field{title}{Energy Harvesting for Autonomous Systems}
+    \field{year}{2010}
+  \endentry
 
-\bibitem{EnHv2}
-D.~J.~I. Alper~Erturk, {\em Piezoelectric Energy Harvesting}.
-\newblock John Wiley \& Sons, Ltd, 2011.
-\newblock ISBN: 978-0-470-68254-8.
+  \entry{EnHv2}{book}{}
+    \name{author}{1}{}{%
+      {{hash=AEDJI}{%
+         family={Alper\bibnamedelima Erturk},
+         familyi={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Daniel J.\bibnamedelima Inman},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons, Ltd}%
+    }
+    \strng{namehash}{AEDJI1}
+    \strng{fullhash}{AEDJI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{ISBN: 978-0-470-68254-8}
+    \field{title}{Piezoelectric Energy Harvesting}
+    \field{year}{2011}
+  \endentry
 
-\bibitem{low_freq}
-C.~Tian, ``Energy harvesting from low frequency applications using
-  piezoelectric, materials,'' 01 2019.
+  \entry{low_freq}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TC}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Chuan},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TC1}
+    \strng{fullhash}{TC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Energy harvesting from low frequency applications using
+  piezoelectric, materials}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
 
-\bibitem{cmos}
-Y.~M. Thorsten~Hehn, {\em CMOS Circuits for Piezoelectric Energy Harvesters}.
-\newblock Springer Science+Business Media Dordrecht, 2015.
-\newblock ISBN: 978-94-017-9288-2.
+  \entry{cmos}{book}{}
+    \name{author}{1}{}{%
+      {{hash=THYM}{%
+         family={Thorsten\bibnamedelima Hehn},
+         familyi={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={Yiannos\bibnamedelima Manoli},
+         giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science+Business Media Dordrecht}%
+    }
+    \strng{namehash}{THYM1}
+    \strng{fullhash}{THYM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{ISBN: 978-94-017-9288-2}
+    \field{title}{CMOS Circuits for Piezoelectric Energy Harvesters}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{PPA}
-Midé Technology, {\em PPA Products. Datasheet and User Manual}, 2016.
-\newblock Revision No. 002.
+  \entry{PPA}{manual}{}
+    \list{organization}{1}{%
+      {Midé Technology}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision No. 002}
+    \field{number}{PPA-1001}
+    \field{title}{PPA Products. Datasheet and User Manual}
+    \field{year}{2016}
+  \endentry
 
-\bibitem{ElEx}
-J.~Louis E.~Frenzel, {\em Electronics Explained}.
-\newblock Newnes (Elsevier Inc.), 2010.
-\newblock ISBN: 978-1-85617-700-9.
+  \entry{ElEx}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LEFJ}{%
+         family={Louis E.\bibnamedelima Frenzel},
+         familyi={L\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+         given={Jr.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Newnes (Elsevier Inc.)}%
+    }
+    \strng{namehash}{LEFJ1}
+    \strng{fullhash}{LEFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{ISBN: 978-1-85617-700-9}
+    \field{title}{Electronics Explained}
+    \field{year}{2010}
+  \endentry
 
-\bibitem{accel_params}
-STMicroelectronics group, {\em AN4508 Application note. Parameters and
-  calibration of a low-g 3-axis accelerometer.}, 2014.
-\newblock Revision No. 001.
+  \entry{accel_params}{manual}{}
+    \list{organization}{1}{%
+      {STMicroelectronics group}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision No. 001}
+    \field{title}{AN4508 Application note. Parameters and calibration of a
+  low-g 3-axis accelerometer.}
+    \field{year}{2014}
+  \endentry
 
-\bibitem{ADXL}
-Analog Devices Inc., {\em ADXL335 datasheet}, 2009.
-\newblock Revision No. 000.
+  \entry{ADXL}{manual}{}
+    \list{organization}{1}{%
+      {Analog Devices Inc.}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision No. 000}
+    \field{title}{ADXL335 datasheet}
+    \field{year}{2009}
+  \endentry
 
-\bibitem{charger_params}
-Foshan Blue Rocket Electronics, {\em BRCL4054CME datasheet}, 2018.
-\newblock Revision B.
+  \entry{charger_params}{manual}{}
+    \list{organization}{1}{%
+      {Foshan Blue Rocket Electronics}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision B}
+    \field{title}{BRCL4054CME datasheet}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{ap2112_params}
-Diodes Incorporated, {\em AP2112 datasheet. Documnet number: DS39724}, June
-  2017.
-\newblock Revision no.2-2.
+  \entry{ap2112_params}{manual}{}
+    \list{organization}{1}{%
+      {Diodes Incorporated}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision no.2-2}
+    \field{title}{AP2112 datasheet. Documnet number: DS39724}
+    \field{year}{June 2017}
+  \endentry
 
-\bibitem{mcp9700_params}
-Microchip Technology Inc., {\em MCP9700 datasheet}, July 2017.
-\newblock Revision F.
+  \entry{mcp9700_params}{manual}{}
+    \list{organization}{1}{%
+      {Microchip Technology Inc.}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision F}
+    \field{title}{MCP9700 datasheet}
+    \field{year}{July 2017}
+  \endentry
 
-\bibitem{clamping}
-D.~Burton, ``Op amp input overvoltage protection: Clamping vs. integrated,'' 05
-  2016.
+  \entry{clamping}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BD}{%
+         family={Burton},
+         familyi={B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BD1}
+    \strng{fullhash}{BD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Op Amp Input Overvoltage Protection: Clamping vs. Integrated}
+    \field{month}{05}
+    \field{year}{2016}
+  \endentry
 
-\bibitem{companion}
-T.~Willams, {\em Circuit Designer'S Companion}.
-\newblock Newnes (An imprint of Butterworth-Heinemann), 1993.
-\newblock ISBN: 978-0750617567.
+  \entry{companion}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WT}{%
+         family={Willams},
+         familyi={W\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Newnes (An imprint of Butterworth-Heinemann)}%
+    }
+    \strng{namehash}{WT1}
+    \strng{fullhash}{WT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{ISBN: 978-0750617567}
+    \field{title}{Circuit Designer'S Companion}
+    \field{year}{1993}
+  \endentry
 
-\bibitem{bas40_params}
-Vishay Semiconductors, {\em BAS40-02V-V-G datasheet}, May 2012.
-\newblock Revision 1.1.
+  \entry{bas40_params}{manual}{}
+    \list{organization}{1}{%
+      {Vishay Semiconductors}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Revision 1.1}
+    \field{title}{BAS40-02V-V-G datasheet}
+    \field{year}{May 2012}
+  \endentry
 
-\bibitem{housekeeping}
-W.~Kester, {\em Mixed-Signal Hardware and Housekeeping Techniques}.
-\newblock Analog Devices Inc., 2006.
+  \entry{housekeeping}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KW}{%
+         family={Kester},
+         familyi={K\bibinitperiod},
+         given={Walt},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Analog Devices Inc.}%
+    }
+    \strng{namehash}{KW1}
+    \strng{fullhash}{KW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Mixed-Signal Hardware and Housekeeping Techniques}
+    \field{year}{2006}
+  \endentry
 
-\bibitem{ref5030_params}
-Texas Instruments, {\em RF50xx datasheet}, Jan 2020.
-\newblock SBOS410I.
+  \entry{ref5030_params}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instruments}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{SBOS410I}
+    \field{title}{RF50xx datasheet}
+    \field{year}{Jan 2020}
+  \endentry
 
-\bibitem{msp432_params}
-Texas Instruments, {\em MSP432P401R datasheet}, June 2019.
-\newblock SLAS826H.
+  \entry{msp432_params}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instruments}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{SLAS826H}
+    \field{title}{MSP432P401R datasheet}
+    \field{year}{June 2019}
+  \endentry
 
-\bibitem{16bit}
-Texas Instruments, {\em Precision ADC With 16-Bit Performance}, Jan 2018.
-\newblock SLAA821.
+  \entry{16bit}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instruments}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{SLAA821}
+    \field{title}{Precision ADC With 16-Bit Performance}
+    \field{year}{Jan 2018}
+  \endentry
 
-\bibitem{adum1201_params}
-Analog Devices, {\em ADuM1200/ADuM1201 datasheet}, 2016.
-\newblock Rev. K.
+  \entry{adum1201_params}{manual}{}
+    \list{organization}{1}{%
+      {Analog Devices}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Rev. K}
+    \field{title}{ADuM1200/ADuM1201 datasheet}
+    \field{year}{2016}
+  \endentry
 
-\bibitem{max14851_params}
-Maxim Integrated, {\em MAX14851 datasheet}, July 2019.
-\newblock REV. 1.
+  \entry{max14851_params}{manual}{}
+    \list{organization}{1}{%
+      {Maxim Integrated}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 1}
+    \field{title}{MAX14851 datasheet}
+    \field{year}{July 2019}
+  \endentry
 
-\bibitem{cp2102_params}
-Silicon Labs, {\em CP2102/9 datasheet}, Jan 2017.
-\newblock REV. 1.8.
+  \entry{cp2102_params}{manual}{}
+    \list{organization}{1}{%
+      {Silicon Labs}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 1.8}
+    \field{title}{CP2102/9 datasheet}
+    \field{year}{Jan 2017}
+  \endentry
 
-\bibitem{cp2130_params}
-Silicon Labs, {\em CP2130 datasheet}, Jan 2014.
-\newblock REV. 0.7.
+  \entry{cp2130_params}{manual}{}
+    \list{organization}{1}{%
+      {Silicon Labs}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 0.7}
+    \field{title}{CP2130 datasheet}
+    \field{year}{Jan 2014}
+  \endentry
 
-\end{thebibliography}
+  \entry{ltc3588_params}{manual}{}
+    \list{organization}{1}{%
+      {Linear Technology}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. C}
+    \field{title}{LTC3588-1 datasheet}
+    \field{year}{2010}
+  \endentry
+\enddatalist
+\endinput
