@@ -748,7 +748,21 @@ Integrated rectifier 	&  Yes 		\\ \hline
 \par
 
 \paragraph{Circuit design}
-When designing low power circuits, great care has to be taken about proper storage components, as these are the key to maintain an uninterrupted output of the power converter. The input capacitor is the one that makes sure 
+When designing low power circuits, great care has to be taken about proper storage components, as these are the key to maintain an uninterrupted output of these circuits. The input capacitor is responsible for providing sufficient amount of energy for the DC-DC converter. On the other hand, the output capacitor determines the time interval for which the converter sleeps \cite{ltc3588_params}. The exact size of mentioned components is mostly dependent on a particular application. Therefore, manufacturer's recommendation would be a reference in case of this design. Please note that selected components are supposed to meet voltage rating requirements, namely at least 20V for the input capacitor and 6.3V for the output capacitor. Based on these details, the following components have been picked:
+
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+ \textbf{Type} & \textbf{Manufacturer} & \textbf{Model} & \textbf{Capacitance} & \textbf{Rated voltage} & \textbf{Count}	\\ \hline
+Input & Würth Elektronik & 865060442002 & 22$\mu$F & 25V & 1      \\ \hline
+Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 3      \\ \hline
+
+\end{tabular}
+\caption{Capacitors selected for the \textit{LC3588-1} circuit}
+\label{tab:ltc3588_capacitors}
+\end{table}
+
+
 \subsubsection{LTC3331}
 \subsubsection{ADP5091}
 \subsubsection{MAX17710}
