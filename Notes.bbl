@@ -333,6 +333,36 @@
     \field{year}{2010}
   \endentry
 
+  \entry{x5r_params}{manual}{}
+    \list{organization}{1}{%
+      {AVX}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{X5R Dielectric, 4 – 50 VDC (Commercial Grade) series
+  datasheet}
+    \field{year}{2009}
+  \endentry
+
+  \entry{ltc3588_capacitor_params}{manual}{}
+    \list{organization}{1}{%
+      {Würth Elektronik}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 1.0}
+    \field{title}{865060442002 datasheet}
+    \field{year}{Nov 2014}
+  \endentry
+
+  \entry{ltc3588_inductor_params}{manual}{}
+    \list{organization}{1}{%
+      {Würth Elektronik}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 1.003}
+    \field{title}{74438335220 datasheet}
+    \field{year}{Oct 2019}
+  \endentry
+
   \entry{adp5091_params}{manual}{}
     \list{organization}{1}{%
       {Analog Devices}%
@@ -341,6 +371,35 @@
     \field{note}{REV. A}
     \field{title}{ADP5091/ADP5092 datasheet}
     \field{year}{2017}
+  \endentry
+
+  \entry{adp5091_inductor_params}{manual}{}
+    \list{organization}{1}{%
+      {Würth Elektronik}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 6.4}
+    \field{title}{744042220 datasheet}
+    \field{year}{Jan 2015}
+  \endentry
+
+  \entry{tantalum_params}{manual}{}
+    \list{organization}{1}{%
+      {AVX}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{TAJ series datasheet}
+    \field{year}{2010}
+  \endentry
+
+  \entry{diodes_params}{manual}{}
+    \list{organization}{1}{%
+      {Nexperia}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 02}
+    \field{title}{PMEGxx05EH/EJ series datasheet}
+    \field{year}{Jan 2010}
   \endentry
 \enddatalist
 \endinput

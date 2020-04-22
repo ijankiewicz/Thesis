@@ -764,7 +764,7 @@ Input & Würth Elektronik & 865060442002 & 22$\mu$F & 25V & 1      \\ \hline
 Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 3      \\ \hline
 
 \end{tabular}
-\caption{Capacitors selected for the \textit{LC3588-1} circuit}
+\caption{Capacitors selected for the \textit{LC3588-1} circuit \cite{x5r_params}, \cite{ltc3588_capacitor_params}}
 \label{tab:ltc3588_capacitors}
 \end{table}
 
@@ -777,7 +777,7 @@ When it comes to the inductance, the manufacturer advises to pick any value betw
  Würth Elektronik & 74438335220 & 22$\mu$H & 0.6A & 1.04$\Omega$      \\ \hline
 
 \end{tabular}
-\caption{Inductor selected for the \textit{LC3588-1} circuit}
+\caption{Inductor selected for the \textit{LC3588-1} circuit \cite{ltc3588_inductor_params}}
 \label{tab:ltc3588_inductor}
 \end{table}
 
@@ -833,9 +833,14 @@ The selected inductor should have saturation current at least 30\% higher than t
  Würth Elektronik & 744042220 & 22$\mu$H & 0.88A & 0.3$\Omega$      \\ \hline
 
 \end{tabular}
-\caption{Inductor selected for the \textit{ADP5091} circuit}
+\caption{Inductor selected for the \textit{ADP5091} circuit \cite{adp5091_inductor_params}}
 \label{tab:adp5091_inductor}
 \end{table}
+\par
+
+Input capacitor is utilized to store energy captured from the piezoelectric beam. Its value recommended by the manufacturer is at least 10$\mu$F, but larger values may be beneficial in case when an additional primary battery is used. In case of this design, the minimum recommended value would be a way to go.
+\par
+The output capacitor is used to smooth the output voltage of the switching regulator. Even though, the minimum recommended value is 4.7$\mu$F, it would be extended to 22$\mu$ to further smooth the output voltage. There are a few more capacitor required by the integrated circuit to operate properly, but all of them would be picked according to the manufacturer's recommendations. Please see Table \ref{tab:adp5091_capacitors} for details regarding input and output capacitors.
 
 \begin{table}[ht!]
 \begin{tabular}{|c|c|c|c|c|c|}
@@ -843,12 +848,13 @@ The selected inductor should have saturation current at least 30\% higher than t
  \textbf{Type} & \textbf{Manufacturer} & \textbf{Model} & \textbf{Capacitance} & \textbf{Rated voltage} & \textbf{Count}	\\ \hline
 Input & AVX & TAJA106M010RNJ  & 10$\mu$F & 10V & 1      \\ \hline
 Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 1      \\ \hline
-
 \end{tabular}
-\caption{Capacitors selected for the \textit{ADP5091} circuit}
+\caption{Capacitors selected for the \textit{ADP5091} circuit \cite{x5r_params}, \cite{tantalum_params}}
 \label{tab:adp5091_capacitors}
 \end{table}
+\par
 
+The last important aspect to note is related to diodes installed in the full bridge rectifier. Owing to the fact that the forward voltage drop of these components has a huge impact on the overall efficiency of the power management circuit, one should select diodes suitable for this application. The designer's choice is placed in the Table \ref{tab:adp5091_diodes}. Please note that the forward voltage drop of these diodes conducting low current might be way lower than 200mV.
 \begin{table}[ht!]
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -856,7 +862,7 @@ Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 1      \\ \hline
  Nexperia & PMEG4005EJ & 0.42V & 0.5A      \\ \hline
 
 \end{tabular}
-\caption{Rectifier diodes selected for the \textit{ADP5091} circuit}
+\caption{Rectifier diodes selected for the \textit{ADP5091} circuit \cite{diodes_params}}
 \label{tab:adp5091_diodes}
 \end{table}
 
