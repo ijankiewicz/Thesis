@@ -332,5 +332,15 @@
     \field{title}{LTC3588-1 datasheet}
     \field{year}{2010}
   \endentry
+
+  \entry{adp5091_params}{manual}{}
+    \list{organization}{1}{%
+      {Analog Devices}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. A}
+    \field{title}{ADP5091/ADP5092 datasheet}
+    \field{year}{2017}
+  \endentry
 \enddatalist
 \endinput

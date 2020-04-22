@@ -25,6 +25,7 @@
 \usepackage{ragged2e}
 \usepackage{titlesec}
 
+
 % *** BIBLIOGRAPHY CONGIG *** $
 \usepackage[style=nature, backend=bibtex]{biblatex}
 \usepackage{csquotes}
@@ -119,6 +120,11 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {\thesubparagraph}
     {1em}
     {}
+    
+    
+% Glossary
+
+
 
 \begin{document}
 
@@ -762,9 +768,106 @@ Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 3      \\ \hline
 \label{tab:ltc3588_capacitors}
 \end{table}
 
+When it comes to the inductance, the manufacturer advises to pick any value between 10$\mu$H and 22$\mu$H. Larger inductors can be beneficial in high voltage applications \cite{ltc3588_params}. The selected component should have a DC current rating of 350mA or more. Please note that DC resistance of the inductor has an impact on the overall efficiency of the converter.
+
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Manufacturer} & \textbf{Model} & \textbf{Inductance} & \textbf{Rated current} & \textbf{DC resistance}	\\ \hline
+ Würth Elektronik & 74438335220 & 22$\mu$H & 0.6A & 1.04$\Omega$      \\ \hline
+
+\end{tabular}
+\caption{Inductor selected for the \textit{LC3588-1} circuit}
+\label{tab:ltc3588_inductor}
+\end{table}
+
+\par
+
+Figure \ref{fig:ltc3588layout} presents the layout of the described circuit. Apart from previously mentioned components, there is also a DIP switch allowing to configure the output voltage of the converter. This way, the DC-DC converter could be easily adjusted by the user according to the table printed on the silkscreen.
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.8]{ltc3588_layout.png}
+\caption{The layout of \textit{LTC3588-1} based circuit}
+\label{fig:ltc3588layout}
+\end{figure}
 
 \subsubsection{LTC3331}
 \subsubsection{ADP5091}
+
+Another alternative for an integrated energy harvester is \textit{ADP5091} by \textit{Analog Devices}. This device is not dedicated exclusively for vibration energy harvesting applications. Therefore, it is necessary to provide an external voltage rectifier, as the described integrated circuit accepts only DC voltage at the input. One should note that \textit{ADP5091} incorporates a DC-DC boost converter and LDO, which is optimized for high efficiency at low output currents \cite{adp5091_params}.
+\par
+
+Figure \ref{fig:adp5091diagram} depicts the overall structure of the harvester. In this case, the amount of external components required for proper operation is significant. This Power Management Unit
+
+
+\begin{figure}[ht!]
+\includegraphics[scale=1.2]{adp5091.pdf}
+\caption{The diagram of \textit{ADP5091} based energy harvesting system}
+\label{fig:adp5091diagram}
+\end{figure}
+
+Due to the fact that the \textit{ADP5091} is te DC-DC boost converter, it is dedicated for low output voltage piezoelectric generators. Table \ref{tab:adp5091_params} lists the most important parameters of the device. One should note relatively low input voltage operating range.
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& ADP5091       \\ \hline
+Manufacturer    	& Analog Devices	\\ \hline
+Input operating range      &  0.08V to 3.3V  \\ \hline
+Quiescent current     &  510nA (typical)		\\ \hline
+Output current        &  up to 150mA			\\ \hline
+Selectable output voltages & from 1.5V to 3.6V\\ \hline
+Integrated rectifier 	&  No 		\\ \hline
+\end{tabular}
+\caption{Most important features taken from the manufacturer's datasheet \cite{adp5091_params}}
+\label{tab:adp5091_params}
+\end{table}
+\par
+
+\paragraph{Circuit design}
+The selected inductor should have saturation current at least 30\% higher than the peak inductor current (which might be as high as 300mA) and relatively low DC resistance in order to maintain high efficiency \cite{adp5091_params}. The converter is optimized for 22$\mu$H inductors. By combining all mentioned parameters, the inductor listed int the Table \ref{tab:adp5091_inductor} has been selected.
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Manufacturer} & \textbf{Model} & \textbf{Inductance} & \textbf{Rated current} & \textbf{DC resistance}	\\ \hline
+ Würth Elektronik & 744042220 & 22$\mu$H & 0.88A & 0.3$\Omega$      \\ \hline
+
+\end{tabular}
+\caption{Inductor selected for the \textit{ADP5091} circuit}
+\label{tab:adp5091_inductor}
+\end{table}
+
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+ \textbf{Type} & \textbf{Manufacturer} & \textbf{Model} & \textbf{Capacitance} & \textbf{Rated voltage} & \textbf{Count}	\\ \hline
+Input & AVX & TAJA106M010RNJ  & 10$\mu$F & 10V & 1      \\ \hline
+Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 1      \\ \hline
+
+\end{tabular}
+\caption{Capacitors selected for the \textit{ADP5091} circuit}
+\label{tab:adp5091_capacitors}
+\end{table}
+
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Manufacturer} & \textbf{Model} & \textbf{Forward voltage ($I_f=500mA$)} & \textbf{Forward Current}\\ \hline
+ Nexperia & PMEG4005EJ & 0.42V & 0.5A      \\ \hline
+
+\end{tabular}
+\caption{Rectifier diodes selected for the \textit{ADP5091} circuit}
+\label{tab:adp5091_diodes}
+\end{table}
+
+\par
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.8]{adp5091_layout.png}
+\caption{The layout of \textit{ADP5091} based circuit}
+\label{fig:adp5091layout}
+\end{figure}
+
 \subsubsection{MAX17710}
 
 
@@ -774,11 +877,14 @@ Output & AVX & 12066C226MAT2A  & 22$\mu$F & 6.3V & 3      \\ \hline
 \label{fig:harvester3d}
 \end{figure}
 
+
+
 \clearpage
 
 \printbibliography
 
 %\bibliography{bibliography} 
 %\bibliographystyle{ieeetr}
+
 
 \end{document}
