@@ -375,7 +375,7 @@
 
   \entry{ltc3331_inductor_params}{manual}{}
     \list{organization}{1}{%
-      {COilcraft}%
+      {Coilcraft}%
     }
     \field{labeltitlesource}{title}
     \field{note}{Document 433}
@@ -420,6 +420,16 @@
     \field{note}{REV. 02}
     \field{title}{PMEGxx05EH/EJ series datasheet}
     \field{year}{Jan 2010}
+  \endentry
+
+  \entry{max17710_params}{manual}{}
+    \list{organization}{1}{%
+      {Maxim Integrated}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 2}
+    \field{title}{MAX17710 datasheet}
+    \field{year}{Dec 12}
   \endentry
 \enddatalist
 \endinput
