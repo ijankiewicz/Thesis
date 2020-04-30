@@ -959,7 +959,34 @@ The layout of the \textit{ADP5091}-based circuit in presented in the figure \ref
 \end{figure}
 \par
 \subsubsection{MAX17710}
-The last of selected devices is the \textit{MAX17710} by \textit{Maxim Integrated}. It is a complete system for charging and protecting small storage devices \cite{max17710_params}. The manufacturer claims that the device can handle generators with output levels as low as 1$\mu$W. The output of the regulator is based on the very low quiescent current LDO, which also incorporates overdischarge protection of the battery. 
+The last of selected devices is \textit{MAX17710} by \textit{Maxim Integrated}. It is a complete system for charging and protecting small storage devices \cite{max17710_params}. The manufacturer claims that the device can handle generators with output power levels as low as 1$\mu$W. The output of the regulator is based on the very low quiescent current LDO, which also incorporates overdischarge protection of the battery.
+\par
+
+The figure \ref{fig:max17710diagram} presents the most important features of the described device. In case of this design, only the low-dropout regulator would utilized according to the manufacturer's recommendations \cite{max17710_params}, thus the DC-DC Boost converter is not mentioned in the diagram. The input part looks similar to the one described in the section regarding \textit{ADP5091}. Due to the fact that \textit{MAX17710} requires DC voltage at the input, the full bridge rectifier  along with the storage capacitor are installed. The input power is used to charge the storage component, which could be both a rechargeable battery or a supercapacitor. Once there is a sufficient amount of charge stored, the LDO is able to source the output. The output voltage level can be adjusted according to the user's needs. In case the input charging voltage is higher than the allowed storage element voltage, the entire power is sourced to the LDO. Moreover,the device features the input overvoltage protection formed by a shunt diode. The storage component is also protected against over-discharge conditions \cite{max17710_params}. Some of the most important features  of the device are once again summarized in the Table \ref{tab:max17710_params}.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}	& \textbf{Value} 	\\ \hline
+Model  				& MAX17710       \\ \hline
+Manufacturer    	& Maxim Integrated	\\ \hline
+Maximum Input Voltage      &  5.3V  \\ \hline
+Quiescent current     &  626nA (during charging)\\ \hline
+Output current        &  up to 75mA			\\ \hline
+Selectable output voltages & from 1.8V to 3.3V\\ \hline
+Integrated rectifier 	&  No 		\\ \hline
+Over-voltage protection clamping current & up to 50mA \\ \hline
+Maximum Charging Current 	&  100mA 	\\ \hline
+\end{tabular}
+\caption{Most important features taken from the manufacturer's datasheet \cite{max17710_params}}
+\label{tab:max17710_params}
+\end{table}
+\par
+
+Similarly to other described integrated circuits, \textit{MAX17710} has significantly low quiescent current, what allows for energy harvesting using power sources with output capabilities as low as 1$\mu$W. Another interesting feature is the shunt input protection capable of clamping up to 50mA.
+\par
+
+\paragraph{Circuit design}
 
 \begin{figure}[ht!]
 \includegraphics[scale=1.2]{MAX17710.pdf}
