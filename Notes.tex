@@ -962,6 +962,12 @@ The layout of the \textit{ADP5091}-based circuit in presented in the figure \ref
 The last of selected devices is \textit{MAX17710} by \textit{Maxim Integrated}. It is a complete system for charging and protecting small storage devices \cite{max17710_params}. The manufacturer claims that the device can handle generators with output power levels as low as 1$\mu$W. The output of the regulator is based on the very low quiescent current LDO, which also incorporates overdischarge protection of the battery.
 \par
 
+\begin{figure}[ht!]
+\includegraphics[scale=1.2]{MAX17710.pdf}
+\caption{The diagram of \textit{MAX17710} based energy harvesting system}
+\label{fig:max17710diagram}
+\end{figure}
+
 The figure \ref{fig:max17710diagram} presents the most important features of the described device. In case of this design, only the low-dropout regulator would utilized according to the manufacturer's recommendations \cite{max17710_params}, thus the DC-DC Boost converter is not mentioned in the diagram. The input part looks similar to the one described in the section regarding \textit{ADP5091}. Due to the fact that \textit{MAX17710} requires DC voltage at the input, the full bridge rectifier  along with the storage capacitor are installed. The input power is used to charge the storage component, which could be both a rechargeable battery or a supercapacitor. Once there is a sufficient amount of charge stored, the LDO is able to source the output. The output voltage level can be adjusted according to the user's needs. In case the input charging voltage is higher than the allowed storage element voltage, the entire power is sourced to the LDO. Moreover,the device features the input overvoltage protection formed by a shunt diode. The storage component is also protected against over-discharge conditions \cite{max17710_params}. Some of the most important features  of the device are once again summarized in the Table \ref{tab:max17710_params}.
 
 \begin{table}[ht!]
@@ -987,22 +993,44 @@ Similarly to other described integrated circuits, \textit{MAX17710} has signific
 \par
 
 \paragraph{Circuit design}
-
-\begin{figure}[ht!]
-\includegraphics[scale=1.2]{MAX17710.pdf}
-\caption{The diagram of \textit{MAX17710} based energy harvesting system}
-\label{fig:max17710diagram}
-\end{figure}
-
+The following paragraph is describing the circuit design process. As usual, the manufacturer's datasheet \cite{max17710_params} would be a main reference. Due to the fact the DC-DC Boost converter functionality is not used in this design, the component selection would be greatly simplified. When it comes to picking capacitors for the input and output of the regulator, one should take on the charge input of the device that is tied directly to the power source. The manufacturer's advice is to use a 100nF capacitor to maintain the highest efficiency, but for better stability from a high voltage source, a 220nF one should be used instead \cite{max17710_params}. The output capacitance should be alt leat 1$\mu$F. The final choice is a 4.7$\mu$F to further smooth the output voltage. The Table \ref{tab:max17710_capacitors} present more details. 
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+ \textbf{Type} & \textbf{Manufacturer} & \textbf{Model} & \textbf{Capacitance} & \textbf{Rated voltage} & \textbf{Count}	\\ \hline
+Input & Würth Elektronik & 885012105002  & 220nF & 6.3V & 1      \\ \hline
+Output & Würth Elektronik & 885012106012  & 4.7$\mu$F & 10V & 1      \\ \hline
+\end{tabular}
+\caption{Capacitors selected for the \textit{MAX17710} circuit \cite{max17710_inputcapacitor}, \cite{max17710_outputcapacitor}}
+\label{tab:max17710_capacitors}
+\end{table}
 \par
+The full bridge rectifier placed at the input of \textit{MAX17710} consists of exactly the same diodes as those that have been used in the \textit{ADP5091}-based circuit. For more details, please refer to the Table \ref{tab:adp5091_diodes}.
+\par
+
+The layout of the designed circuit is presented in the Figure \ref{fig:max17710layout}. One should notice its simplicity, what by all means is a huge asset in case of IoT designs or other small-form factor applications. The same as in case of other described designs, a DIP switch is utilized to easily change the settings of the integrated circuit. This solution would surely help to evaluate the circuit properly.
 
 \begin{figure}[ht!]
 \includegraphics[scale=1.0]{max17710_layout.png}
 \caption{The layout of \textit{MAX17710} based circuit}
 \label{fig:max17710layout}
 \end{figure}
-
 \par
+
+\subsection{Selection of load circuits}
+An important part of the evaluation process is to provide proper load conditions for the harvester. By doing that, it is possible to find the maximum power point where the power source impedance matches the load, according to the maximum power transfer theorem.
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{batteryload.png}
+\caption{Li-ion battery and supercapacitors as a part of the load for energy harvesters}
+\label{fig:batteryload}
+\end{figure} 
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{activeload.png}
+\caption{A microcontroller node as an active load for energy harvesters}
+\label{fig:activeload}
+\end{figure}
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{harvester2.png}

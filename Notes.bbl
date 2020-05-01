@@ -431,5 +431,25 @@
     \field{title}{MAX17710 datasheet}
     \field{year}{Dec 12}
   \endentry
+
+  \entry{max17710_inputcapacitor}{manual}{}
+    \list{organization}{1}{%
+      {Würth Elektronik}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 1.0}
+    \field{title}{885012105002 datasheet}
+    \field{year}{Nov 14}
+  \endentry
+
+  \entry{max17710_outputcapacitor}{manual}{}
+    \list{organization}{1}{%
+      {Würth Elektronik}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{REV. 1.0}
+    \field{title}{885012106012 datasheet}
+    \field{year}{Nov 14}
+  \endentry
 \enddatalist
 \endinput
