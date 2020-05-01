@@ -1018,7 +1018,15 @@ The layout of the designed circuit is presented in the Figure \ref{fig:max17710l
 \par
 
 \subsection{Selection of load circuits}
-An important part of the evaluation process is to provide proper load conditions for the harvester. By doing that, it is possible to find the maximum power point where the power source impedance matches the load, according to the maximum power transfer theorem.
+An important part of the evaluation process is to provide proper load conditions for the harvester. By doing that, it is possible to find the maximum power point where the power source impedance matches the load, according to the maximum power transfer theorem \cite{mppt}.
+\par
+The designed harvester board allows to use a few energy harvesters that could be connected to different types of loads. 
+
+\subsubsection{Utilizing storage components as the non-linear load}
+Devices powered by energy harvesters usually require some kind of a storage element in order to maintain an uninterrupted power supply for its circuits in any conditions. Unfortunately, these components are not able to provide constant impedance. Moreover, it is often way too low to match the impedance of the power source.
+\par
+
+One way of dealing with this problem is to take advantage of application-specific integrated circuits described in the previous part of this thesis. Many of them are able to alter the impedance of the load seen from the power source's contacts.
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{batteryload.png}

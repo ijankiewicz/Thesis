@@ -451,5 +451,23 @@
     \field{title}{885012106012 datasheet}
     \field{year}{Nov 14}
   \endentry
+
+  \entry{mppt}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CKV}{%
+         family={Cartwright},
+         familyi={C\bibinitperiod},
+         given={Kenneth\bibnamedelima V.},
+         giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CKV1}
+    \strng{fullhash}{CKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Non-Calculus Derivation of the Maximum Power Transfer
+  Theorem}
+    \field{year}{2008}
+  \endentry
 \enddatalist
 \endinput
