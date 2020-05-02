@@ -201,15 +201,73 @@ There are some important issues related to any energy source that could be poten
 Vibration-based Energy Harvesting incorporates a number of different fields of study, i.e. material science, mechanics or electrical engineering, just to name a few. Last sentence implies that the analysis of a piezoelectric generator itself is not a straightforward process. The electromechanical response of this device relies thoroughly on the source of ambient energy \cite{EnHv2}.
 \par
 
-The concept of piezoelectric energy harvesting is strongly related to the improvement of electronics manufacturing technologies. Due to fact that most of devices are becoming more energy efficient, it allows to seek for potentially useful energy in solutions that have been neglected before. This perfectly applies to vibrational energy \cite{low_freq}. 
+The concept of piezoelectric energy harvesting is strongly related to the improvement of electronics manufacturing technologies. Due to fact that most of devices are becoming more energy efficient, it allows to seek for potentially useful energy in solutions that have been neglected before. This perfectly applies to vibrational energy \cite{low_freq}.
 
 \subsection{Piezoelectric material utilized in harvesters}
+Certain solid materials (ceramics or crystals) lacking inversion symmetry exhibits charge generation phenomena when an external force is applied to it. This phenomenon is called the piezoelectric effect and it was invented and firstly introduced by the brothers Pierre and Jacques Curie in 1880 \cite{cmos}.
+\subsubsection{Mathematical description of the piezoelectric effect}
+Describing properties of piezoelectric materials is not a straightforward task, especially when trying to provide only basic information regarding this topic. For mechanical problems, it is a common practise to use so-called constitutive equations to describe material's response to applied force. This approach can also be used for solving electrical problems.
+\begin{equation}
+	\underline{S} = \underline{s}^E \cdot \underline{T} + \underline{d}^t \cdot \underline{E}
+	\label{coupled1}
+\end{equation}
+
+\begin{equation}
+	\underline{D} = \underline{d} \cdot \underline{T} + \underline{\varepsilon}^T \cdot \underline{E}
+	\label{coupled2}
+\end{equation}
+
+\begin{equation}
+    \begin{bmatrix}
+S_{1}\\ 
+S_{2}\\ 
+S_{3}\\ 
+S_{4}\\ 
+S_{5}\\
+S_{6} 
+\end{bmatrix}
+=
+\begin{bmatrix}
+s_{11}^{E} & s_{12}^{E} & s_{13}^{E} & 0 & 0 & 0\\ 
+s_{12}^{E} & s_{11}^{E} & s_{13}^{E} & 0 & 0 & 0\\ 
+s_{13}^{E} & s_{13}^{E} & s_{33}^{E} & 0 & 0 & 0\\ 
+0 & 0 & 0 & s_{44}^{E} & 0 & 0\\ 
+0 & 0 & 0 & 0 & s_{44}^{E} & 0\\ 
+0 & 0 & 0 & 0 & 0 & 2(s_{11}^{E}-s_{12}^{E})
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+T_{1}\\ 
+T_{2}\\ 
+T_{3}\\ 
+T_{4}\\ 
+T_{5}\\
+T_{6} 
+\end{bmatrix}
++
+\begin{bmatrix}
+0 & 0 & d_{31}\\ 
+0 & 0 & d_{31}\\ 
+0 & 0 & d_{33}\\ 
+0 & d_{15} & 0\\ 
+d_{15} & 0 & 0\\ 
+0 & 0 & 0
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+E_1\\ 
+E_2\\ 
+E_3
+\end{bmatrix}
+    \label{pztequations}
+\end{equation}
+\subsubsection{Most popular piezoelectric materials for harvesting applications}
 Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different flavours, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed\cite{cmos}.
 \par
 
 As described in the previous paragraph, PZT has a number of different types that vary with electrical and electromechanical properties. The simplest division includes hard and soft types - PZH-5H and PZH-5A, respectively. Soft piezoceramics are more susceptible to changes caused by the stress. This is one of the aspects why PZH-5H is the most common choice for piezoelectric equipment. On the other hand, one of the biggest manufacturers of harvesters \cite{PPA} is mentioning that PZH-5A is more temperature stable. Nevertheless, PZH-5H remains the best choice in terms of performance versus price. 
 \par
-
+\subsubsection{Properties of piezoelectric materials}
 Properties of piezoelectic materials strongly depend on the direction of the stres and orientation of the polarization \cite{EnHv1}. It is characterized by the constants listed in the Table 
 
 \begin{figure}[ht!]
