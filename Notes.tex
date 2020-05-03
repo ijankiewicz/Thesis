@@ -216,7 +216,7 @@ Describing properties of piezoelectric materials is not a straightforward task, 
 \par
 Owing to the fact that piezoelectric materials are concerned with both mechanical and electrical properties, these must be considered simultaneously. By combining these areas together the so-called piezoelectric constitutive equations are introduced.
 \par
-The most common mechanical constitutive equation is known as Hooke's Law -see Equation \ref{eqn:hooke} \cite{piezomath}. 
+The most common mechanical constitutive equation is known as Hooke's Law -see Equation \ref{eqn:hooke} \cite{piezomath}. Please note that underlined symbols stand for vectors.
 \begin{equation}
 	\underline{S} = \underline{s}^E \cdot \underline{T}
 	\label{eqn:hooke}
@@ -228,7 +228,7 @@ where:
  	\underline{T} &  Mechanical Stress	
 \end{conditions}
 
-Since the electrical properties also need to be taken into account, a constitutive equation for common dielectrics is introduced.
+Since the electrical properties also need to be taken into account, a so-called dielectrics equation is introduced  \cite{cmos}.
 
 \begin{equation}
 	\underline{D} = \underline{\varepsilon}^T \cdot \underline{E}
@@ -240,9 +240,9 @@ where:
  	\underline{\varepsilon}^T    &  Dielectric Permittivity under zero or constant stress, \\   
  	\underline{E} &  Electrical Field	
 \end{conditions}
-Both of above-mentioned constitutive equations are now combined to create one coupled equation. This way, providing that mechanical properties of the piezoelectric material are known, it is possible to describe or model the harvester.
+Both of above-mentioned constitutive equations are now combined to create one coupled equation. This way, providing that mechanical properties of the piezoelectric material are known, it is possible to describe or model the harvester \cite{piezomath}. One should note the addition of coupling terms ($\underline{d}^t \cdot \underline{E}$ and $\underline{d} \cdot \underline{T}$) required for the proper analysis.
 \begin{equation}
-\label{coupled}
+\label{eq:coupled}
 \begin{aligned}
 	\underline{S} &= \underline{s}^E \cdot \underline{T} + \underline{d}^t \cdot \underline{E}\\
 	\underline{D} &= \underline{d} \cdot \underline{T} + \underline{\varepsilon}^T \cdot \underline{E}
@@ -253,9 +253,8 @@ where:
 \begin{conditions}
 	\underline{d}     &  Matrix for the direct and reversed piezoelectric effect,  \\
 		\underline{d}^t     &  Transposed Matrix for the direct and reversed piezoelectric effect 
-\
 \end{conditions}
-
+By taking Equation \ref{eq:coupled} into consideration, it is possible to come up with the detailed matrix notation for a standard PZT crystal, very similar to those used for energy harvesters - see Equation \ref{eq:pztmatrix} \cite{cmos}.
 \begin{equation}
 \begin{aligned}
 \begin{bmatrix}
@@ -333,11 +332,25 @@ E_1\\
 E_2\\ 
 E_3
 \end{bmatrix}
-    \label{pztequations}
+    \label{eq:pztmatrix}
 \end{aligned}
 \end{equation}
+
+Please note that the subscripts $1$, $2$, $3$ stand for the $x$, $y$ and $z$ axis, respectively. Due to the fact that strain and stress tensors are symmetrical, it possible to re-label subscripts using the Voigt notation. having said that, the subscripts look as follows: 11 $\rightarrow$ 1, 22 $\rightarrow$ 2, 33 $\rightarrow$ 3, 23 $\rightarrow$ 4, 13 $\rightarrow$ 5 and 12 $\rightarrow$ 6  \cite{cmos}. First three subscripts are related to forces applied perpendicular to cartesian coordinate system axes. The rest of them describe shear forces. This notation convention simplifies the matrix description of the piezoelectric structures. Once again, it is vital to highlight that the presented mathematical description of the piezoelectricity phenomena is by all means very superficial. 
+\par
+
+The coupling factor $d$ shows three possible modes applicable to piezoelectric beams related to its operation. Please not that $d_{15}$ is associated with the shear stress, therefore only $d_{31}$ and $d_{33}$ modes are to be taken info further consideration. For visualisation purposes, one should look at the Figure \ref{fig:piezo_modes}.
+\par
+
+\begin{figure}[ht!]
+\includegraphics[scale=1]{piezo_operation_modes.pdf}
+\caption{Operation modes of the piezoelectric element a)  $d_{33}$, b) $d_{31}$}
+\label{fig:piezo_modes}
+\end{figure}
+
+In the first presented mode ($d_{33}$), the stress acts in the same direction as the voltage appears - in both cases along the $z$ axis. When it comes to bending action, this mode is not the best description of what is happening in the crystal. Significantly better description is provided by $d_{31}$ mode, where the stress is applied to the $x$ axis and the voltage is induced in the $z$ axis \cite{cmos}. Bending process forces the beam to stretch and compress, what yields some potential across the electrodes. 
 \subsubsection{Most popular piezoelectric materials for harvesting applications}
-Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different flavours, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed\cite{cmos}.
+Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different flavours, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed \cite{cmos}.
 \par
 
 As described in the previous paragraph, PZT has a number of different types that vary with electrical and electromechanical properties. The simplest division includes hard and soft types - PZH-5H and PZH-5A, respectively. Soft piezoceramics are more susceptible to changes caused by the stress. This is one of the aspects why PZH-5H is the most common choice for piezoelectric equipment. On the other hand, one of the biggest manufacturers of harvesters \cite{PPA} is mentioning that PZH-5A is more temperature stable. Nevertheless, PZH-5H remains the best choice in terms of performance versus price. 
@@ -345,11 +358,7 @@ As described in the previous paragraph, PZT has a number of different types that
 \subsubsection{Properties of piezoelectric materials}
 Properties of piezoelectic materials strongly depend on the direction of the stres and orientation of the polarization \cite{EnHv1}. It is characterized by the constants listed in the Table 
 
-\begin{figure}[ht!]
-\includegraphics[scale=1]{piezo_operation_modes.pdf}
-\caption{Operation modes of the piezoelectric element}
-\label{fig:piezo_modes}
-\end{figure}
+
 
 \begin{figure}[ht!]
 \includegraphics[scale=1]{beam1.pdf}
