@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  2 MAY 2020 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.29)  3 MAY 2020 19:19
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -1926,30 +1926,30 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-29.
+34.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    ... okay on input line 134.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-29.
+34.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1993,7 +1993,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 134.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -2009,9 +2009,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count514
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
  (Notes.out) (Notes.out)
 \@outlinefile=\write7
 \openout7 = `Notes.out'.
@@ -2023,18 +2023,18 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 \c@lstlisting=\count515
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 129.
-Package gensymb Info: Math companion symbols declared on input line 129.
-LaTeX Info: Redefining \degree on input line 129.
-LaTeX Info: Redefining \celsius on input line 129.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 134.
+Package gensymb Info: Math companion symbols declared on input line 134.
+LaTeX Info: Redefining \degree on input line 134.
+LaTeX Info: Redefining \celsius on input line 134.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 129.
-LaTeX Info: Redefining \ohm on input line 129.
-Package gensymb Info: Using \textohm for \ohm on input line 129.
-LaTeX Info: Redefining \micro on input line 129.
-Package gensymb Info: Using \textmu for \micro on input line 129.
+erthousand on input line 134.
+LaTeX Info: Redefining \ohm on input line 134.
+Package gensymb Info: Using \textohm for \ohm on input line 134.
+LaTeX Info: Redefining \micro on input line 134.
+Package gensymb Info: Using \textmu for \micro on input line 134.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 129.
+LaTeX Info: Redefining \selectfont on input line 134.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -2046,8 +2046,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Notes.bbl' found.
  (Notes.bbl)
-Package biblatex Info: Reference section=0 on input line 129.
-Package biblatex Info: Reference segment=0 on input line 129.
+Package biblatex Info: Reference section=0 on input line 134.
+Package biblatex Info: Reference segment=0 on input line 134.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -2094,23 +2094,23 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-29.
+34.
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 <logo.jpg, id=174, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 133.
+Package pdftex.def Info: logo.jpg  used on input line 138.
 (pdftex.def)             Requested size: 199.16928pt x 199.16997pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
 
 [1
 
@@ -2119,27 +2119,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.166 \newpage\null\thispagestyle{empty}\newpage
+l.171 \newpage\null\thispagestyle{empty}\newpage
                                                  [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 167.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 172.
  (Notes.toc)
 \tf@toc=\write8
 \openout8 = `Notes.toc'.
 
  [2] [3]
 [4] [5]
-<piezo_operation_modes.pdf, id=266, 313.17pt x 216.81pt>
+<piezo_operation_modes.pdf, id=267, 313.17pt x 216.81pt>
 File: piezo_operation_modes.pdf Graphic file (type pdf)
 <use piezo_operation_modes.pdf>
-Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 274.
+Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 349.
 (pdftex.def)             Requested size: 313.16922pt x 216.80946pt.
-<beam1.pdf, id=267, 364.48169pt x 105.2733pt>
+ [6]
+<beam1.pdf, id=279, 364.48169pt x 105.2733pt>
 File: beam1.pdf Graphic file (type pdf)
 <use beam1.pdf>
-Package pdftex.def Info: beam1.pdf  used on input line 280.
+Package pdftex.def Info: beam1.pdf  used on input line 355.
 (pdftex.def)             Requested size: 364.48079pt x 105.27304pt.
- [6 <./piezo_operation_modes.pdf
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 368.
+<clamping.pdf, id=283, 529.98pt x 196.8153pt>
+File: clamping.pdf Graphic file (type pdf)
+<use clamping.pdf>
+Package pdftex.def Info: clamping.pdf  used on input line 390.
+(pdftex.def)             Requested size: 450.4851pt x 167.2938pt.
+ [7 <./piezo_operation_modes.pdf
 
 pdfTeX warning: pdflatex (file ./piezo_operation_modes.pdf): PDF inclusion: inv
 alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
@@ -2148,35 +2156,27 @@ alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 pdfTeX warning: pdflatex (file ./beam1.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 293.
-<clamping.pdf, id=320, 529.98pt x 196.8153pt>
-File: clamping.pdf Graphic file (type pdf)
-<use clamping.pdf>
-Package pdftex.def Info: clamping.pdf  used on input line 315.
-(pdftex.def)             Requested size: 450.4851pt x 167.2938pt.
- [7 <./clamping.pdf
+<tipmass.pdf, id=333, 178.7478pt x 198.7425pt>
+File: tipmass.pdf Graphic file (type pdf)
+<use tipmass.pdf>
+Package pdftex.def Info: tipmass.pdf  used on input line 402.
+(pdftex.def)             Requested size: 151.93633pt x 168.93192pt.
+ [8 <./clamping.pdf
 
 pdfTeX warning: pdflatex (file ./clamping.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
->]
-<tipmass.pdf, id=390, 178.7478pt x 198.7425pt>
-File: tipmass.pdf Graphic file (type pdf)
-<use tipmass.pdf>
-Package pdftex.def Info: tipmass.pdf  used on input line 327.
-(pdftex.def)             Requested size: 151.93633pt x 168.93192pt.
- [8 <./tipmass.pdf
+>] [9 <./tipmass.pdf
 
 pdfTeX warning: pdflatex (file ./tipmass.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<measurement_setup_overview.pdf, id=430, 543.95218pt x 204.765pt>
+<measurement_setup_overview.pdf, id=440, 543.95218pt x 204.765pt>
 File: measurement_setup_overview.pdf Graphic file (type pdf)
 <use measurement_setup_overview.pdf>
-Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 365
+Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 440
 .
 (pdftex.def)             Requested size: 435.16232pt x 163.8122pt.
- [9 <./measurement_setup_overview.pdf
+ [10 <./measurement_setup_overview.pdf
 
 pdfTeX warning: pdflatex (file ./measurement_setup_overview.pdf): PDF inclusion
 : invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
@@ -2185,170 +2185,170 @@ ed.
 
 pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<nyquist.pdf, id=458, 578.16pt x 433.62pt>
+<nyquist.pdf, id=469, 578.16pt x 433.62pt>
 File: nyquist.pdf Graphic file (type pdf)
 <use nyquist.pdf>
-Package pdftex.def Info: nyquist.pdf  used on input line 400.
+Package pdftex.def Info: nyquist.pdf  used on input line 475.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
-[10 <./nyquist.pdf>] [11] [12]
-<accel.pdf, id=491, 400.37581pt x 250.0542pt>
+[11 <./nyquist.pdf>] [12] [13]
+<accel.pdf, id=503, 400.37581pt x 250.0542pt>
 File: accel.pdf Graphic file (type pdf)
 <use accel.pdf>
-Package pdftex.def Info: accel.pdf  used on input line 490.
+Package pdftex.def Info: accel.pdf  used on input line 565.
 (pdftex.def)             Requested size: 400.37482pt x 250.05357pt.
-<accelerometer1.png, id=492, 734.745pt x 312.41719pt>
+<accelerometer1.png, id=504, 734.745pt x 312.41719pt>
 File: accelerometer1.png Graphic file (type png)
 <use accelerometer1.png>
-Package pdftex.def Info: accelerometer1.png  used on input line 496.
+Package pdftex.def Info: accelerometer1.png  used on input line 571.
 (pdftex.def)             Requested size: 440.85039pt x 187.45175pt.
-<accelerometer2.png, id=494, 591.71063pt x 301.125pt>
+<accelerometer2.png, id=506, 591.71063pt x 301.125pt>
 File: accelerometer2.png Graphic file (type png)
 <use accelerometer2.png>
-Package pdftex.def Info: accelerometer2.png  used on input line 502.
+Package pdftex.def Info: accelerometer2.png  used on input line 577.
 (pdftex.def)             Requested size: 414.19461pt x 210.78606pt.
- [13] [14 <./accel.pdf
+ [14 <./accel.pdf
 
 pdfTeX warning: pdflatex (file ./accel.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
-> <./accelerometer1.png>]
-<input1.pdf, id=588, 269.08528pt x 147.67169pt>
+> <./accelerometer1.png>] [15 <./accelerometer2.png>]
+<input1.pdf, id=599, 269.08528pt x 147.67169pt>
 File: input1.pdf Graphic file (type pdf)
 <use input1.pdf>
-Package pdftex.def Info: input1.pdf  used on input line 540.
+Package pdftex.def Info: input1.pdf  used on input line 615.
 (pdftex.def)             Requested size: 322.90073pt x 177.20514pt.
- [15 <./accelerometer2.png>] [16 <./input1.pdf
+ [16 <./input1.pdf
 
 pdfTeX warning: pdflatex (file ./input1.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >] [17]
-<input2.pdf, id=651, 280.1667pt x 163.57109pt>
+<input2.pdf, id=656, 280.1667pt x 163.57109pt>
 File: input2.pdf Graphic file (type pdf)
 <use input2.pdf>
-Package pdftex.def Info: input2.pdf  used on input line 631.
+Package pdftex.def Info: input2.pdf  used on input line 706.
 (pdftex.def)             Requested size: 336.19835pt x 196.2843pt.
- [18 <./input2.pdf
+ [18] [19 <./input2.pdf
 
 pdfTeX warning: pdflatex (file ./input2.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] [19]
-<architecture.pdf, id=695, 210.7875pt x 529.98pt>
+>] [20]
+<architecture.pdf, id=706, 210.7875pt x 529.98pt>
 File: architecture.pdf Graphic file (type pdf)
 <use architecture.pdf>
-Package pdftex.def Info: architecture.pdf  used on input line 702.
+Package pdftex.def Info: architecture.pdf  used on input line 777.
 (pdftex.def)             Requested size: 210.78699pt x 529.97868pt.
- [20] [21 <./architecture.pdf
+ [21 <./architecture.pdf
 
 pdfTeX warning: pdflatex (file ./architecture.pdf): PDF inclusion: invalid othe
 r resource which is no dict (key 'ProcSets', type <array>); ignored.
->]
-<logger.png, id=729, 505.89pt x 379.4175pt>
+>] [22]
+<logger.png, id=744, 505.89pt x 379.4175pt>
 File: logger.png Graphic file (type png)
 <use logger.png>
-Package pdftex.def Info: logger.png  used on input line 771.
+Package pdftex.def Info: logger.png  used on input line 846.
 (pdftex.def)             Requested size: 455.29678pt x 341.47258pt.
- [22] [23 <./logger.png>]
-<LTC3588.pdf, id=750, 218.7372pt x 110.3322pt>
+<LTC3588.pdf, id=747, 218.7372pt x 110.3322pt>
 File: LTC3588.pdf Graphic file (type pdf)
 <use LTC3588.pdf>
-Package pdftex.def Info: LTC3588.pdf  used on input line 786.
+Package pdftex.def Info: LTC3588.pdf  used on input line 861.
 (pdftex.def)             Requested size: 262.4833pt x 132.39795pt.
- [24 <./LTC3588.pdf
+ [23] [24 <./logger.png> <./LTC3588.pdf
 
 pdfTeX warning: pdflatex (file ./LTC3588.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<ltc3588_layout.png, id=795, 492.33937pt x 201.00093pt>
+<ltc3588_layout.png, id=801, 492.33937pt x 201.00093pt>
 File: ltc3588_layout.png Graphic file (type png)
 <use ltc3588_layout.png>
-Package pdftex.def Info: ltc3588_layout.png  used on input line 847.
+Package pdftex.def Info: ltc3588_layout.png  used on input line 922.
 (pdftex.def)             Requested size: 393.87201pt x 160.80095pt.
-<LTC3331.pdf, id=801, 319.1925pt x 184.77031pt>
+ [25]
+<LTC3331.pdf, id=817, 319.1925pt x 184.77031pt>
 File: LTC3331.pdf Graphic file (type pdf)
 <use LTC3331.pdf>
-Package pdftex.def Info: LTC3331.pdf  used on input line 858.
+Package pdftex.def Info: LTC3331.pdf  used on input line 933.
 (pdftex.def)             Requested size: 383.02907pt x 221.72325pt.
- [25 <./ltc3588_layout.png>] [26 <./LTC3331.pdf
+ [26 <./ltc3588_layout.png>] [27 <./LTC3331.pdf
 
 pdfTeX warning: pdflatex (file ./LTC3331.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<ltc3331_layout.png, id=870, 364.36125pt x 353.82187pt>
+<ltc3331_layout.png, id=881, 364.36125pt x 353.82187pt>
 File: ltc3331_layout.png Graphic file (type png)
 <use ltc3331_layout.png>
-Package pdftex.def Info: ltc3331_layout.png  used on input line 926.
+Package pdftex.def Info: ltc3331_layout.png  used on input line 1001.
 (pdftex.def)             Requested size: 291.48938pt x 283.05788pt.
- [27]
-<adp5091.pdf, id=881, 313.17pt x 153.6942pt>
+ [28]
+<adp5091.pdf, id=894, 313.17pt x 153.6942pt>
 File: adp5091.pdf Graphic file (type pdf)
 <use adp5091.pdf>
-Package pdftex.def Info: adp5091.pdf  used on input line 940.
+Package pdftex.def Info: adp5091.pdf  used on input line 1015.
 (pdftex.def)             Requested size: 375.8021pt x 184.43208pt.
- [28 <./ltc3331_layout.png>] [29 <./adp5091.pdf
+ [29 <./ltc3331_layout.png> <./adp5091.pdf
 
 pdfTeX warning: pdflatex (file ./adp5091.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<adp5091_layout.png, id=948, 523.20468pt x 190.46156pt>
+<adp5091_layout.png, id=952, 523.20468pt x 190.46156pt>
 File: adp5091_layout.png Graphic file (type png)
 <use adp5091_layout.png>
-Package pdftex.def Info: adp5091_layout.png  used on input line 1014.
+Package pdftex.def Info: adp5091_layout.png  used on input line 1089.
 (pdftex.def)             Requested size: 418.56432pt x 152.36943pt.
-<MAX17710.pdf, id=950, 313.17pt x 153.6942pt>
+ [30]
+<MAX17710.pdf, id=964, 313.17pt x 153.6942pt>
 File: MAX17710.pdf Graphic file (type pdf)
 <use MAX17710.pdf>
-Package pdftex.def Info: MAX17710.pdf  used on input line 1024.
+Package pdftex.def Info: MAX17710.pdf  used on input line 1099.
 (pdftex.def)             Requested size: 375.8021pt x 184.43208pt.
- [30 <./adp5091_layout.png>] [31 <./MAX17710.pdf
+ [31 <./adp5091_layout.png> <./MAX17710.pdf
 
 pdfTeX warning: pdflatex (file ./MAX17710.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
->]
-<max17710_layout.png, id=1016, 404.26031pt x 101.62968pt>
+>] [32]
+<max17710_layout.png, id=1029, 404.26031pt x 101.62968pt>
 File: max17710_layout.png Graphic file (type png)
 <use max17710_layout.png>
-Package pdftex.def Info: max17710_layout.png  used on input line 1072.
+Package pdftex.def Info: max17710_layout.png  used on input line 1147.
 (pdftex.def)             Requested size: 404.25932pt x 101.62943pt.
- [32 <./max17710_layout.png>]
-<batteryload.png, id=1028, 316.18124pt x 377.91188pt>
+<batteryload.png, id=1031, 316.18124pt x 377.91188pt>
 File: batteryload.png Graphic file (type png)
 <use batteryload.png>
-Package pdftex.def Info: batteryload.png  used on input line 1090.
+Package pdftex.def Info: batteryload.png  used on input line 1165.
 (pdftex.def)             Requested size: 237.13535pt x 283.43321pt.
-<activeload.png, id=1029, 386.94562pt x 303.38344pt>
+<activeload.png, id=1032, 386.94562pt x 303.38344pt>
 File: activeload.png Graphic file (type png)
 <use activeload.png>
-Package pdftex.def Info: activeload.png  used on input line 1096.
+Package pdftex.def Info: activeload.png  used on input line 1171.
 (pdftex.def)             Requested size: 290.2085pt x 227.53702pt.
-<harvester2.png, id=1030, 587.19376pt x 514.17094pt>
+<harvester2.png, id=1033, 587.19376pt x 514.17094pt>
 File: harvester2.png Graphic file (type png)
 <use harvester2.png>
-Package pdftex.def Info: harvester2.png  used on input line 1102.
+Package pdftex.def Info: harvester2.png  used on input line 1177.
 (pdftex.def)             Requested size: 440.39424pt x 385.62726pt.
- [33 <./batteryload.png> <./activeload.png>]
-[34 <./harvester2.png>] [35
+ [33 <./max17710_layout.png>] [34 <./batteryload.png> <./activeload.png>] [35 <
+./harvester2.png>] [36
 
-] [36]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1117.
+] [37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1192.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1192.
 
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: 3111C4A04362C3732C199A69C39B8B01;3267.
+(rerunfilecheck)             Checksum: 461889A947DD6166EB8F3F30DED6369F;3245.
 Package logreq Info: Writing requests to 'Notes.run.xml'.
 \openout1 = `Notes.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1192.
  ) 
 Here is how much of TeX's memory you used:
- 59023 strings out of 492484
- 1301000 string characters out of 3122053
- 1852701 words of memory out of 3000000
- 62334 multiletter control sequences out of 15000+200000
+ 59032 strings out of 492484
+ 1301194 string characters out of 3122053
+ 1856760 words of memory out of 3000000
+ 62340 multiletter control sequences out of 15000+200000
  561535 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,17n,102p,1469b,2859s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 74i,17n,102p,1469b,2857s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmex10.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
@@ -2366,9 +2366,9 @@ ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX
 eX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (37 pages, 2023218 bytes).
+Output written on Notes.pdf (38 pages, 2026676 bytes).
 PDF statistics:
- 1137 PDF objects out of 1200 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
+ 1148 PDF objects out of 1200 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
  474 words of extra memory for PDF output out of 10000 (max. 10000000)
 

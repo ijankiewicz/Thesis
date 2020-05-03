@@ -100,6 +100,26 @@
     \field{year}{2015}
   \endentry
 
+  \entry{piezomath}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SJLDV}{%
+         family={Shuxiang JieFang\bibnamedelima Li},
+         familyi={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+         given={Dwight\bibnamedelima Viehland},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJLDV1}
+    \strng{fullhash}{SJLDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Theory Analysis on Magnetoelectric Voltage Coefficients of
+  theTerfoneol-D/PZT Composite Transducer}
+    \field{month}{06}
+    \field{year}{2003}
+  \endentry
+
   \entry{PPA}{manual}{}
     \list{organization}{1}{%
       {Midé Technology}%

@@ -25,6 +25,11 @@
 \usepackage{ragged2e}
 \usepackage{titlesec}
 
+%Environment for listing equation parameters
+\newenvironment{conditions}
+  {\par\vspace{\abovedisplayskip}\noindent\begin{tabular}{>{$}l<{$} @{${}-{}$} l}}
+  {\end{tabular}\par\vspace{\belowdisplayskip}}
+
 
 % *** BIBLIOGRAPHY CONGIG *** $
 \usepackage[style=nature, backend=bibtex]{biblatex}
@@ -203,22 +208,57 @@ Vibration-based Energy Harvesting incorporates a number of different fields of s
 
 The concept of piezoelectric energy harvesting is strongly related to the improvement of electronics manufacturing technologies. Due to fact that most of devices are becoming more energy efficient, it allows to seek for potentially useful energy in solutions that have been neglected before. This perfectly applies to vibrational energy \cite{low_freq}.
 
-\subsection{Piezoelectric material utilized in harvesters}
-Certain solid materials (ceramics or crystals) lacking inversion symmetry exhibits charge generation phenomena when an external force is applied to it. This phenomenon is called the piezoelectric effect and it was invented and firstly introduced by the brothers Pierre and Jacques Curie in 1880 \cite{cmos}.
+\subsection{Piezoelectric materials}
+Certain solid materials (ceramics or crystals) lacking inversion symmetry exhibits charge generation phenomena when an external force is applied to it. This phenomenon is called the piezoelectric effect and it was invented and firstly introduced by the brothers Pierre and Jacques Curie in 1880 \cite{cmos}.\par
+Putting it simply, when a piezoelectric material is squeezed, an electric charge is collected in its surface. Conversely, the voltage drop across the piezoelectric material generates mechanical deformation. Piezoelectricity is related to a non-uniform charge distribution within crystal's unit cells. Due to deformation, positive and negative charges displace, generating an electric potential in the crystal, even though the overall the crystal itself remains electrically neutral \cite{EnHv2}.
 \subsubsection{Mathematical description of the piezoelectric effect}
-Describing properties of piezoelectric materials is not a straightforward task, especially when trying to provide only basic information regarding this topic. For mechanical problems, it is a common practise to use so-called constitutive equations to describe material's response to applied force. This approach can also be used for solving electrical problems.
+Describing properties of piezoelectric materials is not a straightforward task, especially when trying to provide only basic information regarding this topic. For mechanical problems, it is a common practise to use so-called constitutive equations to describe material's response to applied force. This approach can also be used for solving electrical problems \cite{piezomath}.
+\par
+Owing to the fact that piezoelectric materials are concerned with both mechanical and electrical properties, these must be considered simultaneously. By combining these areas together the so-called piezoelectric constitutive equations are introduced.
+\par
+The most common mechanical constitutive equation is known as Hooke's Law -see Equation \ref{eqn:hooke} \cite{piezomath}. 
 \begin{equation}
-	\underline{S} = \underline{s}^E \cdot \underline{T} + \underline{d}^t \cdot \underline{E}
-	\label{coupled1}
+	\underline{S} = \underline{s}^E \cdot \underline{T}
+	\label{eqn:hooke}
 \end{equation}
+where:
+\begin{conditions}
+	\underline{S}     &  Mechanical Strain, \\
+ 	\underline{s}^E     &  Stiffness or Compliance under zero or constant electrical field, \\   
+ 	\underline{T} &  Mechanical Stress	
+\end{conditions}
+
+Since the electrical properties also need to be taken into account, a constitutive equation for common dielectrics is introduced.
 
 \begin{equation}
-	\underline{D} = \underline{d} \cdot \underline{T} + \underline{\varepsilon}^T \cdot \underline{E}
-	\label{coupled2}
+	\underline{D} = \underline{\varepsilon}^T \cdot \underline{E}
+	\label{eqn:dielectrics}
+\end{equation}
+where:
+\begin{conditions}
+	\underline{D}     &  Charge Density or Electrical Displacement, \\
+ 	\underline{\varepsilon}^T    &  Dielectric Permittivity under zero or constant stress, \\   
+ 	\underline{E} &  Electrical Field	
+\end{conditions}
+Both of above-mentioned constitutive equations are now combined to create one coupled equation. This way, providing that mechanical properties of the piezoelectric material are known, it is possible to describe or model the harvester.
+\begin{equation}
+\label{coupled}
+\begin{aligned}
+	\underline{S} &= \underline{s}^E \cdot \underline{T} + \underline{d}^t \cdot \underline{E}\\
+	\underline{D} &= \underline{d} \cdot \underline{T} + \underline{\varepsilon}^T \cdot \underline{E}
+\end{aligned}
 \end{equation}
 
+where:
+\begin{conditions}
+	\underline{d}     &  Matrix for the direct and reversed piezoelectric effect,  \\
+		\underline{d}^t     &  Transposed Matrix for the direct and reversed piezoelectric effect 
+\
+\end{conditions}
+
 \begin{equation}
-    \begin{bmatrix}
+\begin{aligned}
+\begin{bmatrix}
 S_{1}\\ 
 S_{2}\\ 
 S_{3}\\ 
@@ -226,7 +266,7 @@ S_{4}\\
 S_{5}\\
 S_{6} 
 \end{bmatrix}
-=
+&=
 \begin{bmatrix}
 s_{11}^{E} & s_{12}^{E} & s_{13}^{E} & 0 & 0 & 0\\ 
 s_{12}^{E} & s_{11}^{E} & s_{13}^{E} & 0 & 0 & 0\\ 
@@ -259,7 +299,42 @@ E_1\\
 E_2\\ 
 E_3
 \end{bmatrix}
+\\
+\begin{bmatrix}
+D_{1}\\ 
+D_{2}\\ 
+D_{3} 
+ 
+\end{bmatrix}
+&=
+\begin{bmatrix}
+0 & 0 & 0 & 0 & d_{15} & 0\\ 
+0 & 0 & 0 & d_{15} & 0 & 0\\ 
+d_{31} & d_{31} & d_{33} & 0 & 0 & 0
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+T_{1}\\ 
+T_{2}\\ 
+T_{3}\\ 
+T_{4}\\ 
+T_{5}\\
+T_{6} 
+\end{bmatrix}
++
+\begin{bmatrix}
+\varepsilon_{11}^T & 0 & 0\\ 
+0 & \varepsilon_{11}^T & 0\\ 
+0 & 0 & \varepsilon_{33}^T
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+E_1\\ 
+E_2\\ 
+E_3
+\end{bmatrix}
     \label{pztequations}
+\end{aligned}
 \end{equation}
 \subsubsection{Most popular piezoelectric materials for harvesting applications}
 Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different flavours, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed\cite{cmos}.
