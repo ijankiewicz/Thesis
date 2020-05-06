@@ -29,14 +29,15 @@
 \BOOKMARK [4][-]{paragraph.3.3.3.4}{User interface}{subsubsection.3.3.3}% 29
 \BOOKMARK [4][-]{paragraph.3.3.3.5}{Connectivity}{subsubsection.3.3.3}% 30
 \BOOKMARK [1][-]{section.4}{Energy harvester}{}% 31
-\BOOKMARK [2][-]{subsection.4.1}{Energy harvesting integrated circuits}{section.4}% 32
-\BOOKMARK [3][-]{subsubsection.4.1.1}{LTC3588-1}{subsection.4.1}% 33
-\BOOKMARK [4][-]{paragraph.4.1.1.1}{Circuit design}{subsubsection.4.1.1}% 34
-\BOOKMARK [3][-]{subsubsection.4.1.2}{LTC3331}{subsection.4.1}% 35
-\BOOKMARK [4][-]{paragraph.4.1.2.1}{Circuit design}{subsubsection.4.1.2}% 36
-\BOOKMARK [3][-]{subsubsection.4.1.3}{ADP5091}{subsection.4.1}% 37
-\BOOKMARK [4][-]{paragraph.4.1.3.1}{Circuit design}{subsubsection.4.1.3}% 38
-\BOOKMARK [3][-]{subsubsection.4.1.4}{MAX17710}{subsection.4.1}% 39
-\BOOKMARK [4][-]{paragraph.4.1.4.1}{Circuit design}{subsubsection.4.1.4}% 40
-\BOOKMARK [2][-]{subsection.4.2}{Selection of load circuits}{section.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Utilizing storage components as the non-linear load}{subsection.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.1}{\200}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.2}{Energy harvesting integrated circuits}{section.4}% 33
+\BOOKMARK [3][-]{subsubsection.4.2.1}{LTC3588-1}{subsection.4.2}% 34
+\BOOKMARK [4][-]{paragraph.4.2.1.1}{Circuit design}{subsubsection.4.2.1}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.2}{LTC3331}{subsection.4.2}% 36
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{Circuit design}{subsubsection.4.2.2}% 37
+\BOOKMARK [3][-]{subsubsection.4.2.3}{ADP5091}{subsection.4.2}% 38
+\BOOKMARK [4][-]{paragraph.4.2.3.1}{Circuit design}{subsubsection.4.2.3}% 39
+\BOOKMARK [3][-]{subsubsection.4.2.4}{MAX17710}{subsection.4.2}% 40
+\BOOKMARK [4][-]{paragraph.4.2.4.1}{Circuit design}{subsubsection.4.2.4}% 41
+\BOOKMARK [2][-]{subsection.4.3}{Selection of load circuits}{section.4}% 42
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Utilizing storage components as the non-linear load}{subsection.4.3}% 43

@@ -858,7 +858,9 @@ Compatibility 	&  Windows 		\\ \hline
 \end{figure}
 
 \section{Energy harvester}
-The second aspect of this Master's project is to investigate the concept of vibrational energy harvesting. In order to do so, a proper power conditioning circuitry is to be provided.
+The second part of this Master's project is to investigate the concept of vibrational energy harvesting. In the following chapter, the entire design process of a few different energy harvesters would be provided. In addition to that, there would be a number of different load circuits.
+
+\subsection{•}
 
 \subsection{Energy harvesting integrated circuits}
 \subsubsection{LTC3588-1}
@@ -1168,7 +1170,59 @@ The designed harvester board allows to use a few energy harvesters that could be
 Devices powered by energy harvesters usually require some kind of a storage element in order to maintain an uninterrupted power supply for its circuits in any conditions. Unfortunately, these components are not able to provide constant impedance. Moreover, it is often way too low to match the impedance of the power source.
 \par
 
-One way of dealing with this problem is to take advantage of application-specific integrated circuits described in the previous part of this thesis. Many of them are able to alter the impedance of the load seen from the power source's contacts.
+One way of dealing with this problem is to take advantage of application-specific integrated circuits described in the previous part of this thesis. Many of them are able to alter the impedance of the load seen from the power source's contacts. This way, it would be possible to charge a battery or a supercapacitor without overloading the piezoelectric beam too much.\par
+Figure \ref{fig:batteryload} presents the layout of the printed circuit board including mentioned storage components. There is one lithium-polymer battery and two different supercapacitors. When it comes to the battery, it is exactly the same as the one utilized in the accelerometer board - for more details see Table \ref{tab:battery}.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}              & \textbf{Value} \\ \hline
+Manufacturer & Maxpower Idustrial          \\ \hline
+Model                 & Lipo511422        \\ \hline
+Capacity                & 110mAh         \\ \hline
+Nominal voltage     & 3.7V (1C)            \\ \hline
+Protection circuitry     & yes           \\ \hline
+\end{tabular}
+\caption{Parameters of the lithum-polymer battery indealled on the PCB \cite{battery_params} }
+\label{tab:battery}
+\end{table}
+
+Some of the devices, such as \textit{LTC331}, \textit{ADP5091} and \textit{MAX17710} provide dedicated battery chargers. The selected battery, due to its compact size and capacity that perfectly fits energy harvesting applications would be very helpful when evaluating the proposed design.
+\par
+Another mean of storage component proposed in the project is the supercapacitor. For the sake of this project, there would be two different components installed. The major differences between them include rated capacitance, nominal voltage and internal impedance. Supercapacitors are becoming increasingly popular in low power designs owing to durability, low price and small dimensions. On the other hand, these devices can provide a few problems, such as relatively low rated voltage or a need of using special supercapacitor chargers in most of the cases.
+\par
+
+The first of the selected capacitors is dedicated for energy harvesting applications. Its parameters are listed in the Table \ref{tab:supercap1}. It provides relatively large capacitance of 4.7F. Due to low internal resistance, it should not be charged directly by high output impedance sources, as it would cause severe impedance matching problems affecting the efficiency of energy transfer.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}              & \textbf{Value} \\ \hline
+Manufacturer & Samxon          \\ \hline
+Model                 & DRL475S0TG20RRASP \\ \hline
+Capacitance                & 4.7F         \\ \hline
+Nominal voltage     & 2.7V           \\ \hline
+Internal resistance ($\Omega$) at 1kHz     & 0.14$\Omega$ \\ \hline
+\end{tabular}
+\caption{Parameters of the first supercapacitor utilized as the load \cite{supercap2params} }
+\label{tab:supercap1}
+\end{table}
+
+The second of selected components is designed for low power energy storage with the focus on memory power backup and similar. Please see Table \ref{tab:supercap2} for more details. Even though the manufacturer does not mention 
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}              & \textbf{Value} \\ \hline
+Manufacturer & Elna          \\ \hline
+Model                 & DSK-3R3H224U-HL\\ \hline
+Capacitance                & 0.22F         \\ \hline
+Nominal voltage     & 3.3V           \\ \hline
+Internal resistance ($\Omega$) at 1kHz     & 200$\Omega$ \\ \hline
+\end{tabular}
+\caption{Parameters of the second supercapacitor utilized as the load \cite{supercap1params} }
+\label{tab:supercap2}
+\end{table}
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{batteryload.png}
@@ -1186,6 +1240,12 @@ One way of dealing with this problem is to take advantage of application-specifi
 \includegraphics[scale=0.75]{harvester2.png}
 \caption{Harvester board 3D model}
 \label{fig:harvester3d}
+\end{figure}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.17]{harvester.jpg}
+\caption{Assembled Harvester board}
+\label{fig:harvesterreal}
 \end{figure}
 
 

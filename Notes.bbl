@@ -489,5 +489,31 @@
   Theorem}
     \field{year}{2008}
   \endentry
+
+  \entry{battery_params}{manual}{}
+    \list{organization}{1}{%
+      {Maxpower Industrial Co., Ltd.}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{LiPo 511422 datasheet}
+  \endentry
+
+  \entry{supercap2params}{manual}{}
+    \list{organization}{1}{%
+      {Samxon}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{DRL series datasheet}
+  \endentry
+
+  \entry{supercap1params}{manual}{}
+    \list{organization}{1}{%
+      {Elna}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{Electric Double Layer Capacitor “DYNACAP” DS,DSK
+  datasheet}
+    \field{year}{2004}
+  \endentry
 \enddatalist
 \endinput
