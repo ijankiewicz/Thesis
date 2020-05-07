@@ -1173,6 +1173,12 @@ Devices powered by energy harvesters usually require some kind of a storage elem
 One way of dealing with this problem is to take advantage of application-specific integrated circuits described in the previous part of this thesis. Many of them are able to alter the impedance of the load seen from the power source's contacts. This way, it would be possible to charge a battery or a supercapacitor without overloading the piezoelectric beam too much.\par
 Figure \ref{fig:batteryload} presents the layout of the printed circuit board including mentioned storage components. There is one lithium-polymer battery and two different supercapacitors. When it comes to the battery, it is exactly the same as the one utilized in the accelerometer board - for more details see Table \ref{tab:battery}.
 
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{batteryload.png}
+\caption{Li-ion battery and supercapacitors as a part of the load for energy harvesters}
+\label{fig:batteryload}
+\end{figure} 
+
 \begin{table}[ht!]
 \begin{tabular}{|l|c|}
 \hline
@@ -1207,8 +1213,8 @@ Internal resistance ($\Omega$) at 1kHz     & 0.14$\Omega$ \\ \hline
 \caption{Parameters of the first supercapacitor utilized as the load \cite{supercap2params} }
 \label{tab:supercap1}
 \end{table}
-
-The second of selected components is designed for low power energy storage with the focus on memory power backup and similar. Please see Table \ref{tab:supercap2} for more details. Even though the manufacturer does not mention 
+\par
+The second of selected components is designed for low power energy storage with the focus on memory power backup and similar. Please see Table \ref{tab:supercap2} for more details. Even though the manufacturer does not mention energy harvesting as one of potential applications, the parameters of the component allow to assume that it would be a good fit. One should notice nominal voltage of the supercapacitor, that is a bit higher that 2.7V, making it more compatible with the harvesters utilized in this design. The internal resistance, though significantly higher than in the previous case, still is way lower then the output impedance of the power source, therefore its performance is expected to be similar. 
 
 \begin{table}[ht!]
 \begin{tabular}{|l|c|}
@@ -1223,13 +1229,12 @@ Internal resistance ($\Omega$) at 1kHz     & 200$\Omega$ \\ \hline
 \caption{Parameters of the second supercapacitor utilized as the load \cite{supercap1params} }
 \label{tab:supercap2}
 \end{table}
+\par
 
-\begin{figure}[ht!]
-\includegraphics[scale=0.75]{batteryload.png}
-\caption{Li-ion battery and supercapacitors as a part of the load for energy harvesters}
-\label{fig:batteryload}
-\end{figure} 
+In addition to the above-mentioned features, the harvester board also allows to connect a custom load. In order to do so, the screw terminal has to be used - see the left bottom corner in the Figure \ref{fig:batteryload}. This way, it is easy to use a decade resistance box for proper impedance matching, thus maximizing the power transfer.
 
+\subsection{Microprocessor node as the active load}
+Most of the times, energy harvesting are intended to power low power electronics systems in order to make them energy self-sufficient. Having said that, one should consider this subsection as the reference point when analyzing the usefulness of piezoelectric energy harvesters as power sources for small microprocessor systems. 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{activeload.png}
 \caption{A microcontroller node as an active load for energy harvesters}
@@ -1242,10 +1247,24 @@ Internal resistance ($\Omega$) at 1kHz     & 200$\Omega$ \\ \hline
 \label{fig:harvester3d}
 \end{figure}
 
+\section{Hardware assembly, testing and calibration}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.17]{logger.jpg}
+\caption{Assembled Data Acquisition board}
+\label{fig:loggerreal}
+\end{figure}
+
 \begin{figure}[ht!]
 \includegraphics[scale=0.17]{harvester.jpg}
 \caption{Assembled Harvester board}
 \label{fig:harvesterreal}
+\end{figure}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.17]{assembled.jpg}
+\caption{Assembled set of PCBs}
+\label{fig:assembled}
 \end{figure}
 
 
