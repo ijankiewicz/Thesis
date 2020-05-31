@@ -25,26 +25,27 @@
 \contentsline {paragraph}{\numberline {3.3.1.3}Signal conditioning}{19}{paragraph.3.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.3.2}Voltage reference}{21}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Microprocessor selection}{22}{subsubsection.3.3.3}%
-\contentsline {paragraph}{\numberline {3.3.3.1}Architecture}{22}{paragraph.3.3.3.1}%
+\contentsline {paragraph}{\numberline {3.3.3.1}Architecture}{23}{paragraph.3.3.3.1}%
 \contentsline {paragraph}{\numberline {3.3.3.2}ADC}{23}{paragraph.3.3.3.2}%
-\contentsline {paragraph}{\numberline {3.3.3.3}External voltage reference}{23}{paragraph.3.3.3.3}%
-\contentsline {paragraph}{\numberline {3.3.3.4}User interface}{23}{paragraph.3.3.3.4}%
-\contentsline {paragraph}{\numberline {3.3.3.5}Connectivity}{24}{paragraph.3.3.3.5}%
-\contentsline {section}{\numberline {4}Energy harvester}{25}{section.4}%
-\contentsline {subsection}{\numberline {4.1}•}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Energy harvesting integrated circuits}{26}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}LTC3588-1}{26}{subsubsection.4.2.1}%
+\contentsline {paragraph}{\numberline {3.3.3.3}External voltage reference}{24}{paragraph.3.3.3.3}%
+\contentsline {paragraph}{\numberline {3.3.3.4}User interface}{25}{paragraph.3.3.3.4}%
+\contentsline {paragraph}{\numberline {3.3.3.5}Connectivity}{25}{paragraph.3.3.3.5}%
+\contentsline {section}{\numberline {4}Energy harvester}{26}{section.4}%
+\contentsline {subsection}{\numberline {4.1}•}{27}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Energy harvesting integrated circuits}{27}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}LTC3588-1}{27}{subsubsection.4.2.1}%
 \contentsline {paragraph}{\numberline {4.2.1.1}Circuit design}{27}{paragraph.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}LTC3331}{28}{subsubsection.4.2.2}%
-\contentsline {paragraph}{\numberline {4.2.2.1}Circuit design}{29}{paragraph.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.3}ADP5091}{31}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2}LTC3331}{29}{subsubsection.4.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1}Circuit design}{30}{paragraph.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.3}ADP5091}{32}{subsubsection.4.2.3}%
 \contentsline {paragraph}{\numberline {4.2.3.1}Circuit design}{32}{paragraph.4.2.3.1}%
-\contentsline {subsubsection}{\numberline {4.2.4}MAX17710}{33}{subsubsection.4.2.4}%
-\contentsline {paragraph}{\numberline {4.2.4.1}Circuit design}{34}{paragraph.4.2.4.1}%
-\contentsline {subsection}{\numberline {4.3}Selection of load circuits}{35}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Utilizing storage components as the non-linear load}{35}{subsubsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.4}Microprocessor node as the active load}{37}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Hardware assembly, testing and calibration}{37}{section.5}%
-\contentsline {section}{\numberline {6}Laboratory tests and result analysis}{37}{section.6}%
+\contentsline {subsubsection}{\numberline {4.2.4}MAX17710}{34}{subsubsection.4.2.4}%
+\contentsline {paragraph}{\numberline {4.2.4.1}Circuit design}{35}{paragraph.4.2.4.1}%
+\contentsline {subsection}{\numberline {4.3}Selection of load circuits}{36}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Utilizing storage components as the non-linear load}{36}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Microprocessor node as the active load}{38}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Hardware assembly, testing and calibration}{38}{section.5}%
+\contentsline {section}{\numberline {6}Laboratory tests and result analysis}{38}{section.6}%
 \contentsline {subsection}{\numberline {6.1}The measurement setup}{39}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Analysis of captured data}{40}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Assumptions}{40}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Analysis of captured data}{41}{subsection.6.3}%
