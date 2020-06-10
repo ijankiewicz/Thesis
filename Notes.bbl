@@ -253,6 +253,16 @@
     \field{year}{May 2012}
   \endentry
 
+  \entry{opa4180_params}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instruments}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{SBOS584E}
+    \field{title}{OPAx180 datasheet}
+    \field{year}{Jun 2018}
+  \endentry
+
   \entry{housekeeping}{book}{}
     \name{author}{1}{}{%
       {{hash=KW}{%
@@ -271,6 +281,35 @@
     \field{labeltitlesource}{title}
     \field{title}{Mixed-Signal Hardware and Housekeeping Techniques}
     \field{year}{2006}
+  \endentry
+
+  \entry{resistors}{manual}{}
+    \list{organization}{1}{%
+      {TT Electrinics}%
+    }
+    \field{labeltitlesource}{title}
+    \field{title}{Precision Thin Film Nichrome Chip Resistors}
+    \field{year}{July 19}
+  \endentry
+
+  \entry{ina159_params}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instruments}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{SBOS443}
+    \field{title}{INA159 datasheet}
+    \field{year}{Nov 2008}
+  \endentry
+
+  \entry{mosfet_params}{manual}{}
+    \list{organization}{1}{%
+      {ON Semiconductor}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{Rev. 9}
+    \field{title}{NTJD5121NT1G datasheet}
+    \field{year}{May 2019}
   \endentry
 
   \entry{ref5030_params}{manual}{}

@@ -21,29 +21,34 @@
 \BOOKMARK [4][-]{paragraph.3.3.1.1}{Input protection}{subsubsection.3.3.1}% 21
 \BOOKMARK [4][-]{paragraph.3.3.1.2}{Buffering}{subsubsection.3.3.1}% 22
 \BOOKMARK [4][-]{paragraph.3.3.1.3}{Signal conditioning}{subsubsection.3.3.1}% 23
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Voltage reference}{subsection.3.3}% 24
-\BOOKMARK [3][-]{subsubsection.3.3.3}{Microprocessor selection}{subsection.3.3}% 25
-\BOOKMARK [4][-]{paragraph.3.3.3.1}{Architecture}{subsubsection.3.3.3}% 26
-\BOOKMARK [4][-]{paragraph.3.3.3.2}{ADC}{subsubsection.3.3.3}% 27
-\BOOKMARK [4][-]{paragraph.3.3.3.3}{External voltage reference}{subsubsection.3.3.3}% 28
-\BOOKMARK [4][-]{paragraph.3.3.3.4}{User interface}{subsubsection.3.3.3}% 29
-\BOOKMARK [4][-]{paragraph.3.3.3.5}{Connectivity}{subsubsection.3.3.3}% 30
-\BOOKMARK [1][-]{section.4}{Energy harvester}{}% 31
-\BOOKMARK [2][-]{subsection.4.1}{\200}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.2}{Energy harvesting integrated circuits}{section.4}% 33
-\BOOKMARK [3][-]{subsubsection.4.2.1}{LTC3588-1}{subsection.4.2}% 34
-\BOOKMARK [4][-]{paragraph.4.2.1.1}{Circuit design}{subsubsection.4.2.1}% 35
-\BOOKMARK [3][-]{subsubsection.4.2.2}{LTC3331}{subsection.4.2}% 36
-\BOOKMARK [4][-]{paragraph.4.2.2.1}{Circuit design}{subsubsection.4.2.2}% 37
-\BOOKMARK [3][-]{subsubsection.4.2.3}{ADP5091}{subsection.4.2}% 38
-\BOOKMARK [4][-]{paragraph.4.2.3.1}{Circuit design}{subsubsection.4.2.3}% 39
-\BOOKMARK [3][-]{subsubsection.4.2.4}{MAX17710}{subsection.4.2}% 40
-\BOOKMARK [4][-]{paragraph.4.2.4.1}{Circuit design}{subsubsection.4.2.4}% 41
-\BOOKMARK [2][-]{subsection.4.3}{Selection of load circuits}{section.4}% 42
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Utilizing storage components as the non-linear load}{subsection.4.3}% 43
-\BOOKMARK [2][-]{subsection.4.4}{Microprocessor node as the active load}{section.4}% 44
-\BOOKMARK [1][-]{section.5}{Hardware assembly, testing and calibration}{}% 45
-\BOOKMARK [1][-]{section.6}{Laboratory tests and result analysis}{}% 46
-\BOOKMARK [2][-]{subsection.6.1}{The measurement setup}{section.6}% 47
-\BOOKMARK [2][-]{subsection.6.2}{Assumptions}{section.6}% 48
-\BOOKMARK [2][-]{subsection.6.3}{Analysis of captured data}{section.6}% 49
+\BOOKMARK [3][-]{subsubsection.3.3.2}{DC channels section}{subsection.3.3}% 24
+\BOOKMARK [4][-]{paragraph.3.3.2.1}{Input protection}{subsubsection.3.3.2}% 25
+\BOOKMARK [4][-]{paragraph.3.3.2.2}{Bufering}{subsubsection.3.3.2}% 26
+\BOOKMARK [4][-]{paragraph.3.3.2.3}{Signal Conditioning}{subsubsection.3.3.2}% 27
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Anti-aliasing filter}{subsection.3.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Voltage reference}{subsection.3.3}% 29
+\BOOKMARK [3][-]{subsubsection.3.3.5}{Microprocessor selection}{subsection.3.3}% 30
+\BOOKMARK [4][-]{paragraph.3.3.5.1}{Architecture}{subsubsection.3.3.5}% 31
+\BOOKMARK [4][-]{paragraph.3.3.5.2}{ADC}{subsubsection.3.3.5}% 32
+\BOOKMARK [4][-]{paragraph.3.3.5.3}{External voltage reference}{subsubsection.3.3.5}% 33
+\BOOKMARK [4][-]{paragraph.3.3.5.4}{User interface}{subsubsection.3.3.5}% 34
+\BOOKMARK [4][-]{paragraph.3.3.5.5}{Connectivity}{subsubsection.3.3.5}% 35
+\BOOKMARK [1][-]{section.4}{Energy harvester}{}% 36
+\BOOKMARK [2][-]{subsection.4.1}{\200}{section.4}% 37
+\BOOKMARK [2][-]{subsection.4.2}{Energy harvesting integrated circuits}{section.4}% 38
+\BOOKMARK [3][-]{subsubsection.4.2.1}{LTC3588-1}{subsection.4.2}% 39
+\BOOKMARK [4][-]{paragraph.4.2.1.1}{Circuit design}{subsubsection.4.2.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.2}{LTC3331}{subsection.4.2}% 41
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{Circuit design}{subsubsection.4.2.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.2.3}{ADP5091}{subsection.4.2}% 43
+\BOOKMARK [4][-]{paragraph.4.2.3.1}{Circuit design}{subsubsection.4.2.3}% 44
+\BOOKMARK [3][-]{subsubsection.4.2.4}{MAX17710}{subsection.4.2}% 45
+\BOOKMARK [4][-]{paragraph.4.2.4.1}{Circuit design}{subsubsection.4.2.4}% 46
+\BOOKMARK [2][-]{subsection.4.3}{Selection of load circuits}{section.4}% 47
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Utilizing storage components as the non-linear load}{subsection.4.3}% 48
+\BOOKMARK [2][-]{subsection.4.4}{Microprocessor node as the active load}{section.4}% 49
+\BOOKMARK [1][-]{section.5}{Hardware assembly, testing and calibration}{}% 50
+\BOOKMARK [1][-]{section.6}{Laboratory tests and result analysis}{}% 51
+\BOOKMARK [2][-]{subsection.6.1}{The measurement setup}{section.6}% 52
+\BOOKMARK [2][-]{subsection.6.2}{Assumptions}{section.6}% 53
+\BOOKMARK [2][-]{subsection.6.3}{Analysis of captured data}{section.6}% 54
