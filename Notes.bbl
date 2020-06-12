@@ -312,6 +312,27 @@
     \field{year}{May 2019}
   \endentry
 
+  \entry{antialiasing}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BBC}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Bonnie\bibnamedelima C.},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Texas Instruments}%
+    }
+    \strng{namehash}{BBC1}
+    \strng{fullhash}{BBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Designing an anti-aliasing filter for ADCs in the frequency
+  domain}
+    \field{year}{2015}
+  \endentry
+
   \entry{ref5030_params}{manual}{}
     \list{organization}{1}{%
       {Texas Instruments}%

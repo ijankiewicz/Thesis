@@ -756,13 +756,51 @@ Protection diodes are placed on the output of the circuit, as it is connected to
 \par
 
 \subsubsection{Anti-aliasing filter}
-Anti-aliasing filters are utilized to restrict the bandwidth of the input signal.
+Anti-aliasing filters (AAFs) are utilized to restrict the bandwidth of the input signal. By placing the filter before the analog-to-digital converter, it is possible to remove high frequency noise and unwanted signals \cite{antialiasing}.\par
+
+There are a few things that need to be taken info account when designing the AAF. The most important one is the bandwidth of the signal that should pass the filter undistorted. This information was already stated in the Table \ref{tab:requirements}, so the maximum signal frequency is 500Hz. The second aspect of the filter design relates to its topology and order. Obviously, the higher order of the filter, the more complicated it is, therefore the design process should be a trade-off between the performance of the circuit and the complexity. By taking these aspects into account, it was decided to use the 2nd order Sallen-Key low-pass filter, as it combines decent performance with structure simplicity. Its topology is presented in the Figure \ref{fig:input4}.
+\par
 
 \begin{figure}[ht!]
 \includegraphics[scale=1.2]{input4.pdf}
-\caption{A circuit responsible for attenuation and level shifting}
+\caption{Anti-aliasing filter topology}
 \label{fig:input4}
 \end{figure}
+
+Some literature \cite{antialiasing} mention that the cut-off frequency $f_c$ of the filter should be at least ten times higher than the signal frequency. Please note that square signals of 500Hz would require wider bandwidth than sine signals in order not to disturb sharp edges of the signal. Owing to this fact the cut-off frequency of the filter is going to be set at around 30kHz.\par
+
+By selecting the same values for both $R_1$ and $R_2$ as well as $C_1$ and $C_2$, the formula for the cuf-off frequency $f_c$ looks as follows:
+
+\begin{equation}
+    f_{c} = \frac{1}{2\cdot \pi \cdot R\cdot C}
+    \label{cutoff}
+\end{equation}
+
+Another important parameter associated with the fiter is its magnification factor $Q$:
+
+\begin{equation}
+    Q = \frac{1}{3 - A}
+    \label{factro}
+\end{equation}
+where:
+\begin{conditions}
+	A     &  Voltage gain (for unity gain buffer A = 1) \\
+\end{conditions}
+
+By solving the above-mentioned equations, the following values are obtained:
+
+\begin{align}
+\nonumber  f_c & =\frac{1}{2\cdot \pi \cdot R\cdot C}
+\\ \nonumber & = \frac{1}{2\cdot \pi \cdot 2.2k \Omega\cdot 2.2nF}
+\\ \nonumber & = 32.833kHz
+\end{align}
+
+\begin{align}
+\nonumber  Q & =\frac{1}{3 - A}
+\\ \nonumber & = \frac{1}{3 - 2}
+\\ \nonumber & = 0.5
+\end{align}
+
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.8]{sallenresponse.pdf}

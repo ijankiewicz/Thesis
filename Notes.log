@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.14)  11 JUN 2020 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.14)  12 JUN 2020 13:43
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -2240,157 +2240,157 @@ File: input3.pdf Graphic file (type pdf)
 <use input3.pdf>
 Package pdftex.def Info: input3.pdf  used on input line 752.
 (pdftex.def)             Requested size: 398.6393pt x 246.87305pt.
-<input4.pdf, id=799, 334.3692pt x 144.54pt>
-File: input4.pdf Graphic file (type pdf)
-<use input4.pdf>
-Package pdftex.def Info: input4.pdf  used on input line 762.
-(pdftex.def)             Requested size: 401.24103pt x 173.4471pt.
-
-
-pdfTeX warning: pdflatex (file ./sallenresponse.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-<sallenresponse.pdf, id=800, 578.16pt x 325.215pt>
-File: sallenresponse.pdf Graphic file (type pdf)
-<use sallenresponse.pdf>
-Package pdftex.def Info: sallenresponse.pdf  used on input line 768.
-(pdftex.def)             Requested size: 462.52863pt x 260.17235pt.
-
-Overfull \hbox (7.28452pt too wide) in paragraph at lines 768--769
- [][] 
- []
-
-[22 <./input3.pdf
+ [22 <./input3.pdf
 
 pdfTeX warning: pdflatex (file ./input3.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
->] [23 <./input4.pdf
+>]
+<input4.pdf, id=838, 334.3692pt x 144.54pt>
+File: input4.pdf Graphic file (type pdf)
+<use input4.pdf>
+Package pdftex.def Info: input4.pdf  used on input line 765.
+(pdftex.def)             Requested size: 401.24103pt x 173.4471pt.
+ [23 <./input4.pdf
 
 pdfTeX warning: pdflatex (file ./input4.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
-> <./sallenresponse.pdf>]
-<architecture.pdf, id=889, 210.7875pt x 529.98pt>
+>]
+
+pdfTeX warning: pdflatex (file ./sallenresponse.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<sallenresponse.pdf, id=881, 578.16pt x 325.215pt>
+File: sallenresponse.pdf Graphic file (type pdf)
+<use sallenresponse.pdf>
+Package pdftex.def Info: sallenresponse.pdf  used on input line 806.
+(pdftex.def)             Requested size: 462.52863pt x 260.17235pt.
+
+Overfull \hbox (7.28452pt too wide) in paragraph at lines 806--807
+ [][] 
+ []
+
+[24 <./sallenresponse.pdf>] [25]
+<architecture.pdf, id=909, 210.7875pt x 529.98pt>
 File: architecture.pdf Graphic file (type pdf)
 <use architecture.pdf>
-Package pdftex.def Info: architecture.pdf  used on input line 839.
+Package pdftex.def Info: architecture.pdf  used on input line 877.
 (pdftex.def)             Requested size: 210.78699pt x 529.97868pt.
- [24] [25] [26 <./architecture.pdf
+ [26] [27 <./architecture.pdf
 
 pdfTeX warning: pdflatex (file ./architecture.pdf): PDF inclusion: invalid othe
 r resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<logger.png, id=932, 505.89pt x 379.4175pt>
+<logger.png, id=943, 505.89pt x 379.4175pt>
 File: logger.png Graphic file (type png)
 <use logger.png>
-Package pdftex.def Info: logger.png  used on input line 908.
+Package pdftex.def Info: logger.png  used on input line 946.
 (pdftex.def)             Requested size: 455.29678pt x 341.47258pt.
- [27]
+ [28]
 LaTeX Font Info:    Font shape `TS1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `TS1/ptm/b/it' tried instead on input line 916.
-<LTC3588.pdf, id=945, 218.7372pt x 110.3322pt>
+(Font)              Font shape `TS1/ptm/b/it' tried instead on input line 954.
+<LTC3588.pdf, id=956, 218.7372pt x 110.3322pt>
 File: LTC3588.pdf Graphic file (type pdf)
 <use LTC3588.pdf>
-Package pdftex.def Info: LTC3588.pdf  used on input line 925.
+Package pdftex.def Info: LTC3588.pdf  used on input line 963.
 (pdftex.def)             Requested size: 262.4833pt x 132.39795pt.
- [28 <./logger.png>] [29 <./LTC3588.pdf
+ [29 <./logger.png>] [30 <./LTC3588.pdf
 
 pdfTeX warning: pdflatex (file ./LTC3588.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<ltc3588_layout.png, id=996, 492.33937pt x 201.00093pt>
+<ltc3588_layout.png, id=1011, 492.33937pt x 201.00093pt>
 File: ltc3588_layout.png Graphic file (type png)
 <use ltc3588_layout.png>
-Package pdftex.def Info: ltc3588_layout.png  used on input line 986.
+Package pdftex.def Info: ltc3588_layout.png  used on input line 1024.
 (pdftex.def)             Requested size: 393.87201pt x 160.80095pt.
-<LTC3331.pdf, id=1002, 319.1925pt x 184.77031pt>
+<LTC3331.pdf, id=1017, 319.1925pt x 184.77031pt>
 File: LTC3331.pdf Graphic file (type pdf)
 <use LTC3331.pdf>
-Package pdftex.def Info: LTC3331.pdf  used on input line 997.
+Package pdftex.def Info: LTC3331.pdf  used on input line 1035.
 (pdftex.def)             Requested size: 383.02907pt x 221.72325pt.
- [30 <./ltc3588_layout.png>] [31 <./LTC3331.pdf
+ [31 <./ltc3588_layout.png>] [32 <./LTC3331.pdf
 
 pdfTeX warning: pdflatex (file ./LTC3331.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<ltc3331_layout.png, id=1071, 364.36125pt x 353.82187pt>
+<ltc3331_layout.png, id=1082, 364.36125pt x 353.82187pt>
 File: ltc3331_layout.png Graphic file (type png)
 <use ltc3331_layout.png>
-Package pdftex.def Info: ltc3331_layout.png  used on input line 1065.
+Package pdftex.def Info: ltc3331_layout.png  used on input line 1103.
 (pdftex.def)             Requested size: 291.48938pt x 283.05788pt.
- [32]
-<adp5091.pdf, id=1083, 313.17pt x 153.6942pt>
+ [33]
+<adp5091.pdf, id=1095, 313.17pt x 153.6942pt>
 File: adp5091.pdf Graphic file (type pdf)
 <use adp5091.pdf>
-Package pdftex.def Info: adp5091.pdf  used on input line 1079.
+Package pdftex.def Info: adp5091.pdf  used on input line 1117.
 (pdftex.def)             Requested size: 375.8021pt x 184.43208pt.
- [33 <./ltc3331_layout.png>] [34 <./adp5091.pdf
+ [34 <./ltc3331_layout.png>] [35 <./adp5091.pdf
 
 pdfTeX warning: pdflatex (file ./adp5091.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<adp5091_layout.png, id=1150, 523.20468pt x 190.46156pt>
+<adp5091_layout.png, id=1161, 523.20468pt x 190.46156pt>
 File: adp5091_layout.png Graphic file (type png)
 <use adp5091_layout.png>
-Package pdftex.def Info: adp5091_layout.png  used on input line 1153.
+Package pdftex.def Info: adp5091_layout.png  used on input line 1191.
 (pdftex.def)             Requested size: 418.56432pt x 152.36943pt.
-<MAX17710.pdf, id=1152, 313.17pt x 153.6942pt>
+<MAX17710.pdf, id=1163, 313.17pt x 153.6942pt>
 File: MAX17710.pdf Graphic file (type pdf)
 <use MAX17710.pdf>
-Package pdftex.def Info: MAX17710.pdf  used on input line 1163.
+Package pdftex.def Info: MAX17710.pdf  used on input line 1201.
 (pdftex.def)             Requested size: 375.8021pt x 184.43208pt.
- [35 <./adp5091_layout.png>] [36 <./MAX17710.pdf
+ [36 <./adp5091_layout.png>] [37 <./MAX17710.pdf
 
 pdfTeX warning: pdflatex (file ./MAX17710.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<max17710_layout.png, id=1218, 404.26031pt x 101.62968pt>
+<max17710_layout.png, id=1229, 404.26031pt x 101.62968pt>
 File: max17710_layout.png Graphic file (type png)
 <use max17710_layout.png>
-Package pdftex.def Info: max17710_layout.png  used on input line 1211.
+Package pdftex.def Info: max17710_layout.png  used on input line 1249.
 (pdftex.def)             Requested size: 404.25932pt x 101.62943pt.
- [37 <./max17710_layout.png>]
-<batteryload.png, id=1232, 316.18124pt x 377.91188pt>
+ [38 <./max17710_layout.png>]
+<batteryload.png, id=1243, 316.18124pt x 377.91188pt>
 File: batteryload.png Graphic file (type png)
 <use batteryload.png>
-Package pdftex.def Info: batteryload.png  used on input line 1230.
+Package pdftex.def Info: batteryload.png  used on input line 1268.
 (pdftex.def)             Requested size: 237.13535pt x 283.43321pt.
- [38 <./batteryload.png>]
-<activeload.png, id=1247, 386.94562pt x 303.38344pt>
+ [39 <./batteryload.png>]
+<activeload.png, id=1258, 386.94562pt x 303.38344pt>
 File: activeload.png Graphic file (type png)
 <use activeload.png>
-Package pdftex.def Info: activeload.png  used on input line 1292.
+Package pdftex.def Info: activeload.png  used on input line 1330.
 (pdftex.def)             Requested size: 290.2085pt x 227.53702pt.
-<harvester2.png, id=1248, 587.19376pt x 514.17094pt>
+<harvester2.png, id=1259, 587.19376pt x 514.17094pt>
 File: harvester2.png Graphic file (type png)
 <use harvester2.png>
-Package pdftex.def Info: harvester2.png  used on input line 1298.
+Package pdftex.def Info: harvester2.png  used on input line 1336.
 (pdftex.def)             Requested size: 440.39424pt x 385.62726pt.
-<logger.jpg, id=1249, 2483.2775pt x 3009.2425pt>
+<logger.jpg, id=1260, 2483.2775pt x 3009.2425pt>
 File: logger.jpg Graphic file (type jpg)
 <use logger.jpg>
-Package pdftex.def Info: logger.jpg  used on input line 1306.
+Package pdftex.def Info: logger.jpg  used on input line 1344.
 (pdftex.def)             Requested size: 422.1516pt x 511.56447pt.
-<harvester.jpg, id=1250, 2650.90375pt x 2464.20625pt>
+<harvester.jpg, id=1261, 2650.90375pt x 2464.20625pt>
 File: harvester.jpg Graphic file (type jpg)
 <use harvester.jpg>
-Package pdftex.def Info: harvester.jpg  used on input line 1312.
+Package pdftex.def Info: harvester.jpg  used on input line 1350.
 (pdftex.def)             Requested size: 450.64767pt x 418.90953pt.
-<assembled.jpg, id=1251, 2385.91376pt x 1641.13126pt>
+<assembled.jpg, id=1262, 2385.91376pt x 1641.13126pt>
 File: assembled.jpg Graphic file (type jpg)
 <use assembled.jpg>
-Package pdftex.def Info: assembled.jpg  used on input line 1318.
+Package pdftex.def Info: assembled.jpg  used on input line 1356.
 (pdftex.def)             Requested size: 405.59998pt x 278.98862pt.
- [39]
+ [40]
 
-LaTeX Warning: Text page 40 contains only floats.
+LaTeX Warning: Text page 41 contains only floats.
 
-[40 <./activeload.png> <./harvester2.png>] [41 <./logger.jpg>] [42 <./harvester
-.jpg>]
-<setup.pdf, id=1281, 566.115pt x 378.45387pt>
+[41 <./activeload.png> <./harvester2.png>] [42 <./logger.jpg>]
+<setup.pdf, id=1287, 566.115pt x 378.45387pt>
 File: setup.pdf Graphic file (type pdf)
 <use setup.pdf>
-Package pdftex.def Info: setup.pdf  used on input line 1341.
+Package pdftex.def Info: setup.pdf  used on input line 1379.
 (pdftex.def)             Requested size: 396.2778pt x 264.9159pt.
- [43 <./assembled.jpg> <./setup.pdf
+ [43 <./harvester.jpg>] [44 <./assembled.jpg> <./setup.pdf
 
 pdfTeX warning: pdflatex (file ./setup.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
@@ -2398,46 +2398,46 @@ rce which is no dict (key 'ProcSets', type <array>); ignored.
 
 pdfTeX warning: pdflatex (file ./timedomain.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<timedomain.pdf, id=1352, 650.43pt x 397.485pt>
+<timedomain.pdf, id=1363, 650.43pt x 397.485pt>
 File: timedomain.pdf Graphic file (type pdf)
 <use timedomain.pdf>
-Package pdftex.def Info: timedomain.pdf  used on input line 1364.
+Package pdftex.def Info: timedomain.pdf  used on input line 1402.
 (pdftex.def)             Requested size: 487.8213pt x 298.113pt.
 
-Overfull \hbox (32.5772pt too wide) in paragraph at lines 1364--1365
+Overfull \hbox (32.5772pt too wide) in paragraph at lines 1402--1403
  [][] 
  []
 
-<accelsignal.pdf, id=1353, 341.35529pt x 60.225pt>
+<accelsignal.pdf, id=1364, 341.35529pt x 60.225pt>
 File: accelsignal.pdf Graphic file (type pdf)
 <use accelsignal.pdf>
-Package pdftex.def Info: accelsignal.pdf  used on input line 1370.
+Package pdftex.def Info: accelsignal.pdf  used on input line 1408.
 (pdftex.def)             Requested size: 341.35443pt x 60.22484pt.
-[44] [45 <./timedomain.pdf> <./accelsignal.pdf
+[45 <./timedomain.pdf>] [46 <./accelsignal.pdf
 
 pdfTeX warning: pdflatex (file ./accelsignal.pdf): PDF inclusion: invalid other
  resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [46
+>] [47
 
-] [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1383.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1383.
+] [48]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1421.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1421.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1383.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1383.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1421.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1421.
 
 Package rerunfilecheck Info: File `Notes.out' has not changed.
 (rerunfilecheck)             Checksum: 3F73E6BB0C082D399291EE5F518E0218;4135.
 Package logreq Info: Writing requests to 'Notes.run.xml'.
 \openout1 = `Notes.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1383.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1421.
  ) 
 Here is how much of TeX's memory you used:
- 59176 strings out of 492484
- 1304075 string characters out of 3122054
- 1857754 words of memory out of 3000000
- 62434 multiletter control sequences out of 15000+200000
+ 59185 strings out of 492484
+ 1304269 string characters out of 3122054
+ 1857760 words of memory out of 3000000
+ 62439 multiletter control sequences out of 15000+200000
  561866 words of font info for 89 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,17n,102p,1469b,3463s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2458,9 +2458,9 @@ ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX
 eX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (48 pages, 12939286 bytes).
+Output written on Notes.pdf (49 pages, 12945118 bytes).
 PDF statistics:
- 1477 PDF objects out of 1728 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
+ 1493 PDF objects out of 1728 (max. 8388607)
+ 217 named destinations out of 1000 (max. 500000)
  615 words of extra memory for PDF output out of 10000 (max. 10000000)
 
