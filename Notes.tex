@@ -775,8 +775,13 @@ By selecting the same values for both $R_1$ and $R_2$ as well as $C_1$ and $C_2$
     f_{c} = \frac{1}{2\cdot \pi \cdot R\cdot C}
     \label{cutoff}
 \end{equation}
+where:
+\begin{conditions}
+	R     &  Resistance of $R_1$ and $R_2$, \\
+	C 	  &  Capacitance of $C_1$ and $C_2$. \\
+\end{conditions}
 
-Another important parameter associated with the fiter is its magnification factor $Q$:
+Another important parameter associated with the filter is its quality factor $Q$. The quality factor informs about the stability of the filter as well as its response around the cut-off frequency.
 
 \begin{equation}
     Q = \frac{1}{3 - A}
@@ -790,16 +795,18 @@ where:
 By solving the above-mentioned equations, the following values are obtained:
 
 \begin{align}
-\nonumber  f_c & =\frac{1}{2\cdot \pi \cdot R\cdot C}
-\\ \nonumber & = \frac{1}{2\cdot \pi \cdot 2.2k \Omega\cdot 2.2nF}
-\\ \nonumber & = 32.833kHz
+\nonumber  f_c  =\frac{1}{2\cdot \pi \cdot R\cdot C}
+ = \frac{1}{2\cdot \pi \cdot 2.2k \Omega\cdot 2.2nF}
+ = 32.833kHz
 \end{align}
 
 \begin{align}
-\nonumber  Q & =\frac{1}{3 - A}
-\\ \nonumber & = \frac{1}{3 - 2}
-\\ \nonumber & = 0.5
+\nonumber  Q  =\frac{1}{3 - A}
+  = \frac{1}{3 - 2}
+  = 0.5
 \end{align}
+
+The cut-off frequency is found at around 33kHz, so the component selection was performed in the right way. The quality factor for the unity buffer in the second order filter configuration is always 0.5. It means that the filter is slightly underdamped, what could generate delicate overshoots and undershoots with rapid changing signals, but these would be negligible. The frequency response of the designed filter is presented in the Figure \ref{fig:sallenresponse}.  
 
 
 \begin{figure}[ht!]
@@ -1340,25 +1347,49 @@ Most of the times, energy harvesting are intended to power low power electronics
 
 \section{Hardware assembly, testing and calibration}
 
+In the following section, the assembly and testing procedure would be presented. All printed circuit boards were manufactured in China by a professional manufacturer. All electronic components were obtained from trusted vendors in order to make sure the performance of all boards is optimal. Calibration process and testing was performed using laboratory equipment with the focus on a Keithley 2000 6.5 digit multimeter as a trusted reference. 
+
+\subsection{Hardware assembly results}
+Figure \ref{fig:loggerreal} presents the assembled data acquisition board. The soldering process was performed using a vaporphase oven in order to get the best final results. The same applies to the harvester board presented on the Figure \ref{fig:harvesterreal}. 
+\par
+
 \begin{figure}[ht!]
 \includegraphics[scale=0.17]{logger.jpg}
 \caption{Assembled Data Acquisition board}
 \label{fig:loggerreal}
 \end{figure}
 
+Once the soldering in the oven was done, boards were examined using a microscope in order to track unwanted solder bridges or improper solder joints.
+\par
+
+
 \begin{figure}[ht!]
-\includegraphics[scale=0.17]{harvester.jpg}
+\includegraphics[scale=0.15]{harvester.jpg}
 \caption{Assembled Harvester board}
 \label{fig:harvesterreal}
 \end{figure}
+
+The next part of the process was to hand solder all through hole components. Once this step was done, both boards were attached to each other by means of M4 screws and metal distances. All electrical connections are established using the FPC tape connector as presented in the Figure \ref{fig:assembled}.
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.17]{assembled.jpg}
 \caption{Assembled set of PCBs}
 \label{fig:assembled}
 \end{figure}
-
 \par
+
+\subsection{Board testing}
+The testing process consists of a few steps. The first one is to control all voltage rails to verify their performance. Subsequently, the reference voltage source has been checked. The next step is to validate relay operation, button and switches operation as well as LED indicators.
+\par
+Providing that all previously mentioned tests were successful, it is time to connect the logger board to the PC and check its response for all commands. In the same time, the firmware also gets through the verification process. All input channels were tested using signal generator. The testing procedure involved applying sine signal of frequency from 1Hz to 1kHz in order to verify analog front-end operation and the sampling rate.
+\par
+By increasing the testing signal frequency, the response of the anti-aliasing filter has been checked.
+Since all above-mentioned tests were successful, it is time to calibrate the logger board.
+
+\subsection{Calibration}
+Calibration is the last step required to finish the design of the logger board.
+
+
 
 \section{Laboratory tests and result analysis}
 The following section describes the procedure of evaluation of designed devices. The aim of the measurement setup is to recreate vibration events in real life, therefore allowing to verify usefulness of piezoelectric energy harvesters.

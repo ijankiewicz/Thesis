@@ -50,7 +50,10 @@
 \contentsline {subsubsection}{\numberline {4.3.1}Utilizing storage components as the non-linear load}{38}{subsubsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.4}Microprocessor node as the active load}{40}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Hardware assembly, testing and calibration}{40}{section.5}%
-\contentsline {section}{\numberline {6}Laboratory tests and result analysis}{40}{section.6}%
-\contentsline {subsection}{\numberline {6.1}The measurement setup}{42}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Assumptions}{43}{subsection.6.2}%
+\contentsline {subsection}{\numberline {5.1}Hardware assembly results}{42}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Board testing}{43}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Calibration}{43}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Laboratory tests and result analysis}{44}{section.6}%
+\contentsline {subsection}{\numberline {6.1}The measurement setup}{44}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Assumptions}{45}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Analysis of captured data}{45}{subsection.6.3}%
