@@ -956,7 +956,18 @@ Compatibility 	&  Windows 		\\ \hline
 \end{figure}
 
 \section{Energy harvester}
-The second part of this Master's project is to investigate the concept of vibrational energy harvesting. In the following chapter, the entire design process of a few different energy harvesters would be provided. In addition to that, there would be a number of different load circuits.
+The second part of this Master's project is to investigate the concept of vibrational energy harvesting. In the following chapter, the entire design process of a few different energy harvesters would be provided. In addition to that, there would be a number of different load circuits proposals, since these would be really helpful during evaluation of DC converter designs.
+\par
+Selection of components was preceded by a thorough research, as there are many information sources relating to piezoelectric energy harvesting and associated hardware. There were w few aspects taken into account, namely their usefulness in piezo-related application, quality of the documentation, the amount of external components required to make the design work and finally - price of the solution. By combining all the data, four integrated circuits were selected. More detailed information would be presented in the further part of this chapter.
+\par
+The structure of the energy harvester board is presented in the Figure \ref{fig:harvesterdiagram}.
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.9]{harvesterdiagram.pdf}
+\caption{The diagram of the harvester board structure}
+\label{fig:harvesterdiagram}
+\end{figure}
+
 
 \subsection{•}
 
@@ -1379,16 +1390,19 @@ The next part of the process was to hand solder all through hole components. Onc
 \par
 
 \subsection{Board testing}
-The testing process consists of a few steps. The first one is to control all voltage rails to verify their performance. Subsequently, the reference voltage source has been checked. The next step is to validate relay operation, button and switches operation as well as LED indicators.
+The testing process consists of a few steps. It is focused mostly on the data acquisition board, as its behaviour determines the success of all experiments related to the piezoelectric generator. The first one is to control all voltage rails to verify their performance. Subsequently, the reference voltage source has been checked. The next step is to validate the operation of relays, buttons and switches as well the RGB LED.
 \par
 Providing that all previously mentioned tests were successful, it is time to connect the logger board to the PC and check its response for all commands. In the same time, the firmware also gets through the verification process. All input channels were tested using signal generator. The testing procedure involved applying sine signal of frequency from 1Hz to 1kHz in order to verify analog front-end operation and the sampling rate.
 \par
 By increasing the testing signal frequency, the response of the anti-aliasing filter has been checked.
 Since all above-mentioned tests were successful, it is time to calibrate the logger board.
+\par
+When it comes to the harvester board, most of its features would be verified during laboratory experiments with the piezoelectric beam. At this point, the only thing to check was the communication with the microcontroller that is a part of the active load section.
+\par
+
 
 \subsection{Calibration}
-Calibration is the last step required to finish the design of the logger board.
-
+Calibration is the last step required make the hardware up and running. This process would require a precise voltage source (Agilent E3615 power supply) and the mentioned Keithley 2000 multimeter. Readings form the multimeter would be compared with those obtained using the data acquisition board. At the end of the comparison process, it would be possible to come up with calibration constants that would be stored in the EEPROM memory of the logger board. This way, the correctness of captured readings is proven.
 
 
 \section{Laboratory tests and result analysis}

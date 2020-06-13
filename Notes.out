@@ -48,7 +48,10 @@
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Utilizing storage components as the non-linear load}{subsection.4.3}% 48
 \BOOKMARK [2][-]{subsection.4.4}{Microprocessor node as the active load}{section.4}% 49
 \BOOKMARK [1][-]{section.5}{Hardware assembly, testing and calibration}{}% 50
-\BOOKMARK [1][-]{section.6}{Laboratory tests and result analysis}{}% 51
-\BOOKMARK [2][-]{subsection.6.1}{The measurement setup}{section.6}% 52
-\BOOKMARK [2][-]{subsection.6.2}{Assumptions}{section.6}% 53
-\BOOKMARK [2][-]{subsection.6.3}{Analysis of captured data}{section.6}% 54
+\BOOKMARK [2][-]{subsection.5.1}{Hardware assembly results}{section.5}% 51
+\BOOKMARK [2][-]{subsection.5.2}{Board testing}{section.5}% 52
+\BOOKMARK [2][-]{subsection.5.3}{Calibration}{section.5}% 53
+\BOOKMARK [1][-]{section.6}{Laboratory tests and result analysis}{}% 54
+\BOOKMARK [2][-]{subsection.6.1}{The measurement setup}{section.6}% 55
+\BOOKMARK [2][-]{subsection.6.2}{Assumptions}{section.6}% 56
+\BOOKMARK [2][-]{subsection.6.3}{Analysis of captured data}{section.6}% 57
