@@ -34,16 +34,16 @@
 \BOOKMARK [4][-]{paragraph.3.3.5.4}{User interface}{subsubsection.3.3.5}% 34
 \BOOKMARK [4][-]{paragraph.3.3.5.5}{Connectivity}{subsubsection.3.3.5}% 35
 \BOOKMARK [1][-]{section.4}{Energy harvester}{}% 36
-\BOOKMARK [2][-]{subsection.4.1}{\200}{section.4}% 37
+\BOOKMARK [2][-]{subsection.4.1}{Design requirements}{section.4}% 37
 \BOOKMARK [2][-]{subsection.4.2}{Energy harvesting integrated circuits}{section.4}% 38
-\BOOKMARK [3][-]{subsubsection.4.2.1}{LTC3588-1}{subsection.4.2}% 39
-\BOOKMARK [4][-]{paragraph.4.2.1.1}{Circuit design}{subsubsection.4.2.1}% 40
-\BOOKMARK [3][-]{subsubsection.4.2.2}{LTC3331}{subsection.4.2}% 41
-\BOOKMARK [4][-]{paragraph.4.2.2.1}{Circuit design}{subsubsection.4.2.2}% 42
-\BOOKMARK [3][-]{subsubsection.4.2.3}{ADP5091}{subsection.4.2}% 43
-\BOOKMARK [4][-]{paragraph.4.2.3.1}{Circuit design}{subsubsection.4.2.3}% 44
-\BOOKMARK [3][-]{subsubsection.4.2.4}{MAX17710}{subsection.4.2}% 45
-\BOOKMARK [4][-]{paragraph.4.2.4.1}{Circuit design}{subsubsection.4.2.4}% 46
+\BOOKMARK [3][-]{subsubsection.4.2.1}{LTC3588-1 Buck DC converter}{subsection.4.2}% 39
+\BOOKMARK [4][-]{paragraph.4.2.1.1}{Component selection and circuit design}{subsubsection.4.2.1}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.2}{LTC3331 Buck DC converter}{subsection.4.2}% 41
+\BOOKMARK [4][-]{paragraph.4.2.2.1}{Component selection and circuit design}{subsubsection.4.2.2}% 42
+\BOOKMARK [3][-]{subsubsection.4.2.3}{ADP5091 Boost DC converter}{subsection.4.2}% 43
+\BOOKMARK [4][-]{paragraph.4.2.3.1}{Component selection and circuit design}{subsubsection.4.2.3}% 44
+\BOOKMARK [3][-]{subsubsection.4.2.4}{MAX17710 Linear DC regulator}{subsection.4.2}% 45
+\BOOKMARK [4][-]{paragraph.4.2.4.1}{Component selection and circuit design}{subsubsection.4.2.4}% 46
 \BOOKMARK [2][-]{subsection.4.3}{Selection of load circuits}{section.4}% 47
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Utilizing storage components as the non-linear load}{subsection.4.3}% 48
 \BOOKMARK [2][-]{subsection.4.4}{Microprocessor node as the active load}{section.4}% 49

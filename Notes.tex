@@ -960,7 +960,7 @@ The second part of this Master's project is to investigate the concept of vibrat
 \par
 Selection of components was preceded by a thorough research, as there are many information sources relating to piezoelectric energy harvesting and associated hardware. There were w few aspects taken into account, namely their usefulness in piezo-related application, quality of the documentation, the amount of external components required to make the design work and finally - price of the solution. By combining all the data, four integrated circuits were selected. More detailed information would be presented in the further part of this chapter.
 \par
-The structure of the energy harvester board is presented in the Figure \ref{fig:harvesterdiagram}.
+The structure of the energy harvester board is presented in the Figure \ref{fig:harvesterdiagram}. One can notice that it comprise of three different sections, namely the input section, then the DC converter section, and finally the load section. There are a few different types of DC converters and load and the idea is to allow the user to dynamically change these building blocks if needed. This way, the evaluation process of the harvester board would be way easier.\par
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.9]{harvesterdiagram.pdf}
@@ -968,11 +968,23 @@ The structure of the energy harvester board is presented in the Figure \ref{fig:
 \label{fig:harvesterdiagram}
 \end{figure}
 
+When it comes to selected DC converters, only the \textit{LTC3588-1} and \textit{LTC3331} are specially dedicated to piezoelectric-related applications. The remaining two - the \textit{ADP5901} and \textit{MAX17710} can be only adapted to support vibrational energy harvesters.
+\par
+The different load types include the simple resistor load, the battery load, two different supercapacitors and the active load as a form of the microprocessor-based circuit. The last one is included for experimental purposes only, so its potential usage depends on the amount of time and resources during the laboratory tests.
+\par
+One should note that all building blocks are connected with the data acquisition board in order to monitor the voltage of crucial parts of the circuit. This ways, it is possible to correlate the vibration intensity with the amount of generated power.
 
-\subsection{•}
+
+\subsection{Design requirements}
+The following subsection introduces design requirements for the harvester board. Please note that the list of special requirements for the second board is not going to be as exhaustive as is case of the data acquisition board. This fact suggest more exploratory nature of the design.\par
+During the design process, all requirements were strictly related to particular manufacturers' datasheets, therefore these would be introduced while working on particular parts of the harvester board.
+
 
 \subsection{Energy harvesting integrated circuits}
-\subsubsection{LTC3588-1}
+
+Now, it is time to introduce DC converters selected for energy harvesting applications. On the beginning, a description of all devices would focus on their features and motivation behind the choice. Subsequently, the design process along with a thorough component selection is presented.
+
+\subsubsection{LTC3588-1 Buck DC converter}
 The \textit{LTC3588-1} by \textit{Linear Technology} is one of the most popular off-the-shelf solutions used in piezoelectic energy harvesting applications. Owing to the fact that target applications of such energy scavenging systems are focused on IoT devices, the described integrated circuit has one huge advantage in comparison to other devices, namely the solution size.
 \par
 It's datasheet \cite{ltc3588_params} states that to make the device work properly, only four capacitors and one inductor are required. Additional two resistors may be useful in order to set desired output voltage, but they are just an option. The simplified diagram of the described solution is presented in the Figure \ref{fig:ltc3588diagram}. It is worth to note that the solution size is greatly reduced by an integrated low-loss full-wave bridge rectifier that also makes a perfect fit for AC input signals.
@@ -1006,7 +1018,7 @@ Integrated rectifier 	&  Yes 		\\ \hline
 \end{table}
 \par
 
-\paragraph{Circuit design}
+\paragraph{Component selection and circuit design}
 When designing low power circuits, great care has to be taken about proper storage components, as these are the key to maintain an uninterrupted output of these circuits. The input capacitor is responsible for providing sufficient amount of energy for the DC-DC converter. On the other hand, the output capacitor determines the time interval for which the converter sleeps \cite{ltc3588_params}. The exact size of mentioned components is mostly dependent on a particular application. Therefore, manufacturer's recommendation would be a reference in case of this design. Please note that selected components are supposed to meet voltage rating requirements, namely at least 20V for the input capacitor and 6.3V for the output capacitor. Based on these details, the following components have been picked:
 
 \begin{table}[ht!]
@@ -1044,7 +1056,7 @@ Figure \ref{fig:ltc3588layout} presents the layout of the described circuit. Apa
 \label{fig:ltc3588layout}
 \end{figure}
 
-\subsubsection{LTC3331}
+\subsubsection{LTC3331 Buck DC converter}
 The most complicated of integrated circuits selected for this design is \textit{LTC3331} by \textit{Linear Technology}. It takes advantage of a few features very similar features to those described in the section focused on \textit{LTC3588-1}, but its performance is extended. This notion would be described further in the following section.
 \par
 The \textit{LTC3331} is a smart energy harvester that includes two DC-DC converters, a battery charger, a supercapacitor balancer and an input protection circuitry \cite{ltc3331_params}. This device is dedicated for multiple alternative energy sources including solar, thermal and piezoelectric sources. A huge advantage of this integrated circuit is an integrated full bridge rectifier, exactly as in case of the \textit{LTC3588-1} provided by the same manufacturer. The another significant similarity is the input protection circuit clamping any input overvoltage events. According to the manufacturer's datasteet \cite{ltc3331_params}, targer application of circuits based on \textit{LTC3331} are solar powered systems, security devices, wireless sensors and of course energy harvesters.\par
@@ -1078,7 +1090,7 @@ Balancer max. current 	&  10mA 		\\ \hline
 \end{table}
 \par
 
-\paragraph{Circuit design}
+\paragraph{Component selection and circuit design}
 During the design process of the \textit{LTC3331} based circuit, the manufacturer's datasheet \cite{ltc3331_params} was a reference.
 \par
 Firstly, proper inductor has to be selected. The Buck converter is optimized for 22$\mu$H inductors. Nevertheless, it is possible to pick a higher value of inductance in order to increase the efficiency of the DC-DC Buck converter in high voltage applications \cite{ltc3331_params}. One should note that the DC resistance of the inductor has an impact on the overall efficiency of the converter. When it comes to the Buck-Boost converter, the manufacturer claims that the recommended inductance value is also 22$\mu$H. Please note that it is allowed to pick the another inductor, but the peak current of the inductor need to be adjusted by setting some of the integrated circuit's pins high or low - see the datasheet \cite{ltc3331_params}. For this occasion, a DIP switch has been installed. Eventually, the same inductor model has been selected for both converters. Its parameters are listed in the Table \ref{tab:ltc3331_inductor}.
@@ -1124,7 +1136,7 @@ The layout of the designed circuit is presented in the Figure \ref{fig:ltc3331la
 \end{figure}
 \par
 
-\subsubsection{ADP5091}
+\subsubsection{ADP5091 Boost DC converter}
 
 Another alternative for an integrated energy harvester is \textit{ADP5091} by \textit{Analog Devices}. This device is not dedicated exclusively for vibration energy harvesting applications. In case of piezo-based applications, it is necessary to provide an external voltage rectifier, as the described integrated circuit accepts only DC voltage at the input. One should note that \textit{ADP5091} incorporates a DC-DC boost converter and LDO, which is optimized for high efficiency at low output currents \cite{adp5091_params}.
 \par
@@ -1161,7 +1173,7 @@ MPPT 	&  Yes 		\\ \hline
 One should note relatively low input voltage operating range. In order to face this problem, it may be required to use a relatively high input capacitance that would impose more load on the piezoelectric generator, therefore reducing its output voltage \cite{EnHv2}. The \textit{ADP5091} has remarkably low quiescent current, what is one of the most important aspects in energy harvesting applications. In addition to that, the manufacturer claims it provides an MPPT feature. The input voltage threshold is as low as 380mV, what makes it possible to maximize the amount of harvested energy. 
 \par
 
-\paragraph{Circuit design}
+\paragraph{Component selection and circuit design}
 The selected inductor should have saturation current at least 30\% higher than the peak inductor current (which might be as high as 300mA) and relatively low DC resistance in order to maintain high efficiency \cite{adp5091_params}. The converter is optimized for 22$\mu$H inductors. By combining all mentioned parameters, the inductor listed in the Table \ref{tab:adp5091_inductor} has been selected.
 \begin{table}[ht!]
 \begin{tabular}{|c|c|c|c|c|}
@@ -1211,7 +1223,7 @@ The layout of the \textit{ADP5091}-based circuit in presented in the figure \ref
 \label{fig:adp5091layout}
 \end{figure}
 \par
-\subsubsection{MAX17710}
+\subsubsection{MAX17710 Linear DC regulator}
 The last of selected devices is \textit{MAX17710} by \textit{Maxim Integrated}. It is a complete system for charging and protecting small storage devices \cite{max17710_params}. The manufacturer claims that the device can handle generators with output power levels as low as 1$\mu$W. The output of the regulator is based on the very low quiescent current LDO, which also incorporates overdischarge protection of the battery.
 \par
 
@@ -1245,7 +1257,7 @@ Maximum Charging Current 	&  100mA 	\\ \hline
 Similarly to other described integrated circuits, \textit{MAX17710} has significantly low quiescent current, what allows for energy harvesting using power sources with output capabilities as low as 1$\mu$W. Another interesting feature is the shunt input protection capable of clamping up to 50mA.
 \par
 
-\paragraph{Circuit design}
+\paragraph{Component selection and circuit design}
 The following paragraph is describing the circuit design process. As usual, the manufacturer's datasheet \cite{max17710_params} would be a main reference. Due to the fact the DC-DC Boost converter functionality is not used in this design, the component selection would be greatly simplified. When it comes to picking capacitors for the input and output of the regulator, one should take on the charge input of the device that is tied directly to the power source. The manufacturer's advice is to use a 100nF capacitor to maintain the highest efficiency, but for better stability from a high voltage source, a 220nF one should be used instead \cite{max17710_params}. The output capacitance should be alt leat 1$\mu$F. The final choice is a 4.7$\mu$F to further smooth the output voltage. The Table \ref{tab:max17710_capacitors} present more details. 
 \begin{table}[ht!]
 \begin{tabular}{|c|c|c|c|c|c|}
@@ -1343,12 +1355,17 @@ Internal resistance ($\Omega$) at 1kHz     & 200$\Omega$ \\ \hline
 In addition to the above-mentioned features, the harvester board also allows to connect a custom load. In order to do so, the screw terminal has to be used - see the left bottom corner in the Figure \ref{fig:batteryload}. This way, it is easy to use a decade resistance box for proper impedance matching, thus maximizing the power transfer.
 
 \subsection{Microprocessor node as the active load}
-Most of the times, energy harvesting are intended to power low power electronics systems in order to make them energy self-sufficient. Having said that, one should consider this subsection as the reference point when analyzing the usefulness of piezoelectric energy harvesters as power sources for small microprocessor systems. 
+Most of the times, energy harvesting are intended to power low power electronics systems in order to make them energy self-sufficient. Having said that, one should consider this subsection as the reference point when analyzing the usefulness of piezoelectric energy harvesters as power sources for small microprocessor systems. \par
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{activeload.png}
 \caption{A microcontroller node as an active load for energy harvesters}
 \label{fig:activeload}
 \end{figure}
+The microprocessor-based system utilized in the harvester board make use of the \textit{MSP430G2553} MCU provided by \textit{Texas Instruments}. Along with the microcontroller, there are a few peripheral devices, such as the environmental sensor \textit{BME280} by \textit{BOSCH} and the \textit{RFM96W-433S2} LoRa module by \textit{HopeRF}. Apart from these, one may also find a programmable button and the serial communication header.
+\par
+Please note that the following part fo the project is not crucial, therefore its evaluation would depend on time resources available while working on the thesis. Nevertheless, it was decided to include the short description of the system just for clarity.
+\par
+The 3D view of the entire board is presented in the figure \ref{fig:harvester3d}. Its dimensions are exactly the same as in case of the logger board, as it is planned to combine them into an one system using screws and metal distances. Electrical signals would be transferred via a special ribbon cable.
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{harvester2.png}
