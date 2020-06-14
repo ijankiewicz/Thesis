@@ -1466,11 +1466,44 @@ Power generation of the energy harvester is mostly dependent on the input capaci
 \label{fig:timedomain}
 \end{figure}
 
+\subsection{Signal conditioning applied for the accelerometer data}
+
+As it can be seen in the Figure \ref{fig:timedomain}, the data obtained from accelerometer is affected by vibrational motion of the entire laboratory post, including the vice attached to the table, the DIN rail as well as the piezoelectric beam holder. A chunk of data captured by the data acquisition board requires some filtering in order to extract the most important data, namely the magnitude of vibration of the piezoelectric harvester. The diagram on the FIgure \ref{fig:accelsignal} presents the idea of data conditioning applied to raw samples from the accelerometer.
+
 \begin{figure}[ht!]
 \includegraphics[scale=1.0]{accelsignal.pdf}
 \caption{Accelerometer data conditioning}
 \label{fig:accelsignal}
 \end{figure}
+
+At this point it should be noted that data processing was performed using an open source software - \textit{Octave}. The first step was to capture the accelerometer signal using the logger board. The software used to communicate with the board is called \textit{SerialPlot}, which is also a free open source application. It outputs the samples in a comma-separated format, which is easily importable via \textit{Octave}. Since all the measurement were captured in a real time, it is necessary to cut out the fragment of interest. In order to do so, a simple slope-based algorithm was developed.
+\par
+Once the samples are properly chopped, it is possible to apply the band-pass filter to it. It is contracted on the basis of the \textit{Signal} package available for \textit{Octave} users. The filter consists of two different filters, namely a low-pass and a high-pass filter connected in series. Both of them are 5th order Butterworth filters isolating the frequency between 35Hz and 100Hz. The decision on cuf-off frequencies of particular filters was based on the FFT spectrum for every sample, as presented in the Figure \ref{fig:spectrum}.
+\par
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{spectrum.pdf}
+\caption{Accelerometer data spectrum analysis before and after data conditioning. Converter: \textit{LTC3588-1}, Load: 5k$\Omega$.}
+\label{fig:spectrum}
+\end{figure}
+
+The last step called averaging is used to calculate the maximum amplitude of the acceleration value. It simply takes the the absolute value of minimum and maximum value of acceleration and divide their sum by 2.\par
+Results of the data processing are presented in the FIgure \ref{fig:spectrum}. On the left hand side, there is a presentation of the data before it was processed both in time domain and in the frequency domain. Once can notice mentioned distortion, also proven by the FFT plot associated with the data. On the right hand side the filtered data is presented. As intended, the distortion is gone - see the FFT of the signal. It is also important to note that the amplitude of the signal of interest is unchanged, what implies that the data processing is successful.
+
+\subsection{Results for particular DC converters}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{results3588.pdf}
+\caption{Results of a series of measurements in a function of load - \textit{LTC3588-1} DC converter.}
+\label{fig:results3588}
+\end{figure}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.75]{results3331.pdf}
+\caption{Results of a series of measurements in a function of load - \textit{LTC3331} DC converter.}
+\label{fig:results3331}
+\end{figure}
+
 
 \clearpage
 

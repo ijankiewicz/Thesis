@@ -57,3 +57,5 @@
 \contentsline {subsection}{\numberline {6.1}The measurement setup}{45}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Assumptions}{46}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Analysis of captured data}{47}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Signal conditioning applied for the accelerometer data}{48}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Results for particular DC converters}{49}{subsection.6.5}%
