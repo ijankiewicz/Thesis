@@ -434,7 +434,22 @@ It is important to note that the natural frequency of the piezoelectric material
 To determine the natural frequency of the beam, one should apply a mechanical impulse to the beam and monitor its response. In order to do so, it is handy to use an oscilloscope in order to monitor the output of the loaded piezoelectric beam. The frequency of the decaying wave is equal to the natural frequency of the beam \cite{PPA}.
 \par
 
+\subsection{The overview of the test setup for the project}
+
+As a summary of the section, the overview of the entire system designed for the master thesis is introduced. The experiment require circuitry specialized for both the energy management as well as the data acquisition. More pressure is put on the data acquisition system, as this one is responsible for high precision measurements proving the performance of the piezoelectric harvester. The second part of the project, namely the harvester board is more experimental, therefore there are no strict rules of its design, apart form providing the electrical compatibility with piezoelectric beam itself. Please see Figure \ref{fig:system} for the graphical presentation of the system.
+
+\begin{figure}[h!]
+\includegraphics[scale=1.0]{system.pdf}
+\caption{The diagream of the entire system that is a subject of the thesis}
+\label{fig:system}
+\end{figure}
+\par
+
+As it can be seen in the picture above, there are two different paths considered from the perspective of the system. The first one is the measurement data path and it is related to the sensor readings and signals associated with DC converters included in the energy harvester board. The second path is the energy path. It comprise of the piezoelectric generator, particular energy harvesters and the electrical load. One important thing to note is that sensors associated with the piezoelectric beam include the accelerometer and the temperature sensor. These would be placed on a small board attached to the piezoelectric generator's holder.
+
+
 \section{Measurement setup design}
+
 
 A proper measurement process is a crucial part of this project. Having said that, a custom data acquisition board is to be designed. 
 \par
@@ -602,6 +617,13 @@ Figures \ref{fig:accel1} and \ref{fig:accel2} present the final design. As it ca
 \par
 
 This board is going to be an inherent part of most experiments performed throughout this thesis.
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.1]{piezoboard.jpg}
+\caption{Accelerometer board in the holder}
+\label{fig:piezoboard}
+\end{figure}
+
 \par
 
 \subsection{Data acquisition board design}
