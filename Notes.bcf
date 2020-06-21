@@ -91,15 +91,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>2</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>5</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -163,7 +163,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nty</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -195,7 +195,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useprefix</bcf:key>
-      <bcf:value>0</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>useafterword</bcf:key>
@@ -413,6 +413,8 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">articletitle</bcf:option>
+    <bcf:option datatype="boolean">intitle</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -2133,81 +2135,156 @@
     <bcf:citekey order="2">EnHv1</bcf:citekey>
     <bcf:citekey order="3">EnHv2</bcf:citekey>
     <bcf:citekey order="4">low_freq</bcf:citekey>
-    <bcf:citekey order="5">EnHv2</bcf:citekey>
-    <bcf:citekey order="6">cmos</bcf:citekey>
-    <bcf:citekey order="7">PPA</bcf:citekey>
-    <bcf:citekey order="8">EnHv1</bcf:citekey>
-    <bcf:citekey order="9">EnHv2</bcf:citekey>
-    <bcf:citekey order="10">EnHv1</bcf:citekey>
-    <bcf:citekey order="11">PPA</bcf:citekey>
-    <bcf:citekey order="12">PPA</bcf:citekey>
-    <bcf:citekey order="13">PPA</bcf:citekey>
-    <bcf:citekey order="14">PPA</bcf:citekey>
-    <bcf:citekey order="15">PPA</bcf:citekey>
-    <bcf:citekey order="16">ElEx</bcf:citekey>
+    <bcf:citekey order="5">cmos</bcf:citekey>
+    <bcf:citekey order="6">EnHv2</bcf:citekey>
+    <bcf:citekey order="7">piezomath</bcf:citekey>
+    <bcf:citekey order="8">piezomath</bcf:citekey>
+    <bcf:citekey order="9">cmos</bcf:citekey>
+    <bcf:citekey order="10">piezomath</bcf:citekey>
+    <bcf:citekey order="11">cmos</bcf:citekey>
+    <bcf:citekey order="12">cmos</bcf:citekey>
+    <bcf:citekey order="13">cmos</bcf:citekey>
+    <bcf:citekey order="14">EnHv2</bcf:citekey>
+    <bcf:citekey order="15">cmos</bcf:citekey>
+    <bcf:citekey order="16">PPA</bcf:citekey>
     <bcf:citekey order="17">EnHv1</bcf:citekey>
-    <bcf:citekey order="18">accel_params</bcf:citekey>
+    <bcf:citekey order="18">PPA</bcf:citekey>
     <bcf:citekey order="19">PPA</bcf:citekey>
-    <bcf:citekey order="20">ADXL</bcf:citekey>
-    <bcf:citekey order="21">ADXL</bcf:citekey>
-    <bcf:citekey order="22">charger_params</bcf:citekey>
-    <bcf:citekey order="23">ap2112_params</bcf:citekey>
-    <bcf:citekey order="24">mcp9700_params</bcf:citekey>
-    <bcf:citekey order="25">clamping</bcf:citekey>
-    <bcf:citekey order="26">companion</bcf:citekey>
-    <bcf:citekey order="27">bas40_params</bcf:citekey>
-    <bcf:citekey order="28">companion</bcf:citekey>
-    <bcf:citekey order="29">bas40_params</bcf:citekey>
-    <bcf:citekey order="30">housekeeping</bcf:citekey>
-    <bcf:citekey order="31">companion</bcf:citekey>
-    <bcf:citekey order="32">companion</bcf:citekey>
-    <bcf:citekey order="33">companion</bcf:citekey>
-    <bcf:citekey order="34">ref5030_params</bcf:citekey>
-    <bcf:citekey order="35">msp432_params</bcf:citekey>
-    <bcf:citekey order="36">msp432_params</bcf:citekey>
-    <bcf:citekey order="37">16bit</bcf:citekey>
-    <bcf:citekey order="38">msp432_params</bcf:citekey>
-    <bcf:citekey order="39">ref5030_params</bcf:citekey>
-    <bcf:citekey order="40">msp432_params</bcf:citekey>
-    <bcf:citekey order="41">adum1201_params</bcf:citekey>
-    <bcf:citekey order="42">max14851_params</bcf:citekey>
-    <bcf:citekey order="43">cp2102_params</bcf:citekey>
-    <bcf:citekey order="44">cp2130_params</bcf:citekey>
+    <bcf:citekey order="20">EnHv2</bcf:citekey>
+    <bcf:citekey order="21">EnHv1</bcf:citekey>
+    <bcf:citekey order="22">EnHv1</bcf:citekey>
+    <bcf:citekey order="23">PPA</bcf:citekey>
+    <bcf:citekey order="24">PPA</bcf:citekey>
+    <bcf:citekey order="25">PPA</bcf:citekey>
+    <bcf:citekey order="26">PPA</bcf:citekey>
+    <bcf:citekey order="27">PPA</bcf:citekey>
+    <bcf:citekey order="28">PPA</bcf:citekey>
+    <bcf:citekey order="29">PPA</bcf:citekey>
+    <bcf:citekey order="30">ElEx</bcf:citekey>
+    <bcf:citekey order="31">EnHv1</bcf:citekey>
+    <bcf:citekey order="32">accel_params</bcf:citekey>
+    <bcf:citekey order="33">PPA</bcf:citekey>
+    <bcf:citekey order="34">ADXL</bcf:citekey>
+    <bcf:citekey order="35">ADXL</bcf:citekey>
+    <bcf:citekey order="36">ADXL</bcf:citekey>
+    <bcf:citekey order="37">charger_params</bcf:citekey>
+    <bcf:citekey order="38">ap2112_params</bcf:citekey>
+    <bcf:citekey order="39">mcp9700_params</bcf:citekey>
+    <bcf:citekey order="40">clamping</bcf:citekey>
+    <bcf:citekey order="41">companion</bcf:citekey>
+    <bcf:citekey order="42">bas40_params</bcf:citekey>
+    <bcf:citekey order="43">bas40_params</bcf:citekey>
+    <bcf:citekey order="44">companion</bcf:citekey>
+    <bcf:citekey order="45">opa4180_params</bcf:citekey>
+    <bcf:citekey order="46">opa4180_params</bcf:citekey>
+    <bcf:citekey order="47">housekeeping</bcf:citekey>
+    <bcf:citekey order="48">resistors</bcf:citekey>
+    <bcf:citekey order="49">ina159_params</bcf:citekey>
+    <bcf:citekey order="50">ina159_params</bcf:citekey>
+    <bcf:citekey order="51">ina159_params</bcf:citekey>
+    <bcf:citekey order="52">resistors</bcf:citekey>
+    <bcf:citekey order="53">opa4180_params</bcf:citekey>
+    <bcf:citekey order="54">mosfet_params</bcf:citekey>
+    <bcf:citekey order="55">antialiasing</bcf:citekey>
+    <bcf:citekey order="56">antialiasing</bcf:citekey>
+    <bcf:citekey order="57">companion</bcf:citekey>
+    <bcf:citekey order="58">companion</bcf:citekey>
+    <bcf:citekey order="59">companion</bcf:citekey>
+    <bcf:citekey order="60">ref5030_params</bcf:citekey>
+    <bcf:citekey order="61">ref5030_params</bcf:citekey>
+    <bcf:citekey order="62">msp432_params</bcf:citekey>
+    <bcf:citekey order="63">msp432_params</bcf:citekey>
+    <bcf:citekey order="64">16bit</bcf:citekey>
+    <bcf:citekey order="65">msp432_params</bcf:citekey>
+    <bcf:citekey order="66">ref5030_params</bcf:citekey>
+    <bcf:citekey order="67">msp432_params</bcf:citekey>
+    <bcf:citekey order="68">adum1201_params</bcf:citekey>
+    <bcf:citekey order="69">max14851_params</bcf:citekey>
+    <bcf:citekey order="70">cp2102_params</bcf:citekey>
+    <bcf:citekey order="71">cp2102_params</bcf:citekey>
+    <bcf:citekey order="72">cp2130_params</bcf:citekey>
+    <bcf:citekey order="73">cp2130_params</bcf:citekey>
+    <bcf:citekey order="74">ltc3588_params</bcf:citekey>
+    <bcf:citekey order="75">ltc3588_params</bcf:citekey>
+    <bcf:citekey order="76">ltc3588_params</bcf:citekey>
+    <bcf:citekey order="77">ltc3588_params</bcf:citekey>
+    <bcf:citekey order="78">ltc3588_params</bcf:citekey>
+    <bcf:citekey order="79">x5r_params</bcf:citekey>
+    <bcf:citekey order="80">ltc3588_capacitor_params</bcf:citekey>
+    <bcf:citekey order="81">x5r_params</bcf:citekey>
+    <bcf:citekey order="82">ltc3588_capacitor_params</bcf:citekey>
+    <bcf:citekey order="83">ltc3588_params</bcf:citekey>
+    <bcf:citekey order="84">ltc3588_inductor_params</bcf:citekey>
+    <bcf:citekey order="85">ltc3588_inductor_params</bcf:citekey>
+    <bcf:citekey order="86">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="87">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="88">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="89">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="90">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="91">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="92">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="93">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="94">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="95">ltc3331_inductor_params</bcf:citekey>
+    <bcf:citekey order="96">ltc3331_inductor_params</bcf:citekey>
+    <bcf:citekey order="97">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="98">companion</bcf:citekey>
+    <bcf:citekey order="99">ltc3331_params</bcf:citekey>
+    <bcf:citekey order="100">companion</bcf:citekey>
+    <bcf:citekey order="101">ltc3331_inductor_params</bcf:citekey>
+    <bcf:citekey order="102">ltc3588_capacitor_params</bcf:citekey>
+    <bcf:citekey order="103">x5r_params</bcf:citekey>
+    <bcf:citekey order="104">tantalum_params</bcf:citekey>
+    <bcf:citekey order="105">ltc3588_capacitor_params</bcf:citekey>
+    <bcf:citekey order="106">x5r_params</bcf:citekey>
+    <bcf:citekey order="107">tantalum_params</bcf:citekey>
+    <bcf:citekey order="108">adp5091_params</bcf:citekey>
+    <bcf:citekey order="109">adp5091_params</bcf:citekey>
+    <bcf:citekey order="110">adp5091_params</bcf:citekey>
+    <bcf:citekey order="111">adp5091_params</bcf:citekey>
+    <bcf:citekey order="112">EnHv2</bcf:citekey>
+    <bcf:citekey order="113">adp5091_params</bcf:citekey>
+    <bcf:citekey order="114">adp5091_inductor_params</bcf:citekey>
+    <bcf:citekey order="115">adp5091_inductor_params</bcf:citekey>
+    <bcf:citekey order="116">adp5091_params</bcf:citekey>
+    <bcf:citekey order="117">x5r_params</bcf:citekey>
+    <bcf:citekey order="118">tantalum_params</bcf:citekey>
+    <bcf:citekey order="119">x5r_params</bcf:citekey>
+    <bcf:citekey order="120">tantalum_params</bcf:citekey>
+    <bcf:citekey order="121">diodes_params</bcf:citekey>
+    <bcf:citekey order="122">diodes_params</bcf:citekey>
+    <bcf:citekey order="123">diodes_params</bcf:citekey>
+    <bcf:citekey order="124">max17710_params</bcf:citekey>
+    <bcf:citekey order="125">max17710_params</bcf:citekey>
+    <bcf:citekey order="126">max17710_params</bcf:citekey>
+    <bcf:citekey order="127">max17710_params</bcf:citekey>
+    <bcf:citekey order="128">max17710_params</bcf:citekey>
+    <bcf:citekey order="129">max17710_params</bcf:citekey>
+    <bcf:citekey order="130">max17710_params</bcf:citekey>
+    <bcf:citekey order="131">max17710_inputcapacitor</bcf:citekey>
+    <bcf:citekey order="132">max17710_outputcapacitor</bcf:citekey>
+    <bcf:citekey order="133">max17710_inputcapacitor</bcf:citekey>
+    <bcf:citekey order="134">max17710_outputcapacitor</bcf:citekey>
+    <bcf:citekey order="135">mppt</bcf:citekey>
+    <bcf:citekey order="136">battery_params</bcf:citekey>
+    <bcf:citekey order="137">battery_params</bcf:citekey>
+    <bcf:citekey order="138">supercap2params</bcf:citekey>
+    <bcf:citekey order="139">supercap2params</bcf:citekey>
+    <bcf:citekey order="140">supercap1params</bcf:citekey>
+    <bcf:citekey order="141">supercap1params</bcf:citekey>
+    <bcf:citekey order="142">PPA</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="nty">
+  <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="6">
-      <bcf:sortitem order="1">volume</bcf:sortitem>
-      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nty/global//global/global"
+                name="none/global//global/global"
                 type="entry"
-                sortingtemplatename="nty"
+                sortingtemplatename="none"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

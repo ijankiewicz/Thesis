@@ -1,12 +1,16 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+
 \usepackage[english]{babel}
+\usepackage{secdot}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 \usepackage{xstring}
 \usepackage{siunitx}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{lscape}
 \usepackage[nottoc]{tocbibind} %Adds "References" to the table of contents
 \usepackage{hyperref}
 \usepackage[toc]{glossaries}
@@ -24,6 +28,43 @@
 \usepackage{gensymb}
 \usepackage{ragged2e}
 \usepackage{titlesec}
+\usepackage[section]{placeins}
+\usepackage{appendix}
+\usepackage{pdfpages}
+
+% dot instead of colon in figure descriptions
+\usepackage[labelsep=period]{caption}
+
+
+
+% Code listing part**********************************
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\fontsize{1}{12}\selectfont\ttfamily,
+    breakatwhitespace=false,         
+    breaklines=false,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=3pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=1
+}
+
+\lstset{style=mystyle}
+%****************************************************
 
 %Environment for listing equation parameters
 \newenvironment{conditions}
@@ -102,22 +143,22 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 
 \titleformat{\section}
     {\large\bfseries\itshape}
-    {\thesection}
+    {\thesection.}
     {1em}
     {\MakeUppercase}
 \titleformat{\subsection}
     {\large\bfseries\itshape}
-    {\thesubsection}
+    {\thesubsection.}
     {1em}
     {}
 \titleformat{\subsubsection}
     {\large\bfseries\itshape}
-    {\thesubsubsection}
+    {\thesubsubsection.}
     {1em}
     {}
 \titleformat{\paragraph}
-    {\large\bfseries}
-    {\theparagraph}
+    {\large\bfseries\itshape}
+    {\theparagraph.}
     {1em}
     {}
 \titleformat{\subparagraph}
@@ -153,11 +194,11 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {\large
     \begin{tabular}{p{4cm} p{10cm}}
     Student: & {\bfseries\Large Igor Aleksander JANKIEWICZ}\\
-    Transcript no.: & 285947\\
+    Student's ID: & 285947\\
         &   \\
-    Type of studies: & Extramural studies (MSc programme)\\
+    Type of Studies: & Extramural 2nd degree studies (MSc programme)\\
     Field of study: & Electrical Engineering\\
-    Programme: & To be determined\\
+    Specialization: & Electrical energy conversion\\
         &   \\
     Supervisor: & PhD. EEng. Andrzej Latko\\
     \end{tabular}
@@ -168,7 +209,7 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 \end{titlepage}
 \newpage\null\thispagestyle{empty}\newpage
 \tableofcontents
-\newpage\null\thispagestyle{empty}\newpage
+\newpage\null\thispagestyle{empty}
 
 \section{Introduction}
 This Master's thesis is focused on Piezoelectic Energy Harvesting in general. Apart from the explanation of the actual energy scavenging process, it also covers a design of a proper data acquisition system used for evaluation and development of piezoelectric-based generators.
@@ -193,6 +234,9 @@ Returning to the piezoelectric generator, the first thing to look at is the theo
 \par
 
 Once the required theory is introduced, it is possible to focus exactly on the topic.
+
+
+\FloatBarrier
 
 \section{Concept of Energy Harvesting}
 Energy Harvesting is a process of using ambient energy by converting it into a usable form, i.e. electricity or heat. It is important to point out that energy harvesting has been around for quite a long time, since solar panels, wind turbines and water turbines are in constant use for a few decades, providing people with environmentally clean energy \cite{EnHv1}.
@@ -348,7 +392,7 @@ The coupling factor $d$ shows three possible modes applicable to piezoelectric b
 
 In the first presented mode ($d_{33}$), the stress acts in the same direction as the voltage appears - in both cases along the $z$ axis. When it comes to bending action, this mode is not the best description of what is happening in the crystal. Significantly better description is provided by $d_{31}$ mode, where the stress is applied to the $x$ axis and the voltage is induced in the $z$ axis \cite{cmos}. Bending process forces the beam to stretch and compress, what yields some potential across the electrodes. 
 \subsubsection{Most popular piezoelectric materials for harvesting applications}
-Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different flavours, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed \cite{cmos}.
+Currently, the most popular material utilized in harvesters is so called PZT (lead zirconate titanate). It was developed at the Tokyo Institute of Technology in the 1950s \cite{EnHv2}. Nowadays, it can be found in a few different kinds, what would be described more precisely later. This material is a polymer composite, which is very brittle and prone to crack when overstressed \cite{cmos}.
 \par
 
 As described in the previous paragraph, PZT has a number of different types that vary with electrical and electromechanical properties. The simplest division includes hard and soft types - PZH-5H and PZH-5A, respectively. Soft piezoceramics are more susceptible to changes caused by the stress. This is one of the aspects why PZH-5H is the most common choice for piezoelectric equipment. On the other hand, one of the biggest manufacturers of harvesters \cite{PPA} is mentioning that PZH-5A is more temperature stable. Nevertheless, PZH-5H remains the best choice in terms of performance versus price. 
@@ -356,11 +400,38 @@ As described in the previous paragraph, PZT has a number of different types that
 \subsubsection{Properties of piezoelectric materials}
 Properties of piezoelectic materials strongly depend on the direction of the stres and orientation of the polarization \cite{EnHv1}. It is characterized by the constants listed in the Table 
 
-
-
 \begin{figure}[ht!]
 \includegraphics[scale=1]{beam1.pdf}
 \end{figure}
+
+\subsection{Piezoelectric beam selected for the project}
+
+The following subsection focuses on the piezoelectric beam utilized in the master's thesis project. It is a low cost solution for energy harvesting and sensing applications. A short summary of most important parameters of the beam are listed in the Table \ref{tab:ppaparams}.
+
+\begin{table}[ht!]
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Parameter}              & \textbf{Value} \\ \hline
+Capacitance [nF] & 100         \\ \hline
+Mass [g]                 & 2.8        \\ \hline
+Resonance frequency [Hz]               & 135 \\ \hline
+Effectife stiffness [N/m]     & 452.15           \\ \hline
+Piezoelectric material                    & PZT-H5 \\ \hline
+Layer count                   & 1 \\ \hline
+Dimensions [mm]                  & 55.3 x 23.3 \\ \hline
+\end{tabular}
+\caption{Summary of \textit{PPA-1001} parameters \cite{PPA} for clamp in the second position - see Figure \ref{fig:clamping}.}
+\label{tab:ppaparams}
+\end{table}
+
+There are a few details that should be highlighted. The first one is the resonance frequency of the beam. The table states its natural resonance frequency for a particular clamping type. In the following subsections, there would be a thorough explanation of how the resonant frequency can be affected by different clamping manner or additional mass applied on the tip of the beam. Nevertheless, the natural resonant frequency is a starting point that is more than necessary during the design and evaluation process. Once should note that \textit{PA-1001} is a single layer harvester, which is not as efficient as double layer constructions. The reason of this selection is mostly cost-related. The material of the beam is the most popular PZT-H5, which was introduced beforehand. A photo of the real device is presented in the Figure \ref{fig:ppa}.
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.1]{ppa.jpg}
+\caption{The \textit{PPA-1001} piezoelectric beam manufactured by \textit{Mide Technology}}
+\label{fig:ppa}
+\end{figure}
+
 
 \subsection{Efficiency and power density}
 Piezoelectric generator is truly a non-linear device. It produces maximum output power at its resonance frequency, which depends on a number of factors. 
@@ -400,7 +471,7 @@ Effective clamping is really important for piezoelectric beams. In order to achi
 \end{figure}
 
 For the sake of this project, the holder provided by the manufacturer would be used for evaluation purposes. The clamp bar is going to hold the beam in place with help of bolts and washers.\par
-According to the manufacturer's datasheet \cite{PPA}, the second position of the clamp is a default configuration for all products. The third position of the clamp comes in handy when one need to increase the resonant frequency of the piezo wafer. On the other hand, the first position reduces the resonant frequency. It is noted that this hardware configuration is not recommended for energy harvesting applications due to stiffness issues.\par
+According to the manufacturer's datasheet \cite{PPA}, the second position of the clamp is a default configuration for all products. The third position of the clamp comes in handy when one need to increase the resonant frequency of the piezo wafer. On the other hand, the first position reduces the resonant frequency. As stated in the mentioned datasheet of the \textit{PPA-1001} \cite{PPA}, its resonant frequency for the clamp in the second position with no tip mass added is 135Hz. It is noted that this hardware configuration is not recommended for energy harvesting applications due to stiffness issues.\par
 
 \subsection{Tip mass}
 Piezoelectric energy harvesters are frequency-dependent devices. In order to achieve their maximum efficiency, it is necessary to operate close to its resonant frequency. Piezoelectric beams may need some tuning procedures in order to match the frequency of the vibrating source, thus allowing to ensure most energy efficient harvesting.\par
@@ -431,7 +502,7 @@ It is important to note that the natural frequency of the piezoelectric material
 
 \subsection{Piezo beam resonance conditions}
 
-To determine the natural frequency of the beam, one should apply a mechanical impulse to the beam and monitor its response. In order to do so, it is handy to use an oscilloscope in order to monitor the output of the loaded piezoelectric beam. The frequency of the decaying wave is equal to the natural frequency of the beam \cite{PPA}.
+If there is no data regarding the natural frequency of the beam, one should apply a mechanical impulse to it and monitor its response. In case of the \textit{PPA-1001}, such information is listed in the datasheet - see Table \ref{tab:ppaparams}. The most convenient way of observing the response of the beam is to use an oscilloscope. The frequency of the decaying wave is equal to the natural frequency of the piezoelectric component \cite{PPA}.
 \par
 
 \subsection{The overview of the test setup for the project}
@@ -447,6 +518,8 @@ As a summary of the section, the overview of the entire system designed for the 
 
 As it can be seen in the picture above, there are two different paths considered from the perspective of the system. The first one is the measurement data path and it is related to the sensor readings and signals associated with DC converters included in the energy harvester board. The second path is the energy path. It comprise of the piezoelectric generator, particular energy harvesters and the electrical load. One important thing to note is that sensors associated with the piezoelectric beam include the accelerometer and the temperature sensor. These would be placed on a small board attached to the piezoelectric generator's holder.
 
+
+\FloatBarrier
 
 \section{Measurement setup design}
 
@@ -487,7 +560,7 @@ The first step of the design process is to determine desired input ratings as we
 \label{tab:ppapower}
 \end{table}
 
-As mentioned in the previous paragraph, there is no constrained area in terms of vibration frequency and level stated by the manufacturer. Based on the data presented in the Table \ref{tab:ppapower}, the designer is relatively free to determine the operating frequency range as well as input signal range recorded at at the harvester's output. When considering bandwidth and sampling rate, it is important to take into account the Nyquist criterion. It states that the sampling rate has to be twice the highest frequency in the signal \cite{ElEx}. Assuming maximum vibration frequency of 500Hz, more than 1000 samples per second need to be captured.
+As mentioned in the previous paragraph, there is no constrained area in terms of vibration frequency and level stated by the manufacturer. Based on the data presented in the Table \ref{tab:ppapower}, the designer is relatively free to determine the operating frequency range as well as input signal range recorded at at the harvester's output. When considering bandwidth and sampling rate, it is important to take into account the Nyquist criterion. It states that the sampling rate has to be twice the highest frequency in the signal \cite{ElEx}. Table \ref{tab:ppapower} mention the maximum vibration frequency as high as 132Hz. Moreover, it is a good practice to provide a reasonably higher bandwidth, thus making the data acquisition device more versatile and compatible with a range of different piezoelectric beams. In this case, the maximum input signal frequency is selected at 500Hz. In order to fulfil the Nyquist criterion more than 1000 samples per second need to be captured.
 \par
 
 Of course, this sampling rate only allows to reproduce an incoming signal (sinusoidal wave) as a corrupted triangle, since there is not enough data points to accurately reflect the sine shape. To solve this problem, the sampling rate should be increased by factor of 5 or so, what ultimately yields at least 5000 samples per second (sps). To illustrate the problem, Figure \ref{fig:nyquist} is introduced. It can be easily seen that sampling rate as high as twice the input signal frequency is definitely not enough. Having said that, the minimum expected sampling rate is to be at least 5000 sps.
@@ -832,7 +905,7 @@ The cut-off frequency is found at around 33kHz, so the component selection was p
 
 
 \begin{figure}[ht!]
-\includegraphics[scale=0.8]{sallenresponse.pdf}
+\includegraphics[scale=0.77]{sallenresponse.pdf}
 \caption{The frequency response of anti-aliasing filter based on 2nd order Sallen-Key configuration}
 \label{fig:sallenresponse}
 \end{figure}
@@ -977,7 +1050,9 @@ Compatibility 	&  Windows 		\\ \hline
 \label{fig:logger3d}
 \end{figure}
 
-\section{Energy harvester}
+\FloatBarrier
+
+\section{Energy harvester system prototype}
 The second part of this Master's project is to investigate the concept of vibrational energy harvesting. In the following chapter, the entire design process of a few different energy harvesters would be provided. In addition to that, there would be a number of different load circuits proposals, since these would be really helpful during evaluation of DC converter designs.
 \par
 Selection of components was preceded by a thorough research, as there are many information sources relating to piezoelectric energy harvesting and associated hardware. There were w few aspects taken into account, namely their usefulness in piezo-related application, quality of the documentation, the amount of external components required to make the design work and finally - price of the solution. By combining all the data, four integrated circuits were selected. More detailed information would be presented in the further part of this chapter.
@@ -1421,7 +1496,7 @@ Once the soldering in the oven was done, boards were examined using a microscope
 
 The next part of the process was to hand solder all through hole components. Once this step was done, both boards were attached to each other by means of M4 screws and metal distances. All electrical connections are established using the FPC tape connector as presented in the Figure \ref{fig:assembled}.
 
-\begin{figure}[ht!]
+\begin{figure}[htb!]
 \includegraphics[scale=0.17]{assembled.jpg}
 \caption{Assembled set of PCBs}
 \label{fig:assembled}
@@ -1443,10 +1518,17 @@ When it comes to the harvester board, most of its features would be verified dur
 \subsection{Calibration}
 Calibration is the last step required make the hardware up and running. This process would require a precise voltage source (Agilent E3615 power supply) and the mentioned Keithley 2000 multimeter. Readings form the multimeter would be compared with those obtained using the data acquisition board. At the end of the comparison process, it would be possible to come up with calibration constants that would be stored in the EEPROM memory of the logger board. This way, the correctness of captured readings is proven.
 
+\FloatBarrier
 
 \section{Laboratory tests and result analysis}
 The following section describes the procedure of evaluation of designed devices. The aim of the measurement setup is to recreate vibration events in real life, therefore allowing to verify usefulness of piezoelectric energy harvesters.
 \par
+
+\subsection{Experiment description}
+
+Since it is time to perform a set of testing procedures evaluating designed boards, it is vital to come up with a proper description of the experiment.
+\par
+Piezoelectric generators, icluding the \textit{PPA1001} that is a subject of the test are designed for low frequency applications. Before one is attached to the vibrating object, the designer should verify the vibration amplitude as well as the frequency. By comparing them with the manufacturer datasheet \cite{PPA}, it is possible to estimate the performance of the piezoelectric beam in case of the particular vibration source. 
 
 \subsection{The measurement setup}
 In order to create appropriate testing conditions, it is necessary to come up with some kind of vibration generator. Owing to the fact that it is impossible to make use of a proper device designed for this purpose, another solution is to be provided.
@@ -1482,11 +1564,15 @@ The logger board is able to monitor both accelerometer output and the DC convert
 Power generation of the energy harvester is mostly dependent on the input capacitor of the DC converter. Owing to the fact that 
 
 
+\begin{landscape} 
 \begin{figure}[ht!]
-\includegraphics[scale=0.75]{timedomain.pdf}
+\includegraphics[scale=1.05]{timedomain.pdf}
 \caption{Measurement results example. Converter: \textit{LTC3588-1}, Load: 5k$\Omega$.}
 \label{fig:timedomain}
 \end{figure}
+\end{landscape}
+
+
 
 \subsection{Signal conditioning applied for the accelerometer data}
 
@@ -1498,21 +1584,76 @@ As it can be seen in the Figure \ref{fig:timedomain}, the data obtained from acc
 \label{fig:accelsignal}
 \end{figure}
 
+
+
 At this point it should be noted that data processing was performed using an open source software - \textit{Octave}. The first step was to capture the accelerometer signal using the logger board. The software used to communicate with the board is called \textit{SerialPlot}, which is also a free open source application. It outputs the samples in a comma-separated format, which is easily importable via \textit{Octave}. Since all the measurement were captured in a real time, it is necessary to cut out the fragment of interest. In order to do so, a simple slope-based algorithm was developed.
 \par
 Once the samples are properly chopped, it is possible to apply the band-pass filter to it. It is contracted on the basis of the \textit{Signal} package available for \textit{Octave} users. The filter consists of two different filters, namely a low-pass and a high-pass filter connected in series. Both of them are 5th order Butterworth filters isolating the frequency between 35Hz and 100Hz. The decision on cuf-off frequencies of particular filters was based on the FFT spectrum for every sample, as presented in the Figure \ref{fig:spectrum}.
 \par
 
+\begin{landscape}
 \begin{figure}[ht!]
-\includegraphics[scale=0.75]{spectrum.pdf}
+\includegraphics[scale=1.2]{spectrum.pdf}
 \caption{Accelerometer data spectrum analysis before and after data conditioning. Converter: \textit{LTC3588-1}, Load: 5k$\Omega$.}
 \label{fig:spectrum}
 \end{figure}
+\end{landscape}
 
 The last step called averaging is used to calculate the maximum amplitude of the acceleration value. It simply takes the the absolute value of minimum and maximum value of acceleration and divide their sum by 2.\par
 Results of the data processing are presented in the FIgure \ref{fig:spectrum}. On the left hand side, there is a presentation of the data before it was processed both in time domain and in the frequency domain. Once can notice mentioned distortion, also proven by the FFT plot associated with the data. On the right hand side the filtered data is presented. As intended, the distortion is gone - see the FFT of the signal. It is also important to note that the amplitude of the signal of interest is unchanged, what implies that the data processing is successful.
 
 \subsection{Results for particular DC converters}
+
+\begin{table}[ht!]
+\centering
+
+\begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Load} [$\Omega$] & \textbf{Charge} [$\mu$C]& \textbf{Frequency}[Hz] & \textbf{Acceleration}[g] \\
+    \hline
+    100 & 1.113 & 59.23 & 0.913 \\
+    \hline
+    200 & 0.677 & 59.46 & 0.954 \\
+    \hline
+    300 & 0.741 & 59.34 & 0.908 \\
+    \hline
+    400 & 0.616 & 55.71 & 0.960 \\
+    \hline
+    500 & 0.782 & 55.74 & 0.956 \\
+    \hline
+    600 & 0.868 & 56.62 & 0.973 \\
+    \hline
+    700 & 0.747 & 56.35 & 0.960 \\
+    \hline
+    800 & 0.898 & 55.04 & 0.980 \\
+    \hline
+    900 & 1.112 & 54.88 & 0.988 \\
+    \hline
+    1000 & 1.104 & 55.21 & 0.954 \\
+    \hline
+    2000 & 0.818 & 55.60 & 0.878 \\
+    \hline
+    3000 & 0.872 & 55.45 & 0.703 \\
+    \hline
+    4000 & 1.110 & 55.25 & 0.770 \\
+    \hline
+    5000 & 1.176 & 54.79 & 0.935 \\
+    \hline
+    6000 & 0.981 & 54.74 & 0.903 \\
+    \hline
+    7000 & 0.896 & 55.47 & 0.771 \\
+    \hline
+    8000 & 0.891 & 55.26 & 0.782 \\
+    \hline
+    9000 & 0.988 & 54.59 & 0.696 \\
+    \hline
+    10000 & 1.075 & 54.89 & 0.755 \\
+    \hline
+\end{tabular}
+\caption{Measurements results - LTC3588-1}
+\label{tab:ltc3588results}
+\end{table}
+
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{results3588.pdf}
@@ -1520,19 +1661,81 @@ Results of the data processing are presented in the FIgure \ref{fig:spectrum}. O
 \label{fig:results3588}
 \end{figure}
 
+\begin{table}[ht!]
+\centering
+
+\begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Load} [$\Omega$] & \textbf{Charge} [$\mu$C]& \textbf{Frequency}[Hz] & \textbf{Acceleration}[g] \\
+    \hline
+    100 & 1.200 & 61.02 & 0.925 \\
+    \hline
+    200 & 1.249 & 57.20 & 0.917 \\
+    \hline
+    300 & 1.036 & 57.76 & 0.922 \\
+    \hline
+    400 & 1.097 & 56.73 & 0.927 \\
+    \hline
+    500 & 0.968 & 55.63 & 0.895 \\
+    \hline
+    600 & 1.184 & 55.35 & 0.905 \\
+    \hline
+    700 & 0.896 & 55.16 & 0.904 \\
+    \hline
+    800 & 1.000 & 54.91 & 0.951 \\
+    \hline
+    900 & 1.116 & 54.15 & 0.925 \\
+    \hline
+    1000 & 1.098 & 55.53 & 0.913 \\
+    \hline
+    2000 & 3.156 & 55.89 & 0.860 \\
+    \hline
+    3000 & 3.135 & 55.26 & 0.910 \\
+    \hline
+    4000 & 3.369 & 51.88 & 0.773 \\
+    \hline
+    5000 & 3.504 & 52.56 & 0.934 \\
+    \hline
+    6000 & 2.729 & 53.55 & 0.911 \\
+    \hline
+    7000 & 3.175 & 53.22 & 0.907 \\
+    \hline
+    8000 & 2.569 & 56.31 & 0.909 \\
+    \hline
+    9000 & 1.559 & 53.37 & 0.933 \\
+    \hline
+    10000 & 1.803 & 55.18 & 0.905 \\
+    \hline
+\end{tabular}
+\caption{Measurements results - LTC3331}
+\label{tab:ltc3331results}
+\end{table}
+
 \begin{figure}[ht!]
 \includegraphics[scale=0.75]{results3331.pdf}
 \caption{Results of a series of measurements in a function of load - \textit{LTC3331} DC converter.}
 \label{fig:results3331}
 \end{figure}
 
-
+\FloatBarrier
 \clearpage
 
 \printbibliography
 
 %\bibliography{bibliography} 
 %\bibliographystyle{ieeetr}
+
+\clearpage
+
+\begin{appendices}
+
+\section{Octave code for sample analysis and signal conditioning}
+\lstinputlisting[language=Octave]{dataConvert.m}
+\end{appendices}
+
+\includepdf[pages=1,angle=90,scale=0.85,pagecommand=\section{Harvester board schematics}, offset=0 -1cm]{Harvester_board.pdf}
+\includepdf[pages=2-,angle=90,scale=0.85,pagecommand={}, offset=0 -1cm]{Harvester_board.pdf}
+%\includepdf[pages=-,angle=90, pagecommand=\thispagestyle{plain}]{Harvester_board.pdf}
 
 
 \end{document}

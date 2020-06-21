@@ -1,18 +1,19 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Motivation}{5}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Objective of a Master's thesis}{5}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Concept of Energy Harvesting}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Piezoelectric materials}{6}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Mathematical description of the piezoelectric effect}{6}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Most popular piezoelectric materials for harvesting applications}{8}{subsubsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Properties of piezoelectric materials}{8}{subsubsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Efficiency and power density}{9}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Clamping}{9}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Tip mass}{10}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Piezo beam resonance conditions}{11}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}The overview of the test setup for the project}{11}{subsection.2.6}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objective of a Master's thesis}{4}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Concept of Energy Harvesting}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Piezoelectric materials}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Mathematical description of the piezoelectric effect}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Most popular piezoelectric materials for harvesting applications}{7}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Properties of piezoelectric materials}{7}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Piezoelectric beam selected for the project}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Efficiency and power density}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Clamping}{9}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Tip mass}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Piezo beam resonance conditions}{10}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}The overview of the test setup for the project}{11}{subsection.2.7}%
 \contentsline {section}{\numberline {3}Measurement setup design}{11}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Design requirements}{12}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Accelerometer board}{15}{subsection.3.2}%
@@ -25,8 +26,8 @@
 \contentsline {paragraph}{\numberline {3.3.1.2}Buffering}{20}{paragraph.3.3.1.2}%
 \contentsline {paragraph}{\numberline {3.3.1.3}Signal conditioning}{21}{paragraph.3.3.1.3}%
 \contentsline {subsubsection}{\numberline {3.3.2}DC channels section}{22}{subsubsection.3.3.2}%
-\contentsline {paragraph}{\numberline {3.3.2.1}Input protection}{22}{paragraph.3.3.2.1}%
-\contentsline {paragraph}{\numberline {3.3.2.2}Bufering}{22}{paragraph.3.3.2.2}%
+\contentsline {paragraph}{\numberline {3.3.2.1}Input protection}{23}{paragraph.3.3.2.1}%
+\contentsline {paragraph}{\numberline {3.3.2.2}Bufering}{23}{paragraph.3.3.2.2}%
 \contentsline {paragraph}{\numberline {3.3.2.3}Signal Conditioning}{23}{paragraph.3.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.3.3}Anti-aliasing filter}{23}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Voltage reference}{25}{subsubsection.3.3.4}%
@@ -35,28 +36,32 @@
 \contentsline {paragraph}{\numberline {3.3.5.2}ADC}{27}{paragraph.3.3.5.2}%
 \contentsline {paragraph}{\numberline {3.3.5.3}External voltage reference}{27}{paragraph.3.3.5.3}%
 \contentsline {paragraph}{\numberline {3.3.5.4}User interface}{27}{paragraph.3.3.5.4}%
-\contentsline {paragraph}{\numberline {3.3.5.5}Connectivity}{28}{paragraph.3.3.5.5}%
-\contentsline {section}{\numberline {4}Energy harvester}{29}{section.4}%
+\contentsline {paragraph}{\numberline {3.3.5.5}Connectivity}{29}{paragraph.3.3.5.5}%
+\contentsline {section}{\numberline {4}Energy harvester system prototype}{30}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Design requirements}{31}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Energy harvesting integrated circuits}{31}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}LTC3588-1 Buck DC converter}{31}{subsubsection.4.2.1}%
-\contentsline {paragraph}{\numberline {4.2.1.1}Component selection and circuit design}{32}{paragraph.4.2.1.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}LTC3331 Buck DC converter}{33}{subsubsection.4.2.2}%
-\contentsline {paragraph}{\numberline {4.2.2.1}Component selection and circuit design}{34}{paragraph.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.3}ADP5091 Boost DC converter}{36}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.1}LTC3588-1 Buck DC converter}{32}{subsubsection.4.2.1}%
+\contentsline {paragraph}{\numberline {4.2.1.1}Component selection and circuit design}{33}{paragraph.4.2.1.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}LTC3331 Buck DC converter}{34}{subsubsection.4.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1}Component selection and circuit design}{35}{paragraph.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.3}ADP5091 Boost DC converter}{37}{subsubsection.4.2.3}%
 \contentsline {paragraph}{\numberline {4.2.3.1}Component selection and circuit design}{37}{paragraph.4.2.3.1}%
-\contentsline {subsubsection}{\numberline {4.2.4}MAX17710 Linear DC regulator}{38}{subsubsection.4.2.4}%
-\contentsline {paragraph}{\numberline {4.2.4.1}Component selection and circuit design}{39}{paragraph.4.2.4.1}%
-\contentsline {subsection}{\numberline {4.3}Selection of load circuits}{40}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Utilizing storage components as the non-linear load}{40}{subsubsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.4}Microprocessor node as the active load}{42}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Hardware assembly, testing and calibration}{43}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Hardware assembly results}{43}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Board testing}{44}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Calibration}{45}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Laboratory tests and result analysis}{45}{section.6}%
-\contentsline {subsection}{\numberline {6.1}The measurement setup}{46}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Assumptions}{47}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Analysis of captured data}{48}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Signal conditioning applied for the accelerometer data}{49}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Results for particular DC converters}{50}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {4.2.4}MAX17710 Linear DC regulator}{39}{subsubsection.4.2.4}%
+\contentsline {paragraph}{\numberline {4.2.4.1}Component selection and circuit design}{40}{paragraph.4.2.4.1}%
+\contentsline {subsection}{\numberline {4.3}Selection of load circuits}{41}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Utilizing storage components as the non-linear load}{41}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.4}Microprocessor node as the active load}{43}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Hardware assembly, testing and calibration}{44}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Hardware assembly results}{45}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Board testing}{46}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Calibration}{47}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Laboratory tests and result analysis}{47}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Experiment description}{47}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}The measurement setup}{48}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Assumptions}{48}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Analysis of captured data}{49}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Signal conditioning applied for the accelerometer data}{51}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Results for particular DC converters}{53}{subsection.6.6}%
+\contentsline {section}{Appendices}{58}{section*.71}%
+\contentsline {section}{\numberline {A}Octave code for sample analysis and signal conditioning}{58}{Appendix.1.A}%
+\contentsline {section}{\numberline {7}Harvester board schematics}{62}{section.7}%
