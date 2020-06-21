@@ -64,4 +64,6 @@
 \contentsline {subsection}{\numberline {6.6}Results for particular DC converters}{53}{subsection.6.6}%
 \contentsline {section}{Appendices}{58}{section*.71}%
 \contentsline {section}{\numberline {A}Octave code for sample analysis and signal conditioning}{58}{Appendix.1.A}%
-\contentsline {section}{\numberline {7}Harvester board schematics}{62}{section.7}%
+\contentsline {section}{\numberline {B}Harvester board schematics}{62}{Appendix.1.B}%
+\contentsline {section}{\numberline {C}Data acquisition board schematics}{71}{Appendix.1.C}%
+\contentsline {section}{\numberline {D}Accelerometer board schematics}{77}{Appendix.1.D}%
