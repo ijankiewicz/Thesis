@@ -31,6 +31,7 @@
 \usepackage[section]{placeins}
 \usepackage{appendix}
 \usepackage{pdfpages}
+\usepackage{adjustbox}
 
 % dot instead of colon in figure descriptions
 \usepackage[labelsep=period]{caption}
@@ -238,7 +239,7 @@ Once the required theory is introduced, it is possible to focus exactly on the t
 
 \FloatBarrier
 
-\section{Concept of Energy Harvesting}
+\section{Concepts of Energy Harvesting}
 Energy Harvesting is a process of using ambient energy by converting it into a usable form, i.e. electricity or heat. It is important to point out that energy harvesting has been around for quite a long time, since solar panels, wind turbines and water turbines are in constant use for a few decades, providing people with environmentally clean energy \cite{EnHv1}.
 \par
 
@@ -398,11 +399,59 @@ Currently, the most popular material utilized in harvesters is so called PZT (le
 As described in the previous paragraph, PZT has a number of different types that vary with electrical and electromechanical properties. The simplest division includes hard and soft types - PZH-5H and PZH-5A, respectively. Soft piezoceramics are more susceptible to changes caused by the stress. This is one of the aspects why PZH-5H is the most common choice for piezoelectric equipment. On the other hand, one of the biggest manufacturers of harvesters \cite{PPA} is mentioning that PZH-5A is more temperature stable. Nevertheless, PZH-5H remains the best choice in terms of performance versus price. 
 \par
 \subsubsection{Properties of piezoelectric materials}
-Properties of piezoelectic materials strongly depend on the direction of the stres and orientation of the polarization \cite{EnHv1}. It is characterized by the constants listed in the Table 
+Properties of piezoelectric materials strongly depend on the direction of the stress and orientation of the polarization \cite{EnHv1}. It is characterized by the constants listed in the Table \ref{tab:material}. 
+
+\begin{table}[ht!]
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Property} & \textbf{Constant} & \textbf{Definition} & \textbf{Units}\\ \hline
+Electromechanical coupling coefficient & \textit{k} & electrical energy stored ÷ mechanical energy applied & -\\ \hline
+Piezoelectric constant & \textit{d} & short circuit charge density ÷ applied stress & C/N\\ \hline
+Piezoelectric constant & \textit{g} & strain developed ÷ applied charge density & m/C\\ \hline
+
+\end{tabular}
+\end{adjustbox}
+\caption{Piezoelectric material properties \cite{EnHv1}}
+\label{tab:material}
+\end{table}
+
+Soft piezoelectric materials, such as PZH-5H are more sensitive to changes that are stress-related, than PZH-5A for instance. One should note that the crystal structure of these materials changes above the Curie point, as piezoelectric devices lose its properties above certain temperature characteristic to particular type of material.
+\par
+
+A typical structure of the piezoelectric generator is presented in the Figure \ref{fig:basic}. Apart form above-mentioned piezoelectric beam, there is a holder responsible for keeping the cantilever in place. Piezoelectric material is attached to the substrate that assures safe operating conditions of the thin piezo material. Tip mas is optional. Its function would be introduced in one of the following chapters.
 
 \begin{figure}[ht!]
 \includegraphics[scale=1]{beam1.pdf}
+\caption{Basic structure of piezoelectric harvester}
+\label{fig:basic}
 \end{figure}
+
+
+
+\subsection{Sources of kinetic energy}
+
+When looking for potential vibration energy sources, one can realise that it candidates could be found in a number of different environments. For the sake of an example, a human wrist is taken. It was measured that a walking person generates acceleration of 100m/$s^2$ and a frequency of 1.2Hz \cite{EnHv1}. This kind of kinetic energy is not really useful in piezoelectric-based applications though.
+\par
+The same source \cite{EnHv1} introduces also frequency spectrum of an air compressor powered from the grid. The vibration frequencies vary from 20Hz to 200Hz with a peak at 50Hz and acceleration of 0.25g.
+Another sources of vibrational energy can come from the transport - see Table 
+
+\begin{table}[ht!]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Car type} & \textbf{Road} & \textbf{Sensor location} & \textbf{Peak acceleration}[m/$s^2$] & \textbf{Frequency} [Hz] \\ \hline
+Luxury & Highway & Cabin & 0.05 & 40 \\ \hline
+Luxury & City & Cabin & 0.04 & 30 \\ \hline
+Small & Highway & Chassis & 0.04 & 23 \\ \hline
+Small & Highway & Wheel axle & 2 & 16 \\ \hline
+\end{tabular}
+\caption{Vibration data measured at two different vehicles \cite{EnHv1}.}
+\label{tab:vibrations}
+\end{table}
+
+On the other hand, vibrational data captured from the vertical stabilizer from helicopter reveal spectrum of vibrations between 20 and 100Hz with a peak acceleration of around 20g at 25Hz \cite{EnHv1}.
+\par
+Another source of kinetic energy can be found around HVAC equipment. Acceleration amplitudes reach up to 0.25g at frequencies close to 10Hz.
 
 \subsection{Piezoelectric beam selected for the project}
 
@@ -416,7 +465,7 @@ Capacitance [nF] & 100         \\ \hline
 Mass [g]                 & 2.8        \\ \hline
 Resonance frequency [Hz]               & 135 \\ \hline
 Effectife stiffness [N/m]     & 452.15           \\ \hline
-Piezoelectric material                    & PZT-H5 \\ \hline
+Piezoelectric material                    & PZT-5H \\ \hline
 Layer count                   & 1 \\ \hline
 Dimensions [mm]                  & 55.3 x 23.3 \\ \hline
 \end{tabular}
@@ -471,7 +520,7 @@ Effective clamping is really important for piezoelectric beams. In order to achi
 \end{figure}
 
 For the sake of this project, the holder provided by the manufacturer would be used for evaluation purposes. The clamp bar is going to hold the beam in place with help of bolts and washers.\par
-According to the manufacturer's datasheet \cite{PPA}, the second position of the clamp is a default configuration for all products. The third position of the clamp comes in handy when one need to increase the resonant frequency of the piezo wafer. On the other hand, the first position reduces the resonant frequency. As stated in the mentioned datasheet of the \textit{PPA-1001} \cite{PPA}, its resonant frequency for the clamp in the second position with no tip mass added is 135Hz. It is noted that this hardware configuration is not recommended for energy harvesting applications due to stiffness issues.\par
+According to the manufacturer's datasheet \cite{PPA}, the second position of the clamp is a default configuration for all products. The third position of the clamp comes in handy when one need to increase the resonant frequency of the piezo wafer. On the other hand, the first position reduces the resonant frequency. As stated in the mentioned datasheet of the \textit{PPA-1001} \cite{PPA}, its resonant frequency for the clamp in the second position with no tip mass added is 135Hz. It is noted that the first position is not recommended for energy harvesting applications due to stiffness issues in case of this particular device (\textit{PPA-1001}).\par
 
 \subsection{Tip mass}
 Piezoelectric energy harvesters are frequency-dependent devices. In order to achieve their maximum efficiency, it is necessary to operate close to its resonant frequency. Piezoelectric beams may need some tuning procedures in order to match the frequency of the vibrating source, thus allowing to ensure most energy efficient harvesting.\par
@@ -560,7 +609,7 @@ The first step of the design process is to determine desired input ratings as we
 \label{tab:ppapower}
 \end{table}
 
-As mentioned in the previous paragraph, there is no constrained area in terms of vibration frequency and level stated by the manufacturer. Based on the data presented in the Table \ref{tab:ppapower}, the designer is relatively free to determine the operating frequency range as well as input signal range recorded at at the harvester's output. When considering bandwidth and sampling rate, it is important to take into account the Nyquist criterion. It states that the sampling rate has to be twice the highest frequency in the signal \cite{ElEx}. Table \ref{tab:ppapower} mention the maximum vibration frequency as high as 132Hz. Moreover, it is a good practice to provide a reasonably higher bandwidth, thus making the data acquisition device more versatile and compatible with a range of different piezoelectric beams. In this case, the maximum input signal frequency is selected at 500Hz. In order to fulfil the Nyquist criterion more than 1000 samples per second need to be captured.
+As mentioned in the previous paragraph, there is no constrained area in terms of vibration frequency and level stated by the manufacturer. Based on the data presented in the Table \ref{tab:ppapower}, the designer is relatively free to determine the operating frequency range as well as input signal range recorded at at the harvester's output. When considering bandwidth and sampling rate, it is important to take into account the Nyquist criterion. It states that the sampling rate has to be twice the highest frequency in the signal \cite{ElEx}. Table \ref{tab:ppapower} mention the maximum vibration frequency as high as 132Hz. Moreover, it is a good practice to provide a reasonably higher bandwidth, thus making the data acquisition device more versatile and compatible with a range of different piezoelectric beams. In this case, the maximum input signal frequency is selected at 500Hz. In order to fulfil the Nyquist-Shanon sampling theorem more than 1000 samples per second need to be captured.
 \par
 
 Of course, this sampling rate only allows to reproduce an incoming signal (sinusoidal wave) as a corrupted triangle, since there is not enough data points to accurately reflect the sine shape. To solve this problem, the sampling rate should be increased by factor of 5 or so, what ultimately yields at least 5000 samples per second (sps). To illustrate the problem, Figure \ref{fig:nyquist} is introduced. It can be easily seen that sampling rate as high as twice the input signal frequency is definitely not enough. Having said that, the minimum expected sampling rate is to be at least 5000 sps.
@@ -595,8 +644,8 @@ As a summary of design considerations included in this subsection, Table \ref{ta
 Max. input signal frequency (Sine) & 500Hz          \\ \hline
 Min. sampling rate                 & 5000sps        \\ \hline
 Min. ADC resolution                & 14-bit         \\ \hline
-Max. input voltage range (p-p)     & 15V            \\ \hline
-Input impeadnce                    & TBD            \\ \hline
+Max. input voltage range (peak-to-peak)     & 12V            \\ \hline
+Input impedance                    & 10M$\Omega$            \\ \hline
 \end{tabular}
 \caption{Summary of requirements for the data acquisition board}
 \label{tab:requirements}
@@ -621,7 +670,7 @@ Harvester's datasheet \cite{PPA} does not mention the exact upper limit of allow
 \textbf{Requirement}            & \textbf{Value} \\ \hline
 Max. acceleration value  		& $\pm{2}g$         \\ \hline
 Max. operating frequency        & 300Hz        \\ \hline
-Output type             		& Analog         \\ \hline
+Output type             		& Analog       \\ \hline
 \end{tabular}
 \caption{Summary of requirements for the accelerometer}
 \label{tab:accel_requirements}
@@ -638,7 +687,7 @@ After a thorough market research, a proper device has been found - see Table \re
 \textbf{Parameter}		& \textbf{Value} 	\\ \hline
 Model  					& ADXL335         	\\ \hline
 Manufacturer        	& Analog devices	\\ \hline
-Output type           	& Analog  			\\ \hline
+Output type           	& Analog (0V - $V_{cc}$)  			\\ \hline
 Max. acceleration value &  $\pm{3}g$		\\ \hline
 Bandwidth 				&  up to 1600Hz		\\ \hline
 \end{tabular}
@@ -680,7 +729,7 @@ As to the power supply part, for the convenience, the entire board in powered us
 Power storage is maintained by means of a 110mAh lithium-polymer battery (LIPO511422 by MAXPOWER). It is equipped with a complete protection circuitry, so it is unnecessary to include additional protection on the accelerometer board. The battery manufacturer claims the cycle life of 1000 cycles.
 \par
 
-Right after the ON/OFF switch, there is a low dropout linear regulator supplying the rest of circuits (AP2112K-3.3TRG1 by Diodes Incorporated \cite{ap2112_params}). It is a 600mA output, low noise regulator with $\pm{1}\%$ output voltage accuracy.
+Right after the ON/OFF switch, there is a low drop-out linear regulator supplying the rest of circuits (AP2112K-3.3TRG1 by Diodes Incorporated \cite{ap2112_params}). It is a 600mA output, low noise regulator with $\pm{1}\%$ output voltage accuracy.
 \par
 
 One of the sensors placed on this board is the accelerometer mentioned in the previous section. The second one is a low-power linear temperature sensor (MCP9700T-E/TT by Microchip \cite{mcp9700_params}). Since the linear output is one of the requirements for all sensors used in this project, this kind of device was an easy choice. MCP9700 includes circuitry converting temperature to voltage and provides accuracy of $\pm{2}^\circ $C, which is by all means acceptable for this application.
@@ -700,7 +749,10 @@ This board is going to be an inherent part of most experiments performed through
 \par
 
 \subsection{Data acquisition board design}
-\subsubsection{AC input section}
+
+The following subsection focuses on the data acquisition board design. All the steps from design requirements to the real device will be covered along with a thorough explanation of particular design steps.
+
+\subsubsection{AC channel section}
 The data acquisition board is going to be equipped with one AC-tolerant input channel. Additionally, there would be three different AC inputs connected to the AC channel by means of relays, what would allow easy selection of input source. The AC channel would be handy when piezoelectric beam is loaded with a resistive load only (excluding a rectifier). In order not to damage the microprocessor and other circuitry that is powered from a single supply, some signal conditioning is required. 
 \par
 \paragraph{Input protection}
@@ -944,7 +996,7 @@ Reference voltage value		&  3.0V		\\ \hline
 The microcontroller is a brain of the data acquisition board. As it can be imagined, it is responsible for such tasks as analog-to-digital conversion, data processing and communication with a personal computer. In addition, it is going to provide a basic user interface by means of buttons and switches for configuration purposes and signalling LEDs. Apart from that, there should be some space for calibration process, as well as triggering signals, thus additional I/Os would be included on the board for user-friendliness.
 \par
 
-The Table \ref{tab:requirements} listed some of design requirements applicable for the MCU, namely, the ADC resolution as well as minimum sampling rate. In addition to that, the microprocessor has to be equipped with sufficient amount of inputs and outputs as well as communication interfaces in order to provide reliable connectivity with the PC.
+The Table \ref{tab:requirements} listed some of design requirements applicable for the MCU, namely, the ADC resolution as well as minimum sampling rate. In addition to that, the microprocessor has to be equipped with over 30 GPIOs as well as communication interfaces allowing for 0.25Mb/s transfer rates in order to provide reliable connectivity with the PC.
 
 \begin{table}[ht!]
 \begin{tabular}{|l|c|}
@@ -963,6 +1015,7 @@ UART channels 		&  4 				\\ \hline
 UART max. baud rate &  460800bps 		\\ \hline
 SPI channels 		&  4 				\\ \hline
 SPI max. baud rate &  16Mbps 			\\ \hline
+GPIO count			& 48				\\ \hline
 \end{tabular}
 \caption{Features of MSP432P401R taken from the manufacturer's datasheet \cite{msp432_params}}
 \label{tab:MSP432_params}
@@ -1043,6 +1096,8 @@ Compatibility 	&  Windows 		\\ \hline
 \caption{Parameters of CP2130 taken from the manufacturer's datasheet \cite{cp2130_params}}
 \label{tab:cp2130_params}
 \end{table}
+
+The Figure \ref{fig:logger3d} presents the 3D version of the designed board. All schematics related to this board could be found in the Appendix.
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.9]{logger.png}
