@@ -59,12 +59,12 @@
 \contentsline {section}{\numberline {6}Laboratory tests and result analysis}{48}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Experiment description}{48}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}The measurement setup}{49}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Assumptions}{49}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Analysis of captured data}{50}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Signal conditioning applied for the accelerometer data}{52}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Results for particular DC converters}{54}{subsection.6.6}%
-\contentsline {section}{Appendices}{59}{section*.73}%
-\contentsline {section}{\numberline {A}Octave code for sample analysis and signal conditioning}{59}{Appendix.1.A}%
-\contentsline {section}{\numberline {B}Harvester board schematics}{63}{Appendix.1.B}%
-\contentsline {section}{\numberline {C}Data acquisition board schematics}{72}{Appendix.1.C}%
-\contentsline {section}{\numberline {D}Accelerometer board schematics}{78}{Appendix.1.D}%
+\contentsline {subsection}{\numberline {6.3}Assumptions}{50}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Analysis of captured data}{51}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Signal conditioning applied to the accelerometer data}{53}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Results for particular DC converters}{55}{subsection.6.6}%
+\contentsline {section}{Appendices}{60}{section*.75}%
+\contentsline {section}{\numberline {A}Octave code for sample analysis and signal conditioning}{60}{Appendix.1.A}%
+\contentsline {section}{\numberline {B}Harvester board schematics}{64}{Appendix.1.B}%
+\contentsline {section}{\numberline {C}Data acquisition board schematics}{73}{Appendix.1.C}%
+\contentsline {section}{\numberline {D}Accelerometer board schematics}{79}{Appendix.1.D}%
