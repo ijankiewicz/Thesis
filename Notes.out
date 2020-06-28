@@ -63,8 +63,10 @@
 \BOOKMARK [2][-]{subsection.6.6}{Signal conditioning applied to the accelerometer data}{section.6}% 63
 \BOOKMARK [2][-]{subsection.6.7}{Derivation of most important parameters}{section.6}% 64
 \BOOKMARK [2][-]{subsection.6.8}{Results for particular energy harvesters}{section.6}% 65
-\BOOKMARK [1][-]{section*.78}{Appendices}{}% 66
-\BOOKMARK [1][-]{Appendix.1.A}{Octave code for sample analysis and signal conditioning}{}% 67
-\BOOKMARK [1][-]{Appendix.1.B}{Harvester board schematics}{}% 68
-\BOOKMARK [1][-]{Appendix.1.C}{Data acquisition board schematics}{}% 69
-\BOOKMARK [1][-]{Appendix.1.D}{Accelerometer board schematics}{}% 70
+\BOOKMARK [2][-]{subsection.6.9}{Conclusion related to measurement results}{section.6}% 66
+\BOOKMARK [1][-]{section.7}{Summary and conclusions}{}% 67
+\BOOKMARK [1][-]{section*.78}{Appendices}{}% 68
+\BOOKMARK [1][-]{Appendix.1.A}{Octave code for sample analysis and signal conditioning}{}% 69
+\BOOKMARK [1][-]{Appendix.1.B}{Harvester board schematics}{}% 70
+\BOOKMARK [1][-]{Appendix.1.C}{Data acquisition board schematics}{}% 71
+\BOOKMARK [1][-]{Appendix.1.D}{Accelerometer board schematics}{}% 72

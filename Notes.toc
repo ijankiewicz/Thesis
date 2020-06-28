@@ -65,8 +65,10 @@
 \contentsline {subsection}{\numberline {6.6}Signal conditioning applied to the accelerometer data}{54}{subsection.6.6}%
 \contentsline {subsection}{\numberline {6.7}Derivation of most important parameters}{56}{subsection.6.7}%
 \contentsline {subsection}{\numberline {6.8}Results for particular energy harvesters}{56}{subsection.6.8}%
-\contentsline {section}{Appendices}{62}{section*.78}%
-\contentsline {section}{\numberline {A}Octave code for sample analysis and signal conditioning}{62}{Appendix.1.A}%
-\contentsline {section}{\numberline {B}Harvester board schematics}{66}{Appendix.1.B}%
-\contentsline {section}{\numberline {C}Data acquisition board schematics}{75}{Appendix.1.C}%
-\contentsline {section}{\numberline {D}Accelerometer board schematics}{81}{Appendix.1.D}%
+\contentsline {subsection}{\numberline {6.9}Conclusion related to measurement results}{59}{subsection.6.9}%
+\contentsline {section}{\numberline {7}Summary and conclusions}{60}{section.7}%
+\contentsline {section}{Appendices}{64}{section*.78}%
+\contentsline {section}{\numberline {A}Octave code for sample analysis and signal conditioning}{64}{Appendix.1.A}%
+\contentsline {section}{\numberline {B}Harvester board schematics}{68}{Appendix.1.B}%
+\contentsline {section}{\numberline {C}Data acquisition board schematics}{77}{Appendix.1.C}%
+\contentsline {section}{\numberline {D}Accelerometer board schematics}{83}{Appendix.1.D}%
