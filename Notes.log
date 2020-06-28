@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.14)  28 JUN 2020 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.14)  28 JUN 2020 21:29
 entering extended mode
 **./Notes.tex
 (Notes.tex
@@ -2074,30 +2074,30 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (Notes.aux)
 \openout1 = `Notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-16.
+17.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    ... okay on input line 217.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 21
-6.
+7.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -2141,7 +2141,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 460.
 )
 \AtBeginShipoutBox=\box87
-Package hyperref Info: Link coloring OFF on input line 216.
+Package hyperref Info: Link coloring OFF on input line 217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -2157,9 +2157,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count520
 )
-LaTeX Info: Redefining \ref on input line 216.
-LaTeX Info: Redefining \pageref on input line 216.
-LaTeX Info: Redefining \nameref on input line 216.
+LaTeX Info: Redefining \ref on input line 217.
+LaTeX Info: Redefining \pageref on input line 217.
+LaTeX Info: Redefining \nameref on input line 217.
  (Notes.out) (Notes.out)
 \@outlinefile=\write7
 \openout7 = `Notes.out'.
@@ -2171,18 +2171,18 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.9).
 \c@lstlisting=\count521
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 216.
-Package gensymb Info: Math companion symbols declared on input line 216.
-LaTeX Info: Redefining \degree on input line 216.
-LaTeX Info: Redefining \celsius on input line 216.
+(Font)                  TS1/ptm/m/n --> TS1/ptm/bx/n on input line 217.
+Package gensymb Info: Math companion symbols declared on input line 217.
+LaTeX Info: Redefining \degree on input line 217.
+LaTeX Info: Redefining \celsius on input line 217.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 216.
-LaTeX Info: Redefining \ohm on input line 216.
-Package gensymb Info: Using \textohm for \ohm on input line 216.
-LaTeX Info: Redefining \micro on input line 216.
-Package gensymb Info: Using \textmu for \micro on input line 216.
+erthousand on input line 217.
+LaTeX Info: Redefining \ohm on input line 217.
+Package gensymb Info: Using \textohm for \ohm on input line 217.
+LaTeX Info: Redefining \micro on input line 217.
+Package gensymb Info: Using \textmu for \micro on input line 217.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 216.
+LaTeX Info: Redefining \selectfont on input line 217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.
 sty"
@@ -2204,8 +2204,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Notes.bbl' found.
  (Notes.bbl)
-Package biblatex Info: Reference section=0 on input line 216.
-Package biblatex Info: Reference segment=0 on input line 216.
+Package biblatex Info: Reference section=0 on input line 217.
+Package biblatex Info: Reference segment=0 on input line 217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/floatrow\fr-longtab
 le.sty"
@@ -2250,48 +2250,48 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-16.
+17.
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-16.
+17.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-216.
+217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-216.
+217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 216.
+(Font)              <12> on input line 217.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 216.
+(Font)              <8> on input line 217.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 216.
+(Font)              <6> on input line 217.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
-16.
+17.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-216.
+217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-216.
+217.
 
 ("C:\Users\Igor\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2299,22 +2299,22 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <logo.jpg, id=302, 356.0803pt x 356.0803pt>
 File: logo.jpg Graphic file (type jpg)
 <use logo.jpg>
-Package pdftex.def Info: logo.jpg  used on input line 220.
+Package pdftex.def Info: logo.jpg  used on input line 221.
 (pdftex.def)             Requested size: 170.71652pt x 170.71556pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 229.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 229.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 233.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 234.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 243.
+(Font)              <14.4> on input line 244.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 243.
+(Font)              <10> on input line 244.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 243.
+(Font)              <7> on input line 244.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 244.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 245.
 
 [1
 
@@ -2322,56 +2322,51 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 <logo2.png, id=310, 418.29732pt x 416.48755pt>
 File: logo2.png Graphic file (type png)
 <use logo2.png>
-Package pdftex.def Info: logo2.png  used on input line 261.
+Package pdftex.def Info: logo2.png  used on input line 262.
 (pdftex.def)             Requested size: 184.9429pt x 184.14479pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.299 \end{titlepage}
+l.300 \end{titlepage}
                       [1 <./logo2.png>]pdfTeX warning (ext4): destination with 
 the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.303 \newpage\null\thispagestyle{empty}\newpage
+l.304 \newpage\null\thispagestyle{empty}\newpage
                                                  [1
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 317.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 318.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 317.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 318.
  [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 333.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 334.
  (Notes.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 4.
-
-Overfull \hbox (5.00252pt too wide) in paragraph at lines 48--48
- [][] [][]\T1/ptm/m/n/10.95 Nanopower Buck-Boost DC/DC with En-ergy Har-vest-in
-g Bat-tery Charger - LTC3331[] [][]  
- []
-
-[3
+ [3
 
 ])
 \tf@toc=\write8
 \openout8 = `Notes.toc'.
 
- [4] [5
+
+[4] [5
 
 ] [6]
-<piezo_operation_modes.pdf, id=441, 313.17pt x 216.81pt>
+<piezo_operation_modes.pdf, id=440, 313.17pt x 216.81pt>
 File: piezo_operation_modes.pdf Graphic file (type pdf)
 <use piezo_operation_modes.pdf>
-Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 510.
+Package pdftex.def Info: piezo_operation_modes.pdf  used on input line 511.
 (pdftex.def)             Requested size: 313.16922pt x 216.80946pt.
  [7]
-<beam1.pdf, id=460, 364.48169pt x 105.2733pt>
+<beam1.pdf, id=459, 364.48169pt x 105.2733pt>
 File: beam1.pdf Graphic file (type pdf)
 <use beam1.pdf>
-Package pdftex.def Info: beam1.pdf  used on input line 546.
+Package pdftex.def Info: beam1.pdf  used on input line 547.
 (pdftex.def)             Requested size: 364.48079pt x 105.27304pt.
  [8 <./piezo_operation_modes.pdf
 
@@ -2382,21 +2377,21 @@ alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 pdfTeX warning: pdflatex (file ./beam1.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<ppa.jpg, id=531, 2857.67625pt x 1622.06pt>
+<ppa.jpg, id=530, 2857.67625pt x 1622.06pt>
 File: ppa.jpg Graphic file (type jpg)
 <use ppa.jpg>
-Package pdftex.def Info: ppa.jpg  used on input line 600.
+Package pdftex.def Info: ppa.jpg  used on input line 601.
 (pdftex.def)             Requested size: 285.78436pt x 162.2155pt.
-<clamping.pdf, id=537, 529.98pt x 196.8153pt>
+<clamping.pdf, id=536, 529.98pt x 196.8153pt>
 File: clamping.pdf Graphic file (type pdf)
 <use clamping.pdf>
-Package pdftex.def Info: clamping.pdf  used on input line 638.
+Package pdftex.def Info: clamping.pdf  used on input line 639.
 (pdftex.def)             Requested size: 450.4851pt x 167.2938pt.
  [10 <./ppa.jpg>]
-<tipmass.pdf, id=547, 178.7478pt x 198.7425pt>
+<tipmass.pdf, id=546, 178.7478pt x 198.7425pt>
 File: tipmass.pdf Graphic file (type pdf)
 <use tipmass.pdf>
-Package pdftex.def Info: tipmass.pdf  used on input line 650.
+Package pdftex.def Info: tipmass.pdf  used on input line 651.
 (pdftex.def)             Requested size: 151.93633pt x 168.93192pt.
  [11 <./clamping.pdf
 
@@ -2407,20 +2402,20 @@ source which is no dict (key 'ProcSets', type <array>); ignored.
 pdfTeX warning: pdflatex (file ./tipmass.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<system.pdf, id=646, 355.3275pt x 146.4672pt>
+<system.pdf, id=645, 355.3275pt x 146.4672pt>
 File: system.pdf Graphic file (type pdf)
 <use system.pdf>
-Package pdftex.def Info: system.pdf  used on input line 683.
+Package pdftex.def Info: system.pdf  used on input line 684.
 (pdftex.def)             Requested size: 355.32661pt x 146.46683pt.
  [12 <./system.pdf
 
 pdfTeX warning: pdflatex (file ./system.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<measurement_setup_overview.pdf, id=708, 543.95218pt x 204.765pt>
+<measurement_setup_overview.pdf, id=707, 543.95218pt x 204.765pt>
 File: measurement_setup_overview.pdf Graphic file (type pdf)
 <use measurement_setup_overview.pdf>
-Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 705
+Package pdftex.def Info: measurement_setup_overview.pdf  used on input line 706
 .
 (pdftex.def)             Requested size: 435.16232pt x 163.8122pt.
  [13 <./measurement_setup_overview.pdf
@@ -2432,42 +2427,42 @@ ed.
 
 pdfTeX warning: pdflatex (file ./nyquist.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-<nyquist.pdf, id=739, 578.16pt x 397.485pt>
+<nyquist.pdf, id=738, 578.16pt x 397.485pt>
 File: nyquist.pdf Graphic file (type pdf)
 <use nyquist.pdf>
-Package pdftex.def Info: nyquist.pdf  used on input line 740.
+Package pdftex.def Info: nyquist.pdf  used on input line 741.
 (pdftex.def)             Requested size: 433.61893pt x 298.113pt.
 [14 <./nyquist.pdf>] [15] [16]
-<accel.pdf, id=774, 400.37581pt x 250.0542pt>
+<accel.pdf, id=773, 400.37581pt x 250.0542pt>
 File: accel.pdf Graphic file (type pdf)
 <use accel.pdf>
-Package pdftex.def Info: accel.pdf  used on input line 830.
+Package pdftex.def Info: accel.pdf  used on input line 831.
 (pdftex.def)             Requested size: 400.37482pt x 250.05357pt.
-<accelerometer1.png, id=775, 734.745pt x 312.41719pt>
+<accelerometer1.png, id=774, 734.745pt x 312.41719pt>
 File: accelerometer1.png Graphic file (type png)
 <use accelerometer1.png>
-Package pdftex.def Info: accelerometer1.png  used on input line 836.
+Package pdftex.def Info: accelerometer1.png  used on input line 837.
 (pdftex.def)             Requested size: 440.85039pt x 187.45175pt.
-<accelerometer2.png, id=777, 591.71063pt x 301.125pt>
+<accelerometer2.png, id=776, 591.71063pt x 301.125pt>
 File: accelerometer2.png Graphic file (type png)
 <use accelerometer2.png>
-Package pdftex.def Info: accelerometer2.png  used on input line 842.
+Package pdftex.def Info: accelerometer2.png  used on input line 843.
 (pdftex.def)             Requested size: 414.19461pt x 210.78606pt.
  [17 <./accel.pdf
 
 pdfTeX warning: pdflatex (file ./accel.pdf): PDF inclusion: invalid other resou
 rce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<piezoboard.jpg, id=862, 3751.01375pt x 2891.80376pt>
+<piezoboard.jpg, id=861, 3751.01375pt x 2891.80376pt>
 File: piezoboard.jpg Graphic file (type jpg)
 <use piezoboard.jpg>
-Package pdftex.def Info: piezoboard.jpg  used on input line 865.
+Package pdftex.def Info: piezoboard.jpg  used on input line 866.
 (pdftex.def)             Requested size: 375.12335pt x 289.19731pt.
  [18 <./accelerometer1.png> <./accelerometer2.png>]
-<input1.pdf, id=872, 319.1925pt x 150.5625pt>
+<input1.pdf, id=871, 319.1925pt x 150.5625pt>
 File: input1.pdf Graphic file (type pdf)
 <use input1.pdf>
-Package pdftex.def Info: input1.pdf  used on input line 890.
+Package pdftex.def Info: input1.pdf  used on input line 891.
 (pdftex.def)             Requested size: 383.02907pt x 180.67407pt.
  [19 <./piezoboard.jpg>]
 [20 <./input1.pdf
@@ -2475,31 +2470,31 @@ Package pdftex.def Info: input1.pdf  used on input line 890.
 pdfTeX warning: pdflatex (file ./input1.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >] [21]
-<input2.pdf, id=942, 378.45387pt x 165.7392pt>
+<input2.pdf, id=941, 378.45387pt x 165.7392pt>
 File: input2.pdf Graphic file (type pdf)
 <use input2.pdf>
-Package pdftex.def Info: input2.pdf  used on input line 976.
+Package pdftex.def Info: input2.pdf  used on input line 977.
 (pdftex.def)             Requested size: 454.14236pt x 198.88602pt.
  [22 <./input2.pdf
 
 pdfTeX warning: pdflatex (file ./input2.pdf): PDF inclusion: invalid other reso
 urce which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-Overfull \hbox (21.3169pt too wide) in paragraph at lines 1017--1017
+Overfull \hbox (21.3169pt too wide) in paragraph at lines 1018--1018
 \T1/ptm/m/n/10.95 com-paible and should pro-vide low on-resistance. Both of the
 se con-di-tions are ful-filled by the \T1/ptm/m/it/10.95 NTJD5121NT1G
  []
 
-<input3.pdf, id=997, 332.2011pt x 205.72859pt>
+<input3.pdf, id=996, 332.2011pt x 205.72859pt>
 File: input3.pdf Graphic file (type pdf)
 <use input3.pdf>
-Package pdftex.def Info: input3.pdf  used on input line 1020.
+Package pdftex.def Info: input3.pdf  used on input line 1021.
 (pdftex.def)             Requested size: 398.6393pt x 246.87305pt.
 [23]
-<input4.pdf, id=1008, 334.3692pt x 144.54pt>
+<input4.pdf, id=1007, 334.3692pt x 144.54pt>
 File: input4.pdf Graphic file (type pdf)
 <use input4.pdf>
-Package pdftex.def Info: input4.pdf  used on input line 1033.
+Package pdftex.def Info: input4.pdf  used on input line 1034.
 (pdftex.def)             Requested size: 401.24103pt x 173.4471pt.
  [24 <./input3.pdf
 
@@ -2513,19 +2508,19 @@ urce which is no dict (key 'ProcSets', type <array>); ignored.
 
 pdfTeX warning: pdflatex (file ./sallenresponse.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<sallenresponse.pdf, id=1080, 578.16pt x 325.215pt>
+<sallenresponse.pdf, id=1079, 578.16pt x 325.215pt>
 File: sallenresponse.pdf Graphic file (type pdf)
 <use sallenresponse.pdf>
-Package pdftex.def Info: sallenresponse.pdf  used on input line 1081.
+Package pdftex.def Info: sallenresponse.pdf  used on input line 1082.
 (pdftex.def)             Requested size: 445.18457pt x 250.41632pt.
 [25] [26 <./sallenresponse.pdf>]
-<architecture.pdf, id=1111, 210.7875pt x 529.98pt>
+<architecture.pdf, id=1110, 210.7875pt x 529.98pt>
 File: architecture.pdf Graphic file (type pdf)
 <use architecture.pdf>
-Package pdftex.def Info: architecture.pdf  used on input line 1153.
+Package pdftex.def Info: architecture.pdf  used on input line 1154.
 (pdftex.def)             Requested size: 210.78699pt x 529.97868pt.
 
-Overfull \hbox (5.38266pt too wide) in paragraph at lines 1169--1170
+Overfull \hbox (5.38266pt too wide) in paragraph at lines 1170--1171
 []\T1/ptm/m/n/10.95 The pur-pose of the data ac-qui-si-tion board is to al-low 
 easy and pre-cise mea-sure-ment of high impedance
  []
@@ -2535,147 +2530,135 @@ easy and pre-cise mea-sure-ment of high impedance
 pdfTeX warning: pdflatex (file ./architecture.pdf): PDF inclusion: invalid othe
 r resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<logger.png, id=1148, 505.89pt x 379.4175pt>
+<logger.png, id=1147, 505.89pt x 379.4175pt>
 File: logger.png Graphic file (type png)
 <use logger.png>
-Package pdftex.def Info: logger.png  used on input line 1224.
+Package pdftex.def Info: logger.png  used on input line 1225.
 (pdftex.def)             Requested size: 455.29678pt x 341.47258pt.
  [29] [30 <./logger.png>]
-<harvesterdiagram.pdf, id=1169, 421.575pt x 219.70079pt>
+<harvesterdiagram.pdf, id=1168, 421.575pt x 219.70079pt>
 File: harvesterdiagram.pdf Graphic file (type pdf)
 <use harvesterdiagram.pdf>
-Package pdftex.def Info: harvesterdiagram.pdf  used on input line 1269.
+Package pdftex.def Info: harvesterdiagram.pdf  used on input line 1270.
 (pdftex.def)             Requested size: 379.41399pt x 197.72887pt.
  [31 <./harvesterdiagram.pdf
 
 pdfTeX warning: pdflatex (file ./harvesterdiagram.pdf): PDF inclusion: invalid 
 other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<LTC3588.pdf, id=1187, 218.7372pt x 110.3322pt>
+<LTC3588.pdf, id=1186, 218.7372pt x 110.3322pt>
 File: LTC3588.pdf Graphic file (type pdf)
 <use LTC3588.pdf>
-Package pdftex.def Info: LTC3588.pdf  used on input line 1287.
+Package pdftex.def Info: LTC3588.pdf  used on input line 1288.
 (pdftex.def)             Requested size: 262.4833pt x 132.39795pt.
  [32 <./LTC3588.pdf
 
 pdfTeX warning: pdflatex (file ./LTC3588.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<ltc3588_layout.png, id=1236, 492.33937pt x 201.00093pt>
+<ltc3588_layout.png, id=1235, 492.33937pt x 201.00093pt>
 File: ltc3588_layout.png Graphic file (type png)
 <use ltc3588_layout.png>
-Package pdftex.def Info: ltc3588_layout.png  used on input line 1348.
+Package pdftex.def Info: ltc3588_layout.png  used on input line 1349.
 (pdftex.def)             Requested size: 393.87201pt x 160.80095pt.
-
-Overfull \hbox (19.48923pt too wide) in paragraph at lines 1353--1353
-|[]\T1/ptm/b/it/14.4 Nanopower Buck-Boost DC/DC with En-ergy Har-vest-ing Bat-t
-ery Charger
- []
-
-[33 <./ltc3588_layout.png>]
-<LTC3331.pdf, id=1254, 319.1925pt x 184.77031pt>
+ [33 <./ltc3588_layout.png>]
+<LTC3331.pdf, id=1253, 319.1925pt x 184.77031pt>
 File: LTC3331.pdf Graphic file (type pdf)
 <use LTC3331.pdf>
-Package pdftex.def Info: LTC3331.pdf  used on input line 1359.
+Package pdftex.def Info: LTC3331.pdf  used on input line 1360.
 (pdftex.def)             Requested size: 383.02907pt x 221.72325pt.
  [34 <./LTC3331.pdf
 
 pdfTeX warning: pdflatex (file ./LTC3331.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >] [35]
-<ltc3331_layout.png, id=1323, 364.36125pt x 353.82187pt>
+<ltc3331_layout.png, id=1322, 364.36125pt x 353.82187pt>
 File: ltc3331_layout.png Graphic file (type png)
 <use ltc3331_layout.png>
-Package pdftex.def Info: ltc3331_layout.png  used on input line 1427.
+Package pdftex.def Info: ltc3331_layout.png  used on input line 1428.
 (pdftex.def)             Requested size: 291.48938pt x 283.05788pt.
-
-Overfull \hbox (1.5324pt too wide) in paragraph at lines 1433--1433
-|[]\T1/ptm/b/it/14.4 Ultralow Power En-ergy Har-vester PMU with MPPT and Charge
- Man-
- []
-
-[36 <./ltc3331_layout.png>]
-<adp5091.pdf, id=1338, 313.17pt x 153.6942pt>
+ [36 <./ltc3331_layout.png>]
+<adp5091.pdf, id=1337, 313.17pt x 153.6942pt>
 File: adp5091.pdf Graphic file (type pdf)
 <use adp5091.pdf>
-Package pdftex.def Info: adp5091.pdf  used on input line 1441.
+Package pdftex.def Info: adp5091.pdf  used on input line 1442.
 (pdftex.def)             Requested size: 375.8021pt x 184.43208pt.
  [37 <./adp5091.pdf
 
 pdfTeX warning: pdflatex (file ./adp5091.pdf): PDF inclusion: invalid other res
 ource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<adp5091_layout.png, id=1400, 523.20468pt x 190.46156pt>
+<adp5091_layout.png, id=1399, 523.20468pt x 190.46156pt>
 File: adp5091_layout.png Graphic file (type png)
 <use adp5091_layout.png>
-Package pdftex.def Info: adp5091_layout.png  used on input line 1515.
+Package pdftex.def Info: adp5091_layout.png  used on input line 1516.
 (pdftex.def)             Requested size: 418.56432pt x 152.36943pt.
-<MAX17710.pdf, id=1403, 313.17pt x 153.6942pt>
+<MAX17710.pdf, id=1402, 313.17pt x 153.6942pt>
 File: MAX17710.pdf Graphic file (type pdf)
 <use MAX17710.pdf>
-Package pdftex.def Info: MAX17710.pdf  used on input line 1525.
+Package pdftex.def Info: MAX17710.pdf  used on input line 1526.
 (pdftex.def)             Requested size: 375.8021pt x 184.43208pt.
  [38] [39 <./adp5091_layout.png> <./MAX17710.pdf
 
 pdfTeX warning: pdflatex (file ./MAX17710.pdf): PDF inclusion: invalid other re
 source which is no dict (key 'ProcSets', type <array>); ignored.
 >]
-<max17710_layout.png, id=1473, 404.26031pt x 101.62968pt>
+<max17710_layout.png, id=1472, 404.26031pt x 101.62968pt>
 File: max17710_layout.png Graphic file (type png)
 <use max17710_layout.png>
-Package pdftex.def Info: max17710_layout.png  used on input line 1573.
+Package pdftex.def Info: max17710_layout.png  used on input line 1574.
 (pdftex.def)             Requested size: 404.25932pt x 101.62943pt.
  [40 <./max17710_layout.png>]
-<batteryload.png, id=1487, 316.18124pt x 377.91188pt>
+<batteryload.png, id=1486, 316.18124pt x 377.91188pt>
 File: batteryload.png Graphic file (type png)
 <use batteryload.png>
-Package pdftex.def Info: batteryload.png  used on input line 1592.
+Package pdftex.def Info: batteryload.png  used on input line 1593.
 (pdftex.def)             Requested size: 237.13535pt x 283.43321pt.
  [41 <./batteryload.png>]
-<activeload.png, id=1506, 386.94562pt x 303.38344pt>
+<activeload.png, id=1505, 386.94562pt x 303.38344pt>
 File: activeload.png Graphic file (type png)
 <use activeload.png>
-Package pdftex.def Info: activeload.png  used on input line 1654.
+Package pdftex.def Info: activeload.png  used on input line 1655.
 (pdftex.def)             Requested size: 212.82074pt x 166.8614pt.
  [42]
-<harvester2.png, id=1516, 587.19376pt x 514.17094pt>
+<harvester2.png, id=1515, 587.19376pt x 514.17094pt>
 File: harvester2.png Graphic file (type png)
 <use harvester2.png>
-Package pdftex.def Info: harvester2.png  used on input line 1665.
+Package pdftex.def Info: harvester2.png  used on input line 1666.
 (pdftex.def)             Requested size: 381.67142pt x 334.20715pt.
  [43 <./activeload.png> <./harvester2.png>]
-<logger.jpg, id=1527, 2189.17876pt x 2627.8175pt>
+<logger.jpg, id=1526, 2189.17876pt x 2627.8175pt>
 File: logger.jpg Graphic file (type jpg)
 <use logger.jpg>
-Package pdftex.def Info: logger.jpg  used on input line 1679.
+Package pdftex.def Info: logger.jpg  used on input line 1680.
 (pdftex.def)             Requested size: 372.15547pt x 446.72307pt.
-<harvester.jpg, id=1528, 2454.16875pt x 2585.66pt>
+<harvester.jpg, id=1527, 2454.16875pt x 2585.66pt>
 File: harvester.jpg Graphic file (type jpg)
 <use harvester.jpg>
-Package pdftex.def Info: harvester.jpg  used on input line 1689.
+Package pdftex.def Info: harvester.jpg  used on input line 1690.
 (pdftex.def)             Requested size: 368.10944pt x 387.83228pt.
  [44 <./logger.jpg>]
-<assembled.jpg, id=1536, 2220.295pt x 1591.9475pt>
+<assembled.jpg, id=1535, 2220.295pt x 1591.9475pt>
 File: assembled.jpg Graphic file (type jpg)
 <use assembled.jpg>
-Package pdftex.def Info: assembled.jpg  used on input line 1697.
+Package pdftex.def Info: assembled.jpg  used on input line 1698.
 (pdftex.def)             Requested size: 377.44516pt x 270.62749pt.
  [45 <./harvester.jpg>] [46 <./assembled.jpg>]
-<setup.pdf, id=1548, 566.115pt x 378.45387pt>
+<setup.pdf, id=1547, 566.115pt x 378.45387pt>
 File: setup.pdf Graphic file (type pdf)
 <use setup.pdf>
-Package pdftex.def Info: setup.pdf  used on input line 1753.
+Package pdftex.def Info: setup.pdf  used on input line 1754.
 (pdftex.def)             Requested size: 339.67162pt x 227.07407pt.
-<electricaldiagram.pdf, id=1550, 680.5425pt x 301.125pt>
+<electricaldiagram.pdf, id=1549, 680.5425pt x 301.125pt>
 File: electricaldiagram.pdf Graphic file (type pdf)
 <use electricaldiagram.pdf>
-Package pdftex.def Info: electricaldiagram.pdf  used on input line 1763.
+Package pdftex.def Info: electricaldiagram.pdf  used on input line 1764.
 (pdftex.def)             Requested size: 408.32864pt x 180.67638pt.
  [47]
-<dinrail.pdf, id=1559, 507.81718pt x 168.63pt>
+<dinrail.pdf, id=1558, 507.81718pt x 168.63pt>
 File: dinrail.pdf Graphic file (type pdf)
 <use dinrail.pdf>
-Package pdftex.def Info: dinrail.pdf  used on input line 1779.
+Package pdftex.def Info: dinrail.pdf  used on input line 1780.
 (pdftex.def)             Requested size: 279.30031pt x 92.74678pt.
  [48 <./setup.pdf
 
@@ -2693,43 +2676,43 @@ ource which is no dict (key 'ProcSets', type <array>); ignored.
 
 pdfTeX warning: pdflatex (file ./timedomainltc35881k.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<timedomainltc35881k.pdf, id=1714, 650.43pt x 397.485pt>
+<timedomainltc35881k.pdf, id=1713, 650.43pt x 397.485pt>
 File: timedomainltc35881k.pdf Graphic file (type pdf)
 <use timedomainltc35881k.pdf>
-Package pdftex.def Info: timedomainltc35881k.pdf  used on input line 1818.
+Package pdftex.def Info: timedomainltc35881k.pdf  used on input line 1819.
 (pdftex.def)             Requested size: 682.9518pt x 417.35944pt.
 [50 <./timedomainltc35881k.pdf>]
 
 pdfTeX warning: pdflatex (file ./timedomainltc358810k.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<timedomainltc358810k.pdf, id=1723, 650.43pt x 397.485pt>
+<timedomainltc358810k.pdf, id=1722, 650.43pt x 397.485pt>
 File: timedomainltc358810k.pdf Graphic file (type pdf)
 <use timedomainltc358810k.pdf>
-Package pdftex.def Info: timedomainltc358810k.pdf  used on input line 1826.
+Package pdftex.def Info: timedomainltc358810k.pdf  used on input line 1827.
 (pdftex.def)             Requested size: 682.9518pt x 417.35944pt.
 [51 <./timedomainltc358810k.pdf>]
 
 pdfTeX warning: pdflatex (file ./timedomainltc3331800.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<timedomainltc3331800.pdf, id=1732, 650.43pt x 397.485pt>
+<timedomainltc3331800.pdf, id=1731, 650.43pt x 397.485pt>
 File: timedomainltc3331800.pdf Graphic file (type pdf)
 <use timedomainltc3331800.pdf>
-Package pdftex.def Info: timedomainltc3331800.pdf  used on input line 1834.
+Package pdftex.def Info: timedomainltc3331800.pdf  used on input line 1835.
 (pdftex.def)             Requested size: 682.9518pt x 417.35944pt.
 [52 <./timedomainltc3331800.pdf>]
 
 pdfTeX warning: pdflatex (file ./timedomainltc333110k.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<timedomainltc333110k.pdf, id=1741, 650.43pt x 397.485pt>
+<timedomainltc333110k.pdf, id=1740, 650.43pt x 397.485pt>
 File: timedomainltc333110k.pdf Graphic file (type pdf)
 <use timedomainltc333110k.pdf>
-Package pdftex.def Info: timedomainltc333110k.pdf  used on input line 1842.
+Package pdftex.def Info: timedomainltc333110k.pdf  used on input line 1843.
 (pdftex.def)             Requested size: 682.9518pt x 417.35944pt.
 [53 <./timedomainltc333110k.pdf>]
-<accelsignal.pdf, id=1753, 341.35529pt x 60.225pt>
+<accelsignal.pdf, id=1752, 341.35529pt x 60.225pt>
 File: accelsignal.pdf Graphic file (type pdf)
 <use accelsignal.pdf>
-Package pdftex.def Info: accelsignal.pdf  used on input line 1857.
+Package pdftex.def Info: accelsignal.pdf  used on input line 1858.
 (pdftex.def)             Requested size: 341.35443pt x 60.22484pt.
  [54
 
@@ -2748,10 +2731,10 @@ pdfTeX warning: pdflatex (file ./accelsignal.pdf): PDF inclusion: invalid other
 
 pdfTeX warning: pdflatex (file ./spectrum.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-<spectrum.pdf, id=1773, 578.16pt x 325.215pt>
+<spectrum.pdf, id=1772, 578.16pt x 325.215pt>
 File: spectrum.pdf Graphic file (type pdf)
 <use spectrum.pdf>
-Package pdftex.def Info: spectrum.pdf  used on input line 1878.
+Package pdftex.def Info: spectrum.pdf  used on input line 1879.
 (pdftex.def)             Requested size: 693.78853pt x 390.25604pt.
 [55
 
@@ -2763,13 +2746,13 @@ Package pdftex.def Info: spectrum.pdf  used on input line 1878.
 
 pdfTeX warning: pdflatex (file ./results3588.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<results3588.pdf, id=1801, 542.025pt x 542.025pt>
+<results3588.pdf, id=1800, 542.025pt x 542.025pt>
 File: results3588.pdf Graphic file (type pdf)
 <use results3588.pdf>
-Package pdftex.def Info: results3588.pdf  used on input line 2022.
+Package pdftex.def Info: results3588.pdf  used on input line 2023.
 (pdftex.def)             Requested size: 460.72342pt x 460.72342pt.
 
-Overfull \hbox (5.47931pt too wide) in paragraph at lines 2022--2023
+Overfull \hbox (5.47931pt too wide) in paragraph at lines 2023--2024
  [][] 
  []
 
@@ -2779,18 +2762,18 @@ Overfull \hbox (5.47931pt too wide) in paragraph at lines 2022--2023
 
 pdfTeX warning: pdflatex (file ./results3331.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<results3331.pdf, id=1814, 542.025pt x 542.025pt>
+<results3331.pdf, id=1813, 542.025pt x 542.025pt>
 File: results3331.pdf Graphic file (type pdf)
 <use results3331.pdf>
-Package pdftex.def Info: results3331.pdf  used on input line 2030.
+Package pdftex.def Info: results3331.pdf  used on input line 2031.
 (pdftex.def)             Requested size: 460.72342pt x 460.72342pt.
 
-Overfull \hbox (5.47931pt too wide) in paragraph at lines 2030--2031
+Overfull \hbox (5.47931pt too wide) in paragraph at lines 2031--2032
  [][] 
  []
 
 [59 <./results3331.pdf>] [60]
-Overfull \hbox (9.24957pt too wide) in paragraph at lines 2058--2059
+Overfull \hbox (9.24957pt too wide) in paragraph at lines 2059--2060
 \T1/ptm/m/n/10.95 based de-vices with the de-signed piezo-elec-tric gen-er-a-to
 rs. The most ef-fi-cient so-lu-tion in-volves the \T1/ptm/m/it/10.95 LTC3331\T1
 /ptm/m/n/10.95 ,
@@ -2804,7 +2787,7 @@ ty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 2079.
+nput line 2080.
  (dataConvert.m
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 10.
@@ -2814,369 +2797,369 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <Harvester_board.pdf, id=2028, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf>
-Package pdftex.def Info: Harvester_board.pdf  used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf  used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf>
-Package pdftex.def Info: Harvester_board.pdf  used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf  used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 <Harvester_board.pdf, id=2031, page=1, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 1>
-Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 1>
-Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [67]
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 1>
-Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 1>
-Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 1>
-Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2082.
+Package pdftex.def Info: Harvester_board.pdf , page1 used on input line 2083.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [68 <./Harvester_board.pdf>]
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf>
-Package pdftex.def Info: Harvester_board.pdf  used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf  used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf>
-Package pdftex.def Info: Harvester_board.pdf  used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf  used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<Harvester_board.pdf, id=2118, page=2, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2117, page=2, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 2>
-Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2083.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: Harvester_board.pdf Graphic file (type pdf)
-<use Harvester_board.pdf, page 2>
-Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 2>
-Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 2>
-Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 2>
-Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2084.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: Harvester_board.pdf Graphic file (type pdf)
+<use Harvester_board.pdf, page 2>
+Package pdftex.def Info: Harvester_board.pdf , page2 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [69 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2137, page=3, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2136, page=3, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 3>
-Package pdftex.def Info: Harvester_board.pdf , page3 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page3 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 3>
-Package pdftex.def Info: Harvester_board.pdf , page3 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page3 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 3>
-Package pdftex.def Info: Harvester_board.pdf , page3 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page3 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [70 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2151, page=4, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2150, page=4, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 4>
-Package pdftex.def Info: Harvester_board.pdf , page4 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page4 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 4>
-Package pdftex.def Info: Harvester_board.pdf , page4 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page4 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 4>
-Package pdftex.def Info: Harvester_board.pdf , page4 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page4 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [71 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2166, page=5, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2165, page=5, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 5>
-Package pdftex.def Info: Harvester_board.pdf , page5 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page5 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 5>
-Package pdftex.def Info: Harvester_board.pdf , page5 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page5 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 5>
-Package pdftex.def Info: Harvester_board.pdf , page5 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page5 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 
 [72 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2180, page=6, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2179, page=6, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 6>
-Package pdftex.def Info: Harvester_board.pdf , page6 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page6 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 6>
-Package pdftex.def Info: Harvester_board.pdf , page6 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page6 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 6>
-Package pdftex.def Info: Harvester_board.pdf , page6 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page6 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [73 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2194, page=7, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2193, page=7, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 7>
-Package pdftex.def Info: Harvester_board.pdf , page7 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page7 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 7>
-Package pdftex.def Info: Harvester_board.pdf , page7 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page7 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 7>
-Package pdftex.def Info: Harvester_board.pdf , page7 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page7 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [74 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2208, page=8, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2207, page=8, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 8>
-Package pdftex.def Info: Harvester_board.pdf , page8 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page8 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 8>
-Package pdftex.def Info: Harvester_board.pdf , page8 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page8 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 8>
-Package pdftex.def Info: Harvester_board.pdf , page8 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page8 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [75 <./Harvester_board.pdf>]
-<Harvester_board.pdf, id=2222, page=9, 845.1575pt x 597.23125pt>
+<Harvester_board.pdf, id=2221, page=9, 845.1575pt x 597.23125pt>
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 9>
-Package pdftex.def Info: Harvester_board.pdf , page9 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page9 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 9>
-Package pdftex.def Info: Harvester_board.pdf , page9 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page9 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Harvester_board.pdf Graphic file (type pdf)
 <use Harvester_board.pdf, page 9>
-Package pdftex.def Info: Harvester_board.pdf , page9 used on input line 2083.
+Package pdftex.def Info: Harvester_board.pdf , page9 used on input line 2084.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [76 <./Harvester_board.pdf>]
-<Logger2_beta.pdf, id=2234, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2233, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf>
-Package pdftex.def Info: Logger2_beta.pdf  used on input line 2086.
+Package pdftex.def Info: Logger2_beta.pdf  used on input line 2087.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf>
-Package pdftex.def Info: Logger2_beta.pdf  used on input line 2086.
+Package pdftex.def Info: Logger2_beta.pdf  used on input line 2087.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<Logger2_beta.pdf, id=2237, page=1, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2236, page=1, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 1>
-Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2086.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: Logger2_beta.pdf Graphic file (type pdf)
-<use Logger2_beta.pdf, page 1>
-Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2086.
+Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2087.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 1>
-Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2086.
+Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2087.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 1>
-Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2086.
+Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2087.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 1>
-Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2086.
+Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2087.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: Logger2_beta.pdf Graphic file (type pdf)
+<use Logger2_beta.pdf, page 1>
+Package pdftex.def Info: Logger2_beta.pdf , page1 used on input line 2087.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [77 <./Logger2_beta.pdf>]
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf>
-Package pdftex.def Info: Logger2_beta.pdf  used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf  used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf>
-Package pdftex.def Info: Logger2_beta.pdf  used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf  used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<Logger2_beta.pdf, id=2266, page=2, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2265, page=2, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 2>
-Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2087.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: Logger2_beta.pdf Graphic file (type pdf)
-<use Logger2_beta.pdf, page 2>
-Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 2>
-Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 2>
-Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 2>
-Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2088.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: Logger2_beta.pdf Graphic file (type pdf)
+<use Logger2_beta.pdf, page 2>
+Package pdftex.def Info: Logger2_beta.pdf , page2 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [78 <./Logger2_beta.pdf>]
-<Logger2_beta.pdf, id=2280, page=3, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2279, page=3, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 3>
-Package pdftex.def Info: Logger2_beta.pdf , page3 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page3 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 3>
-Package pdftex.def Info: Logger2_beta.pdf , page3 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page3 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 3>
-Package pdftex.def Info: Logger2_beta.pdf , page3 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page3 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [79 <./Logger2_beta.pdf>]
-<Logger2_beta.pdf, id=2294, page=4, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2293, page=4, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 4>
-Package pdftex.def Info: Logger2_beta.pdf , page4 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page4 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 4>
-Package pdftex.def Info: Logger2_beta.pdf , page4 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page4 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 4>
-Package pdftex.def Info: Logger2_beta.pdf , page4 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page4 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [80 <./Logger2_beta.pdf>]
-<Logger2_beta.pdf, id=2308, page=5, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2307, page=5, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 5>
-Package pdftex.def Info: Logger2_beta.pdf , page5 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page5 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 5>
-Package pdftex.def Info: Logger2_beta.pdf , page5 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page5 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 5>
-Package pdftex.def Info: Logger2_beta.pdf , page5 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page5 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [81 <./Logger2_beta.pdf>]
-<Logger2_beta.pdf, id=2322, page=6, 845.1575pt x 597.23125pt>
+<Logger2_beta.pdf, id=2321, page=6, 845.1575pt x 597.23125pt>
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 6>
-Package pdftex.def Info: Logger2_beta.pdf , page6 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page6 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 6>
-Package pdftex.def Info: Logger2_beta.pdf , page6 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page6 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Logger2_beta.pdf Graphic file (type pdf)
 <use Logger2_beta.pdf, page 6>
-Package pdftex.def Info: Logger2_beta.pdf , page6 used on input line 2087.
+Package pdftex.def Info: Logger2_beta.pdf , page6 used on input line 2088.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [82 <./Logger2_beta.pdf>]
-<Accelerometer_board.pdf, id=2334, 845.1575pt x 597.23125pt>
+<Accelerometer_board.pdf, id=2333, 845.1575pt x 597.23125pt>
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf>
-Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2090.
+Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2091.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf>
-Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2090.
+Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2091.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<Accelerometer_board.pdf, id=2337, page=1, 845.1575pt x 597.23125pt>
+<Accelerometer_board.pdf, id=2336, page=1, 845.1575pt x 597.23125pt>
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 1>
 Package pdftex.def Info: Accelerometer_board.pdf , page1 used on input line 209
-0.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: Accelerometer_board.pdf Graphic file (type pdf)
-<use Accelerometer_board.pdf, page 1>
-Package pdftex.def Info: Accelerometer_board.pdf , page1 used on input line 209
-0.
+1.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 1>
 Package pdftex.def Info: Accelerometer_board.pdf , page1 used on input line 209
-0.
+1.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 1>
 Package pdftex.def Info: Accelerometer_board.pdf , page1 used on input line 209
-0.
+1.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 1>
 Package pdftex.def Info: Accelerometer_board.pdf , page1 used on input line 209
-0.
+1.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: Accelerometer_board.pdf Graphic file (type pdf)
+<use Accelerometer_board.pdf, page 1>
+Package pdftex.def Info: Accelerometer_board.pdf , page1 used on input line 209
+1.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [83 <./Accelerometer_board.pdf>]
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf>
-Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2091.
+Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2092.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf>
-Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2091.
+Package pdftex.def Info: Accelerometer_board.pdf  used on input line 2092.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-<Accelerometer_board.pdf, id=2366, page=2, 845.1575pt x 597.23125pt>
+<Accelerometer_board.pdf, id=2365, page=2, 845.1575pt x 597.23125pt>
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 2>
 Package pdftex.def Info: Accelerometer_board.pdf , page2 used on input line 209
-1.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
-File: Accelerometer_board.pdf Graphic file (type pdf)
-<use Accelerometer_board.pdf, page 2>
-Package pdftex.def Info: Accelerometer_board.pdf , page2 used on input line 209
-1.
+2.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 2>
 Package pdftex.def Info: Accelerometer_board.pdf , page2 used on input line 209
-1.
+2.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 2>
 Package pdftex.def Info: Accelerometer_board.pdf , page2 used on input line 209
-1.
+2.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 File: Accelerometer_board.pdf Graphic file (type pdf)
 <use Accelerometer_board.pdf, page 2>
 Package pdftex.def Info: Accelerometer_board.pdf , page2 used on input line 209
-1.
+2.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+File: Accelerometer_board.pdf Graphic file (type pdf)
+<use Accelerometer_board.pdf, page 2>
+Package pdftex.def Info: Accelerometer_board.pdf , page2 used on input line 209
+2.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
  [84 <./Accelerometer_board.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2097.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2097.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2098.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2098.
  (Notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2097.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2097.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2098.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2098.
 
 Package rerunfilecheck Info: File `Notes.out' has not changed.
-(rerunfilecheck)             Checksum: E692B2EFF2CB16547154A31070838657;6097.
+(rerunfilecheck)             Checksum: DA0073FBE99BD85C665C7205A566A956;6040.
 Package logreq Info: Writing requests to 'Notes.run.xml'.
 \openout1 = `Notes.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2097.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2098.
  ) 
 Here is how much of TeX's memory you used:
  63077 strings out of 492484
  1364907 string characters out of 3122054
- 1941553 words of memory out of 3000000
+ 1941479 words of memory out of 3000000
  65906 multiletter control sequences out of 15000+200000
  632438 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3201,9 +3184,9 @@ onts/type1/public/lm/lmsy8.pfb><C:/Users/Igor/AppData/Local/Programs/MiKTeX 2.9
 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Igor/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Igor/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Notes.pdf (86 pages, 16107653 bytes).
+Output written on Notes.pdf (86 pages, 16105693 bytes).
 PDF statistics:
- 2538 PDF objects out of 2984 (max. 8388607)
+ 2537 PDF objects out of 2984 (max. 8388607)
  520 named destinations out of 1000 (max. 500000)
  1000 words of extra memory for PDF output out of 10000 (max. 10000000)
 

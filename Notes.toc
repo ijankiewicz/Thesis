@@ -45,9 +45,9 @@
 \contentsline {subsection}{\numberline {4.4}Energy harvesting integrated circuits}{32}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}Nanopower Energy Harvesting Power Supply - LTC3588-1}{32}{subsubsection.4.4.1}%
 \contentsline {paragraph}{\numberline {4.4.1.1}Component selection and circuit design}{32}{paragraph.4.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Nanopower Buck-Boost DC/DC with Energy Harvesting Battery Charger - LTC3331}{34}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2}Nanopower Energy Harvesting Power Supply - LTC3331}{34}{subsubsection.4.4.2}%
 \contentsline {paragraph}{\numberline {4.4.2.1}Component selection and circuit design}{35}{paragraph.4.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.4.3}Ultralow Power Energy Harvester PMU with MPPT and Charge Management - ADP5091}{36}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.3}Ultralow Power Energy Harvester PMU - ADP5091}{36}{subsubsection.4.4.3}%
 \contentsline {paragraph}{\numberline {4.4.3.1}Component selection and circuit design}{38}{paragraph.4.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.4.4}Energy-Harvesting Charger and Protector - MAX17710}{38}{subsubsection.4.4.4}%
 \contentsline {paragraph}{\numberline {4.4.4.1}Component selection and circuit design}{39}{paragraph.4.4.4.1}%

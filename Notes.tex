@@ -172,7 +172,8 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {\large\bfseries\itshape}
     {\thesection.}
     {1em}
-    {\MakeUppercase}
+    {}
+    %{\MakeUppercase}
 \titleformat{\subsection}
     {\large\bfseries\itshape}
     {\thesubsection.}
@@ -1350,7 +1351,7 @@ Figure \ref{fig:ltc3588layout} presents the layout of the described circuit. Apa
 \label{fig:ltc3588layout}
 \end{figure}
 
-\subsubsection{Nanopower Buck-Boost DC/DC with Energy Harvesting Battery Charger - LTC3331}
+\subsubsection{Nanopower Energy Harvesting Power Supply - LTC3331}
 The most complicated of integrated circuits selected for this design is \textit{LTC3331} by \textit{Linear Technology}. It takes advantage of a few features very similar features to those described in the section focused on \textit{LTC3588-1}, but its performance is extended. This notion would be described further in the following section.
 \par
 The \textit{LTC3331} is a smart energy harvester that includes two DC-DC converters, a battery charger, a supercapacitor balancer and an input protection circuitry \cite{ltc3331_params}. This device is dedicated for multiple alternative energy sources including solar, thermal and piezoelectric sources. A huge advantage of this integrated circuit is an integrated full bridge rectifier, exactly as in case of the \textit{LTC3588-1} provided by the same manufacturer. The another significant similarity is the input protection circuit clamping any input overvoltage events. According to the manufacturer's datasteet \cite{ltc3331_params}, targer application of circuits based on \textit{LTC3331} are solar powered systems, security devices, wireless sensors and of course energy harvesters. Please note that parameters listed in the Table \ref{tab:ltc3331_params} cover all design requirements.\par
@@ -1430,7 +1431,7 @@ The layout of the designed circuit is presented in the Figure \ref{fig:ltc3331la
 \end{figure}
 \par
 
-\subsubsection{Ultralow Power Energy Harvester PMU with MPPT and Charge Management - ADP5091}
+\subsubsection{Ultralow Power Energy Harvester PMU - ADP5091}
 
 Another alternative for an integrated energy harvester is \textit{ADP5091} by \textit{Analog Devices}. This device is not dedicated exclusively for vibration energy harvesting applications. In case of piezo-based applications, it is necessary to provide an external voltage rectifier, as the described integrated circuit accepts only DC voltage at the input. One should note that \textit{ADP5091} incorporates a DC-DC boost converter and the LDO, which is optimized for high efficiency at low output currents \cite{adp5091_params}. Please note that parameters listed in the Table \ref{tab:adp5091_params} cover all design requirements.
 \par
@@ -1769,7 +1770,7 @@ Owing to the fact that the load resistance is known and precise, it is possible 
 
 \subsection{Assumptions}
 
-On the beginning of data analysis it is vital to provide some assumptions related to the operating conditions of the harvester. The section regarding the building blocks of particular energy harvesters explained the structure of these devices and shown that they usually consist of input section based on input filters (capacitors) and the output stage which is a Buck or a Boost converter. While it is possible to regulate the load connected to particular converters, the major impact on performance of the entire harvester is the impedance of the DC converter at its input. Due to the fact that the mentioned impedance is non-linear and mostly influenced by the behaviour of the input capacitance of the DC converter, the impedance matching is difficult to implement.\par
+On the beginning of data analysis it is vital to provide some assumptions related to the operating conditions of the harvester. The section regarding the building blocks of particular energy harvesters explained the structure of these devices and shown that they usually consist of input section based on filters (capacitors) and the output stage which is a Buck or a Boost converter. While it is possible to regulate the load connected to particular converters, the major impact on performance of the entire harvester has the impedance of the DC converter at its input. Due to the fact that the mentioned impedance is non-linear and mostly influenced by the behaviour of the input capacitance of the DC converter, the impedance matching is difficult to implement.\par
 
 During all of performed measurements, it is assumed that the input capacitance of the converter was pre-charged, as it was possible to supply the load with some current just after one excitation of the rail attached to the piezoelectric harvester. Again, it should be noted that the measurement setup does not allow to provide repetitive testitng conditions, since the excitation of the rail was performed by human arm. Nevertheless, the following sets of measurements gave similar results.
 \par
