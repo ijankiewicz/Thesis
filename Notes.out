@@ -38,35 +38,37 @@
 \BOOKMARK [4][-]{paragraph.3.3.5.5}{Connectivity}{subsubsection.3.3.5}% 38
 \BOOKMARK [1][-]{section.4}{Energy harvester system prototype}{}% 39
 \BOOKMARK [2][-]{subsection.4.1}{Design requirements}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.2}{Energy harvesting integrated circuits}{section.4}% 41
-\BOOKMARK [3][-]{subsubsection.4.2.1}{LTC3588-1 Buck DC converter}{subsection.4.2}% 42
-\BOOKMARK [4][-]{paragraph.4.2.1.1}{Component selection and circuit design}{subsubsection.4.2.1}% 43
-\BOOKMARK [3][-]{subsubsection.4.2.2}{LTC3331 Buck DC converter}{subsection.4.2}% 44
-\BOOKMARK [4][-]{paragraph.4.2.2.1}{Component selection and circuit design}{subsubsection.4.2.2}% 45
-\BOOKMARK [3][-]{subsubsection.4.2.3}{ADP5091 Boost DC converter}{subsection.4.2}% 46
-\BOOKMARK [4][-]{paragraph.4.2.3.1}{Component selection and circuit design}{subsubsection.4.2.3}% 47
-\BOOKMARK [3][-]{subsubsection.4.2.4}{MAX17710 Linear DC regulator}{subsection.4.2}% 48
-\BOOKMARK [4][-]{paragraph.4.2.4.1}{Component selection and circuit design}{subsubsection.4.2.4}% 49
-\BOOKMARK [2][-]{subsection.4.3}{Selection of load circuits}{section.4}% 50
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Utilizing storage components as the non-linear load}{subsection.4.3}% 51
-\BOOKMARK [2][-]{subsection.4.4}{Microprocessor node as the active load}{section.4}% 52
-\BOOKMARK [1][-]{section.5}{Hardware assembly, testing and calibration}{}% 53
-\BOOKMARK [2][-]{subsection.5.1}{Hardware assembly results}{section.5}% 54
-\BOOKMARK [2][-]{subsection.5.2}{Board testing}{section.5}% 55
-\BOOKMARK [2][-]{subsection.5.3}{Calibration}{section.5}% 56
-\BOOKMARK [1][-]{section.6}{Laboratory tests and result analysis}{}% 57
-\BOOKMARK [2][-]{subsection.6.1}{Experiment description}{section.6}% 58
-\BOOKMARK [2][-]{subsection.6.2}{The measurement setup}{section.6}% 59
-\BOOKMARK [2][-]{subsection.6.3}{Assumptions}{section.6}% 60
-\BOOKMARK [2][-]{subsection.6.4}{Expected results of the experiment}{section.6}% 61
-\BOOKMARK [2][-]{subsection.6.5}{Exemplary results presented in time domain}{section.6}% 62
-\BOOKMARK [2][-]{subsection.6.6}{Signal conditioning applied to the accelerometer data}{section.6}% 63
-\BOOKMARK [2][-]{subsection.6.7}{Derivation of most important parameters}{section.6}% 64
-\BOOKMARK [2][-]{subsection.6.8}{Results for particular energy harvesters}{section.6}% 65
-\BOOKMARK [2][-]{subsection.6.9}{Conclusion related to measurement results}{section.6}% 66
-\BOOKMARK [1][-]{section.7}{Summary and conclusions}{}% 67
-\BOOKMARK [1][-]{section*.78}{Appendices}{}% 68
-\BOOKMARK [1][-]{Appendix.1.A}{Octave code for sample analysis and signal conditioning}{}% 69
-\BOOKMARK [1][-]{Appendix.1.B}{Harvester board schematics}{}% 70
-\BOOKMARK [1][-]{Appendix.1.C}{Data acquisition board schematics}{}% 71
-\BOOKMARK [1][-]{Appendix.1.D}{Accelerometer board schematics}{}% 72
+\BOOKMARK [2][-]{subsection.4.2}{List of different load circuits}{section.4}% 41
+\BOOKMARK [2][-]{subsection.4.3}{Selected integrated circuits for energy harvesting management}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.4}{Energy harvesting integrated circuits}{section.4}% 43
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Nanopower Energy Harvesting Power Supply - LTC3588-1}{subsection.4.4}% 44
+\BOOKMARK [4][-]{paragraph.4.4.1.1}{Component selection and circuit design}{subsubsection.4.4.1}% 45
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Nanopower Buck-Boost DC/DC with Energy Harvesting Battery Charger - LTC3331}{subsection.4.4}% 46
+\BOOKMARK [4][-]{paragraph.4.4.2.1}{Component selection and circuit design}{subsubsection.4.4.2}% 47
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Ultralow Power Energy Harvester PMU with MPPT and Charge Management - ADP5091}{subsection.4.4}% 48
+\BOOKMARK [4][-]{paragraph.4.4.3.1}{Component selection and circuit design}{subsubsection.4.4.3}% 49
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Energy-Harvesting Charger and Protector - MAX17710}{subsection.4.4}% 50
+\BOOKMARK [4][-]{paragraph.4.4.4.1}{Component selection and circuit design}{subsubsection.4.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.5}{Selection of load circuits}{section.4}% 52
+\BOOKMARK [3][-]{subsubsection.4.5.1}{Utilizing storage components as the non-linear load}{subsection.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.6}{Microprocessor node as the active load}{section.4}% 54
+\BOOKMARK [1][-]{section.5}{Hardware assembly, testing and calibration}{}% 55
+\BOOKMARK [2][-]{subsection.5.1}{Hardware assembly results}{section.5}% 56
+\BOOKMARK [2][-]{subsection.5.2}{Board testing}{section.5}% 57
+\BOOKMARK [2][-]{subsection.5.3}{Calibration}{section.5}% 58
+\BOOKMARK [1][-]{section.6}{Laboratory tests and result analysis}{}% 59
+\BOOKMARK [2][-]{subsection.6.1}{Experiment description}{section.6}% 60
+\BOOKMARK [2][-]{subsection.6.2}{The measurement setup}{section.6}% 61
+\BOOKMARK [2][-]{subsection.6.3}{Assumptions}{section.6}% 62
+\BOOKMARK [2][-]{subsection.6.4}{Expected results of the experiment}{section.6}% 63
+\BOOKMARK [2][-]{subsection.6.5}{Exemplary results presented in time domain}{section.6}% 64
+\BOOKMARK [2][-]{subsection.6.6}{Signal conditioning applied to the accelerometer data}{section.6}% 65
+\BOOKMARK [2][-]{subsection.6.7}{Derivation of most important parameters}{section.6}% 66
+\BOOKMARK [2][-]{subsection.6.8}{Results for particular energy harvesters}{section.6}% 67
+\BOOKMARK [2][-]{subsection.6.9}{Conclusion related to measurement results}{section.6}% 68
+\BOOKMARK [1][-]{section.7}{Summary and conclusions}{}% 69
+\BOOKMARK [1][-]{section*.79}{Appendices}{}% 70
+\BOOKMARK [1][-]{Appendix.1.A}{Octave code for sample analysis and signal conditioning}{}% 71
+\BOOKMARK [1][-]{Appendix.1.B}{Harvester board schematics}{}% 72
+\BOOKMARK [1][-]{Appendix.1.C}{Data acquisition board schematics}{}% 73
+\BOOKMARK [1][-]{Appendix.1.D}{Accelerometer board schematics}{}% 74
