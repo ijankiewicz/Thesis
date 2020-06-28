@@ -58,11 +58,13 @@
 \BOOKMARK [2][-]{subsection.6.1}{Experiment description}{section.6}% 58
 \BOOKMARK [2][-]{subsection.6.2}{The measurement setup}{section.6}% 59
 \BOOKMARK [2][-]{subsection.6.3}{Assumptions}{section.6}% 60
-\BOOKMARK [2][-]{subsection.6.4}{Analysis of captured data}{section.6}% 61
-\BOOKMARK [2][-]{subsection.6.5}{Signal conditioning applied to the accelerometer data}{section.6}% 62
-\BOOKMARK [2][-]{subsection.6.6}{Results for particular DC converters}{section.6}% 63
-\BOOKMARK [1][-]{section*.75}{Appendices}{}% 64
-\BOOKMARK [1][-]{Appendix.1.A}{Octave code for sample analysis and signal conditioning}{}% 65
-\BOOKMARK [1][-]{Appendix.1.B}{Harvester board schematics}{}% 66
-\BOOKMARK [1][-]{Appendix.1.C}{Data acquisition board schematics}{}% 67
-\BOOKMARK [1][-]{Appendix.1.D}{Accelerometer board schematics}{}% 68
+\BOOKMARK [2][-]{subsection.6.4}{Expected results of the experiment}{section.6}% 61
+\BOOKMARK [2][-]{subsection.6.5}{Exemplary results presented in time domain}{section.6}% 62
+\BOOKMARK [2][-]{subsection.6.6}{Signal conditioning applied to the accelerometer data}{section.6}% 63
+\BOOKMARK [2][-]{subsection.6.7}{Derivation of most important parameters}{section.6}% 64
+\BOOKMARK [2][-]{subsection.6.8}{Results for particular energy harvesters}{section.6}% 65
+\BOOKMARK [1][-]{section*.78}{Appendices}{}% 66
+\BOOKMARK [1][-]{Appendix.1.A}{Octave code for sample analysis and signal conditioning}{}% 67
+\BOOKMARK [1][-]{Appendix.1.B}{Harvester board schematics}{}% 68
+\BOOKMARK [1][-]{Appendix.1.C}{Data acquisition board schematics}{}% 69
+\BOOKMARK [1][-]{Appendix.1.D}{Accelerometer board schematics}{}% 70

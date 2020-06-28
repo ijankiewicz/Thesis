@@ -1,5 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
 \usepackage[english]{babel}
 \usepackage{secdot}
@@ -66,6 +68,30 @@
 
 \lstset{style=mystyle}
 %****************************************************
+
+\usepackage{listings}
+\lstset{
+  literate={ą}{{\k a}}1
+  		     {Ą}{{\k A}}1
+           {ż}{{\. z}}1
+           {Ż}{{\. Z}}1
+           {ź}{{\' z}}1
+           {Ź}{{\' Z}}1
+           {ć}{{\' c}}1
+           {Ć}{{\' C}}1
+           {ę}{{\k e}}1
+           {Ę}{{\k E}}1
+           {ó}{{\' o}}1
+           {Ó}{{\' O}}1
+           {ń}{{\' n}}1
+           {Ń}{{\' N}}1
+           {ś}{{\' s}}1
+           {Ś}{{\' S}}1
+           {ł}{{\l}}1
+           {Ł}{{\L}}1
+}
+
+
 
 %Environment for listing equation parameters
 \newenvironment{conditions}
@@ -169,13 +195,29 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {}
     
     
-% Glossary
+% Abstract and keywords
+
+% Keywords command
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{\textit{Keywords ---}} #1
+}
+
+\providecommand{\slowakluczowe}[1]
+{
+  \small	
+  \textbf{\textit{Słowa kluczowe ---}} #1
+}
+
+
+
 
 \begin{document}
 
 \begin{titlepage}
     \centering
-    \includegraphics[width=7cm]{logo.jpg} % also works with 
+    \includegraphics[width=6cm]{logo.jpg} % also works with 
     \vskip1cm
     {\Large
         SILESIAN UNIVERSITY OF TECHNOLOGY\\
@@ -185,13 +227,18 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     }
     \vskip1cm
     {\bfseries\huge
-    Master's thesis\\
+    Master of Science Thesis\\
     }
-    \vskip1cm
+    \vskip0.5cm
     {\bfseries\large
-    To be determined \\
+    
+Analysis of the piezoelectric energy harvester operation combined with the data acquisition system. \\
     }
-    \vskip2cm
+    \vskip0.5cm
+    {\bfseries\normalsize
+    Analiza pracy piezoelektrycznego generatora energii sprzężonego z dedykowanym systemem pomiarowym. \\
+    }
+    \vskip 1.5cm
     {\large
     \begin{tabular}{p{4cm} p{10cm}}
     Student: & {\bfseries\Large Igor Aleksander JANKIEWICZ}\\
@@ -204,13 +251,85 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     Supervisor: & PhD. EEng. Andrzej Latko\\
     \end{tabular}
     }
-    \vskip2.5cm
+    \vskip2cm
     {\large
     Gliwice 2020}
 \end{titlepage}
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=6.5cm]{logo2.png} % also works with 
+    \vskip1cm
+    {\Large
+        POLITECHNIKA ŚLĄSKA\\
+        WYDZIAŁ ELEKTRYCZNY\\
+        \vskip0.5cm
+        Katedra Energoelektroniki, Napędu Elektrycznego i Robotyki\\
+    }
+    \vskip1cm
+    {\bfseries\huge
+    PRACA DYPLOMOWA MAGISTERSKA\\
+    }
+    \vskip0.5cm
+    {\bfseries\large
+    Analiza pracy piezoelektrycznego generatora energii sprzężonego z dedykowanym systemem pomiarowym. \\
+    }
+
+        \vskip0.5cm
+    {\bfseries\normalsize
+    
+Analysis of the piezoelectric energy harvester operation combined with the data acquisition system. \\
+    }
+        \vskip 1.5cm
+    {\large
+    \begin{tabular}{p{4cm} p{10cm}}
+    Student: & {\bfseries\Large Igor Aleksander JANKIEWICZ}\\
+    Nr albumu: & 285947\\
+        &   \\
+    Studia: & Niestacjonarne II stopnia\\
+    Kierunek: & Elektrotechnika\\
+    Specjalność: & Przetwarzanie i użytkowanie energii elektrycznej\\
+        &   \\
+    Promotor: & dr inż. Andrzej Latko\\
+    \end{tabular}
+    }
+    \vskip2cm
+    {\large
+    Gliwice 2020}
+\end{titlepage}
+
+\clearpage
+
+\begin{center}
+\textbf{Abstract}
+\hspace{10pt}
+\end{center}
+
+The present Master's thesis seeks to provide better understanding of piezoelectric energy harvesting as a promising alternative energy source. As a staring point, the theoretical background of the piezoelectric effect is introduced. Subsequently, the theory behind the piezoelectric beam and its parameters is a subject of analysis. Two major part of the following thesis include the design of the data acquisition device and the energy harvesting device. The first one is utilized for capturing any crucial signal allowing to understand processes behind the conversion of mechanical energy into electricity. The thorough and clear design process introduces important parts of the circuit along with the link between particular parameters of device and signals associated with piezoelectric-based energy harvesters. The second of presented devices is the energy harvesting board that aims to make use of energy provided by the vibrating piezoelectric beam. It consists of a few different power circuits and a variation of load circuits that are easily configurable. This way, experimenting with piezoelectric devices is massively simplified. Along with above-mentioned printed circuit boards, there is another one responsible for providing reference vibration level signals. The experiment stage involves observing the response of the piezoelectric harvester under artificially induced vibrations.
+
+\par
+
+\hspace{10pt}
+
+%TC:ignore
+\keywords{energy harvesting, piezoelectricity, vibrations, microprocessor-based systems, power converters, analog filters, digital signal processing, autonomous sensors, low-power design}
+
+\begin{center}
+\textbf{Streszczenie}
+\hspace{10pt}
+\end{center}
+
+Niniejsza praca magisterska ma na celu przedstawienie piezoeletrycznych generatorów energii jako obiecującego źródła energii odnawialnej. Punktem początkowym jest omówienie zjawiska piezoelektryczności. Następnie, przedstawione są generatory piezoelektryczne wraz z najważniejszymi parametrami i analizą ich budowy. Dwie głowne części pracy magisterskiej związane są z zaprojektowaniem układu pomiarowego oraz układu odzyskującego energię przy pomocy generatora piezoelektrycznego. Pierwsze ze wspomnianych urządzeń używane jest do resjstrowania kluczowych sygnałów umożliwiających zrozumienie procesów stojących za konwersją energii mechanicznej na elektryczną. Wyczerpujący i przejrzysty proces projektowania skupiony jest na opisie kluczowych obwodów urządzenia pomiarowego wraz z powiązaniem jego elektrycznych parametrów z właściowściami obiektu pomiarowego, jakim jest generator piezoelektryczny. Drugim z zaprojektowanych urządzeń jest układ odzyskujący energię przy pomocy wspomnianego generatora. Składa się on z kilku przetwornic energoelektronicznych oraz róznych rodzajów obciążenia, które są w łatwy sposób konfigurowalne. W ten sposób, przeprowadzanie eksperymentów laboratoryjnych jest w znacznym stopniu ułatwione. Poza wspomianymi powyżej obwodami drukowanymi, stworzona została także mała konstrukcja dostarczająca referencyjnych sygnałów związanych z wibracjami. Część eksperymentalana pracy polega na obserwacji odpowiedzi układu odzyskującego energię z drgań na sztucznie wywołane wibracje.
+
+\par
+
+\hspace{10pt}
+
+\slowakluczowe{energy harvesting, piezoelektryczność, wibracje, systemy mikroprocesorowe, przetwornice energoelektroniczne, filtry analogowe, cyforowe przetwarzanie sygnałów, autonomiczne urządzenia pomiarowe, projektowanie urządzeń niskiej mocy}
+
 \newpage\null\thispagestyle{empty}\newpage
 \tableofcontents
-\newpage\null\thispagestyle{empty}
+\clearpage
 
 \section{Introduction}
 This Master's thesis is focused on Piezoelectic Energy Harvesting in general. Apart from the explanation of the actual energy scavenging process, it also covers a design of a proper data acquisition system used for evaluation and development of piezoelectric-based generators.
@@ -1639,28 +1758,78 @@ The visualization of the hitting location and dimensions of the DIN rails are pr
 \label{fig:dinrail}
 \end{figure}
 
-\subsection{Analysis of captured data}
+\subsection{Expected results of the experiment}
+As the experimental part of the project is ready to start, it is high time to propose a thesis that should be proved throughout the experiment.
+\par
+The idea behind using piezoelectric energy harvesters as power supplies is driven by a perspective of introducing energy self-sufficient microprocessor-based systems. Those can be used as autonomous sensors that could also provide wireless communication if there is enough energy available.
+\par
+When it comes to more accurate information regarding the amount of energy required by microprocessor systems, there are already some sources \cite{joules} that provide accurate data. The energy consumption of course depends on type and architecture of particular microprocessors. Moreover, operation frequency has a huge influence on the overall power consumption. Complicated mathematical operations performed by \textit{Cortex} may require up to 50$\mu$J joules of energy. More energy-hungry processes are the analog-to-digital conversion (up to 70$\mu$J) and the serial communication - 100-200$\mu$J if configured properly \cite{joules}.
+\par
+Obviously, these tasks cannot be performed simultaneously, so the overall energy consumption would be lower and influenced by the duty cycle of the microprocessor. For the sake of the experiment, it is assumed that energy of 150-250$\mu$J is sufficient to allow relatively friendly power conditions for the microcontroller. The impact of external passive components required by the microprocessor is neglected.
+\subsection{Exemplary results presented in time domain}
 
-The exemplary data received during experiments is presented in the Figure \ref{fig:timedomain}. There are three different characteristics presented, namely the output voltage of the DC converter, the output current and the output power. All these curves are combined with accelerometer readings. The converter used in the example is the \textit{LTC3588-1} connected to resistive load of 5k$\Omega$.
+The exemplary characteristics captured during experiments are presented in the Figures \ref{fig:timedomainltc35881k}, \ref{fig:timedomainltc358810k}, \ref{fig:timedomainltc3331800} and \ref{fig:timedomainltc333110k}. There are three different curves presented, namely the output voltage of the DC converter, the output current and the output power.
 \par
-The logger board is able to monitor both accelerometer output and the DC converter output. Owing to the fact that the load resistance of the DC converter is known, it is possible to calculate the current and output power generated by the harvester. Please note that the output voltage of the converter was set to 3.0V, but it did not reach stable level, because the energy generated by the piezoelectric beam was not sufficient.
+
+The voltage was measured directly on the resistor load. Since the decade resistor was connected to the converter's output, it possible to calculate the load current using the Ohm's law:
+
+\begin{equation}
+	I_{Load} = \frac{U_{Load}}{R}
+	\label{eqn:current}
+\end{equation}
+
+Once the load current and the load voltage are known, it is possible to calculate the instantaneous power:
+
+\begin{equation}
+	P_{Load} = U_{Load} \cdot I_{Load}
+	\label{eqn:power}
+\end{equation}
+
+The above-mentioned equations were used to obtain presented characteristics. The output of the accelerometer was placed for reference only, as it provides a proper indication of the current vibration level, what could be related to the amount of generated power.
+
 \par
-Power generation of the energy harvester is mostly depend on the input impedance of the DC converter, as it should match the impedance of the piezoelectric harvester output in order to maintain maximum efficiency of energy generation \cite{EnHv2}. In case of presented designs, their input impedance depends mostly on the input capacitor and its actual charge. In order to to keep the input impedance on a similar level, one should assume that the capacitor has been charged before the the load has been supplied with the power.
+Power generation of the energy harvester is mostly depend on the input impedance of the DC converter, as it should match the impedance of the piezoelectric harvester output in order to maintain maximum efficiency of energy generation \cite{EnHv2}. In case of the design used during the tests, its input impedance depends mostly on the input capacitor and its actual charge. In order to to keep the input impedance on a similar level, one should assume that the capacitor has been charged before the the load has been supplied with the power.
 
 
 \begin{landscape} 
 \begin{figure}[ht!]
-\includegraphics[scale=1.05]{timedomain.pdf}
-\caption{Measurement results example. Converter: \textit{LTC3588-1}, Load: 5k$\Omega$.}
-\label{fig:timedomain}
+\includegraphics[scale=1.05]{timedomainltc35881k.pdf}
+\caption{Measurement results example. Converter: \textit{LTC3588-1}, Load: 1k$\Omega$.}
+\label{fig:timedomainltc35881k}
 \end{figure}
 \end{landscape}
+
+\begin{landscape} 
+\begin{figure}[ht!]
+\includegraphics[scale=1.05]{timedomainltc358810k.pdf}
+\caption{Measurement results example. Converter: \textit{LTC3588-1}, Load: 10k$\Omega$.}
+\label{fig:timedomainltc358810k}
+\end{figure}
+\end{landscape}
+
+\begin{landscape} 
+\begin{figure}[ht!]
+\includegraphics[scale=1.05]{timedomainltc3331800.pdf}
+\caption{Measurement results example. Converter: \textit{LTC3588-1}, Load: 800$\Omega$.}
+\label{fig:timedomainltc3331800}
+\end{figure}
+\end{landscape}
+
+\begin{landscape} 
+\begin{figure}[ht!]
+\includegraphics[scale=1.05]{timedomainltc333110k.pdf}
+\caption{Measurement results example. Converter: \textit{LTC3588-1}, Load: 10k$\Omega$.}
+\label{fig:timedomainltc333110k}
+\end{figure}
+\end{landscape}
+
+There are four different cases presented for the sake of the analysis. Two of them are related to the \textit{LTC3588-1} energy harvester and the remaining two to the \textit{LTC3331}-based circuit. On first glance it can be seen that only in one case the converter reaches the stable output voltage value - see Figure \ref{fig:timedomainltc358810k}. Both converters were programmed to maintain 3V at the output, but in most cases there was not enough energy to do so.
 
 
 
 \subsection{Signal conditioning applied to the accelerometer data}
 
-As it can be seen in the Figure \ref{fig:timedomain}, the data obtained from accelerometer is affected by vibrational motion of the entire laboratory post, including the vice attached to the table, the DIN rail as well as the piezoelectric beam holder. A chunk of data captured by the data acquisition board requires some filtering in order to extract the most important data, namely the magnitude of vibration of the piezoelectric harvester. The diagram on the FIgure \ref{fig:accelsignal} presents the idea of data conditioning applied to raw samples from the accelerometer.
+As it can be seen in the figures presented in hte previous subsection, the data obtained from accelerometer is affected by vibrational motion of the entire laboratory post, including the vice attached to the table, the DIN rail as well as the piezoelectric beam holder. A chunk of data captured by the data acquisition board requires some filtering in order to extract the most important data, namely the magnitude of vibration of the piezoelectric harvester. The diagram on the FIgure \ref{fig:accelsignal} presents the idea of data conditioning applied to raw samples from the accelerometer.
 
 \begin{figure}[ht!]
 \includegraphics[scale=1.0]{accelsignal.pdf}
@@ -1690,119 +1859,154 @@ To sum up, the example of data processing is presented in the Firgre \ref{fig:sp
 \end{figure}
 \end{landscape}
 
+\subsection{Derivation of most important parameters}
+Based on the recorded data, it is possible to derive many important information related to the piezoelectric-based energy generation process. In order to do so, one should refer to last two subsections where time domain characteristics are presented.
+\par
+When it comes to the acceleration value and the frequency, the derivation procedure was mentioned before, but a short summary would be helpful. First of all, the filtered acceleration curve should be obtained. This step is realized by the signal processing operations presented in the previous subsection. Once the unwanted frequencies are filtered, the acceleration curve is symmetrical and decaying. The acceleration during the excitation is indicated by the highest accelerometer reading. Based on the shape of the curve and timestamps, it is possible to calculate the signal frequency once the signal peaks are located. These operations are required to gain the parameters related to vibrational movement.
+\par
+Now, it is time to derive some electrical quantities. There are two of them that would help to understand the energy harvesting process. First of them is the charge generated during one excitation and the second one is the amount of energy generated during mentioned excitation.
+\par
+The charge is calculated using the following equation:
 
-\subsection{Results for particular DC converters}
+\begin{equation}
+	C_{Load} = I_{Load} \cdot t
+	\label{eqn:charge}
+\end{equation}
+
+This calculation is obtained in \textit{Octave} by adding portions of charge between particular timestamps in a loop.
+\par
+Once the charge is calculated, the energy derivation is the next step:
+
+\begin{equation}
+	E_{Load} = C_{Load} \cdot V_{Load}
+	\label{eqn:energy}
+\end{equation}
+\par
+At this point, there are four parameters associated with any sample of data, namely frequency, acceleration, charge and energy. The more detailed description of the presented calculations are placed in the Appendix containing the source code for all the data processing. 
+
+
+\subsection{Results for particular energy harvesters}
+In the following subsection, the measurement results would be presented. All of presented values have been calculated using exactly the same procedure presented in previous subsections.
+\par
+Table \ref{tab:ltc3588results} presents all results obtained during laboratory tests. Based on the mentioned table, a set of characteristics has been developed - see Figure \ref{fig:results3588}.
+\par
+Frequency of particular measurements is maintained on fairly the same level, as it varies between 54-59Hz. When it comes to the acceleration, it is also relatively stable, with a difference of around 0.25g between the lowest and the highest reading from the accelerometer. The charge and energy curves have similar shape. From Figure \ref{fig:results3588} it can be seen that the highest charge is generated for the lowest load resistance attached to the output of the converter. One should also notice that the acceleration value influences the energy and charge generated by the harvester. The increased energy and charge generation between 100$\Omega$ and 1k$\Omega$ may be related to the efficiency curve of the \textit{LTC3588-1}. For currents over 200$\mu$A the converter maintains the maximum efficiency \cite{ltc3588_params}. In most cases, the charge value is over 150$\mu$C and the energy over 100$\mu$J. The peak charge is associated with 100$\Omega$ load and is equal to 276$\mu$C. The highest energy is calculated for 900$\Omega$ load and is equal to 342$\mu$J. The lowest energy and charge generation is related to 7k$\Omega$ load. Around 4 and k$\Omega$ there is a local maxima that might be related to slight increase of the vibration acceleration. When considering the performance of the converter based on the Figure \ref{fig:results3588}, it can be seen that the obtained values are fairly independent on the load, which proves that the impedance matching of the DC converter depends mostly on its input impedance.
+\par
+It is decided to connect particular data points using a straight line, as the results most certainly would not follow sinusoidal or polynominal pattern.
+\clearpage
 
 \begin{table}[ht!]
 \centering
 
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|}
     \hline
-    \textbf{Load} [$\Omega$] & \textbf{Charge} [$\mu$C]& \textbf{Frequency}[Hz] & \textbf{Acceleration}[g] \\
+    \textbf{Load} [$\Omega$] & \textbf{Charge} [$\mu$C]& \textbf{Energy} [$\mu$J] & \textbf{Frequency}[Hz] & \textbf{Acceleration}[g] \\
+ \hline
+    100 & 276.613 & 230.775 & 59.23 & 0.913 \\
     \hline
-    100 & 1.113 & 59.23 & 0.913 \\
+    200 & 182.734 & 137.837 & 59.46 & 0.954 \\
     \hline
-    200 & 0.677 & 59.46 & 0.954 \\
+    300 & 144.810 & 117.233 & 59.34 & 0.908 \\
     \hline
-    300 & 0.741 & 59.34 & 0.908 \\
+    400 & 194.802 & 186.201 & 55.71 & 0.960 \\
     \hline
-    400 & 0.616 & 55.71 & 0.960 \\
+    500 & 155.905 & 144.095 & 55.74 & 0.956 \\
     \hline
-    500 & 0.782 & 55.74 & 0.956 \\
+    600 & 233.119 & 263.205 & 56.62 & 0.973 \\
     \hline
-    600 & 0.868 & 56.62 & 0.973 \\
+    700 & 156.506 & 155.175 & 56.35 & 0.960 \\
     \hline
-    700 & 0.747 & 56.35 & 0.960 \\
+    800 & 215.124 & 285.800 & 55.04 & 0.980 \\
     \hline
-    800 & 0.898 & 55.04 & 0.980 \\
+    900 & 237.311 & 342.403 & 54.88 & 0.988 \\
     \hline
-    900 & 1.112 & 54.88 & 0.988 \\
+    1000 & 241.937 & 334.399 & 55.21 & 0.954 \\
     \hline
-    1000 & 1.104 & 55.21 & 0.954 \\
+    2000 & 127.252 & 114.930 & 55.60 & 0.878 \\
     \hline
-    2000 & 0.818 & 55.60 & 0.878 \\
+    3000 & 124.444 & 116.098 & 55.45 & 0.703 \\
     \hline
-    3000 & 0.872 & 55.45 & 0.703 \\
+    4000 & 157.111 & 180.646 & 55.25 & 0.770 \\
     \hline
-    4000 & 1.110 & 55.25 & 0.770 \\
+    5000 & 154.453 & 180.614 & 54.79 & 0.935 \\
     \hline
-    5000 & 1.176 & 54.79 & 0.935 \\
+    6000 & 120.497 & 113.833 & 54.74 & 0.903 \\
     \hline
-    6000 & 0.981 & 54.74 & 0.903 \\
+    7000 & 78.376 & 50.894 & 55.47 & 0.771 \\
     \hline
-    7000 & 0.896 & 55.47 & 0.771 \\
+    8000 & 121.319 & 112.495 & 55.26 & 0.782 \\
     \hline
-    8000 & 0.891 & 55.26 & 0.782 \\
+    9000 & 120.439 & 111.265 & 54.59 & 0.696 \\
     \hline
-    9000 & 0.988 & 54.59 & 0.696 \\
-    \hline
-    10000 & 1.075 & 54.89 & 0.755 \\
+    10000 & 121.764 & 114.959 & 54.89 & 0.755 \\
     \hline
 \end{tabular}
 \caption{Measurements results - LTC3588-1}
 \label{tab:ltc3588results}
 \end{table}
 
-
-\begin{figure}[ht!]
-\includegraphics[scale=0.75]{results3588.pdf}
-\caption{Results of a series of measurements in a function of load - \textit{LTC3588-1} DC converter.}
-\label{fig:results3588}
-\end{figure}
-
 \begin{table}[ht!]
 \centering
 
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|}
     \hline
-    \textbf{Load} [$\Omega$] & \textbf{Charge} [$\mu$C]& \textbf{Frequency}[Hz] & \textbf{Acceleration}[g] \\
+    \textbf{Load} [$\Omega$] & \textbf{Charge} [$\mu$C]& \textbf{Energy} [$\mu$J] & \textbf{Frequency}[Hz] & \textbf{Acceleration}[g] \\
     \hline
-    100 & 1.200 & 61.02 & 0.925 \\
+    100 & 383.757 & 321.301 & 61.02 & 0.925 \\
     \hline
-    200 & 1.249 & 57.20 & 0.917 \\
+    200 & 346.675 & 352.657 & 57.20 & 0.917 \\
     \hline
-    300 & 1.036 & 57.76 & 0.922 \\
+    300 & 200.661 & 238.670 & 57.76 & 0.922 \\
     \hline
-    400 & 1.097 & 56.73 & 0.927 \\
+    400 & 192.317 & 202.747 & 56.73 & 0.927 \\
     \hline
-    500 & 0.968 & 55.63 & 0.895 \\
+    500 & 244.179 & 308.818 & 55.63 & 0.895 \\
     \hline
-    600 & 1.184 & 55.35 & 0.905 \\
+    600 & 239.366 & 344.155 & 55.35 & 0.905 \\
     \hline
-    700 & 0.896 & 55.16 & 0.904 \\
+    700 & 229.962 & 323.894 & 55.16 & 0.904 \\
     \hline
-    800 & 1.000 & 54.91 & 0.951 \\
+    800 & 212.503 & 289.904 & 54.91 & 0.951 \\
     \hline
-    900 & 1.116 & 54.15 & 0.925 \\
+    900 & 207.284 & 266.494 & 54.15 & 0.925 \\
     \hline
-    1000 & 1.098 & 55.53 & 0.913 \\
+    1000 & 157.780 & 159.375 & 55.53 & 0.913 \\
     \hline
-    2000 & 3.156 & 55.89 & 0.860 \\
+    2000 & 183.095 & 252.665 & 55.89 & 0.860 \\
     \hline
-    3000 & 3.135 & 55.26 & 0.910 \\
+    3000 & 161.531 & 200.157 & 55.26 & 0.910 \\
     \hline
-    4000 & 3.369 & 51.88 & 0.773 \\
+    4000 & 167.892 & 223.411 & 51.88 & 0.773 \\
     \hline
-    5000 & 3.504 & 52.56 & 0.934 \\
+    5000 & 181.915 & 257.125 & 52.56 & 0.934 \\
     \hline
-    6000 & 2.729 & 53.55 & 0.911 \\
+    6000 & 177.988 & 292.347 & 53.55 & 0.911 \\
     \hline
-    7000 & 3.175 & 53.22 & 0.907 \\
+    7000 & 234.445 & 421.255 & 53.22 & 0.907 \\
     \hline
-    8000 & 2.569 & 56.31 & 0.909 \\
+    8000 & 162.407 & 306.924 & 56.31 & 0.909 \\
     \hline
-    9000 & 1.559 & 53.37 & 0.933 \\
+    9000 & 137.111 & 168.941 & 53.37 & 0.933 \\
     \hline
-    10000 & 1.803 & 55.18 & 0.905 \\
+    10000 & 240.950 & 437.328 & 55.18 & 0.905 \\
     \hline
 \end{tabular}
 \caption{Measurements results - LTC3331}
 \label{tab:ltc3331results}
 \end{table}
+\par
+
+When it comes to the \textit{LTC3331} 
 
 \begin{figure}[ht!]
-\includegraphics[scale=0.75]{results3331.pdf}
-\caption{Results of a series of measurements in a function of load - \textit{LTC3331} DC converter.}
+\includegraphics[scale=0.85]{results3588.pdf}
+\caption{Obtained characteristics as a function of load - \textit{LTC3588-1} converter.}
+\label{fig:results3588}
+\end{figure}
+
+\begin{figure}[ht!]
+\includegraphics[scale=0.85]{results3331.pdf}
+\caption{Obtained characteristics as a function of load - \textit{LTC3331} converter.}
 \label{fig:results3331}
 \end{figure}
 

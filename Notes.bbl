@@ -575,5 +575,38 @@
   datasheet}
     \field{year}{2004}
   \endentry
+
+  \entry{joules}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AKM}{%
+         family={Al-Kofahi},
+         familyi={A\bibinithyphendelim K\bibinitperiod},
+         given={Majd},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ASM}{%
+         family={Al-Shorman},
+         familyi={A\bibinithyphendelim S\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AKO}{%
+         family={Al-Kofahi},
+         familyi={A\bibinithyphendelim K\bibinitperiod},
+         given={Osameh},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AKM+1}
+    \strng{fullhash}{AKMASMAKO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.13140/RG.2.2.36765.56800
+    \endverb
+    \field{title}{Toward Energy Efficient Microcontrollers and IoT Systems}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
 \enddatalist
 \endinput
