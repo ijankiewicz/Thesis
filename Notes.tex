@@ -155,6 +155,16 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 \fancyfoot[C]{\bfseries\thepage}
 \renewcommand{\headrulewidth}{0.5pt}% suppress the header rule
 
+%\usepackage{titleps,lipsum}% http://ctan.org/pkg/{titleps,lipsum}
+%\newpagestyle{main}{%
+%  \sethead
+%    {\toptitlemarks \thesection \quad \sectiontitle}% left
+%    {\thepage}% centre
+%    {\bottitlemarks \thesection \quad \sectiontitle}% right
+%  \setheadrule{.4pt}% Regular header rule
+%}
+%\pagestyle{main}
+
 % INDENTATATIONS
 \usepackage{indentfirst}
 \setlength{\parindent}{0.75cm}
@@ -172,8 +182,7 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {\large\bfseries\itshape}
     {\thesection.}
     {1em}
-    {}
-    %{\MakeUppercase}
+    {\MakeUppercase}
 \titleformat{\subsection}
     {\large\bfseries\itshape}
     {\thesubsection.}
@@ -195,6 +204,14 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
     {1em}
     {}
     
+   
+\makeatletter
+\def\@seccntformat#1{\@ifundefined{#1@cntformat}%
+   {\csname the#1\endcsname\space}%    default
+   {\csname #1@cntformat\endcsname}}%  enable individual control
+\newcommand\section@cntformat{\thesection.\space}       % section-level
+\newcommand\subsection@cntformat{\thesubsection.\space} % subsection-level
+\makeatother   
     
 % Abstract and keywords
 
@@ -257,6 +274,8 @@ Analysis of operation of the piezoelectric energy harvester combined with the da
     Gliwice 2020}
 \end{titlepage}
 
+\newpage\null\thispagestyle{empty}\newpage
+
 \begin{titlepage}
     \centering
     \includegraphics[width=6.5cm]{logo2.png} % also works with 
@@ -284,7 +303,7 @@ Analysis of operation of the piezoelectric energy harvester combined with the da
         \vskip 1.5cm
     {\large
     \begin{tabular}{p{4cm} p{10cm}}
-    Student: & {\bfseries\Large Igor Aleksander JANKIEWICZ}\\
+    Student: & {\bfseries\Large inż. Igor Aleksander JANKIEWICZ}\\
     Nr albumu: & 285947\\
         &   \\
     Studia: & Niestacjonarne II stopnia\\
@@ -303,10 +322,8 @@ Analysis of operation of the piezoelectric energy harvester combined with the da
 
 \newpage\null\thispagestyle{empty}\newpage
 
-\begin{center}
 \textbf{Abstract}
-\hspace{10pt}
-\end{center}
+\vspace{10pt}
 
 The present Master's thesis seeks to provide better understanding of piezoelectric energy harvesting as a promising alternative energy source. As a staring point, the theoretical background of the piezoelectric effect is introduced. Subsequently, the theory behind the piezoelectric beam and its parameters is a subject of analysis. Two major parts of the following thesis include the design of the data acquisition device and the energy harvesting device. The first one is utilized for capturing any crucial signal that allows to understand processes behind the conversion of mechanical energy into electricity. The thorough and clear design process introduces important parts of the circuit along with the link between particular parameters of device and signals associated with piezoelectric-based energy harvesters. The second of presented devices is the energy harvesting board that aims to make use of energy provided by the vibrating piezoelectric beam. It consists of a few different power circuits and a variation of load circuits that are easily configurable. This way, experimenting with piezoelectric devices is massively simplified. Along with above-mentioned printed circuit boards, there is another one responsible for providing reference vibration level signals. The experiment stage involves observing the response of the piezoelectric harvester under artificially induced vibrations.
 
@@ -317,10 +334,9 @@ The present Master's thesis seeks to provide better understanding of piezoelectr
 %TC:ignore
 \keywords{energy harvesting, piezoelectricity, vibrations, microprocessor-based systems, power converters, analog filters, digital signal processing, autonomous sensors, low-power design}
 
-\begin{center}
+\vspace{10pt}
 \textbf{Streszczenie}
-\hspace{10pt}
-\end{center}
+\vspace{10pt}
 
 Niniejsza praca magisterska ma na celu przedstawienie piezoeletrycznych generatorów energii jako obiecującego źródła energii odnawialnej. Punktem początkowym jest omówienie zjawiska piezoelektryczności. Następnie, przedstawione są generatory piezoelektryczne wraz z najważniejszymi parametrami i analizą ich budowy. Dwie głowne części pracy magisterskiej związane są z zaprojektowaniem układu pomiarowego oraz układu odzyskującego energię przy pomocy generatora piezoelektrycznego. Pierwsze ze wspomnianych urządzeń używane jest do rejestrowania kluczowych sygnałów umożliwiających zrozumienie procesów stojących za konwersją energii mechanicznej na elektryczną. Wyczerpujący i przejrzysty proces projektowania skupiony jest na opisie kluczowych obwodów urządzenia pomiarowego wraz z powiązaniem jego elektrycznych parametrów z właściowściami obiektu pomiarowego, jakim jest generator piezoelektryczny. Drugim z zaprojektowanych urządzeń jest układ odzyskujący energię przy pomocy wspomnianego generatora. Składa się on z kilku przetwornic energoelektronicznych oraz różnych rodzajów obciążenia, które są w łatwy sposób konfigurowalne. W ten sposób, przeprowadzanie eksperymentów laboratoryjnych jest w znacznym stopniu ułatwione. Poza wspomianymi powyżej obwodami drukowanymi, stworzona została także mała konstrukcja dostarczająca referencyjnych sygnałów związanych z wibracjami. Część eksperymentalna pracy polega na obserwacji odpowiedzi układu odzyskującego energię z drgań na sztucznie wywołane wibracje.
 
@@ -333,6 +349,9 @@ Niniejsza praca magisterska ma na celu przedstawienie piezoeletrycznych generato
 \clearpage
 \tableofcontents
 \clearpage
+
+\newpage\null\thispagestyle{empty}\newpage
+
 
 \section{Introduction}
 This Master's thesis is focused on Piezoelectic Energy Harvesting in general. Apart from the explanation of the actual energy scavenging process, it also covers a design of a proper data acquisition system used for evaluation and development of piezoelectric-based generators. Moreover, the design of the energy harvesting device would also be included.
