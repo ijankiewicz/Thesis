@@ -34,11 +34,20 @@
 \usepackage{appendix}
 \usepackage{pdfpages}
 \usepackage{adjustbox}
+\usepackage{setspace}
+\usepackage{enumitem}
 
 % dot instead of colon in figure descriptions
 \usepackage[labelsep=period]{caption}
 
-
+\usepackage{tocloft}
+\sectiondot{section}
+\sectiondot{subsection}
+\sectiondot{subsubsection}
+\sectiondot{paragraph}
+\renewcommand{\cftsecaftersnum}{.}\renewcommand{\cftsubsecaftersnum}{.}
+\renewcommand{\cftsubsubsecaftersnum}{.}
+\renewcommand{\cftparaaftersnum}{.}
 
 % Code listing part**********************************
 
@@ -149,7 +158,7 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
 % PAGE STYLE SECTION
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\renewcommand\sectionmark[1]{\markboth{\thesection\ #1}{}}
+\renewcommand\sectionmark[1]{\markboth{\thesection.\ #1}{}}
 \fancyhf{}
 \fancyhead[C]{\bfseries\leftmark}
 \fancyfoot[C]{\bfseries\thepage}
@@ -222,7 +231,7 @@ basicstyle=\footnotesize    % the size of the fonts that are used for the line-n
   \textbf{\textit{Keywords ---}} #1
 }
 
-\providecommand{\slowakluczowe}[1]
+\providecommand{\slowakluczowe}[2]
 {
   \small	
   \textbf{\textit{Słowa kluczowe ---}} #1
@@ -321,20 +330,23 @@ Analysis of operation of the piezoelectric energy harvester combined with the da
 \clearpage
 
 \newpage\null\thispagestyle{empty}\newpage
-
+{\small\setstretch{1.0}
 \textbf{Abstract}
 \vspace{10pt}
 
 The present Master's thesis seeks to provide better understanding of piezoelectric energy harvesting as a promising alternative energy source. As a staring point, the theoretical background of the piezoelectric effect is introduced. Subsequently, the theory behind the piezoelectric beam and its parameters is a subject of analysis. Two major parts of the following thesis include the design of the data acquisition device and the energy harvesting device. The first one is utilized for capturing any crucial signal that allows to understand processes behind the conversion of mechanical energy into electricity. The thorough and clear design process introduces important parts of the circuit along with the link between particular parameters of device and signals associated with piezoelectric-based energy harvesters. The second of presented devices is the energy harvesting board that aims to make use of energy provided by the vibrating piezoelectric beam. It consists of a few different power circuits and a variation of load circuits that are easily configurable. This way, experimenting with piezoelectric devices is massively simplified. Along with above-mentioned printed circuit boards, there is another one responsible for providing reference vibration level signals. The experiment stage involves observing the response of the piezoelectric harvester under artificially induced vibrations.
-
+}
 \par
 
 \hspace{10pt}
 
-%TC:ignore
-\keywords{energy harvesting, piezoelectricity, vibrations, microprocessor-based systems, power converters, analog filters, digital signal processing, autonomous sensors, low-power design}
 
-\vspace{10pt}
+
+
+%TC:ignore
+\keywords{energy harvesting, piezoelectricity, microprocessor-based systems, power converters, analog filters, digital signal processing}
+
+\vspace{20pt}
 \textbf{Streszczenie}
 \vspace{10pt}
 
@@ -344,14 +356,13 @@ Niniejsza praca magisterska ma na celu przedstawienie piezoeletrycznych generato
 
 \hspace{10pt}
 
-\slowakluczowe{energy harvesting, piezoelektryczność, wibracje, systemy mikroprocesorowe, przetwornice energoelektroniczne, filtry analogowe, cyforowe przetwarzanie sygnałów, autonomiczne urządzenia pomiarowe, projektowanie urządzeń niskiej mocy}
+\slowakluczowe{energy harvesting, piezoelektryczność, systemy mikroprocesorowe, przetwornice energoelektroniczne, filtry analogowe, cyforowe przetwarzanie sygnałów}
+
 
 \clearpage
+\newpage\null\thispagestyle{empty}\newpage
 \tableofcontents
 \clearpage
-
-\newpage\null\thispagestyle{empty}\newpage
-
 
 \section{Introduction}
 This Master's thesis is focused on Piezoelectic Energy Harvesting in general. Apart from the explanation of the actual energy scavenging process, it also covers a design of a proper data acquisition system used for evaluation and development of piezoelectric-based generators. Moreover, the design of the energy harvesting device would also be included.
@@ -375,7 +386,9 @@ The main goal stated by the author is to examine a potential of vibration-based 
 Returning to the piezoelectric generator, the first thing to look at is the theory behind the piezoelectric effect. Then, there would be a description of the piezoelectric cantilever  and its properties. Subsequently, the complete mechanical and electrical model would be studied.
 \par
 
-Once the required theory is introduced, it is possible to focus exactly on the topic. The final part of design process is going to be focused on the energy harvesting device that would be combined with the mentioned piezoelectric beam.
+Once the required theory is introduced, it is possible to focus exactly on the topic. The first design step would include data acquisition and sensing circuitry. The final part of design process is going to be focused on the energy harvesting device that would be combined with the mentioned piezoelectric beam. Subsequently, a set of evaluation experiments is to be performed. Based on obtained results, the performance of entire design would be estimated.
+
+\clearpage
 
 
 \FloatBarrier
@@ -719,7 +732,7 @@ A proper measurement process is a crucial part of this project. Having said that
 
 First of all, it is vital to highlight most important features required to achieve desired performance. There are four major aspects that have to be taken into account, namely, the ADC resolution as well as the input voltage range, the bandwidth and high input impedance of the analog front-end. Apart from that, one should take care of easy interfacing to personal computer, thus compact size and USB interface would be considered as huge assets.
 \par
-The previous paragraph introduced briefly main functionalities of the target device. It is quite easy to notice that there would be a lot of trade-offs to consider throughout the design process. This fact forces the designer to look for a microcontroller that provides decent ADCs, also in terms of the sampling rate. Since the project is dealing with piezoelectric generators, there is always a risk of relatively high voltages at the input terminals, especially when harvesters are not connected to any load. To face this problem, the data acquisition board would be equipped with two different means of protection. The first one takes care of the input stage of the device. The second one is a classic galvanic isolation between the microcontroller (as well as the analog front end) and the personal computer. This way, there is no risk of damaging host devices utilizing the data acquisition system. The summary of the above-mentioned description is presented in the Figure~\ref{fig:meas_overview}. Please note that schematics of all designed circuits would be included in the Appendix.\par
+The previous paragraph introduced briefly main functionalities of the target device. It is quite easy to notice that there would be a lot of trade-offs to consider throughout the design process. This fact forces the designer to look for a microcontroller that provides decent ADCs, also in terms of the sampling rate. Since the project is dealing with piezoelectric generators, there is always a risk of relatively high voltages at the input terminals, especially when harvesters are not connected to any load. To face this problem, the data acquisition board would be equipped with two different means of protection. The first one takes care of the input stage of the device. The second one is a classic galvanic isolation between the microcontroller (as well as the analog front end) and the personal computer. This way, there is no risk of damaging host devices utilizing the data acquisition system. The summary of the above-mentioned description is presented in the Figure~\ref{fig:meas_overview}. Please note that schematics of all designed circuits would be included in the Appendix C and D.\par
 
 \begin{figure}[h!]
 \includegraphics[scale=0.8]{measurement_setup_overview.pdf}
@@ -1177,7 +1190,7 @@ Once the right microcontroller has been selected, one has to think about its per
 
 \par
 
-\paragraph{ADC}
+\paragraph{Analog-to-digital converter}
 The analog-to-digital converter is the most important part of the entire system. According to the manufacturer's description \cite{msp432_params}, the selected device is able to achieve 16-bit precision with software over-sampling. The sampling rate is resolution dependent and for 14-bit mode, \textit{MSP432} is able to provide 1Msps. It is vital to point out that for better precision, the external voltage reference source is used. 
 \par
 
@@ -1238,7 +1251,7 @@ Compatibility 	&  Windows 		\\ \hline
 \label{tab:cp2130_params}
 \end{table}
 
-The Figure \ref{fig:logger3d} presents the 3D version of the designed board. All schematics related to this board could be found in the Appendix.
+The Figure \ref{fig:logger3d} presents the 3D version of the designed board. All schematics related to this board could be found in the Appendix C.
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.9]{logger.png}
@@ -1273,17 +1286,28 @@ Output voltage (max)       	&  5V 		\\ \hline
 In the Table \ref{tab:harvesterrequirements} there are a few requirements that harvester integrated circuits should fulfil. Please note that if the device does not support some of these features itself, it is still possible to handle this problem by adding additional external components. Piezoelectric generators may provide relatively high output voltage, but their current capability is limited. In this case it is possible to add protecting diodes at harvester's input in order to make it electrically compatible with the piezoelectric generator.
 The same applies for the output of harvester integrated circuits. They should have selectable output voltage in case it should be lowered or increased to match the requirements posed by the load circuit. As long as the device support this feature it can be selected as a part of the design.
 \par
-Please note that schematics of all designed circuits would be included in the Appendix.
+Please note that schematics of all designed circuits would be included in the Appendix B.
 
 \subsection{List of different load circuits}
-The different load types include the simple resistor load, the battery load, two different supercapacitors and the active load as a form of the microprocessor-based circuit. The last one is included for experimental purposes only, so its potential usage depends on the amount of time and resources during the laboratory tests.
+In order to provide easier evaluation of designed harvesters one should consider usage of numerous load circuits allowing to check their performance more thoroughly.
+The different load types include:
+\begin{itemize}
+
+\item the simple resistor load,
+\item the battery load,
+\item two different supercapacitors,
+\item the active load as a form of the microprocessor-based circuit.
+
+\end{itemize}
+
+The last one is included for experimental purposes only, so its potential usage depends on the amount of time and resources during the laboratory tests.
 \par
 
-\subsection{Selected integrated circuits for energy harvesting management}
+\subsection{Selected integrated DC converters for energy harvesting management}
 When it comes to selected DC converters, only the \textit{LTC3588-1} and \textit{LTC3331} are specially dedicated to piezoelectric-related applications. The remaining two - the \textit{ADP5901} and \textit{MAX17710} can be only adapted to support vibrational energy harvesters.
 \par
 
-The structure of the energy harvester board is presented in the Figure \ref{fig:harvesterdiagram}. One can notice that it comprise of three different sections, namely the input section, then the DC converter section, and finally the load section. There are a few different types of DC converters and load and the idea is to allow the user to dynamically change these building blocks if needed. This way, the evaluation process of the harvester board would be way easier.\par
+The structure of the energy harvester board is presented in the Figure \ref{fig:harvesterdiagram}. One can notice that it comprise of three different sections, namely the input section, then the DC converter section, and finally the load section. There are a few different types of DC converters and load and the idea is to allow the user to dynamically change these building blocks if needed. Moreover, the following functionality is suited for the planned experiments. Easy adjustments would come in handy when comparing different settings of particular energy harvesters. Additionally, easy topology changes allow to find optimal solution faster. This way, the evaluation process of the harvester board would be way easier.\par
 
 \begin{figure}[ht!]
 \includegraphics[scale=0.9]{harvesterdiagram.pdf}
@@ -1294,7 +1318,7 @@ The structure of the energy harvester board is presented in the Figure \ref{fig:
 One should note that all building blocks are connected with the data acquisition board in order to monitor the voltage of crucial parts of the circuit. This ways, it is possible to correlate the vibration intensity with the amount of generated power.
 
 
-\subsection{Energy harvesting integrated circuits}
+\subsection{Energy harvesting integrated DC converters}
 
 Now, it is time to introduce DC converters selected for energy harvesting applications. On the beginning, a description of all devices would focus on their features and motivation behind the choice. Subsequently, the design process along with a thorough component selection is presented.
 
@@ -1365,7 +1389,7 @@ When it comes to the inductance, the manufacturer advises to pick any value betw
 Figure \ref{fig:ltc3588layout} presents the layout of the described circuit. Apart from previously mentioned components, there is also a DIP switch allowing to configure the output voltage of the converter. This way, the DC-DC converter could be easily adjusted by the user according to the table printed on the silkscreen.
 
 \begin{figure}[ht!]
-\includegraphics[scale=0.8]{ltc3588_layout.png}
+\includegraphics[scale=0.7]{ltc3588_layout.png}
 \caption{The layout of \textit{LTC3588-1} based circuit}
 \label{fig:ltc3588layout}
 \end{figure}
@@ -1444,7 +1468,7 @@ Battery & AVX & TAJA106M010RNJ  & 10$\mu$F & 10V & 2      \\ \hline
 The layout of the designed circuit is presented in the Figure \ref{fig:ltc3331layout}. Similarly to the previous harvester, it is possible to change most of the settings of the integrated circuit by means of included DIP switches.
 
 \begin{figure}[ht!]
-\includegraphics[scale=0.8]{ltc3331_layout.png}
+\includegraphics[scale=0.7]{ltc3331_layout.png}
 \caption{The layout of \textit{LTC3331} based circuit}
 \label{fig:ltc3331layout}
 \end{figure}
@@ -1532,7 +1556,7 @@ The last important aspect to mention is related to the full bridge rectifier's d
 
 The layout of the \textit{ADP5091}-based circuit in presented in the figure \ref{fig:adp5091layout}. One should note a DIP switch that makes it easy to change some of the inegrated circuit's settings. This feature is particularly useful during the circuit evaluation process.
 \begin{figure}[ht!]
-\includegraphics[scale=0.8]{adp5091_layout.png}
+\includegraphics[scale=0.7]{adp5091_layout.png}
 \caption{The layout of \textit{ADP5091} based circuit}
 \label{fig:adp5091layout}
 \end{figure}
@@ -1542,7 +1566,7 @@ The last of selected devices is \textit{MAX17710} by \textit{Maxim Integrated}. 
 \par
 
 \begin{figure}[ht!]
-\includegraphics[scale=1.2]{MAX17710.pdf}
+\includegraphics[scale=1.05]{MAX17710.pdf}
 \caption{The diagram of \textit{MAX17710} based energy harvesting system}
 \label{fig:max17710diagram}
 \end{figure}
@@ -1609,7 +1633,7 @@ One way of dealing with this problem is to take advantage of application-specifi
 Figure \ref{fig:batteryload} presents the layout of the printed circuit board including mentioned storage components. There is one lithium-polymer battery and two different supercapacitors. When it comes to the battery, it is exactly the same as the one utilized in the accelerometer board - for more details see Table \ref{tab:battery}.
 
 \begin{figure}[ht!]
-\includegraphics[scale=0.75]{batteryload.png}
+\includegraphics[scale=0.6]{batteryload.png}
 \caption{Li-ion battery and supercapacitors as a part of the load for energy harvesters.}
 \label{fig:batteryload}
 \end{figure} 
@@ -1807,7 +1831,9 @@ As the experimental part of the project is ready to start, it is high time to pr
 The idea behind using piezoelectric energy harvesters as power supplies is driven by a perspective of introducing energy self-sufficient microprocessor-based systems. Those can be used as autonomous sensors that could also provide wireless communication if there is enough energy available.
 \par
 When it comes to more accurate information regarding the amount of energy required by microprocessor systems, there are already some sources \cite{joules} that provide accurate data. The energy consumption of course depends on type and architecture of particular microprocessors. Moreover, operation frequency has a huge influence on the overall power consumption. Complicated mathematical operations performed by \textit{Cortex} microcontrollers may require up to 50$\mu$J joules of energy. More energy-hungry processes are the analog-to-digital conversion (up to 70$\mu$J) and the serial communication - 100-200$\mu$J if configured properly \cite{joules}.
-Obviously, these tasks cannot be performed simultaneously, so the overall energy consumption would be lower and influenced by the duty cycle of the microprocessor. For the sake of the experiment, it is assumed that energy of 150-250$\mu$J is sufficient to allow relatively friendly power conditions for the microcontroller. The impact of external passive components required by the microprocessor is neglected.
+Obviously, these tasks cannot be performed simultaneously, so the overall energy consumption would be lower and influenced by the duty cycle of the microprocessor. For the sake of the experiment, the impact of external passive components required by the microprocessor is neglected.
+
+The proposed thesis states that energy of 150-250$\mu$J is sufficient to allow relatively friendly power conditions for the microcontroller. The aim of the experiment is to verify if particular harvesters are able to fulfil the stated requirement.
 \subsection{Exemplary results presented in time domain}
 
 The exemplary characteristics captured during experiments are presented in the Figures \ref{fig:timedomainltc35881k}, \ref{fig:timedomainltc358810k}, \ref{fig:timedomainltc3331800} and \ref{fig:timedomainltc333110k}. There are three different curves presented, namely the output voltage of the DC converter, the output current and the output power.
@@ -2063,11 +2089,11 @@ Results for the \textit{LTC3331} energy harvester look more promising. The Figur
 As frequency and acceleration values are known, it possible to compare them to data included in the datasheet of the piezoelectric beam \cite{PPA}. The document states that the resonant frequency for the device without the tip mass attached is slightly more than 110Hz for the same clamp position as one used during the experiment. Due to the fact that the vibration frequency that occurred during tests is around 50-60Hz, the manufacturer of the device suggest to add a tip mass in order to tune the resonant frequency of the beam. This tip might be used in the future once the project would be improved and subjected to further development. When considering the acceleration value, the manufactured does not not state the maximum value, but the highest one mentioned in the datasheet is 2g \cite{PPA}. Since during the experiment the maximum acceleration was always below 1g, it is still possible to significantly increase the amount of energy generated just by placing the piezoelectric beam in the environment providing higher acceleration value during vibrating action.
 \par
 
-In future, it would be a good idea to implement some kind of impedance matching circuitry. This way, the load impedance would try to track the source impedance, therefore the efficiency of the energy transfer would be the highest. Owing to limited amount of time and resources during the work on the following thesis, this feature was not implemented. Nevertheless, it is a good perspective for future, as there are still many ways to improve created prototypes.
+In future, it would be a good idea to implement some kind of maximum power point tracking (MPPT) functionality. Please note that some of DC converters already take advantage of this feature, but the following solution would make sense only if the energy storage components are connected to the output of the converter. This way, the load impedance would try to track the source impedance, therefore the efficiency of the energy transfer would be the highest. Owing to limited amount of time and resources during the work on the following thesis, this feature was not implemented. Nevertheless, it is a good perspective for future, as there are still many ways to improve created prototypes.
 \par
 
 \section{Summary and conclusions}
-The following Master's project was intended to provide more in-depth analysis of the piezoelectric energy harvesting concept. Due to the fact that piezoelectric-based alternative energy sources are not extensively popular, the trial of explaining the theory behind this process was the major drive for the author.
+The following Master's thesis was intended to provide more in-depth analysis of the piezoelectric energy harvesting concept. Due to the fact that piezoelectric-based alternative energy sources are not extensively popular, the trial of explaining the theory behind this process was the major drive for the author.
 \par
 The first part of the project includes theoretical background of the piezoelectric effect as well as most important parameters of piezoelectric beams in general. It turned out that the piezoelectric effect itself is extremely complicated, therefore it was decided to provide only essential information that would help to understand this phenomena. As to piezoelectric beams, some of most important parameters along with a proper explanation were introduced. Moreover, the impact of tip mass and clamping problem as well as the impedance matching theory have been taken into account.
 \par
@@ -2081,7 +2107,13 @@ Another important aspect of the project is related to the learning process. It s
 \par
 The next stage of improvements should be focused mostly on the piezoelectric generator itself. Nevertheless, before any action is taken, the proper testing setup should be created. The one that was used throughout the project did not provide very repetitive excitation forces, what was a huge obstacle during the evaluation process. Once the testing device does not provide repetitive conditions, more uncertainty is introduced to the results. This was the case during working on this project. It should also be noted that the main goal of the thesis is to prove that piezoelectric energy generators can be used as power supplies for microcontroler-based systems. The stated thesis was obviously proven, so the next step is to improve the laboratory stand to allow for more repetitive measurements. Only this way it would be possible to focus on the response of piezoelectric beams under different frequency and acceleration inputs, so testing different tip mass values and clamp positions start to be reasonable.
 \par
-To sum up, the Master's thesis project was successful but relatively difficult at the same time. It required to combine electronics design and programming skills as well as some basic knowledge regarding piezoelectricity and mechanics. Happily, the posed thesis has been proven. Moreover, most of design challenges were successful. There were some minor errors and surprises, but all in all the hard work put in the project turned out to be rewarded.
+To sum up, the Master's thesis was successful but relatively difficult at the same time. It required to combine electronics design and programming skills as well as some advanced knowledge regarding piezoelectricity and mechanics. The results obtained after the experiment prove the previously posed thesis. 
+\par
+It should be noted that the scope of the thesis not only included the design process of both the data acquisition and the harvester boards, but also the laboratory test stand has been developed. Moreover, a set of measurements and evaluation tasks has been conducted in order to come up with a clear view of the piezoelectric-based energy harvesting topic. The result analysis involved both the signal conditioning processes as well as a numerous references to literature in order to allow better understanding of the problem.
+\par
+Based on obtained results, there are a few potential applications of developed energy harvester. First of all, one should notice a huge potential of such devices in the IoT segment of the market. Providing that sufficient environmental conditions are provided, such vibrational-based energy generators could be power supplies for set of sensors and microprocessor-based devices. In addition to that, piezoelectric generators themselves could be used as vibration sensors. Surely, there are more applications, even in the automotive segment of the market, but only basic potential solutions have been listed.
+\par
+When it comes to future plans related to this topic, the first improvement should be focused on the laboratory stand. It has to provide repetitive results within a wide range of acceleration and frequency values. Only this way it would be possible to focus on topics such as frequency tuning of the beam as well as the maximum power point tracking circuitry. The development of the data acquisition board ought to be focused on implementation of the SPI-based communication protocol with the personal computer in order to improve the data transfer rate.
 
 \FloatBarrier
 \clearpage
@@ -2094,6 +2126,15 @@ To sum up, the Master's thesis project was successful but relatively difficult a
 \clearpage
 
 \begin{appendices}
+
+\textbf{List of Appendices}
+
+\begin{enumerate}[label=\textbf{\Alph*.}]
+\item Octave code for sample analysis and signal conditioning - 66
+\item Harvester board schematics - 70
+\item Data acquisition board schematics - 79
+\item Accelerometer board schematics - 85
+\end{enumerate}
 
 \section{Octave code for sample analysis and signal conditioning}
 \lstinputlisting[language=Octave]{dataConvert.m}

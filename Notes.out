@@ -32,15 +32,15 @@
 \BOOKMARK [3][-]{subsubsection.3.3.4}{Voltage reference}{subsection.3.3}% 32
 \BOOKMARK [3][-]{subsubsection.3.3.5}{Microprocessor selection}{subsection.3.3}% 33
 \BOOKMARK [4][-]{paragraph.3.3.5.1}{Architecture}{subsubsection.3.3.5}% 34
-\BOOKMARK [4][-]{paragraph.3.3.5.2}{ADC}{subsubsection.3.3.5}% 35
+\BOOKMARK [4][-]{paragraph.3.3.5.2}{Analog-to-digital converter}{subsubsection.3.3.5}% 35
 \BOOKMARK [4][-]{paragraph.3.3.5.3}{External voltage reference}{subsubsection.3.3.5}% 36
 \BOOKMARK [4][-]{paragraph.3.3.5.4}{User interface}{subsubsection.3.3.5}% 37
 \BOOKMARK [4][-]{paragraph.3.3.5.5}{Connectivity}{subsubsection.3.3.5}% 38
 \BOOKMARK [1][-]{section.4}{Energy harvester system prototype}{}% 39
 \BOOKMARK [2][-]{subsection.4.1}{Design requirements}{section.4}% 40
 \BOOKMARK [2][-]{subsection.4.2}{List of different load circuits}{section.4}% 41
-\BOOKMARK [2][-]{subsection.4.3}{Selected integrated circuits for energy harvesting management}{section.4}% 42
-\BOOKMARK [2][-]{subsection.4.4}{Energy harvesting integrated circuits}{section.4}% 43
+\BOOKMARK [2][-]{subsection.4.3}{Selected integrated DC converters for energy harvesting management}{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.4}{Energy harvesting integrated DC converters}{section.4}% 43
 \BOOKMARK [3][-]{subsubsection.4.4.1}{Nanopower Energy Harvesting Power Supply - LTC3588-1}{subsection.4.4}% 44
 \BOOKMARK [4][-]{paragraph.4.4.1.1}{Component selection and circuit design}{subsubsection.4.4.1}% 45
 \BOOKMARK [3][-]{subsubsection.4.4.2}{Nanopower Energy Harvesting Power Supply - LTC3331}{subsection.4.4}% 46

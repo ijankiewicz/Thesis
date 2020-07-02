@@ -1,8 +1,6 @@
 clc
 clear
 
-# NOTE: nice results for dataToRead  = csvread('ltc3588_500_1.csv');
-
 # load singal package required for data processing
 pkg load signal
 
@@ -52,7 +50,6 @@ for i = 1:sampleCountOffset
   sampleTimeDomain(i) = i * sampleTimeBase;     # create time points
 endfor  
 
-
 # convert raw data into proper values
 voltConv    = voltRawOffset * voltageReference * voltGain / adcResolution;
                                   # calculate output voltage
@@ -62,12 +59,13 @@ powerConv   = voltConv .* currentConv;
 accelConv   = accelRawOffset * voltageReference * ... 
               (1/accelGain) * accelSenitivity / adcResolution;
                                   # calculate acceletration (in g)
-
-# calculate charge              
-charge = 0;              
+# calculate charge and energy             
+charge = 0; 
+energy = 0;             
 for j = 1:(sampleCountOffset)
-  charge = (currentConv(i) * sampleTimeBase) + charge; 
+  charge = (currentConv(j) * sampleTimeBase) + charge; 
                                   # use simple current * time relation
+  energy = currentConv(j) * sampleTimeBase * voltConv(j) + energy;   
 endfor
 
 # band pass filter for accelerometer readings
@@ -86,10 +84,8 @@ accelPreaccelFiltered = filter(b,a,accelConv);
               'low');
 accelFiltered = filter(d,c,accelPreaccelFiltered);
 
-
 # calculate acceleration associated with a hit
 accelAvg = (abs(min(accelFiltered)) + max(accelFiltered)) / 2;
-
 
 # generate FFT for acceletometer readings
 Fs = serialSamplePerSecond;
@@ -108,7 +104,6 @@ P12 = P22(1:L/2);
 P12(2:end-1) = 2*P12(2:end-1);
 f = Fs*(1:(L/2))/L;
 
-
 # find frequency peaks
 [peak peakLocation] = findpeaks(P1,  "DoubleSided",           ...
                                      "MinPeakHeight",   0.01,  ...
@@ -119,8 +114,7 @@ for k = 1:size(peakLocation)(:,1)
       vibrationFrequency = f(peakLocation(k));
     endif
 endfor  
-
-                               
+                           
 figure(1)
 h1 = figure(1);
 set (h1,'papertype', '<custom>')
@@ -172,7 +166,6 @@ grid on;
 
 print('timedomain.pdf','-dpdf')
 
-
 figure(2)
 h2 = figure(2);
 set (h2,'papertype', '<custom>')
@@ -181,7 +174,6 @@ set (h2,'papersize',[8 4.5])
 set (h2,'paperposition', [0,0,[8 4.5]])
 set (h2,'defaultaxesposition', [0.15, 0.15, 0.75, 0.75])
 set (0,'defaultaxesfontsize', 10)
-
 
 subplot(2,2,1)
 plot(sampleTimeDomain, accelConv)
@@ -204,7 +196,6 @@ title('FFT of the unfiltered accelerometer sginal')
 xlabel('f[Hz]')
 ylabel('|P(f)|')
 
-
 subplot(2,2,4)
 semilogx(f,P12, "k")
 grid minor;
@@ -214,7 +205,6 @@ ylabel('|P(f)|')
 ylim([0 0.12]);
 
 print('spectrum.pdf','-dpdf')
-
 
 # RESULTS
 printf("Generated charge:    %.3fuC\r\n", charge*1e6);
